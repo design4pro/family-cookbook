@@ -1,0 +1,91 @@
+{
+  "at": "2026-10-15T15:45:05.454Z",
+  "task": "T07",
+  "pass": true,
+  "checks": {
+    "command": "pnpm check",
+    "apiTests": 71,
+    "focusedSessionTests": 10,
+    "appTests": 13,
+    "shoppingWebTests": 18,
+    "authWebTests": 4,
+    "typecheck": "passed",
+    "workerDryRuns": "passed",
+    "expoExports": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "nativeReleaseBuilds": "passed"
+  },
+  "native": {
+    "ios": {
+      "device": "Cookbook-T03",
+      "id": "0BCA0106-2995-478E-A7E0-0625DD00734B",
+      "os": "iOS 27.0",
+      "kind": "simulator",
+      "restart": "SIGKILL",
+      "pidBefore": 25054,
+      "pidAfter": 25575,
+      "signing": "ad hoc with simulated application identifier"
+    },
+    "android": {
+      "device": "Cookbook_T07_API35",
+      "serial": "emulator-5554",
+      "os": "Android API 35 Google APIs arm64",
+      "kind": "emulator",
+      "restart": "am force-stop"
+    },
+    "phasesPerPlatform": [
+      "signin",
+      "restore",
+      "logout",
+      "revoke"
+    ],
+    "physicalDevicesTested": false
+  },
+  "email": {
+    "provider": "Resend",
+    "senderDomain": "staging.planned.travel",
+    "reports": [
+      "t07-email.json",
+      "t07/android-email.json",
+      "t07/ios-email.json"
+    ],
+    "codeSource": "in-memory test adapter after real provider acceptance; no OTP values recorded"
+  },
+  "limitations": [
+    "T03 physical-device acceptance remains blocked",
+    "Native error-code matrix runs at the shared D1/server boundary, not as separate native UI scenarios",
+    "Loopback HTTP and local mailbox/control endpoints are proof-only",
+    "No production deployment, public distribution or readiness-gate approval"
+  ],
+  "sha256": {
+    "apps/api/src/auth/auth.ts": "f0d863a5606d72ec31c9aefe73e20082ba59e3538871351201bfe386979e7857",
+    "apps/api/src/auth/email.ts": "15567d903d4cc4c07220380563c077ca55452fc3269e8d6026ffb912e9606ca3",
+    "apps/api/migrations/0003-auth-session-proof.sql": "9f206f37cfe76b563039dc2759cb28ff91c043caed7e472691cf67fca76961e1",
+    "apps/api/tests/auth/session-boundaries.test.ts": "961142877991bab3cb939db175edac2a2d108e5643412adf3ceef2a9149ab2d4",
+    "apps/app/src/auth/client.ts": "8e1b01c8524f98e620e912cb3ab3126e916f6cdb9c426cfa0d01267551bc7ae2",
+    "apps/app/src/auth/client.web.ts": "d34ada8687dab6544b81144a90d843d9e759491a0d72ace3473441c0026ae7cf",
+    "apps/app/app/sign-in.tsx": "f79aaa70ec8f310499706ff8611e01b086ce03856fcee478410ab0c22ab67558",
+    "apps/app/app/proof-auth.tsx": "0f4c6d5b126e3dff922fcd94dc614e1f32f9b19f6d590f9ccde4f23a446a828f",
+    "apps/app/app.json": "0ebf8bb1ff013aa34faf72c5d0866fbb9a1942489e27d0505a6dc609843f8938",
+    "apps/api/src/proofs/t07-worker.ts": "6cb9d753a8ee6d5dec8ed6bdc7350ec6bf0c6e7937e998002978493e1f0a2746",
+    "apps/api/scripts/t07-serve.mjs": "4cc7c5ad37c5b28ce1146122cc359a2322b3bc4b14ecc57193e08bd7243a89ce",
+    "apps/api/scripts/t07-email-proof.mjs": "535a089aaf7e24381e51943aaa6f830db40b32db04e4b17da7b06a3ab6ea00d8",
+    "tests/auth/session.spec.ts": "6a7666d72cbfdb6e5dd7332aba7c5b293a5176fa38d78db1cb006849adb8d633",
+    "playwright.auth.config.ts": "061798b2f7f093d868fd86f7655e19778f24fd6ad6c6aafa6303d1fa06dcbab2",
+    "pnpm-lock.yaml": "93484e483a2bdbb31f72b44db28e396554d998d9cfeea7269350310baf896fc2",
+    "apps/app/.expo/native-build/Build/Products/Release-iphonesimulator/CookbookT03Proof.app/CookbookT03Proof": "790f630737e5bcc55c7d8e2ff1f208e8fe2774a9dfedf6c1ebe3e385869723be",
+    "apps/app/android/app/build/outputs/apk/release/app-release.apk": "736b817f7818ee26459236d1e01898228b448a5b6caf6626f9c3be3039dd55e9"
+  },
+  "repositoryCredentialScan": "passed (180 non-ignored repository files; no credential value printed)",
+  "documentLinks": "passed",
+  "diffWhitespace": "passed",
+  "cleanup": {
+    "localProofServerStopped": true,
+    "temporarySecretRemoved": true,
+    "isolatedAndroidEmulatorStopped": true,
+    "testSessionsRevoked": true
+  }
+}

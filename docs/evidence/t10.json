@@ -1,0 +1,47 @@
+{
+  "task": "T10",
+  "date": "2026-10-15",
+  "status": "passed_with_authorized_sequencing_exception",
+  "baseline_commit": "88e4f0a",
+  "working_tree": "uncommitted",
+  "runtime": {
+    "node": "26.9.0",
+    "pnpm": "10.15.0"
+  },
+  "checks": {
+    "api": 109,
+    "household_integration": 11,
+    "app_storage": 13,
+    "household_browser": 6,
+    "auth_browser": 4,
+    "typecheck": "passed",
+    "worker_dry_run": "passed",
+    "web_export": "passed",
+    "ios_android_export": "passed"
+  },
+  "retained_blockers": {
+    "T03": "Physical iOS/Android persistence evidence missing",
+    "T09": "Photo/audio fidelity failures; third short recording, five-minute narration and complete human references missing"
+  },
+  "readiness_gates": "closed",
+  "sources": {
+    "apps/api/migrations/0005-households.sql": "e1494aeaf0fda69675a2156be4e42f3406d04d7b7f1521020083f9692625df04",
+    "apps/api/src/households/contract.ts": "fb795ec1e8eeb3a34fd56373c9ffdb55b2004117a495544e61c84a8dc4473d95",
+    "apps/api/src/households/membership.ts": "b6ccbcfd4f07a6f738388c20433fb6c42c89a6dc5221657d59f48a0eb7eee136",
+    "apps/api/src/households/routes.ts": "5ded13e70f7687b557d30edbca58215026576ca2cb602d5278f629b698668fd8",
+    "apps/api/src/index.ts": "a966611d2964bb48ba9f6f2932990c879c28c834d6e307e6eea0d8c9bf81219e",
+    "apps/api/src/proofs/t07-worker.ts": "9b906af32a1f1362606a3065daf4ece0a83e9d05d1599726824dab5ec8bdff3e",
+    "apps/api/tests/households/membership.test.ts": "5b038c07cbeb124e5ed876b33a178e8b31ba42a557f2c2179314b8aa0d22ed87",
+    "apps/api/tests/households/routes.test.ts": "bf1a49fea74d579eff19b4a8a4a99e4a0a82032d185bd93f8fcd69a642527c74",
+    "apps/app/app/household-start.tsx": "7e997fa4cc9a636cbe86bf2798d973d2def1fd7c8537b943297911376a18b802",
+    "apps/app/app/sign-in.tsx": "369576316306dfa01254970ec90ec108df1f33effe8216d8f9ce3a5f73b09ac8",
+    "apps/app/src/households/invitation.ts": "448245070d2ea893472f2ccc159ed837e5d44e594639ba491dbcf86d8af5b202",
+    "apps/app/src/auth/client.ts": "b5f9c1213906eb4ba4ae0294db9bed438a58a6c50bd934d5802cf0a13c400cd8",
+    "apps/app/src/auth/client.web.ts": "1bf06c356be874ca07d5ac2209b690fc00fd1a0416b9a608245a70ad28a74abc",
+    "playwright.household.config.ts": "f29ce44deaa6e14cdeb41ea9802d4c9b4cd5b4ddd1327405f123776f0333b824",
+    "playwright.config.ts": "47fd4cd092df608d6e86b3d24cdb5c75f4aefd3a6cf931f364ace2200f186bb4",
+    "tests/web/household.spec.ts": "2cfb441c69bddd39967df6ef5d65316590242d6ff3b45d4453bd8ebc8ab67042",
+    "package.json": "5eacb4899d3abce876ca253d25b9fa04c084d38966b8a77d90af13e63707a931",
+    "tsconfig.web-tests.json": "e92a45d79ab0c8f3a8e89c277f70c7b2a37ecbfa0dbbaf7c499aa1ef1a358ba2"
+  }
+}

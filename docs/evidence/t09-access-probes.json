@@ -1,0 +1,125 @@
+{
+  "text": {
+    "latencyMs": 612,
+    "response": {
+      "result": {
+        "id": "chatcmpl-c88c28ef-509d-4d83-b997-6bada2b53dc9",
+        "object": "chat.completion",
+        "created": 1792082995,
+        "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\"ingredients\":[{\"name\":\"flour\",\"quantity\":250,\"unit\":\"grams\"}],\"temperatureC\":null,\"minutes\":null}",
+              "refusal": null,
+              "annotations": null,
+              "audio": null,
+              "function_call": null,
+              "reasoning": "\n\n",
+              "reasoning_content": "\n\n"
+            },
+            "logprobs": null,
+            "finish_reason": "stop",
+            "stop_reason": null,
+            "token_ids": null,
+            "routed_experts": null
+          }
+        ],
+        "service_tier": null,
+        "usage": {
+          "prompt_tokens": 75,
+          "completion_tokens": 32,
+          "total_tokens": 107,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 1.3220362663269043
+        },
+        "prompt_logprobs": null,
+        "prompt_token_ids": null,
+        "prompt_text": null,
+        "kv_transfer_params": null,
+        "ec_transfer_params": null,
+        "metrics": null,
+        "response": {
+          "ingredients": [
+            {
+              "name": "flour",
+              "quantity": 250,
+              "unit": "grams"
+            }
+          ],
+          "temperatureC": null,
+          "minutes": null
+        },
+        "tool_calls": []
+      },
+      "success": true,
+      "errors": [],
+      "messages": [],
+      "status": 200
+    }
+  },
+  "blankImage": {
+    "latencyMs": 3044,
+    "response": {
+      "result": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "logprobs": null,
+            "message": {
+              "annotations": null,
+              "audio": null,
+              "content": "{\n  \"ingredients\": null,\n  \"temperatureC\": null,\n  \"minutes\": null,\n  \"steps\": null,\n  \"uncertainties\": [\"No recipe content visible in the image.\"]\n}",
+              "function_call": null,
+              "reasoning": null,
+              "refusal": null,
+              "role": "assistant"
+            },
+            "routed_experts": null,
+            "stop_reason": null,
+            "token_ids": null
+          }
+        ],
+        "created": 1792083261,
+        "ec_transfer_params": null,
+        "id": "chatcmpl-45012e25-7c9c-49e8-9ece-fda6452ba2ee",
+        "kv_transfer_params": null,
+        "metrics": null,
+        "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+        "object": "chat.completion",
+        "prompt_logprobs": null,
+        "prompt_text": null,
+        "prompt_token_ids": null,
+        "response": {
+          "ingredients": null,
+          "minutes": null,
+          "steps": null,
+          "temperatureC": null,
+          "uncertainties": [
+            "No recipe content visible in the image."
+          ]
+        },
+        "service_tier": null,
+        "tool_calls": [],
+        "usage": {
+          "prompt_tokens": 219,
+          "completion_tokens": 43,
+          "total_tokens": 262,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "neurons": 8.698182106018066
+        }
+      },
+      "success": true,
+      "errors": [],
+      "messages": [],
+      "status": 200
+    }
+  }
+}

@@ -1,0 +1,662 @@
+{
+  "date": "2026-10-15",
+  "accountId": "6cfdf3b5143cddc631383a4c14736c3a",
+  "databaseId": "7bfd0285-35e1-41ea-a78a-013d90c203c8",
+  "queueId": "a6ff17e10b07451da948d4252ab9736e",
+  "worker": "family-cookbook-t05-proof",
+  "consumerId": "037c582adfc34d068b76f8943df2e6f1",
+  "deployment": {
+    "schemaSuccess": true,
+    "upload": {
+      "result": {
+        "created_on": "2026-10-15T14:16:52.201297Z",
+        "modified_on": "2026-10-15T14:16:52.201297Z",
+        "id": "family-cookbook-t05-proof",
+        "tag": "a9507615b24a4d4b9d47137b2b2c39d7",
+        "entry_point": "worker.js",
+        "tags": null,
+        "deployment_id": "be7f67bfc92c405c964f65c8252a8ad7",
+        "tail_consumers": null,
+        "logpush": false,
+        "has_assets": false,
+        "has_modules": true,
+        "etag": "5c0c8d398670854b86a50ed3f86dc52baae69f0c2aa5758a87cf4d5b44b864a5",
+        "handlers": [
+          "scheduled",
+          "queue"
+        ],
+        "last_deployed_from": "api",
+        "compatibility_date": "2026-10-15",
+        "usage_model": "standard",
+        "startup_time_ms": 3
+      },
+      "success": true,
+      "errors": [],
+      "messages": [],
+      "status": 200
+    },
+    "exposure": {
+      "result": {
+        "enabled": false,
+        "previews_enabled": false
+      },
+      "success": true,
+      "errors": [],
+      "messages": [],
+      "status": 200
+    }
+  },
+  "pendingAfterEnqueueFailure": {
+    "run": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131",
+    "phase": "inspect",
+    "passed": false,
+    "jobs": [
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "state": "pending",
+        "attempts": 0,
+        "generation": 0
+      }
+    ],
+    "usage": [
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "state": "reserved",
+        "units": 1
+      }
+    ],
+    "results": [],
+    "deliveries": [
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "message_id": "55800b2cdee1bcf576ed663936cf1915",
+        "attempt": 1,
+        "outcome": "enqueue-failed"
+      }
+    ],
+    "sources": [
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete-source",
+        "deleted": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure-source",
+        "deleted": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure-source",
+        "deleted": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack-source",
+        "deleted": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke-source",
+        "deleted": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success-source",
+        "deleted": 0
+      }
+    ]
+  },
+  "verification": {
+    "run": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131",
+    "phase": "verify",
+    "passed": true,
+    "jobs": [
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "state": "canceled",
+        "attempts": 1,
+        "generation": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "state": "succeeded",
+        "attempts": 1,
+        "generation": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "state": "failed",
+        "attempts": 3,
+        "generation": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "state": "succeeded",
+        "attempts": 1,
+        "generation": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "state": "canceled",
+        "attempts": 1,
+        "generation": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "state": "succeeded",
+        "attempts": 1,
+        "generation": 0
+      }
+    ],
+    "usage": [
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "state": "released",
+        "units": 1
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "state": "consumed",
+        "units": 1
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "state": "released",
+        "units": 1
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "state": "consumed",
+        "units": 1
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "state": "released",
+        "units": 1
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "state": "consumed",
+        "units": 1
+      }
+    ],
+    "results": [
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success"
+      }
+    ],
+    "deliveries": [
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "message_id": "55800b2cdee1bcf576ed663936cf1915",
+        "attempt": 1,
+        "outcome": "enqueue-failed"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "message_id": "5ae15f13bb69181d678dcf6cb37ed73f",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "message_id": "cdea38a562d9f7c9e5f44708863e8cc2",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "message_id": "aa7d9b2b5fb2f730388780073e6b41bd",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "message_id": "6dc5a5f5f2fff06c1f427aec2f45b11f",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "message_id": "c736161c79bc6886dd88ad4b268ede1d",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "message_id": "6e33ae57e7c5e39f843d2ddb73c9810b",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "message_id": "2fd6ad3f835ec6a2498da7cc80b8b33a",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "message_id": "2716b2c68481d004269908f8a25bed78",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "message_id": "99a218eea38c3b744f7195ed3feade3b",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "message_id": "224dedcfd5c2c32290e98b1d68a0430d",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "58f54446d3f646e52ab5da80e0748d37",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "05c27f1d930c1c3a8d963787c664f17d",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "cb6a8ec807727889d2e50818018dfb22",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "28b4ec444b6960df6d8b597a683c3d76",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "00b89eb944398055e5ebf4793e34a6b0",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "4ab0f922afacfa6cb3e7c80ae0ffe338",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "message_id": "c73b6930227aeda01160d9fcbaff59e6",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure",
+        "message_id": "4339716619d43a4236a9da85fd39a093",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "85fa72b8c69cd31ef5af16dafc94e6f5",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "6a5165503b3701313101c08ededd1578",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "message_id": "55d6a5edc5203a6d986ecc7154e2db28",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "a772cc0cd2e49ef0d2e8eb40c61798f7",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "message_id": "a7b556ce4448105dd8fbff6d870da2df",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "f4d11cdde8c9a3d03dbb5b13b32e4dc7",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "message_id": "6582257c6c5b45b5644a212a06c91c1d",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "337128bef0265b21c0076a126130e8fd",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "message_id": "da3e142fea03f2341ee677d7bf49073e",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "message_id": "df81bdad6a761e66753df89c11328717",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "71975d5e1cf8c89b7221f094a1aca2c2",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "message_id": "fd535a52df9b4c9ab3b825e7d5907a18",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "message_id": "cdea38a562d9f7c9e5f44708863e8cc2",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "message_id": "5ae15f13bb69181d678dcf6cb37ed73f",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "message_id": "2fd6ad3f835ec6a2498da7cc80b8b33a",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "c1b805ecc3b03ddefa60c659c2dcfc4a",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete",
+        "message_id": "aa7d9b2b5fb2f730388780073e6b41bd",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "1c7a1dd37043d97173232e3d4cca6799",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "2c52667badd00553a7655389b9e74a13",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "0341d9e828e0743cb8696c5b3765008b",
+        "attempt": 1,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "82854cabcb9b34faefd92df861643e17",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "e81110009174cf8ebbf4dc10349f42a4",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "05c27f1d930c1c3a8d963787c664f17d",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "4ab0f922afacfa6cb3e7c80ae0ffe338",
+        "attempt": 2,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "00b89eb944398055e5ebf4793e34a6b0",
+        "attempt": 2,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "85fa72b8c69cd31ef5af16dafc94e6f5",
+        "attempt": 2,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "58f54446d3f646e52ab5da80e0748d37",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "cb6a8ec807727889d2e50818018dfb22",
+        "attempt": 2,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "6a5165503b3701313101c08ededd1578",
+        "attempt": 2,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "28b4ec444b6960df6d8b597a683c3d76",
+        "attempt": 2,
+        "outcome": "retry"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "f4d11cdde8c9a3d03dbb5b13b32e4dc7",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "message_id": "6582257c6c5b45b5644a212a06c91c1d",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "337128bef0265b21c0076a126130e8fd",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "message_id": "da3e142fea03f2341ee677d7bf49073e",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "message_id": "55d6a5edc5203a6d986ecc7154e2db28",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "a772cc0cd2e49ef0d2e8eb40c61798f7",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "message_id": "a7b556ce4448105dd8fbff6d870da2df",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack",
+        "message_id": "71975d5e1cf8c89b7221f094a1aca2c2",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke",
+        "message_id": "df81bdad6a761e66753df89c11328717",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "c1b805ecc3b03ddefa60c659c2dcfc4a",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "0341d9e828e0743cb8696c5b3765008b",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "2c52667badd00553a7655389b9e74a13",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "1c7a1dd37043d97173232e3d4cca6799",
+        "attempt": 2,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "6a5165503b3701313101c08ededd1578",
+        "attempt": 3,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "4ab0f922afacfa6cb3e7c80ae0ffe338",
+        "attempt": 3,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "85fa72b8c69cd31ef5af16dafc94e6f5",
+        "attempt": 3,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "28b4ec444b6960df6d8b597a683c3d76",
+        "attempt": 3,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "cb6a8ec807727889d2e50818018dfb22",
+        "attempt": 3,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure",
+        "message_id": "00b89eb944398055e5ebf4793e34a6b0",
+        "attempt": 3,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "b02656ad228d71612de16393375ea485",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "d86f36d535d62a615e4bda3cdc598939",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "4ebc087ba5634da662c5c7dd8f846ed5",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "6dadf3880d7b9ee24d4d9507c3bfc889",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "8068b5c02ec67c9102aa75ce201b7e9f",
+        "attempt": 1,
+        "outcome": "ack"
+      },
+      {
+        "job_id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success",
+        "message_id": "4125b1e62813e48aebf235d3a8b7a5e8",
+        "attempt": 1,
+        "outcome": "ack"
+      }
+    ],
+    "sources": [
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-delete-source",
+        "deleted": 1
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-enqueue-failure-source",
+        "deleted": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-failure-source",
+        "deleted": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-lost-ack-source",
+        "deleted": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-revoke-source",
+        "deleted": 0
+      },
+      {
+        "id": "t05-fa1aec9b-d9f0-402f-bd0d-ddf82b841131-success-source",
+        "deleted": 0
+      }
+    ]
+  }
+}

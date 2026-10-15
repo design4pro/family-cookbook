@@ -1,0 +1,8 @@
+CREATE TABLE proof_cases (job_id TEXT PRIMARY KEY NOT NULL, mode TEXT NOT NULL);
+CREATE TABLE proof_deliveries (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  job_id TEXT NOT NULL,
+  message_id TEXT NOT NULL,
+  attempt INTEGER NOT NULL,
+  outcome TEXT NOT NULL
+);

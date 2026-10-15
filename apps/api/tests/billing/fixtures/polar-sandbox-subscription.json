@@ -1,0 +1,25 @@
+{
+  "capturedAt": "2026-10-15 16:41:13 UTC",
+  "environment": "sandbox",
+  "organizationId": "0cad0d45-3b92-4144-ad4c-1438ec9cd6d3",
+  "subscription": {
+    "id": "6d5424e6-3ef2-444e-9b82-ac10a39fcef6",
+    "status": "active",
+    "current_period_end": "2026-11-15T16:40:12.551859Z",
+    "customer_id": "2391d16a-9c24-47ab-ba5b-a88458de402a",
+    "product_id": "0c5576c5-d32e-4a6c-a64e-7d03f4f702c4",
+    "metadata": {
+      "cookbook_purchase_intent_id": "t08-intent-20261015-a"
+    },
+    "customer": {
+      "id": "2391d16a-9c24-47ab-ba5b-a88458de402a",
+      "external_id": "t08-payer-20261015-a",
+      "organization_id": "0cad0d45-3b92-4144-ad4c-1438ec9cd6d3",
+      "deleted_at": null
+    },
+    "product": {
+      "id": "0c5576c5-d32e-4a6c-a64e-7d03f4f702c4",
+      "organization_id": "0cad0d45-3b92-4144-ad4c-1438ec9cd6d3"
+    }
+  }
+}

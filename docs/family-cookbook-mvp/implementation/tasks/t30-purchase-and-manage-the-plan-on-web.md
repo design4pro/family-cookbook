@@ -8,7 +8,7 @@ Assignee: unassigned
 
 ## Outcome
 
-Deliver explicit authenticated Stripe checkout and management for the designated payer.
+Deliver explicit authenticated Polar checkout and management for the designated payer.
 
 ## Dependencies
 
@@ -34,7 +34,7 @@ Estimated scope: M (one focused implementation or verification slice; normally 2
 ## Verification
 
 - [ ] Run purchase Playwright tests against sandbox fixtures.
-- [ ] Complete Stripe sandbox checkout, cancellation and portal return on a synthetic household.
+- [ ] Complete Polar sandbox checkout, cancellation and portal return on a synthetic household.
 
 ## Execution checklist
 
@@ -48,3 +48,7 @@ Estimated scope: M (one focused implementation or verification slice; normally 2
 ## Failure rule
 
 A failed architectural proof blocks dependent work. A failed release criterion keeps its gate closed. A proposed change to accepted product behavior returns to an explicit decision; do not silently relax the specification. Operator access delays are recorded as blockers, not replaced with fabricated test results.
+
+## T08 identity handoff
+
+Follow [ADR 0001](../../../decisions/0001-polar-only-purchases.md) and the [T08 evidence](../../../evidence/t08.md). Reuse the immutable personal-payer/purchase-intent binding. T29 owns verified lifecycle changes, webhook authentication/deduplication and missed-event reconciliation. T30 must create Checkout API sessions server-side from the current authenticated payer and stored household intent; never trust a public checkout link, client-supplied customer ID or success redirect as authorization. Prevent concurrent charges before checkout; the proof's single-entitlement constraint alone does not prevent a second payment.

@@ -1,0 +1,124 @@
+{
+  "provenance": "Agent-authored synthetic recipes, local macOS Zosia TTS. No family or personal source data. References are agent-authored and await human confirmation.",
+  "representativeAcceptance": "pending real images, natural speech and human reference review; synthetic load evidence cannot close T09",
+  "fixtures": [
+    {
+      "id": "synthetic-correction",
+      "kind": "audio",
+      "path": "generated/correction.wav",
+      "mime": "audio/wav",
+      "consent": true,
+      "synthetic": true,
+      "reference": {
+        "ingredients": [
+          {
+            "name": "mąka",
+            "quantity": 250,
+            "unit": "gramów"
+          },
+          {
+            "name": "mleko",
+            "quantity": 100,
+            "unit": "mililitrów"
+          }
+        ],
+        "temperatureC": null,
+        "minutes": null,
+        "steps": [
+          "Source instructions require human comparison."
+        ],
+        "uncertainties": [],
+        "forbiddenStepPatterns": [
+          "\\b200\\b"
+        ]
+      }
+    },
+    {
+      "id": "synthetic-temperature",
+      "kind": "audio",
+      "path": "generated/temperature.m4a",
+      "mime": "audio/m4a",
+      "consent": true,
+      "synthetic": true,
+      "reference": {
+        "ingredients": [
+          {
+            "name": "jajka",
+            "quantity": 2,
+            "unit": null
+          },
+          {
+            "name": "cukier",
+            "quantity": 50,
+            "unit": "gramów"
+          }
+        ],
+        "temperatureC": 180,
+        "minutes": 25,
+        "steps": [
+          "Source instructions require human comparison."
+        ],
+        "uncertainties": []
+      }
+    },
+    {
+      "id": "synthetic-unknown",
+      "kind": "audio",
+      "path": "generated/unknown.webm",
+      "mime": "audio/webm",
+      "consent": true,
+      "synthetic": true,
+      "reference": {
+        "ingredients": [
+          {
+            "name": "ziemniaki",
+            "quantity": null,
+            "unit": null
+          },
+          {
+            "name": "sól",
+            "quantity": null,
+            "unit": null
+          }
+        ],
+        "temperatureC": null,
+        "minutes": null,
+        "steps": [
+          "Source instructions require human comparison."
+        ],
+        "uncertainties": []
+      }
+    },
+    {
+      "id": "synthetic-five-minute-loop",
+      "kind": "audio",
+      "path": "generated/five-minute.m4a",
+      "mime": "audio/mp4",
+      "consent": true,
+      "synthetic": true,
+      "reference": {
+        "ingredients": [
+          {
+            "name": "mąka",
+            "quantity": 250,
+            "unit": "gramów"
+          },
+          {
+            "name": "mleko",
+            "quantity": 100,
+            "unit": "mililitrów"
+          }
+        ],
+        "temperatureC": null,
+        "minutes": null,
+        "steps": [
+          "Source instructions require human comparison."
+        ],
+        "uncertainties": [],
+        "forbiddenStepPatterns": [
+          "\\b200\\b"
+        ]
+      }
+    }
+  ]
+}

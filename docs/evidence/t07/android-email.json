@@ -1,0 +1,9 @@
+{
+  "platform": "android",
+  "providerId": "01a14034-1eee-758e-82f5-92368627e1a4",
+  "deliveryEvent": "delivered",
+  "checkedAt": "2026-10-15T15:35:48.140Z",
+  "signInStatus": 200,
+  "observedNativeSignInAt": "2026-10-15T15:35:19.965Z",
+  "codeSource": "In-memory test adapter after real Resend acceptance; no code or cookie recorded"
+}

@@ -1,10 +1,14 @@
 # T04: Prove web pending-check persistence
 
-Status: not started
+Status: complete (loaded-web proof; T03 physical-device blocker remains)
 Type: engineering
 Phase: Architecture proofs
 Depends on: T03
-Assignee: unassigned
+Assignee: Codex
+
+## Execution result
+
+See [T04 evidence](../../../evidence/t04.md): 18 Playwright cases pass across Chromium and WebKit, with 13 app tests and full workspace verification. The developer explicitly authorized proceeding while T03 awaits physical iOS/Android tests. That blocker and C1 remain open. The shell was served through local isolated Worker assets; nothing was deployed.
 
 ## Outcome
 
@@ -26,23 +30,23 @@ Estimated scope: M (one focused implementation or verification slice; normally 2
 
 ## Acceptance criteria
 
-- [ ] Offline checks remain pending through a reload when the app can load; the product does not promise web cold-start offline.
-- [ ] Storage denied/full and browser restart cases do not silently lose acknowledged-local intent; account switching cannot replay another account's queue.
-- [ ] The shared state-machine contract passes in Chromium and WebKit; a fetched snapshot does not clear pending intent before a terminal result.
+- [x] Offline checks remain pending through a reload when the app can load; the product does not promise web cold-start offline.
+- [x] Storage denied/full and browser restart cases do not silently lose acknowledged-local intent; account switching cannot replay another account's queue.
+- [x] The shared state-machine contract passes in Chromium and WebKit; a fetched snapshot does not clear pending intent before a terminal result.
 
 ## Verification
 
-- [ ] Run pnpm test:app -- apps/app/tests/shopping/pending.web.test.ts.
-- [ ] Establish pnpm test:web and run tests/web/offline-proof.spec.ts in Chromium and WebKit.
+- [x] Run `pnpm test:app tests/shopping/pending.web.test.ts`.
+- [x] Establish pnpm test:web and run tests/web/offline-proof.spec.ts in Chromium and WebKit.
 
 ## Execution checklist
 
-- [ ] Read [the final specification](../../spec.md), [the plan](../plan.md) and the dependency results.
-- [ ] Establish the failing behavior or explicit evidence gap using the cases above; use synthetic or consented isolated fixtures.
-- [ ] Implement only this outcome, or collect the operator/milestone evidence for this item.
-- [ ] Run the focused checks above and the affected build/type checks established by the harness.
-- [ ] Record evidence, limitations and pass/fail in `docs/evidence/t04.md` or link the named report already produced by this task.
-- [ ] Review the diff/results, update dependent contracts if necessary, then mark this task complete. No completion without all acceptance criteria.
+- [x] Read [the final specification](../../spec.md), [the plan](../plan.md) and the dependency results.
+- [x] Establish the failing behavior or explicit evidence gap using the cases above; use synthetic or consented isolated fixtures.
+- [x] Implement only this outcome, or collect the operator/milestone evidence for this item.
+- [x] Run the focused checks above and the affected build/type checks established by the harness.
+- [x] Record evidence, limitations and pass/fail in `docs/evidence/t04.md` or link the named report already produced by this task.
+- [x] Review the diff/results, update dependent contracts if necessary, then mark this task complete. No completion without all acceptance criteria.
 
 ## Failure rule
 

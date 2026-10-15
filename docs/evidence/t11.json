@@ -1,0 +1,41 @@
+{
+  "task": "T11",
+  "date": "2026-10-15",
+  "status": "passed",
+  "baseline_commit": "88e4f0a",
+  "working_tree": "uncommitted",
+  "checks": {
+    "api": 123,
+    "handover_cases": 12,
+    "new_reauthentication_cases": 2,
+    "final_household_auth_regression": 35,
+    "household_browser": 10,
+    "auth_browser": 4,
+    "typecheck": "passed",
+    "worker_dry_run": "passed",
+    "web_export": "passed",
+    "ios_android_export": "passed"
+  },
+  "notifications": "transactional durable in-app notices; no email/push role-change delivery claimed",
+  "retained_blockers": {
+    "T03": "Physical iOS/Android persistence evidence missing",
+    "T09": "Photo/audio fidelity failures; third short recording, five-minute narration and complete human references missing"
+  },
+  "readiness_gates": "closed",
+  "sources": {
+    "apps/api/migrations/0006-administration-handover.sql": "f4e11627aeddebbc6a0ed576815e02e072eff50afc2474cc6254633deced6ec6",
+    "apps/api/src/households/handover.ts": "21ce80ed9172d372b4bf8228458df2e8894d2c7c13d8084f9d5e57446bd97d08",
+    "apps/api/src/households/membership.ts": "b7ab6dac9e1f0362ace1590d17fd5467e071b47c66b13a5e8185282c732269fa",
+    "apps/api/src/households/routes.ts": "dab47cbcebd7ae6aa85ecd663b4e5068d75f8df00b548362ab7788092c69ef0e",
+    "apps/api/src/households/contract.ts": "6a311c28c1afef59c7b6f5e207eab0866b8b71cdc2c3f0ba953dc3d0a82d6712",
+    "apps/api/src/auth/auth.ts": "8894617aa039fa38fcdb3fc4952adc83b197ebe4aea0cc4477caf9c2794e62b2",
+    "apps/api/src/auth/email.ts": "9ef91d7ef870db361d7a182c8b9ce630466fbff74e1d4eb98e58e15478a1b52b",
+    "apps/api/src/index.ts": "7fd0bcf398c1561ba7d36e8ccd21c32ae006e65a3f4191cd0f1ff4ace8ea6cc6",
+    "apps/api/src/proofs/t07-worker.ts": "64503530e9d521ad7d139ee59f933852eba43ca535c4a12fe70985c1b86a6ed5",
+    "apps/api/tests/households/handover.test.ts": "d052e9d830fdf90eb1574d7aa36dc97daf363abb218d14204e519c8dc3d0aad9",
+    "apps/api/tests/households/routes.test.ts": "08b479ddd3d79ea773f5ae5429a7894cab45910b8b45158b79818438810fc25b",
+    "apps/app/src/households/administration.tsx": "aa5876b2cb6ffefd3ece90e9a0916f1f7c615f70c95e528a44ad26a717f5ce77",
+    "apps/app/app/household-start.tsx": "11f3cd61a24e9ed828fdad8d15a2334775d70730a152d4b8f47b3c8286745b4a",
+    "tests/web/household.spec.ts": "b8b5280dd11d1524a11fb7c15ad8f6607caf47429ed8ea1b4940b5f5d335a5f8"
+  }
+}

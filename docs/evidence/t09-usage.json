@@ -1,0 +1,20 @@
+{
+  "runs": [
+    {
+      "revision": "initial",
+      "calls": 13,
+      "neurons": 288.8791629442688,
+      "listPriceUsd": 0.0031776707923869565
+    },
+    {
+      "revision": "revised",
+      "calls": 13,
+      "neurons": 288.1768201956268,
+      "listPriceUsd": 0.003169945022151895
+    }
+  ],
+  "probeNeurons": 10.02021837234497,
+  "totalNeurons": 587.0762015122406,
+  "totalListPriceUsd": 0.006457838216634646,
+  "invoiceVerified": false
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "family-cookbook-t01-proof",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-15",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "family-cookbook-t01-local",
+      "database_id": "local-t01-only",
+      "migrations_dir": "migrations"
+    }
+  ]
+}

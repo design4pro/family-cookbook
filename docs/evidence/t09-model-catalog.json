@@ -1,0 +1,595 @@
+{
+  "checkedAt": "2026-10-15",
+  "source": "Authenticated Workers AI model catalog, source=1 (Cloudflare-hosted)",
+  "models": [
+    {
+      "id": "c29c7295-ff20-4b9b-bdcc-25136c19b21d",
+      "name": "@cf/moonshotai/kimi-k2.7-code",
+      "description": "Kimi K2.7 is a frontier-scale open-source 1T parameter model with a 262.1k context window, multi-turn tool calling, vision inputs, and structured outputs for agentic workloads.",
+      "properties": [
+        {
+          "property_id": "require_workers_paid",
+          "value": "true"
+        },
+        {
+          "property_id": "context_window",
+          "value": "262144"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning_effort",
+          "value": {
+            "mandatory": true,
+            "default_enabled": true
+          }
+        },
+        {
+          "property_id": "terms",
+          "value": "https://huggingface.co/moonshotai/Kimi-K2.7-Code/blob/main/LICENSE"
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.95,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 4,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M cached input tokens",
+              "price": 0.19,
+              "currency": "USD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "af274959-cb47-4ba8-9d8e-5a0a58b6b402",
+      "name": "@cf/llava-hf/llava-1.5-7b-hf",
+      "description": "LLaVA is an open-source chatbot trained by fine-tuning LLaMA/Vicuna on GPT-generated multimodal instruction-following data. It is an auto-regressive language model, based on the transformer architecture.",
+      "properties": [
+        {
+          "property_id": "beta",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "id": "95666467-f984-4211-b48a-7c246dd4adb7",
+      "name": "@cf/zai-org/glm-5.3-flash",
+      "description": "The first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, while approaching Claude Opus 4.8 on coding and agentic benchmarks.",
+      "properties": [
+        {
+          "property_id": "require_workers_paid",
+          "value": "true"
+        },
+        {
+          "property_id": "context_window",
+          "value": "1048576"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning_effort",
+          "value": {
+            "supported_efforts": [
+              "max",
+              "high",
+              "low"
+            ],
+            "default_effort": "max",
+            "normalizes_to": {
+              "none": "max",
+              "minimal": "max",
+              "medium": "max",
+              "xhigh": "max",
+              "null": "max"
+            },
+            "mandatory": true,
+            "default_enabled": true
+          }
+        },
+        {
+          "property_id": "terms",
+          "value": "https://huggingface.co/zai-org/GLM-5.3-Flash/blob/main/LICENSE"
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.15,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 0.5,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M cached input tokens",
+              "price": 0.03,
+              "currency": "USD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8a5d00bd-de28-4a28-b37a-ce46d01ebaeb",
+      "name": "@cf/moonshotai/kimi-k2.6",
+      "description": "Kimi K2.6 is a frontier-scale open-source 1T parameter model with a 262.1k context window, multi-turn tool calling, vision inputs, and structured outputs for agentic workloads.",
+      "properties": [
+        {
+          "property_id": "async_queue",
+          "value": "true"
+        },
+        {
+          "property_id": "require_workers_paid",
+          "value": "true"
+        },
+        {
+          "property_id": "context_window",
+          "value": "262144"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning_effort",
+          "value": {
+            "supported_efforts": [
+              "high",
+              "none"
+            ],
+            "default_effort": "high",
+            "normalizes_to": {
+              "low": "high",
+              "medium": "high",
+              "max": "high",
+              "null": "high"
+            },
+            "mandatory": false,
+            "default_enabled": true
+          }
+        },
+        {
+          "property_id": "terms",
+          "value": "https://huggingface.co/moonshotai/Kimi-K2.6/blob/main/LICENSE"
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.95,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 4,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M cached input tokens",
+              "price": 0.16,
+              "currency": "USD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "87f39d62-116c-4b26-b2cd-562a9ba01f2f",
+      "name": "@cf/cloudflare/clef",
+      "description": "Clef is a 27B multimodal decision model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question.",
+      "properties": [
+        {
+          "property_id": "context_window",
+          "value": "65536"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.24,
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "property_id": "info",
+          "value": "https://huggingface.co/Cloudflare/clef"
+        },
+        {
+          "property_id": "terms",
+          "value": "https://huggingface.co/Cloudflare/clef/blob/main/LICENSE"
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "id": "56482a5b-020e-488d-9c56-11a3ed40719c",
+      "name": "@cf/swiss-ai/apertus-v1.5-8b",
+      "description": "Apertus 1.5 is an 8B parameter language model designed to advance the state of multilingual, multimodal, fully open, and transparent AI. The models support a wide range of languages, handle contexts of up to 262,144 tokens, and it uses only fully open training data whilst delivering performance comparable to other models of similar size. For access, please fill out this form: https://forms.gle/kgvmkr6ucHN3xNuH6",
+      "properties": [
+        {
+          "property_id": "context_window",
+          "value": "262144"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "id": "543fea3d-dcff-4c3b-af79-b83f601aa1cb",
+      "name": "@cf/cloudflare/clef-omni",
+      "description": "Clef-omni is a multimodal decision model built on a 30B-parameter mixture-of-experts (3B active) backbone. It turns a state and a schema of typed questions into decisions, reads the state as text, JSON, images, audio, or video, and returns a probability for every allowed option of every question.",
+      "properties": [
+        {
+          "property_id": "context_window",
+          "value": "65536"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.15,
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "id": "328adb49-4a7d-43e3-a2d5-802ae8100fe7",
+      "name": "@cf/google/gemma-4-26b-a4b-it",
+      "description": "Gemma 4 is Google's most intelligent family of open models, built from Gemini 3 research to maximize intelligence-per-parameter.",
+      "properties": [
+        {
+          "property_id": "async_queue",
+          "value": "true"
+        },
+        {
+          "property_id": "context_window",
+          "value": "256000"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning_effort",
+          "value": {
+            "mandatory": false,
+            "default_enabled": true
+          }
+        },
+        {
+          "property_id": "terms",
+          "value": "https://ai.google.dev/gemma/docs/gemma_4_license"
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.1,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 0.3,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M cached input tokens",
+              "price": 0.05,
+              "currency": "USD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "31690291-ebdc-4f98-bcfc-a44844e215b7",
+      "name": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+      "description": "Building upon Mistral Small 3 (2501), Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance. With 24 billion parameters, this model achieves top-tier capabilities in both text and vision tasks.",
+      "properties": [
+        {
+          "property_id": "context_window",
+          "value": "128000"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.351,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 0.555,
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "id": "2cbc033b-ded8-4e02-bbb2-47cf05d5cfe5",
+      "name": "@cf/meta/llama-3.2-11b-vision-instruct",
+      "description": " The Llama 3.2-Vision instruction-tuned models are optimized for visual recognition, image reasoning, captioning, and answering general questions about an image.",
+      "properties": [
+        {
+          "property_id": "context_window",
+          "value": "128000"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.0485,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 0.676,
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "property_id": "lora",
+          "value": "true"
+        },
+        {
+          "property_id": "terms",
+          "value": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE"
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "id": "22338608-b54d-4f04-884e-ab06f3dbbf3e",
+      "name": "@cf/qwen/qwen3.8-27b",
+      "description": "Qwen 3.8 27B is a 27-billion-parameter instruction-tuned language model from Alibaba's Qwen family, designed for vision, efficient general-purpose text generation and agentic workloads.",
+      "properties": [
+        {
+          "property_id": "async_queue",
+          "value": "true"
+        },
+        {
+          "property_id": "context_window",
+          "value": "262144"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning_effort",
+          "value": {
+            "supported_efforts": [
+              "xhigh",
+              "medium",
+              "low"
+            ],
+            "default_effort": "xhigh",
+            "normalizes_to": {
+              "null": "xhigh"
+            },
+            "mandatory": false,
+            "default_enabled": true,
+            "supports_max_tokens": false
+          }
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.45,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 3.2,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M cached input tokens",
+              "price": 0.05,
+              "currency": "USD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1161560b-87f9-4795-afb3-a905cf21bcf8",
+      "name": "@cf/moondream/moondream3.1-9B-A2B",
+      "description": "Moondream 3 is a fast, efficient 9B mixture-of-experts vision language model (2B active parameters) that delivers frontier-level visual reasoning for tasks like object detection, pointing, OCR, and structured output.",
+      "properties": [
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.3,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 1,
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "property_id": "terms",
+          "value": "https://moondream.ai/licenses/model/1.0"
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "id": "06455e78-19f7-487b-93cd-c05a3dd07813",
+      "name": "@cf/meta/llama-4-scout-17b-16e-instruct",
+      "description": "Meta's Llama 4 Scout is a 17 billion parameter model with 16 experts that is natively multimodal. These models leverage a mixture-of-experts architecture to offer industry-leading performance in text and image understanding.",
+      "properties": [
+        {
+          "property_id": "async_queue",
+          "value": "true"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.27,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 0.85,
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "property_id": "context_window",
+          "value": "131000"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "terms",
+          "value": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/LICENSE"
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "id": "059de3ad-d350-4cb6-8b31-e4f34847d10a",
+      "name": "@cf/cloudflare/clef-flash",
+      "description": "Clef-flash is a fast 9B multimodal decision model that turns a state and a schema of typed questions into decisions. It reads the state as text, JSON, images, or video, and returns a probability for every allowed option of every question.",
+      "properties": [
+        {
+          "property_id": "context_window",
+          "value": "24576"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.038,
+              "currency": "USD"
+            }
+          ]
+        },
+        {
+          "property_id": "info",
+          "value": "https://huggingface.co/Cloudflare/clef-flash"
+        },
+        {
+          "property_id": "terms",
+          "value": "https://huggingface.co/Cloudflare/clef-flash/blob/main/LICENSE"
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}

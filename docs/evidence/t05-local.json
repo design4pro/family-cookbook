@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-15",
+  "host": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "node": "v26.9.0",
+  "checks": {
+    "focusedT05Tests": 16,
+    "allApiTests": 48,
+    "workspaceTypecheck": "passed",
+    "apiDryRunBuild": "passed",
+    "proofDryRunBuild": "passed"
+  },
+  "sha256": {
+    "apps/api/migrations/0002-job-settlement-proof.sql": "4b07d8db4cbcf4a2e5282fd0977aea76a76684f9b01a8c06282fa4d4c04e5d9f",
+    "apps/api/src/usage/reservations.ts": "2ae131eb360382fdb87ae0724e15642073b4a43be61a72f158dca811e0397d4c",
+    "apps/api/src/imports/job-state.ts": "d36247243654251c2d73fee272ae09683c9d8e6d0cff7d06c59f5b88ec9b3432",
+    "apps/api/src/imports/reconcile-dispatch.ts": "b1e1eb0ef44b303ee902bb398cebdd2f5cf82c1ee92f98d6d433fcbbdf152ac0",
+    "apps/api/src/proofs/t05-worker.ts": "4e4a792c108ec8c50681caafad905989a4f8c733c5c9532bc637759c798d9a36",
+    "apps/api/tests/imports/job-state.test.ts": "ab24bcf5ed3cbc10ef6a98e40c6a85473e55ee3dc516c918ee45345fc5dab7e7",
+    "apps/api/tests/imports/remote-fixture.sql": "ff21ba421df1cb77db42da440511224201000b55376e604dceea1ab34a97a71d",
+    "apps/api/scripts/t05-remote-proof.mjs": "00f0291911682770a4890d0d9dfe4cbae441e216a98646ba0e10826e4818842a",
+    "apps/api/wrangler.t05-proof.jsonc": "fd64a0de66346bc43fb6dd9b89f98aeae9443c42827ddea074c9e4cb2d6ba08b",
+    "apps/api/dist/t05/t05-worker.js": "e9b12e4ccf49d771512514babbeedc0cdb7f957a5416e7e164fdb574577c3142"
+  },
+  "remoteReport": "t05-remote.json"
+}

@@ -1,0 +1,545 @@
+{
+  "run": "t01-895d3d2a-0298-42d2-b5ee-31ec7876edf8",
+  "accountId": "6cfdf3b5143cddc631383a4c14736c3a",
+  "databaseId": "bb45490f-7369-438f-af78-f55202ba5448",
+  "databaseName": "family-cookbook-t01-proof",
+  "sourceHash": "a6b8558d46c0d4380c6ccc639ae6d44a3c2c0592c6e4176523e51886f09d43c6",
+  "migrationHash": "3a485f9180b544f35e9f108cde3b81e554c0dd9f1513e56fd05e5533e9f86269",
+  "passed": [
+    "lost response and immutable replay",
+    "concurrent duplicate delivery",
+    "two writers on revision 7",
+    "zero-row conflict and untouched reservation sentinel",
+    "rollback between mutation and outcome, then retry",
+    "deleted item and cross-household denial"
+  ],
+  "injectedFailure": "Error: Cloudflare API error: 7500: injected outcome failure: SQLITE_CONSTRAINT (extended: SQLITE_CONSTRAINT_TRIGGER)",
+  "outcomes": [
+    {
+      "operation_id": "t01-895d3d2a-0298-42d2-b5ee-31ec7876edf8-crash-op",
+      "status": "accepted",
+      "revision": 8,
+      "purchased": 1
+    },
+    {
+      "operation_id": "t01-895d3d2a-0298-42d2-b5ee-31ec7876edf8-deleted-op",
+      "status": "unavailable",
+      "revision": null,
+      "purchased": null
+    },
+    {
+      "operation_id": "t01-895d3d2a-0298-42d2-b5ee-31ec7876edf8-duplicate-op",
+      "status": "accepted",
+      "revision": 8,
+      "purchased": 1
+    },
+    {
+      "operation_id": "t01-895d3d2a-0298-42d2-b5ee-31ec7876edf8-lost-response-op",
+      "status": "accepted",
+      "revision": 8,
+      "purchased": 1
+    },
+    {
+      "operation_id": "t01-895d3d2a-0298-42d2-b5ee-31ec7876edf8-lost-response-op-later",
+      "status": "accepted",
+      "revision": 9,
+      "purchased": 0
+    },
+    {
+      "operation_id": "t01-895d3d2a-0298-42d2-b5ee-31ec7876edf8-race-op",
+      "status": "conflict",
+      "revision": 8,
+      "purchased": 0
+    },
+    {
+      "operation_id": "t01-895d3d2a-0298-42d2-b5ee-31ec7876edf8-race-op-b",
+      "status": "accepted",
+      "revision": 8,
+      "purchased": 0
+    },
+    {
+      "operation_id": "t01-895d3d2a-0298-42d2-b5ee-31ec7876edf8-stale-op",
+      "status": "conflict",
+      "revision": 7,
+      "purchased": 0
+    }
+  ],
+  "observations": [
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 2,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 1,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      },
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ],
+    [
+      {
+        "changes": 0,
+        "servedBy": "v3-prod",
+        "region": "EEUR",
+        "primary": true
+      }
+    ]
+  ]
+}

@@ -10,6 +10,10 @@ Assignee: unassigned
 
 Promote the proven reservation core into the accepted household quotas and calendar windows. Expose one server-owned policy contract for later capture/assistant routes and attach recipe-count enforcement to approval; do not duplicate limit constants in clients.
 
+## T05 integration boundary
+
+Reuse the atomic reservation, fenced settlement and reconciliation contract in [T05 evidence](../../../evidence/t05.md). Preserve logical operation IDs on technical/user retry, generation fences, current authorization checks and commit-before-ack ordering. Supply actual server-owned allowance policy and measured processing deadlines; do not copy the synthetic proof controls into production.
+
 ## Dependencies
 
 [T05: Prove queued-job allowance settlement](t05-prove-queued-job-allowance-settlement.md), [T10: Create and join a private household](t10-create-and-join-a-private-household.md), [T12: Persist reviewable recipe revisions](t12-persist-reviewable-recipe-revisions.md)

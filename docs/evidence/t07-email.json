@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-15T15:18:27.049Z",
+  "providerId": "01a14024-a79c-7a6a-bc57-aa45f8a5c30c",
+  "providerReadStatus": 200,
+  "deliveryEvent": "delivered",
+  "signInStatus": 200,
+  "signedOutStatus": 401,
+  "pass": true,
+  "codeSource": "In-memory local mail adapter after actual Resend acceptance; no code or cookie is logged",
+  "physicalDevice": false,
+  "deliveryCheckedAt": "2026-10-15T15:19:41.594Z"
+}

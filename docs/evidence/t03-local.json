@@ -1,0 +1,36 @@
+{
+  "recordedAt": "2026-10-15",
+  "physicalDeviceAcceptance": "blocked: developer confirmed only simulators/emulators available",
+  "appTests": 8,
+  "apiTests": 32,
+  "sourceSha256": {
+    "apps/app/src/shopping/pending-store.ts": "546767b2c947b28da58468c4481538033c147e320b909b2e8ef837b4b4a2a8e2",
+    "apps/app/src/shopping/pending.native.ts": "c27417e76644641f9d222e2967ce560fe1c3f05fb1257acb48fba3cd6fcbb005",
+    "apps/app/src/shopping/sync-state.ts": "8aac342368d2ab3646adbb370df783d71130d5b702bf309d07c4cd299247e225",
+    "apps/app/app/proof-shopping.tsx": "75512433f8b4b25f38d9c947a30fe98b8f7c782dec16e3c928e347064e97879b",
+    "apps/app/app.json": "8fd9dd6685ecc185e624577df32aa258193cbf32871ae1eb4d84de7f00ff862e",
+    "pnpm-lock.yaml": "dcdc5dd37347dbf20062f3b1a7379cd2728df3e0c97b9718d868dcb1693d81d4"
+  },
+  "iosSimulator": {
+    "model": "iPhone 17 Pro",
+    "os": "iOS 27.0",
+    "build": "Release arm64, embedded JS bundle",
+    "processBefore": 26404,
+    "processAfter": 26642,
+    "termination": "SIGKILL",
+    "pendingOperationId": "3d02b99d-b11c-41c5-952c-8acb6d9cf355",
+    "restoredState": "checked, one pending operation, identical ID",
+    "network": "online; airplane mode not tested",
+    "physicalDevice": false
+  },
+  "androidRuntime": {
+    "result": "blocked",
+    "detail": "ADB offline; software-GPU attempt logged mprotect Permission denied; no installation or restart result"
+  },
+  "artifactsSha256": {
+    "apps/app/.expo/native-build/Build/Products/Release-iphonesimulator/CookbookT03Proof.app/CookbookT03Proof": "0f6e689fd0ca77234286a6467c2cfc23455d454ed607239713e5039dc0743390",
+    "apps/app/android/app/build/outputs/apk/release/app-release.apk": "0577e2b62100401262d7df5facea91356b50f1634670ab19819ed14e78991d58",
+    "docs/evidence/t03/ios-before-termination.png": "91e828221ccf50bb5ac74764ff3ab69329bc80565f673688a79f07b3802e2294",
+    "docs/evidence/t03/ios-after-termination.png": "52da3d6a950861aefe5a9dd086bb37b39180e89c17d19cbd27afb4fcd20b191d"
+  }
+}

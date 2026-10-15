@@ -29,7 +29,7 @@ Estimated scope: M (one focused implementation or verification slice; normally 2
 
 - [ ] Preview identifies account-associated recipes/sources and private data, distinguishes leaving from deletion, and offers optional export/handover.
 - [ ] Confirmation immediately revokes sessions and ordinary affected reads; active subscription or absent successor cannot block the request.
-- [ ] Other members' independent content remains scoped correctly. Queue supported Stripe/Google period-end cancellation, expose Apple management controls and report failures without blocking deletion; deleting a provider profile is never treated as proof of cancellation.
+- [ ] Other members' independent content remains scoped correctly. Queue Polar period-end cancellation, expose verified web management state and report failures without blocking deletion; deleting a provider profile is never treated as proof of cancellation.
 
 ## Verification
 
@@ -48,3 +48,7 @@ Estimated scope: M (one focused implementation or verification slice; normally 2
 ## Failure rule
 
 A failed architectural proof blocks dependent work. A failed release criterion keeps its gate closed. A proposed change to accepted product behavior returns to an explicit decision; do not silently relax the specification. Operator access delays are recorded as blockers, not replaced with fabricated test results.
+
+## T11 administration continuity handoff
+
+Preserve the profile-deletion transition from migration `0006-administration-handover.sql`: snapshot remaining eligible members before clearing the administrator, remove membership and invalidate handover/reauthentication state. Do not replace it with a bare administrator-null update. The first still-present verified snapshot member may explicitly claim; an empty household closes. Include per-member in-app notification records in the deletion inventory. The local proof profile-deletion endpoint is only a fixture control, not the full account/content/billing deletion workflow. See [T11 evidence](../../../evidence/t11.md).

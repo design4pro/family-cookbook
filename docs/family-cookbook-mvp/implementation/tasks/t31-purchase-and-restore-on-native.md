@@ -1,4 +1,4 @@
-# T31: Purchase and restore on native
+# T31: Consume and refresh paid access on native
 
 Status: not started
 Type: engineering
@@ -8,7 +8,7 @@ Assignee: unassigned
 
 ## Outcome
 
-Implement RevenueCat-backed Apple/Google purchase and restore in development/test builds.
+Consume verified backend household entitlements in native development/test builds, following the [Polar-only decision](../../../decisions/0001-polar-only-purchases.md). Native purchase SDKs and checkout are out of scope.
 
 ## Dependencies
 
@@ -18,23 +18,23 @@ Implement RevenueCat-backed Apple/Google purchase and restore in development/tes
 
 Proposed paths relative to the future application repository, not files that already exist in this planning workspace. Create the minimal harness/config required by the first owning task; later tasks modify its proven code rather than rebuild it.
 
-- `apps/app/src/billing/purchases.native.ts`
+- `apps/app/src/billing/entitlements.native.ts`
 - `apps/app/src/billing/plan.native.tsx`
 - `apps/app/tests/billing/native-identity.test.ts`
-- `tests/native/purchases.md`
+- `tests/native/entitlements.md`
 
 Estimated scope: M (one focused implementation or verification slice; normally 2-4 primary files). No wall-clock commitment. If a slice grows beyond one focused session, split the remaining work without widening scope.
 
 ## Acceptance criteria
 
-- [ ] Sign-in precedes purchase; restore respects the original personal payer and cannot attach a receipt to a different family.
-- [ ] Show provider-local prices, current server allowances/reset dates, cancellation/restore/error states and subscription management; no external checkout promotion bypasses store requirements.
-- [ ] Real iOS and Android sandbox exercises verify purchase/restore; Google license testers are explicit and Expo Go is not used as proof.
+- [ ] Sign-in and backend verification precede paid access; account/household switching and refresh cannot expose another household or rebind a subscription.
+- [ ] Show current server entitlement, allowances/reset dates, expiry and refresh/error states. Do not add native checkout, store purchase SDKs or external-checkout promotion.
+- [ ] Actual iOS and Android builds verify consumption and refresh with synthetic Polar sandbox households. Record an accepted store/distribution route for the paid-web companion scope; unresolved eligibility blocks release, and Expo Go is not proof.
 
 ## Verification
 
 - [ ] Run native identity/state tests.
-- [ ] Execute the native purchase checklist with recorded build IDs and synthetic accounts.
+- [ ] Execute the native entitlement checklist with recorded build IDs and synthetic accounts.
 
 ## Execution checklist
 

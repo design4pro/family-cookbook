@@ -1,0 +1,23 @@
+{
+  "name": "@family-cookbook/api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "wrangler types && tsc --noEmit",
+    "build": "wrangler deploy --dry-run --outdir dist && pnpm build:proof:t05 && pnpm build:proof:t06",
+    "build:proof:t05": "wrangler deploy --config wrangler.t05-proof.jsonc --dry-run --outdir dist/t05",
+    "build:proof:t06": "wrangler deploy --config wrangler.t06-proof.jsonc --dry-run --outdir dist/t06"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-plugin": "1.4.2",
+    "@types/node": "24.19.2",
+    "typescript": "6.0.3",
+    "vitest": "4.1.11",
+    "wrangler": "4.151.0"
+  },
+  "dependencies": {
+    "@better-auth/expo": "1.7.10",
+    "better-auth": "1.7.10"
+  }
+}

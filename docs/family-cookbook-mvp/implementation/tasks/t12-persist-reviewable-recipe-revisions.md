@@ -16,6 +16,8 @@ Implement manual text drafts, explicit approval and provenance-backed revisions 
 
 ## Scope and files
 
+Apply the [proven T02 representation and integration requirements](../../../evidence/t02.md): immutable fragments, server-controlled inherited account dependencies, ordered current/history manifests, and review-required survivors after purge. The T02 fixture tables are not the production recipe schema.
+
 Proposed paths relative to the future application repository, not files that already exist in this planning workspace. Create the minimal harness/config required by the first owning task; later tasks modify its proven code rather than rebuild it.
 
 - `apps/api/src/recipes/save-draft.ts`
@@ -48,3 +50,7 @@ Estimated scope: M (one focused implementation or verification slice; normally 2
 ## Failure rule
 
 A failed architectural proof blocks dependent work. A failed release criterion keeps its gate closed. A proposed change to accepted product behavior returns to an explicit decision; do not silently relax the specification. Operator access delays are recorded as blockers, not replaced with fabricated test results.
+
+## T10 authorization handoff
+
+Use verified session identity and current membership for every private resource request. Derive the resource's household from server-owned data; never authorize only the household ID supplied by the caller. Reuse `readHouseholdResource` for private reads and recheck membership inside mutation SQL. T10 tests removal during a read and blocks late job/sync writes. See [T10 evidence](../../../evidence/t10.md). Connecting actual recipe/object endpoints remains part of this task; T10 did not claim those endpoints were already implemented.

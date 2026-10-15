@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-10-15 16:42:52 UTC",
+  "environment": "sandbox",
+  "organizationId": "0cad0d45-3b92-4144-ad4c-1438ec9cd6d3",
+  "productId": "0c5576c5-d32e-4a6c-a64e-7d03f4f702c4",
+  "customerId": "2391d16a-9c24-47ab-ba5b-a88458de402a",
+  "subscriptionId": "6d5424e6-3ef2-444e-9b82-ac10a39fcef6",
+  "payerExternalId": "t08-payer-20261015-a",
+  "purchaseIntentId": "t08-intent-20261015-a",
+  "status": "active",
+  "currentPeriodEnd": "2026-11-15T16:40:12.551859Z",
+  "cancelAtPeriodEnd": true,
+  "productArchived": true,
+  "checkoutCompletedBy": "developer",
+  "customerProfileRenamePreservedIdentity": true,
+  "customerExternalIdReassignment": {
+    "rejected": true,
+    "error": "PolarRequestValidationError",
+    "message": "Customer external ID cannot be updated."
+  },
+  "replayFixture": "../../apps/api/tests/billing/fixtures/polar-sandbox-subscription.json",
+  "liveChargeExecuted": false
+}

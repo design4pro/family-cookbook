@@ -9,7 +9,8 @@
 ## Scope and source of truth
 
 - The approved product contract is `docs/family-cookbook-mvp/spec.md`.
-- Execute `docs/family-cookbook-mvp/implementation/plan.md` using its task dependencies and acceptance criteria. Preserve the resolved Wayfinder decisions.
+- When implementation is explicitly in scope, execute `docs/family-cookbook-mvp/implementation/plan.md` using its task dependencies and acceptance criteria. Preserve the resolved Wayfinder decisions.
+- Current phase: UX/UI design preparation after specification and task breakdown. Preserve existing implementation and evidence, but do not resume feature development from the task register without an explicit implementation request. Planning approval and design approval do not start implementation.
 - Do not treat planning approval as permission to provision production, charge customers, publish a store build or start a pilot. Respect the two readiness gates.
 - State assumptions and tradeoffs. If a material ambiguity prevents correct implementation, name it and ask; do not silently invent behavior.
 

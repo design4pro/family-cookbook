@@ -12,7 +12,7 @@ Validate the accepted prerequisites before enabling the real web purchase phase.
 
 ## Dependencies
 
-[T47: Record Gate 1 readiness evidence](t47-record-gate-1-readiness-evidence.md), [T48: Run the cross-channel billing acceptance matrix](t48-run-the-cross-channel-billing-acceptance-matrix.md), [O02: Prepare operator retention and commercial records](o02-prepare-operator-retention-and-commercial-records.md), [T39: Instrument failures without logging family content](t39-instrument-failures-without-logging-family-content.md)
+[T47: Record Gate 1 readiness evidence](t47-record-gate-1-readiness-evidence.md), [T48: Run the billing and cross-platform access acceptance matrix](t48-run-the-cross-channel-billing-acceptance-matrix.md), [O02: Prepare operator retention and commercial records](o02-prepare-operator-retention-and-commercial-records.md), [T39: Instrument failures without logging family content](t39-instrument-failures-without-logging-family-content.md)
 
 ## Scope and files
 
@@ -26,7 +26,7 @@ Estimated scope: S (operator/evidence artifact). No wall-clock commitment. If a 
 
 - [ ] Gate 1 still holds on the release build and the full billing matrix passes; sandbox/live identities and credentials are isolated.
 - [ ] Operating-entity retention records, localized offers, renewal disclosures, taxes, support and sender configuration are complete and consistent with the implementation.
-- [ ] A responsible operator records go/no-go before live checkout is enabled; native test builds do not advertise an external-checkout shortcut.
+- [ ] A responsible operator records go/no-go before live checkout is enabled; native builds do not advertise an external-checkout shortcut, and the accepted distribution route for the Polar-only scope is documented.
 
 ## Verification
 

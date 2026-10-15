@@ -10,6 +10,10 @@ Assignee: unassigned
 
 Connect image extraction to the proven job state machine and common draft store.
 
+## T05 integration boundary
+
+Reuse the atomic reservation, fenced settlement and reconciliation contract in [T05 evidence](../../../evidence/t05.md). Preserve logical operation IDs on technical/user retry, generation fences, current authorization checks and commit-before-ack ordering. Supply actual server-owned allowance policy and measured processing deadlines; do not copy the synthetic proof controls into production.
+
 ## Dependencies
 
 [T05: Prove queued-job allowance settlement](t05-prove-queued-job-allowance-settlement.md), [T09: Verify capture models on representative fixtures](t09-verify-capture-models-on-representative-fixtures.md), [T12: Persist reviewable recipe revisions](t12-persist-reviewable-recipe-revisions.md), [T15: Upload private sources with recoverable copies](t15-upload-private-sources-with-recoverable-copies.md)

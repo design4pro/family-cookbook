@@ -1,10 +1,14 @@
 # Family cookbook MVP implementation plan
 
-Baseline: 2026-10-15. Status: planned; no implementation task or readiness gate has passed.
+Baseline: 2026-10-15. Execution update: T01 passed with [local and remote evidence](../../evidence/t01.md); its relevant O01 access is verified. T02 passed with [local contribution-deletion evidence](../../evidence/t02.md). T03 has [implementation and local evidence](../../evidence/t03.md), but physical-device acceptance is blocked. T04 passed its [loaded-web proof](../../evidence/t04.md) under an explicit developer sequencing exception; T03 remains blocked on physical devices. T05 passed its [local and remote Queue settlement proof](../../evidence/t05.md), with the relevant O01 access verified. T06 passed its [historical D1/R2 recovery proof](../../evidence/t06.md); C2 contract review is complete. Physical backup expiry remains a T38/Gate 1 obligation. T07 passed its [web/native authenticated-session proof](../../evidence/t07.md), including real test email delivery and native Release builds on simulator/emulator. T03 physical-device acceptance remains blocked. T08 passed its [purchase-identity proof](../../evidence/t08.md), combining local D1 checks, actual Polar sandbox checkout, immutable customer identity verification and recorded-response replay. T09 has verified model access and synthetic technical probes, but [representative capture evaluation](../../evidence/capture-feasibility.md) has no passing photo variant after the [six-model comparison](../../evidence/t09-model-comparison.md) on the same seven consented photographs and after a [two-stage experiment](../../evidence/t09-two-stage-photos.md). A [controlled crop comparison](../../evidence/t09-cropped-photos.md) also has mixed improvements and factual regressions. [Two short human recordings](../../evidence/t09-natural-audio.md) have been evaluated, with source-fidelity failures; the third short take, five-minute narration and full human references remain missing, and C3 remains open. T10 passes its [household implementation checks](../../evidence/t10.md) under the narrow developer-authorized exception below. T11 passes its [administration handover and successor-claim checks](../../evidence/t11.md), with the T10-T11 contract review recorded. Other tasks and both readiness gates remain open. The planning descriptions below retain the original task-start baseline; use the register and evidence for current execution status.
 
-This plan implements the approved [MVP specification](../spec.md). It does not reopen the five resolved Wayfinder decisions. The [task register](todo.md) contains 51 items: 47 engineering/verification tasks, two operator prerequisites and two readiness milestones. Each card specifies its outcome, direct dependencies, proposed files, three acceptance criteria and concrete checks. The [coverage matrix](coverage.md) maps requirements and both gates to those cards.
+This plan implements the approved [MVP specification](../spec.md). The [explicit Polar-only decision](../../decisions/0001-polar-only-purchases.md) supersedes the original provider/native-purchase scope; other resolved Wayfinder decisions remain unchanged. The [task register](todo.md) contains 51 items: 47 engineering/verification tasks, two operator prerequisites and two readiness milestones. Each card specifies its outcome, direct dependencies, proposed files, three acceptance criteria and concrete checks. The [coverage matrix](coverage.md) maps requirements and both gates to those cards.
 
 ## 1. Scope and execution boundary
+
+### Current phase boundary (2026-10-15)
+
+The developer clarified the workflow as Wayfinder -> specification -> task breakdown, followed now by UX/UI design preparation with Impeccable. Feature implementation is paused. Preserve the existing code, proof artifacts and completed-task status as a checkpoint; the design phase does not resume T12 or any other implementation card. The first design flow is Cookbook -> Add photo -> Review against source -> Approved recipe, covering mobile and desktop with visual mockups before code. T03 and T09 retain their existing blockers, C1/C3 remain open and both readiness gates remain closed. Design mockups are proposals, not implementation or proof evidence.
 
 Build one private family cookbook for up to five members on Expo web, iOS and Android, with a modular Cloudflare Worker backend. Deliver reviewed photo/audio/manual capture, cooking, a grounded text assistant, shared shopping with offline check/uncheck, continuity, quotas and subscription access.
 
@@ -28,11 +32,19 @@ Complete O01's relevant access inventory, then run the proofs below using synthe
 | [T08: Prove purchase identity cannot cross households](tasks/t08-prove-purchase-identity-cannot-cross-households.md) | Purchase identity binding | A restored purchase cannot move to a different payer/household or cross sandbox/live boundaries. | Entitlement and purchase implementation |
 | [T09: Verify capture models on representative fixtures](tasks/t09-verify-capture-models-on-representative-fixtures.md) | Real capture feasibility | Ten representative inputs expose handwriting, Polish speech, codec, schema, latency and cost failures. | Photo/audio pipeline and bounded model usage |
 
-The first dependency chain is **O01 -> T01 -> T02/T03/T05**. T04 follows T03; T06 follows T02 and T05; T07 follows T03; T08 follows T07; T09 follows T05. T10 explicitly depends on completion of all nine proofs, directly or transitively, so broad feature work cannot silently bypass an unresolved architecture risk.
+The first dependency chain is **O01 -> T01 -> T02/T03/T05**. T04 follows T03; T06 follows T02 and T05; T07 follows T03; T08 follows T07; T09 follows T05. The original T10 gate required all nine proofs, directly or transitively. The narrow developer-authorized T10 sequencing exception below supersedes that gate only for household implementation; unresolved proof risks still block their dependent behavior.
 
 Checkpoints: after T01-T03, review transactional/provenance/local-state contracts; after T04-T06, review cross-platform persistence and recovery; after T07-T09, review identity, provider and model feasibility. These are evidence reviews, not new product-approval rounds. If access is missing, continue ready independent proofs. If a proof fails, stop its dependent tasks, record the failing case and revise the smallest technical design. A change to accepted product behavior requires a decision rather than a hidden relaxation.
 
 The ten-input capture smoke test is only a feasibility screen. It does not satisfy the later 50-example quality gate. Similarly, a mocked purchase or local D1 test does not prove real provider identity or remote D1 semantics.
+
+## T10 sequencing exception (2026-10-15)
+
+The developer explicitly authorized implementing T10 before T03 and T09 pass. T10 may use the passing T01/T02/T04/T05/T06/T07/T08 contracts to deliver authenticated household creation, membership and email-bound invitations. Its direct T09 sequencing dependency is deferred, not marked passed. This does not authorize capture, native offline acceptance, production deployment, a real-data pilot or charging.
+
+T03 remains blocked on physical iOS/Android persistence tests. T09 remains open with observed source-fidelity failures, a missing third short recording, five-minute narration and complete human references. C1 and C3 remain open. Both readiness gates remain closed. Other task dependencies remain unchanged; this exception does not automatically waive T03/T09 dependencies elsewhere.
+
+T10 must still demonstrate all its own acceptance criteria with D1 integration, authenticated boundary and browser evidence. Existing simulator/emulator evidence does not replace physical-device checks.
 
 ## 3. Deliver in vertical slices
 
@@ -47,7 +59,7 @@ Task numbers are stable identifiers, not an instruction to execute every number 
 | Everyday cooking | T20-T21 readable cooking and native downloads | Restart without a network |
 | Shared shopping | T22-T24 deterministic contributions and durable offline checks | Two members, concurrent edits and reconnect |
 | Cookbook assistant | T25-T27 bounded retrieval, private conversation and confirmed meal-to-shopping | Missing facts and explicit write confirmation |
-| Subscription lifecycle | T29-T31 reconciliation and purchase channels; T32-T33 Archive and payer succession | Review provider state, then expiry/transition |
+| Subscription lifecycle | T29-T31 Polar reconciliation, web purchase and native access; T32-T33 Archive and payer succession | Review provider state, then expiry/transition |
 | Account continuity | T34-T36 deletion and inactivity; T37-T38 export and recovery | Review purge, then offline export/restoration |
 | Operational readiness | T39 alerts/runbooks; T40-T43 accessibility and integrated journeys; T44-T46 quality/latency | Review after each pair/triple of evaluation cards |
 | Release evidence | T47 Gate 1; T48 billing matrix; T49 Gate 2 | Each gate is a separate go/no-go |
@@ -115,7 +127,7 @@ The proposed commands `pnpm test:api`, `pnpm test:app` and `pnpm test:web` do no
 
 A task is complete only when:
 
-1. All direct dependencies pass and its acceptance criteria are demonstrated.
+1. All direct dependencies pass, or a named developer-authorized sequencing exception explicitly applies, and its acceptance criteria are demonstrated. Deferred proofs remain open.
 2. The focused regression/integration checks pass; the affected type check/build passes.
 3. Required real-provider/device checks have evidence instead of a mocked substitute.
 4. The diff contains only the slice, temporary scaffolding is removed when superseded, and interfaces preserve the specification.
@@ -129,7 +141,7 @@ Each card targets one focused slice, usually two to four primary files. Operator
 
 **Gate 1 (T47)** requires passing capture/assistant evaluations, all three platforms, isolation, native offline recovery, deletion/retention, export, restore, accessibility, performance and operational evidence. No open data-loss, household-leak or core-flow blocker is allowed. The register and coverage matrix must link actual reports, not merely completed implementation checkboxes.
 
-**Gate 2 (T49)** additionally requires the cross-channel billing matrix, correct sample/paid/Archive behavior and O02's real operator facts. Establish sandbox purchase evidence and separately verify the intended live web entitlement configuration and household mapping without creating a charge. Clearly label fixtures versus provider observations. Do not claim a live transaction was executed during planning or sandbox QA. The Gate 2 reviewer must explicitly resolve the evidence gap between a configured live route and proven live settlement; fixtures alone cannot be recorded as proof of a live purchase. If the accepted requirement cannot be verified without an early charge, record a narrow validation decision before claiming the gate has passed. After Gate 2, the first explicitly initiated real web purchase is monitored for correct entitlement; a failed grant pauses additional charges and follows the billing incident runbook.
+**Gate 2 (T49)** additionally requires the billing and cross-platform access matrix, correct sample/paid/Archive behavior and O02's real operator facts. Establish sandbox purchase evidence and separately verify the intended live web entitlement configuration and household mapping without creating a charge. Clearly label fixtures versus provider observations. Do not claim a live transaction was executed during planning or sandbox QA. The Gate 2 reviewer must explicitly resolve the evidence gap between a configured live route and proven live settlement; fixtures alone cannot be recorded as proof of a live purchase. If the accepted requirement cannot be verified without an early charge, record a narrow validation decision before claiming the gate has passed. After Gate 2, the first explicitly initiated real web purchase is monitored for correct entitlement; a failed grant pauses additional charges and follows the billing incident runbook.
 
 O02 separates facts needed before real-data participation (operator identity, accurate notices, sender/support ownership) from commercial/retained-record prerequisites before charging. T47 checks the former; T49 checks the full record. Missing operator facts keep the applicable gate closed, even if engineering checks pass.
 

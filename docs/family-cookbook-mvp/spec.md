@@ -2,9 +2,9 @@
 
 Version: 1.0 | Decision baseline: 2026-10-15 | Status: approved planning baseline, ready for implementation handoff.
 
-All five decision tickets in the [Wayfinder map](map.md) are resolved. This document consolidates the final product and architecture contract. The ticket resolutions retain decision history; earlier alternatives are not requirements. No application code, deployment, model benchmark, payment test or pilot readiness gate has been completed.
+All five decision tickets in the [Wayfinder map](map.md) are resolved. This document consolidates the final product and architecture contract. The ticket resolutions retain decision history; earlier alternatives are not requirements. At the original planning baseline, no application code, deployment, model benchmark, payment test or pilot readiness gate had been completed. Subsequent implementation and proof results are recorded in the [task register](implementation/todo.md) and linked evidence.
 
-**Implementation may start. Real family-data participation requires Gate 1. Real charges require Gate 2. Neither gate has passed.**
+**Current phase: UX/UI design preparation; feature implementation is paused by developer direction. Real family-data participation requires Gate 1. Real charges require Gate 2. Neither gate has passed.**
 
 ## 1. Product and scope
 
@@ -103,7 +103,7 @@ One Family plan: **EUR 4.99/month or EUR 39/year**, identical features for five 
 | Recipe dictation | 10 minutes total | 60 minutes/month |
 | Assistant answers | 20 total | 200/month |
 
-The sample is application access, not a provider subscription trial, and never auto-renews. Sample quotas and the paid welcome allowance are one-time per household. Reinstalling, changing payer, restoring purchases or reactivating does not reset them.
+The sample is application access, not a provider subscription trial, and never auto-renews. Sample quotas and the paid welcome allowance are one-time per household. Reinstalling, changing payer, refreshing purchased access or reactivating does not reset them.
 
 Monthly usage windows are anchored to original paid activation, with short-month clamping computed from the original day. Display the next reset. Both billing periods use the same allowances; no rollover. Preserve consumed usage within the window across payment changes. Provider billing dates are not assumed to be quota boundaries.
 
@@ -111,7 +111,7 @@ One image equals one page; audio uses accepted recording duration; one completed
 
 Exhaustion stops only the affected function. Manual corrections, cooking and shopping do not consume AI units. Storage overflow blocks additional uploads, not reads/export, and never silently removes originals.
 
-Web uses Stripe; native uses Apple/Google purchases validated through RevenueCat. Require sign-in, use an immutable personal payer ID, and grant household access in the backend. Do not share a billing identity across members. Client callbacks are not payment proof. Authenticate/deduplicate webhooks, refresh verified state after purchase/restore and reconcile missed events. Prevent concurrent active household subscriptions; distinguish cancellation, expiry, grace, refund and revocation.
+Polar is the sole purchase provider, with checkout and subscription management on web. Native iOS/Android clients consume verified backend access after sign-in and refresh; Apple/Google in-app purchases and RevenueCat are out of scope. Native builds contain no external-checkout promotion. Store distribution feasibility must be recorded before release; see the [accepted provider decision](../decisions/0001-polar-only-purchases.md). Require sign-in, use an immutable personal payer ID, and grant household access in the backend. Do not share a billing identity across members. Client callbacks are not payment proof. Authenticate/deduplicate webhooks, refresh verified state after purchase or access refresh and reconcile missed events. Prevent concurrent active household subscriptions; distinguish cancellation, expiry, grace, refund and revocation.
 
 ## 7. Archive, inactivity and account continuity
 
@@ -123,13 +123,13 @@ An unpaid household may be scheduled for removal after twelve months without exp
 
 ### Administration and payer changes
 
-Administrator manages membership and administrative succession. Payer controls their purchase. Both can be ordinary contributors; administrative transfer does not transfer authorship or receipts.
+Administrator manages membership and administrative succession. Payer controls their purchase. Both can be ordinary contributors; administrative transfer does not transfer authorship or purchase ownership.
 
 Normal handover: reauthenticate -> select an existing member -> recipient accepts within seven days -> atomically switch administrator -> notify. The old administrator becomes a member. One request may be pending, cancelable by the sender; leaving/removal invalidates it. No acceptance means no change.
 
 After administrator account deletion without handover, the first verified pre-existing member to explicitly claim administration succeeds atomically. Pending invitations cannot claim. Existing access continues until claimed; administrative actions are unavailable. Notify remaining members. No takeover merely for inactivity. An empty household closes rather than becoming publicly claimable.
 
-Payer replacement: designate a willing member -> old payer stops renewal -> preserve verified entitlement through expiry/grace -> new payer explicitly purchases -> grant the same household access. No automatic future charge, transfer of cards/receipts, proration or welcome-quota reset. If renewal is not canceled, do not promise a transition date or create a second subscription. Archive covers any gap.
+Payer replacement: designate a willing member -> old payer stops renewal -> preserve verified entitlement through expiry/grace -> new payer explicitly purchases -> grant the same household access. No automatic future charge, transfer of cards/subscriptions, proration or welcome-quota reset. If renewal is not canceled, do not promise a transition date or create a second subscription. Archive covers any gap.
 
 ### Account deletion
 
@@ -141,7 +141,7 @@ Track provenance sufficient to implement this behavior. Relabeling an account or
 
 **Accepted timing:** active-system/processor purge within seven days; backup expiry within thirty days after active deletion, no more than thirty-seven days from the request; product access revoked immediately. Inventory every processor/copy and prove the targets. A deletion journal outside the application-database restore boundary must suppress removed data before restored service opens.
 
-Deleting a payer profile does not itself cancel billing. Schedule supported Stripe/Google cancellation at period end; for Apple, show the user's subscription controls. Handle failures honestly without blocking account deletion. Preserve a surviving household's verified paid period only with necessary, access-restricted billing references under a documented basis and schedule. Defining that retained-record scope and duration is a mandatory prerequisite before real charges, not an implied approval to retain an identifiable profile indefinitely.
+Deleting a payer profile does not itself cancel billing. Schedule Polar cancellation at period end and expose verified web subscription-management state. Handle failures honestly without blocking account deletion. Preserve a surviving household's verified paid period only with necessary, access-restricted billing references under a documented basis and schedule. Defining that retained-record scope and duration is a mandatory prerequisite before real charges, not an implied approval to retain an identifiable profile indefinitely.
 
 Independent exports already downloaded by members cannot be remotely recalled. A backup or app cache is not a substitute for the user's self-contained export.
 
@@ -160,7 +160,7 @@ flowchart TD
   Jobs --> AI[Workers AI]
   API --> AI
   API --> Auth[Better Auth / Resend]
-  Billing[RevenueCat / purchase providers] --> API
+  Billing[Polar web purchases] --> API
 ```
 
 One TypeScript workspace: Expo app, modular Worker backend and shared domain/schema code. HTTP, scheduled and queue handlers share domain functions. Serve the static Expo web build through Workers assets. No SSR, microservices, generic agent framework, Vectorize, Durable Objects or CRDTs in the baseline.
@@ -196,13 +196,13 @@ Every row needs recorded evidence. No open defect may cause data loss, expose an
 
 Assess photo and voice classes separately as well as in aggregate. Record manual-entry fallback and failures separately from successful AI extraction. Consented evaluation fixtures belong in isolated evaluation environments; they are not permission to onboard uncontrolled pilot data before Gate 1.
 
-Unit tests cover quantity/unit arithmetic, state/role transitions, quotas/calendar boundaries and revisions. Integration tests cover real D1 semantics, queue retries, tenant isolation, lifecycle and provider events. Playwright covers web journeys. Native device tests cover camera/microphone permissions, recording interruption, offline persistence, screen readers and purchases. Browser tests do not replace these.
+Unit tests cover quantity/unit arithmetic, state/role transitions, quotas/calendar boundaries and revisions. Integration tests cover real D1 semantics, queue retries, tenant isolation, lifecycle and provider events. Playwright covers web journeys. Native device tests cover camera/microphone permissions, recording interruption, offline persistence, screen readers and authenticated entitlement refresh. Browser tests do not replace these.
 
 ## 10. Definition of ready for real charges: Gate 2
 
 Gate 1 plus:
 
-- Apple and Google sandbox purchase/restore identity tests; web purchase grants only the correct live household entitlement.
+- Polar sandbox purchase and access-refresh identity tests; web purchase grants only the correct household entitlement. Isolated production-configuration checks must not execute a live charge before this gate. Native entitlement consumption and the accepted distribution route are verified for iOS/Android.
 - Verified cancellation, expiry, grace, refund/revocation, duplicate/delayed notifications, payer replacement and duplicate-checkout protection.
 - Sample/paid/Archive boundaries and the one-time welcome allowance tested, including offline checks after expiry.
 - Provider-specific management and account-deletion flows verified, including a deleting payer and surviving family.
@@ -216,7 +216,7 @@ The last two items are operator prerequisites, not facts established by this spe
 Ten Polish-speaking households, six weeks, with iOS and Android represented and at least three households using both native and web.
 
 - Weeks 1-2: invited use of the accepted quota-based sample after Gate 1. The pilot timetable does not turn the sample into a timed subscription trial.
-- Weeks 3-6: after Gate 2, offer the accepted real web purchase. Native clients consume the verified live household access; native purchase QA uses separate synthetic sandbox households. Do not insert an external-checkout promotion into native builds to bypass store requirements.
+- Weeks 3-6: after Gate 2, offer the accepted real web purchase. Native clients consume the verified live household access; native access-refresh QA uses separate synthetic sandbox households. Do not insert an external-checkout promotion into native builds to bypass store requirements.
 - Learning targets: eight households complete a first reviewed recipe; five use recipes or shopping in three of the final four weeks; three deliberately purchase the offer. These are internal go/no-go hypotheses, not an annual-retention forecast.
 
 Public store release is separate from the closed pilot and requires production review/configuration. No rollout or account setup is authorized merely by approval of this specification.

@@ -7,3 +7,13 @@ node_modules/
 .wrangler/
 dist/
 coverage/
+apps/api/worker-configuration.d.ts
+apps/app/ios/
+apps/app/android/
+test-results/
+playwright-report/
+
+tests/fixtures/capture/generated/
+
+# Private capture sources supplied for local evaluation.
+tests/assets/

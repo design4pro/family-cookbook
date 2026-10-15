@@ -1,5 +1,7 @@
 # Verify cross-platform subscription feasibility
 
+Execution amendment, 2026-10-15: the developer accepted [Polar as the sole purchase channel](../../decisions/0001-polar-only-purchases.md), with web checkout and native backend-entitlement consumption. Earlier Stripe/RevenueCat/Apple/Google purchase recommendations below are historical and superseded; native distribution feasibility remains a release prerequisite. Other resolved decisions are preserved.
+
 Id: 02
 Parent: ../map.md
 Label: wayfinder:research

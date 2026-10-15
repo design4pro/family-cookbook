@@ -1,0 +1,1462 @@
+{
+  "date": "2026-10-15",
+  "outcome": "No complete faithful two-stage photo configuration established",
+  "source": "Same seven normalized JPEGs as the direct-model comparison; no crop, correction or reference answer supplied to inference",
+  "referenceStatus": "Three fraction values and absent chilling duration developer-confirmed; other detailed source readings remain provisional",
+  "assessmentNote": "Exact field comparisons are not semantic quality scores. Recorded assessments may predate stricter top-level-schema and multiple-recipes-prefix checks; current assessments are separate.",
+  "runs": [
+    {
+      "variant": "two-stage-kimi",
+      "recordedAt": "2026-10-15T18:08:08.258Z",
+      "models": {
+        "audio": "@cf/openai/whisper-large-v3-turbo",
+        "image": "@cf/moonshotai/kimi-k2.6",
+        "text": "@cf/qwen/qwen3-30b-a3b-fp8"
+      },
+      "imageDetail": "high",
+      "transcriptionsFrom": null,
+      "transcriptionPromptSha256": "58ca386ecb74bc160dd4527d504661f29ac7afb1350d89c6fa92ded92b23d59d",
+      "structurePromptSha256": "6a1bdac58ffed923509df2eb74b606fa1f2fee929b66acc03554b8c013e3cffd",
+      "results": [
+        {
+          "photoId": "photo-2729",
+          "imageSha256": "0c5d9b0671cf3b8cd6fc8ca0e9d9161a3990312b4671b95e95e9fdca25fb0e6a",
+          "transcriptionSha256": "812b20fe436100c71dfaf920d7bb130acb4c58717d2abd4fa257b9c9bf932b17",
+          "latencyMs": 10227,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2730",
+          "imageSha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "transcriptionSha256": null,
+          "latencyMs": null,
+          "error": "Error: Incomplete transcription; structuring skipped",
+          "recordedAssessment": null,
+          "currentValidatorAssessment": null
+        },
+        {
+          "photoId": "photo-2731",
+          "imageSha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "transcriptionSha256": "3cf823f236b6d6c05b5c6f7c5ae66b2680b325bf1c70395ba0bf17d8422b218a",
+          "latencyMs": 8156,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2732",
+          "imageSha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "transcriptionSha256": "ca2722c38f6468546fc14ceddce4388d07477728e9e6d46a9f0696e73f13764a",
+          "latencyMs": 10121,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2733",
+          "imageSha256": "859d1e0342c3d1ce89621123f3fb51a3d81985bb2c1f3127f907080d821a6480",
+          "transcriptionSha256": "5dbc8b5976c9837dc18746f99d9c6fc9ac7b4fc7cec17ceecc0d599e2b85b1e2",
+          "latencyMs": 5444,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2734",
+          "imageSha256": "931db70caf6b58cdeda309e9b298d82ee040f2ed51cbe505b4d6469869b784e3",
+          "transcriptionSha256": "eb53e9c835c86e02b10efa3f85c1692cceb4814385ddbdc7941481b96f70e2e6",
+          "latencyMs": 14626,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2735",
+          "imageSha256": "0d9be2ef705333ad9473a431d3578f16adf2399e34aa5c644dbf2a993c943b7d",
+          "transcriptionSha256": "a663f103ab2f32233702487e9afe6ec5a95af36e8fb8d82cc600251cb3f80718",
+          "latencyMs": 12650,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "minutes"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "minutes"
+            ],
+            "manualReviewRequired": true
+          }
+        }
+      ],
+      "calls": [
+        {
+          "stage": "photo-2729:transcribe",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none"
+          },
+          "latencyMs": 7302,
+          "usage": {
+            "prompt_tokens": 4333,
+            "completion_tokens": 268,
+            "total_tokens": 4601,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 471.6681823730469
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2729:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 2912,
+          "usage": {
+            "prompt_tokens": 559,
+            "completion_tokens": 270,
+            "total_tokens": 829,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 10.813329696655273
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2730:transcribe",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none"
+          },
+          "latencyMs": 84556,
+          "usage": {
+            "prompt_tokens": 4333,
+            "completion_tokens": 4096,
+            "total_tokens": 8429,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 1854.4754638671875
+          },
+          "finishReason": "length",
+          "error": null
+        },
+        {
+          "stage": "photo-2731:transcribe",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none"
+          },
+          "latencyMs": 5665,
+          "usage": {
+            "prompt_tokens": 4333,
+            "completion_tokens": 224,
+            "total_tokens": 4557,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 446.4754638671875
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2731:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 2470,
+          "usage": {
+            "prompt_tokens": 533,
+            "completion_tokens": 348,
+            "total_tokens": 881,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 13.070121765136719
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2732:transcribe",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none"
+          },
+          "latencyMs": 5406,
+          "usage": {
+            "prompt_tokens": 4333,
+            "completion_tokens": 239,
+            "total_tokens": 4572,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 461.1227111816406
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2732:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 4696,
+          "usage": {
+            "prompt_tokens": 547,
+            "completion_tokens": 206,
+            "total_tokens": 753,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 8.807449340820312
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2733:transcribe",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none"
+          },
+          "latencyMs": 3849,
+          "usage": {
+            "prompt_tokens": 4333,
+            "completion_tokens": 183,
+            "total_tokens": 4516,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 431.56634521484375
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2733:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 1573,
+          "usage": {
+            "prompt_tokens": 485,
+            "completion_tokens": 310,
+            "total_tokens": 795,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 11.69010066986084
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2734:transcribe",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none"
+          },
+          "latencyMs": 9107,
+          "usage": {
+            "prompt_tokens": 4333,
+            "completion_tokens": 403,
+            "total_tokens": 4736,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 511.56634521484375
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2734:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 5497,
+          "usage": {
+            "prompt_tokens": 702,
+            "completion_tokens": 736,
+            "total_tokens": 1438,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 25.675888061523438
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2735:transcribe",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none"
+          },
+          "latencyMs": 7461,
+          "usage": {
+            "prompt_tokens": 4333,
+            "completion_tokens": 374,
+            "total_tokens": 4707,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 501.0209045410156
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2735:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 5176,
+          "usage": {
+            "prompt_tokens": 673,
+            "completion_tokens": 443,
+            "total_tokens": 1116,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 16.612667083740234
+          },
+          "finishReason": "stop",
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "two-stage-glm",
+      "recordedAt": "2026-10-15T18:08:51.236Z",
+      "models": {
+        "audio": "@cf/openai/whisper-large-v3-turbo",
+        "image": "@cf/zai-org/glm-5.3-flash",
+        "text": "@cf/qwen/qwen3-30b-a3b-fp8"
+      },
+      "imageDetail": "high",
+      "transcriptionsFrom": null,
+      "transcriptionPromptSha256": "58ca386ecb74bc160dd4527d504661f29ac7afb1350d89c6fa92ded92b23d59d",
+      "structurePromptSha256": "6a1bdac58ffed923509df2eb74b606fa1f2fee929b66acc03554b8c013e3cffd",
+      "results": [
+        {
+          "photoId": "photo-2729",
+          "imageSha256": "0c5d9b0671cf3b8cd6fc8ca0e9d9161a3990312b4671b95e95e9fdca25fb0e6a",
+          "transcriptionSha256": "002839e0cb14a648c3b0d51525a9277253c016ae046df3023e50ef939804eebb",
+          "latencyMs": 41134,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2730",
+          "imageSha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "transcriptionSha256": "d0bbf59c5209d9248295d8493d2f73bd86df4f006b0bb0639090e91770b40a50",
+          "latencyMs": 11161,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2731",
+          "imageSha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "transcriptionSha256": "6176fbaed63aa2a14f6f0d909a52566a1d5931e511fa16ff114f8698e8beb871",
+          "latencyMs": 45493,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2732",
+          "imageSha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "transcriptionSha256": "2a68ad55470344f4d147b0192b480d8076980a725d34d4e279aaa497384f3ad2",
+          "latencyMs": 8488,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "multiple recipes require a new source"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2733",
+          "imageSha256": "859d1e0342c3d1ce89621123f3fb51a3d81985bb2c1f3127f907080d821a6480",
+          "transcriptionSha256": "1b1c1f5888437d4908f724b45a9858cda251d8378149d48ec93e84d18dd1f154",
+          "latencyMs": 22633,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2734",
+          "imageSha256": "931db70caf6b58cdeda309e9b298d82ee040f2ed51cbe505b4d6469869b784e3",
+          "transcriptionSha256": "3487f6ba36515a5a81513b3858d7bce747751cd9048c4697c6f583e7ea677a4f",
+          "latencyMs": 23502,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "multiple recipes require a new source"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2735",
+          "imageSha256": "0d9be2ef705333ad9473a431d3578f16adf2399e34aa5c644dbf2a993c943b7d",
+          "transcriptionSha256": "7889f64cf76f0367c7fe7394a5119a5e329fcb0ff269707082c0f5a689e8af7a",
+          "latencyMs": 37944,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "minutes"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "minutes"
+            ],
+            "manualReviewRequired": true
+          }
+        }
+      ],
+      "calls": [
+        {
+          "stage": "photo-2729:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 39001,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 227,
+            "total_tokens": 5494,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 82.14090728759766
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2729:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 2119,
+          "usage": {
+            "prompt_tokens": 553,
+            "completion_tokens": 300,
+            "total_tokens": 853,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 11.699825286865234
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2730:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 8195,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 281,
+            "total_tokens": 5548,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 84.59545135498047
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2730:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 2950,
+          "usage": {
+            "prompt_tokens": 606,
+            "completion_tokens": 429,
+            "total_tokens": 1035,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 15.87617301940918
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2731:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 42871,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 209,
+            "total_tokens": 5476,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 79.92636108398438
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2731:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 2608,
+          "usage": {
+            "prompt_tokens": 530,
+            "completion_tokens": 343,
+            "total_tokens": 873,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 12.903874397277832
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2732:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 6729,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 231,
+            "total_tokens": 5498,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 80.92636108398438
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2732:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 1738,
+          "usage": {
+            "prompt_tokens": 558,
+            "completion_tokens": 288,
+            "total_tokens": 846,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 11.357250213623047
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2733:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 19895,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 166,
+            "total_tokens": 5433,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 79.36817932128906
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2733:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 2716,
+          "usage": {
+            "prompt_tokens": 486,
+            "completion_tokens": 326,
+            "total_tokens": 812,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 12.182321548461914
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2734:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 16784,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 363,
+            "total_tokens": 5630,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 88.32272338867188
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2734:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 6694,
+          "usage": {
+            "prompt_tokens": 697,
+            "completion_tokens": 875,
+            "total_tokens": 1572,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 29.888757705688477
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2735:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 34463,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 353,
+            "total_tokens": 5620,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 86.47181701660156
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2735:structure",
+          "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+          "parameters": {
+            "max_tokens": 3000,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 3457,
+          "usage": {
+            "prompt_tokens": 673,
+            "completion_tokens": 401,
+            "total_tokens": 1074,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 15.332725524902344
+          },
+          "finishReason": "stop",
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "two-stage-glm-kimi",
+      "recordedAt": "2026-10-15T18:11:32.452Z",
+      "models": {
+        "audio": "@cf/openai/whisper-large-v3-turbo",
+        "image": "@cf/zai-org/glm-5.3-flash",
+        "text": "@cf/moonshotai/kimi-k2.6"
+      },
+      "imageDetail": "high",
+      "transcriptionsFrom": "two-stage-glm.json",
+      "transcriptionPromptSha256": "58ca386ecb74bc160dd4527d504661f29ac7afb1350d89c6fa92ded92b23d59d",
+      "structurePromptSha256": "6a1bdac58ffed923509df2eb74b606fa1f2fee929b66acc03554b8c013e3cffd",
+      "results": [
+        {
+          "photoId": "photo-2729",
+          "imageSha256": "0c5d9b0671cf3b8cd6fc8ca0e9d9161a3990312b4671b95e95e9fdca25fb0e6a",
+          "transcriptionSha256": "002839e0cb14a648c3b0d51525a9277253c016ae046df3023e50ef939804eebb",
+          "latencyMs": 7711,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2730",
+          "imageSha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "transcriptionSha256": "d0bbf59c5209d9248295d8493d2f73bd86df4f006b0bb0639090e91770b40a50",
+          "latencyMs": 12616,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2731",
+          "imageSha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "transcriptionSha256": "6176fbaed63aa2a14f6f0d909a52566a1d5931e511fa16ff114f8698e8beb871",
+          "latencyMs": 14543,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2732",
+          "imageSha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "transcriptionSha256": "2a68ad55470344f4d147b0192b480d8076980a725d34d4e279aaa497384f3ad2",
+          "latencyMs": 9290,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2733",
+          "imageSha256": "859d1e0342c3d1ce89621123f3fb51a3d81985bb2c1f3127f907080d821a6480",
+          "transcriptionSha256": "1b1c1f5888437d4908f724b45a9858cda251d8378149d48ec93e84d18dd1f154",
+          "latencyMs": 9605,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2734",
+          "imageSha256": "931db70caf6b58cdeda309e9b298d82ee040f2ed51cbe505b4d6469869b784e3",
+          "transcriptionSha256": "3487f6ba36515a5a81513b3858d7bce747751cd9048c4697c6f583e7ea677a4f",
+          "latencyMs": 26622,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "minutes",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "minutes",
+              "invented steps",
+              "multiple recipes require a new source",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2735",
+          "imageSha256": "0d9be2ef705333ad9473a431d3578f16adf2399e34aa5c644dbf2a993c943b7d",
+          "transcriptionSha256": "7889f64cf76f0367c7fe7394a5119a5e329fcb0ff269707082c0f5a689e8af7a",
+          "latencyMs": 14157,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          }
+        }
+      ],
+      "calls": [
+        {
+          "stage": "photo-2729:structure",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none",
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 7696,
+          "usage": {
+            "prompt_tokens": 581,
+            "completion_tokens": 309,
+            "total_tokens": 890,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 162.54090881347656
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2730:structure",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none",
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 12593,
+          "usage": {
+            "prompt_tokens": 630,
+            "completion_tokens": 654,
+            "total_tokens": 1284,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "neurons": 273.8418273925781
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2731:structure",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none",
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 14531,
+          "usage": {
+            "prompt_tokens": 545,
+            "completion_tokens": 571,
+            "total_tokens": 1116,
+            "prompt_tokens_details": {
+              "cached_tokens": 320
+            },
+            "neurons": 231.7227325439453
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2732:structure",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none",
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 9275,
+          "usage": {
+            "prompt_tokens": 567,
+            "completion_tokens": 419,
+            "total_tokens": 986,
+            "prompt_tokens_details": {
+              "cached_tokens": 320
+            },
+            "neurons": 178.35000610351562
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2733:structure",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none",
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 9585,
+          "usage": {
+            "prompt_tokens": 503,
+            "completion_tokens": 402,
+            "total_tokens": 905,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "neurons": 171.23727416992188
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2734:structure",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none",
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 26604,
+          "usage": {
+            "prompt_tokens": 715,
+            "completion_tokens": 1176,
+            "total_tokens": 1891,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "neurons": 471.00091552734375
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2735:structure",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none",
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 14140,
+          "usage": {
+            "prompt_tokens": 692,
+            "completion_tokens": 564,
+            "total_tokens": 1256,
+            "prompt_tokens_details": {
+              "cached_tokens": 256
+            },
+            "neurons": 246.46908569335938
+          },
+          "finishReason": "stop",
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "two-stage-glm-kimi-high",
+      "recordedAt": "2026-10-15T18:18:15.728Z",
+      "models": {
+        "audio": "@cf/openai/whisper-large-v3-turbo",
+        "image": "@cf/zai-org/glm-5.3-flash",
+        "text": "@cf/moonshotai/kimi-k2.6"
+      },
+      "imageDetail": "high",
+      "transcriptionsFrom": "two-stage-glm.json",
+      "transcriptionPromptSha256": "58ca386ecb74bc160dd4527d504661f29ac7afb1350d89c6fa92ded92b23d59d",
+      "structurePromptSha256": "6a1bdac58ffed923509df2eb74b606fa1f2fee929b66acc03554b8c013e3cffd",
+      "results": [
+        {
+          "photoId": "photo-2729",
+          "imageSha256": "0c5d9b0671cf3b8cd6fc8ca0e9d9161a3990312b4671b95e95e9fdca25fb0e6a",
+          "transcriptionSha256": "002839e0cb14a648c3b0d51525a9277253c016ae046df3023e50ef939804eebb",
+          "latencyMs": 32344,
+          "error": null,
+          "recordedAssessment": {
+            "pass": true,
+            "errors": [],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": true,
+            "errors": [],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2732",
+          "imageSha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "transcriptionSha256": "2a68ad55470344f4d147b0192b480d8076980a725d34d4e279aaa497384f3ad2",
+          "latencyMs": 216429,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "schema",
+              "truncated completion"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema",
+              "truncated completion"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "photoId": "photo-2735",
+          "imageSha256": "0d9be2ef705333ad9473a431d3578f16adf2399e34aa5c644dbf2a993c943b7d",
+          "transcriptionSha256": "7889f64cf76f0367c7fe7394a5119a5e329fcb0ff269707082c0f5a689e8af7a",
+          "latencyMs": 164048,
+          "error": null,
+          "recordedAssessment": {
+            "pass": false,
+            "errors": [
+              "schema",
+              "truncated completion"
+            ],
+            "manualReviewRequired": true
+          },
+          "currentValidatorAssessment": {
+            "pass": false,
+            "errors": [
+              "schema",
+              "truncated completion"
+            ],
+            "manualReviewRequired": true
+          }
+        }
+      ],
+      "calls": [
+        {
+          "stage": "photo-2729:structure",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "max_completion_tokens": 8192,
+            "reasoning_effort": "high",
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 32329,
+          "usage": {
+            "prompt_tokens": 580,
+            "completion_tokens": 1198,
+            "total_tokens": 1778,
+            "prompt_tokens_details": {
+              "cached_tokens": 576
+            },
+            "neurons": 444.3600158691406
+          },
+          "finishReason": "stop",
+          "error": null
+        },
+        {
+          "stage": "photo-2732:structure",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "max_completion_tokens": 8192,
+            "reasoning_effort": "high",
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 216409,
+          "usage": {
+            "prompt_tokens": 566,
+            "completion_tokens": 8192,
+            "total_tokens": 8758,
+            "prompt_tokens_details": {
+              "cached_tokens": 512
+            },
+            "neurons": 2991.02001953125
+          },
+          "finishReason": "length",
+          "error": null
+        },
+        {
+          "stage": "photo-2735:structure",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "max_completion_tokens": 8192,
+            "reasoning_effort": "high",
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 164027,
+          "usage": {
+            "prompt_tokens": 691,
+            "completion_tokens": 8192,
+            "total_tokens": 8883,
+            "prompt_tokens_details": {
+              "cached_tokens": 640
+            },
+            "neurons": 2992.622802734375
+          },
+          "finishReason": "length",
+          "error": null
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "actualInferenceCalls": 37,
+    "imageTranscriptionCalls": 14,
+    "textStructuringCalls": 23,
+    "attemptsWithoutUsage": 0,
+    "reportedNeurons": 13618.723289489746,
+    "neuronListPriceEquivalentUSD": 0.1498059561843872,
+    "invoiceCharge": "unverified; shared allocation and adjustments unknown; excludes earlier direct and audio experiments"
+  },
+  "recordingPreparation": {
+    "document": "../../tests/fixtures/capture/recording-scenarios.md",
+    "shortScenarios": 3,
+    "continuousLongScenario": 1,
+    "longScriptWords": 558,
+    "filesReceived": 0,
+    "humanReferenceConfirmation": "pending",
+    "consentForFutureRecordings": "must be confirmed by the speakers before processing"
+  },
+  "blockers": {
+    "T09": [
+      "photo source fidelity unresolved",
+      "natural recordings absent",
+      "remaining human reference review"
+    ],
+    "T03": [
+      "physical-device acceptance absent"
+    ]
+  }
+}

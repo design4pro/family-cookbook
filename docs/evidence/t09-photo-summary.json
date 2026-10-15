@@ -1,0 +1,412 @@
+{
+  "date": "2026-10-15",
+  "consent": "Developer explicitly approved these images for Cloudflare processing in this conversation.",
+  "referenceStatus": "Agent visual references before inference; critical fractions and absent chilling duration confirmed by developer on 2026-10-15; remaining reference review pending.",
+  "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+  "sources": [
+    {
+      "name": "IMG_2729.HEIC",
+      "sha256": "2177d6b637eaa8b0fe96474f82739862e7c99eef96d7fcd956a378cc768d6888",
+      "bytes": 1219609,
+      "jpegSha256": "0c5d9b0671cf3b8cd6fc8ca0e9d9161a3990312b4671b95e95e9fdca25fb0e6a",
+      "jpegBytes": 1319934,
+      "conversion": "macOS sips JPEG, FFmpeg autorotation and metadata removal; 3024x4032; no crop or content alteration"
+    },
+    {
+      "name": "IMG_2730.HEIC",
+      "sha256": "94de26b62e5affddba51a909e9066be3061e471a18dec8687e56745da8085749",
+      "bytes": 1166176,
+      "jpegSha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+      "jpegBytes": 1240020,
+      "conversion": "macOS sips JPEG, FFmpeg autorotation and metadata removal; 3024x4032; no crop or content alteration"
+    },
+    {
+      "name": "IMG_2731.HEIC",
+      "sha256": "b21430e433bfe823ce9bb69045ab79f1c561cbbc3e427ebab0b25bedfa2b3042",
+      "bytes": 1128956,
+      "jpegSha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+      "jpegBytes": 1172693,
+      "conversion": "macOS sips JPEG, FFmpeg autorotation and metadata removal; 3024x4032; no crop or content alteration"
+    },
+    {
+      "name": "IMG_2732.HEIC",
+      "sha256": "efb7429d1327165382fa16157a9c218ee6dbd13bd53687819d529c7b8ace4e71",
+      "bytes": 1060168,
+      "jpegSha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+      "jpegBytes": 1082885,
+      "conversion": "macOS sips JPEG, FFmpeg autorotation and metadata removal; 3024x4032; no crop or content alteration"
+    },
+    {
+      "name": "IMG_2733.HEIC",
+      "sha256": "8ea048f34233c20749ad013ba3f0f9845dc4bddeacf70caec18e330206fd2aed",
+      "bytes": 1083217,
+      "jpegSha256": "859d1e0342c3d1ce89621123f3fb51a3d81985bb2c1f3127f907080d821a6480",
+      "jpegBytes": 1105006,
+      "conversion": "macOS sips JPEG, FFmpeg autorotation and metadata removal; 3024x4032; no crop or content alteration"
+    },
+    {
+      "name": "IMG_2734.HEIC",
+      "sha256": "6f318099cd7e48e27901a58491f3bde48de1fb2625112448257ecdbb14c02651",
+      "bytes": 1196452,
+      "jpegSha256": "931db70caf6b58cdeda309e9b298d82ee040f2ed51cbe505b4d6469869b784e3",
+      "jpegBytes": 1275695,
+      "conversion": "macOS sips JPEG, FFmpeg autorotation and metadata removal; 3024x4032; no crop or content alteration"
+    },
+    {
+      "name": "IMG_2735.HEIC",
+      "sha256": "2e409fe0999e22014d580a980145c07bb2198d44662e650bff67646d4ed44294",
+      "bytes": 1173502,
+      "jpegSha256": "0d9be2ef705333ad9473a431d3578f16adf2399e34aa5c644dbf2a993c943b7d",
+      "jpegBytes": 1256454,
+      "conversion": "macOS sips JPEG, FFmpeg autorotation and metadata removal; 3024x4032; no crop or content alteration"
+    }
+  ],
+  "runs": [
+    {
+      "name": "baseline",
+      "recordedAt": "2026-10-15T17:10:30.915Z",
+      "attempts": 8,
+      "successfulResponses": 7,
+      "reportedNeurons": 593.1781845092773,
+      "results": [
+        {
+          "id": "photo-2729",
+          "latencyMs": 11749,
+          "assessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "id": "photo-2730",
+          "latencyMs": 13403,
+          "assessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "id": "photo-2731",
+          "latencyMs": 14103,
+          "assessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "id": "photo-2732",
+          "latencyMs": 8550,
+          "assessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "id": "photo-2733",
+          "latencyMs": 8561,
+          "assessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "id": "photo-2734",
+          "latencyMs": 16993,
+          "assessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "minutes",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "id": "photo-2735",
+          "latencyMs": 21266,
+          "assessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "id": "photo-2731-heic-probe",
+          "error": "Error: 8006: Invalid data for image - reason unrecognized image format",
+          "assessment": null
+        }
+      ],
+      "calls": [
+        {
+          "stage": "photo-2729:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 11736,
+          "usage": {
+            "prompt_tokens": 2024,
+            "completion_tokens": 444,
+            "total_tokens": 2468,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 83.98908996582031
+          }
+        },
+        {
+          "stage": "photo-2730:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 13382,
+          "usage": {
+            "prompt_tokens": 2024,
+            "completion_tokens": 502,
+            "total_tokens": 2526,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 88.47090911865234
+          }
+        },
+        {
+          "stage": "photo-2731:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 14081,
+          "usage": {
+            "prompt_tokens": 2024,
+            "completion_tokens": 446,
+            "total_tokens": 2470,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 84.14363861083984
+          }
+        },
+        {
+          "stage": "photo-2732:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 8529,
+          "usage": {
+            "prompt_tokens": 2024,
+            "completion_tokens": 355,
+            "total_tokens": 2379,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 77.11181640625
+          }
+        },
+        {
+          "stage": "photo-2733:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 8543,
+          "usage": {
+            "prompt_tokens": 2024,
+            "completion_tokens": 366,
+            "total_tokens": 2390,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 77.96182250976562
+          }
+        },
+        {
+          "stage": "photo-2734:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 16970,
+          "usage": {
+            "prompt_tokens": 2024,
+            "completion_tokens": 674,
+            "total_tokens": 2698,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 101.7618179321289
+          }
+        },
+        {
+          "stage": "photo-2735:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 21251,
+          "usage": {
+            "prompt_tokens": 2024,
+            "completion_tokens": 389,
+            "total_tokens": 2413,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 79.73908996582031
+          }
+        },
+        {
+          "stage": "photo-2731-heic-probe:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 387,
+          "error": "Error: 8006: Invalid data for image - reason unrecognized image format"
+        }
+      ]
+    },
+    {
+      "name": "revised",
+      "recordedAt": "2026-10-15T17:11:52.290Z",
+      "attempts": 4,
+      "successfulResponses": 4,
+      "reportedNeurons": 355.93091583251953,
+      "results": [
+        {
+          "id": "photo-2729",
+          "latencyMs": 10113,
+          "assessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "multiple recipes require a new source"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "id": "photo-2732",
+          "latencyMs": 11150,
+          "assessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "multiple recipes require a new source"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "id": "photo-2733",
+          "latencyMs": 8065,
+          "assessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "multiple recipes require a new source"
+            ],
+            "manualReviewRequired": true
+          }
+        },
+        {
+          "id": "photo-2734",
+          "latencyMs": 19142,
+          "assessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "minutes",
+              "invented steps",
+              "multiple recipes require a new source"
+            ],
+            "manualReviewRequired": true
+          }
+        }
+      ],
+      "calls": [
+        {
+          "stage": "photo-2729:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 10099,
+          "usage": {
+            "prompt_tokens": 2133,
+            "completion_tokens": 401,
+            "total_tokens": 2534,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 83.3418197631836
+          }
+        },
+        {
+          "stage": "photo-2732:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 11133,
+          "usage": {
+            "prompt_tokens": 2133,
+            "completion_tokens": 371,
+            "total_tokens": 2504,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 81.02363586425781
+          }
+        },
+        {
+          "stage": "photo-2733:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 8050,
+          "usage": {
+            "prompt_tokens": 2133,
+            "completion_tokens": 348,
+            "total_tokens": 2481,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 79.24636840820312
+          }
+        },
+        {
+          "stage": "photo-2734:structure",
+          "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+          "latencyMs": 19118,
+          "usage": {
+            "prompt_tokens": 2133,
+            "completion_tokens": 776,
+            "total_tokens": 2909,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 112.319091796875
+          }
+        }
+      ]
+    }
+  ],
+  "reportedNeurons": 949.1091003417969,
+  "estimatedListPriceUsd": 0.010440200103759765,
+  "billingCaveat": "One rejected HEIC call returned no usage; its usage is unknown, not proven zero. Invoice charge and free allocation are unverified.",
+  "humanConfirmation": {
+    "confirmedAt": "2026-10-15",
+    "confirmedBy": "developer",
+    "source": "Explicit confirmation in the current conversation",
+    "scope": [
+      {
+        "photo": "IMG_2730",
+        "fact": "Flour quantity is 2.5 cups."
+      },
+      {
+        "photo": "IMG_2732",
+        "fact": "Vegetable butter quantity is 0.5 packet; topping margarine quantity is 0.25 packet."
+      },
+      {
+        "photo": "IMG_2731",
+        "fact": "No chilling duration is specified."
+      }
+    ],
+    "limitation": "Only the listed facts were confirmed. Other reference facts and full corpus review remain pending."
+  }
+}

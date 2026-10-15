@@ -1,0 +1,25 @@
+{
+  "name": "family-cookbook",
+  "private": true,
+  "packageManager": "pnpm@10.15.0",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "test:api": "pnpm --filter @family-cookbook/api test",
+    "test:app": "pnpm --filter @family-cookbook/app test",
+    "typecheck": "pnpm -r typecheck && tsc --project tsconfig.web-tests.json",
+    "build": "pnpm -r build",
+    "check": "pnpm test:api && pnpm test:app && pnpm typecheck && pnpm build && pnpm test:web && pnpm test:auth:web && pnpm test:household:web",
+    "test:web": "playwright test",
+    "test:household:web": "playwright test --config playwright.household.config.ts",
+    "test:auth:web": "playwright test --config playwright.auth.config.ts",
+    "serve:auth-proof": "pnpm --filter @family-cookbook/app build:web && pnpm --filter @family-cookbook/api exec wrangler d1 migrations apply family-cookbook-t07-local --local --config wrangler.t07-proof.jsonc && node apps/api/scripts/t07-serve.mjs",
+    "serve:web-proof": "pnpm --filter @family-cookbook/app build:web && pnpm --filter @family-cookbook/api exec wrangler dev --config wrangler.web-proof.jsonc --ip 127.0.0.1 --port 8788"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "24.19.2",
+    "typescript": "6.0.3"
+  }
+}

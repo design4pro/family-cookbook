@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "family-cookbook-t05-proof",
+  "main": "src/proofs/t05-worker.ts",
+  "compatibility_date": "2026-10-15",
+  "workers_dev": false,
+  "preview_urls": false,
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "family-cookbook-t05-local",
+    "database_id": "local-t05-only",
+    "migrations_dir": "migrations"
+  }],
+  "queues": {
+    "producers": [{ "binding": "JOBS", "queue": "family-cookbook-t05-proof" }],
+    "consumers": [{ "queue": "family-cookbook-t05-proof", "max_batch_size": 10, "max_batch_timeout": 1, "max_retries": 5 }]
+  }
+}

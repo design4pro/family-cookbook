@@ -1,10 +1,14 @@
 # T05: Prove queued-job allowance settlement
 
-Status: not started
+Status: complete (local and isolated remote proof)
 Type: engineering
 Phase: Architecture proofs
 Depends on: T01
-Assignee: unassigned
+Assignee: Codex
+
+## Execution result
+
+See [T05 evidence](../../../evidence/t05.md): 16 focused D1 tests, 48 API regression tests, type checks and builds pass. The isolated remote Worker/Queue proof confirms one settlement despite duplicate delivery, failed enqueue recovery, bounded failure release and suppression after revocation/deletion. O01 access is verified for this scope; T03 physical-device acceptance remains blocked.
 
 ## Outcome
 
@@ -27,23 +31,23 @@ Estimated scope: M (one focused implementation or verification slice; normally 2
 
 ## Acceptance criteria
 
-- [ ] Job creation reserves allowance once; failed enqueue leaves a discoverable pending dispatch that reconciliation can safely enqueue.
-- [ ] Concurrent duplicate consumers settle one result/charge; terminal failure releases capacity once, and user retry cannot duplicate the existing logical operation.
-- [ ] Membership revocation or deletion while work is running prevents publication of the result and source recreation.
+- [x] Job creation reserves allowance once; failed enqueue leaves a discoverable pending dispatch that reconciliation can safely enqueue.
+- [x] Concurrent duplicate consumers settle one result/charge; terminal failure releases capacity once, and user retry cannot duplicate the existing logical operation.
+- [x] Membership revocation or deletion while work is running prevents publication of the result and source recreation.
 
 ## Verification
 
-- [ ] Run pnpm test:api -- apps/api/tests/imports/job-state.test.ts with enqueue, worker-crash and lost-ack fault injection.
-- [ ] Exercise duplicate queue delivery on the isolated remote Worker, then inspect job and usage rows.
+- [x] Run `pnpm test:api tests/imports/job-state.test.ts` with enqueue, worker-crash and lost-ack fault injection.
+- [x] Exercise duplicate queue delivery on the isolated remote Worker, then inspect job and usage rows.
 
 ## Execution checklist
 
-- [ ] Read [the final specification](../../spec.md), [the plan](../plan.md) and the dependency results.
-- [ ] Establish the failing behavior or explicit evidence gap using the cases above; use synthetic or consented isolated fixtures.
-- [ ] Implement only this outcome, or collect the operator/milestone evidence for this item.
-- [ ] Run the focused checks above and the affected build/type checks established by the harness.
-- [ ] Record evidence, limitations and pass/fail in `docs/evidence/t05.md` or link the named report already produced by this task.
-- [ ] Review the diff/results, update dependent contracts if necessary, then mark this task complete. No completion without all acceptance criteria.
+- [x] Read [the final specification](../../spec.md), [the plan](../plan.md) and the dependency results.
+- [x] Establish the failing behavior or explicit evidence gap using the cases above; use synthetic or consented isolated fixtures.
+- [x] Implement only this outcome, or collect the operator/milestone evidence for this item.
+- [x] Run the focused checks above and the affected build/type checks established by the harness.
+- [x] Record evidence, limitations and pass/fail in `docs/evidence/t05.md` or link the named report already produced by this task.
+- [x] Review the diff/results, update dependent contracts if necessary, then mark this task complete. No completion without all acceptance criteria.
 
 ## Failure rule
 

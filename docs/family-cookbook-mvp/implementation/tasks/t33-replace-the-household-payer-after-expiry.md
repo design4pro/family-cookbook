@@ -12,7 +12,7 @@ Deliver accepted nomination and purchase-after-expiry without moving receipts or
 
 ## Dependencies
 
-[T11: Transfer cookbook administration](t11-transfer-cookbook-administration.md), [T29: Reconcile provider entitlements](t29-reconcile-provider-entitlements.md), [T30: Purchase and manage the plan on web](t30-purchase-and-manage-the-plan-on-web.md), [T31: Purchase and restore on native](t31-purchase-and-restore-on-native.md), [T32: Apply Archive without losing shopping checks](t32-apply-archive-without-losing-shopping-checks.md)
+[T11: Transfer cookbook administration](t11-transfer-cookbook-administration.md), [T29: Reconcile provider entitlements](t29-reconcile-provider-entitlements.md), [T30: Purchase and manage the plan on web](t30-purchase-and-manage-the-plan-on-web.md), [T31: Consume and refresh paid access on native](t31-purchase-and-restore-on-native.md), [T32: Apply Archive without losing shopping checks](t32-apply-archive-without-losing-shopping-checks.md)
 
 ## Scope and files
 

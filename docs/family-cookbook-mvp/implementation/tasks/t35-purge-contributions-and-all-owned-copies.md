@@ -16,6 +16,10 @@ Connect the validated contribution purge to active stores, recovery objects, exp
 
 ## Scope and files
 
+Integrate the [T06 independent journal and recovery gate](../../../evidence/t06.md). Persist the deletion outside application restore history before acknowledging revocation; preserve original request/purge deadlines, verify every copy deletion, and fence future Queue envelopes with the independent recovery epoch.
+
+Integrate the [T02 purge-plan contract](../../../evidence/t02.md). Its fixture executor is test-only: real access revocation, concurrent/late-write suppression, stale-preview checks, object/processor acknowledgments and deadlines still require this task's evidence.
+
 Proposed paths relative to the future application repository, not files that already exist in this planning workspace. Create the minimal harness/config required by the first owning task; later tasks modify its proven code rather than rebuild it.
 
 - `apps/api/src/deletion/purge.ts`
@@ -48,3 +52,7 @@ Estimated scope: M (one focused implementation or verification slice; normally 2
 ## Failure rule
 
 A failed architectural proof blocks dependent work. A failed release criterion keeps its gate closed. A proposed change to accepted product behavior returns to an explicit decision; do not silently relax the specification. Operator access delays are recorded as blockers, not replaced with fabricated test results.
+
+## T07 session handoff
+
+Account deletion must revoke canonical authentication sessions as part of its blocking boundary. D1 user deletion cascades auth sessions and stale cookies are denied; the full deletion workflow still belongs to this task. See the [proven session contract](../../../runbooks/auth-session-proof.md) and [T07 evidence](../../../evidence/t07.md). T03 physical-device acceptance remains blocked.

@@ -1,0 +1,9 @@
+{
+  "platform": "ios",
+  "providerId": "01a14036-cba7-7802-b0d3-9441582efb10",
+  "deliveryEvent": "delivered",
+  "checkedAt": "2026-10-15T15:42:23.002Z",
+  "signInStatus": 200,
+  "observedNativeSignInAt": "2026-10-15T15:38:15.498Z",
+  "codeSource": "In-memory test adapter after real Resend acceptance; no code or cookie recorded"
+}

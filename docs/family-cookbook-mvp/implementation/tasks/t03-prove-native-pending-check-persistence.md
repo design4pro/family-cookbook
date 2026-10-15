@@ -1,10 +1,14 @@
 # T03: Prove native pending-check persistence
 
-Status: not started
+Status: blocked (physical-device acceptance; implementation and local checks pass)
 Type: engineering
 Phase: Architecture proofs
 Depends on: T01
-Assignee: unassigned
+Assignee: Codex (implementation), Developer (physical-device access)
+
+## Execution result
+
+See [T03 evidence](../../../evidence/t03.md). The Expo shell, SQLite queue and identity-fenced sync boundary are implemented. Eight app tests and the full workspace checks pass. The developer currently has only simulators/emulators; real iOS and Android force-close/airplane-mode acceptance remains blocked. T03 and C1 are not complete.
 
 ## Outcome
 
@@ -28,21 +32,21 @@ Estimated scope: M (one focused implementation or verification slice; normally 2
 ## Acceptance criteria
 
 - [ ] A check survives force-close/relaunch in airplane mode on iOS and Android; storage failure is visible rather than reported as a saved change.
-- [ ] Unsent taps collapse, in-flight commands remain immutable, and an old acknowledgment cannot erase a newer local intent.
-- [ ] The queue is partitioned by account/household; logout or revoked membership never sends old changes under a new identity.
+- [x] Unsent taps collapse, in-flight commands remain immutable, and an old acknowledgment cannot erase a newer local intent.
+- [x] The queue is partitioned by account/household; logout or revoked membership never sends old changes under a new identity.
 
 ## Verification
 
-- [ ] Establish pnpm test:app and run apps/app/tests/shopping/pending.test.ts.
+- [x] Establish pnpm test:app and run apps/app/tests/shopping/pending.test.ts.
 - [ ] Run the proof route on real iOS and Android devices with airplane mode, process termination and reconnect.
 
 ## Execution checklist
 
-- [ ] Read [the final specification](../../spec.md), [the plan](../plan.md) and the dependency results.
-- [ ] Establish the failing behavior or explicit evidence gap using the cases above; use synthetic or consented isolated fixtures.
-- [ ] Implement only this outcome, or collect the operator/milestone evidence for this item.
-- [ ] Run the focused checks above and the affected build/type checks established by the harness.
-- [ ] Record evidence, limitations and pass/fail in `docs/evidence/t03.md` or link the named report already produced by this task.
+- [x] Read [the final specification](../../spec.md), [the plan](../plan.md) and the dependency results.
+- [x] Establish the failing behavior or explicit evidence gap using the cases above; use synthetic or consented isolated fixtures.
+- [x] Implement only this outcome, or collect the operator/milestone evidence for this item.
+- [ ] Run the focused checks above and the affected build/type checks established by the harness. Automated checks/builds and iOS simulator SIGKILL recovery pass; required physical runs remain blocked.
+- [x] Record evidence, limitations and pass/fail in `docs/evidence/t03.md` or link the named report already produced by this task.
 - [ ] Review the diff/results, update dependent contracts if necessary, then mark this task complete. No completion without all acceptance criteria.
 
 ## Failure rule

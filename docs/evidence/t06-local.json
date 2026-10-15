@@ -1,0 +1,52 @@
+{
+  "task": "T06",
+  "recordedAt": "2026-10-15T14:57:59.668182+00:00",
+  "tests": {
+    "recovery": 13,
+    "allApi": 61,
+    "failed": 0
+  },
+  "checks": [
+    {
+      "command": "pnpm test:api",
+      "result": "passed"
+    },
+    {
+      "command": "pnpm typecheck",
+      "result": "passed"
+    },
+    {
+      "command": "pnpm --filter @family-cookbook/api build",
+      "result": "passed"
+    },
+    {
+      "command": "pnpm --filter @family-cookbook/api typecheck && pnpm --filter @family-cookbook/api build:proof:t06",
+      "result": "passed after final recovery attempt-budget change"
+    }
+  ],
+  "sourceSha256": {
+    "apps/api/package.json": "3c451f936de4d77de256a1ff32893226d5c3d321907c02febfe695becfaaa487",
+    "apps/api/src/deletion/journal.ts": "73293d4fdb3fd288837546e91e0d2448197a111a45cadb79e0e8c558f3c878e9",
+    "apps/api/src/deletion/plan-contributor-purge.ts": "85223156de6b4523494ebba0c613d08cc644696a2a8b7a8a99cd165ef120e56d",
+    "apps/api/src/imports/job-state.ts": "d36247243654251c2d73fee272ae09683c9d8e6d0cff7d06c59f5b88ec9b3432",
+    "apps/api/src/proofs/t06-fixture.ts": "14d9c48a7a45f905c7a98752d481dccc838979c45300058a47c19e114b917516",
+    "apps/api/src/proofs/t06-worker.ts": "28c834e5c0fcb271baa86d30c4a1e86fba2e02466dae35766928abec74e64862",
+    "apps/api/src/recipes/contributions.ts": "b9f9008d3227a5132b74e454581a84ec89383cc77d353b8be02ffffaa251da6c",
+    "apps/api/src/recovery/restore-household.ts": "77d61d0c3ce902f5b5e1405cb7de0902831f6b54ac451f6c5615d8f92112dcff",
+    "apps/api/src/usage/reservations.ts": "2ae131eb360382fdb87ae0724e15642073b4a43be61a72f158dca811e0397d4c",
+    "apps/api/tests/recovery/application-schema.sql": "66345979bd9bdb26d6600290d5e4c4288ea3b5afcd4f692879decca5a08b2307",
+    "apps/api/tests/recovery/journal-schema.sql": "5888fe6dc51b183b6e7cbcb275f707fd41e23ffff2ff7d9a69c7173c8cbd9a5b",
+    "apps/api/tests/recovery/restore-household.test.ts": "4edeae69403a75a4cfc0afb97b6bda747ee5d2b37bc710894c58cf023bb3d5f4",
+    "apps/api/tests/setup.ts": "17b0a7adaa2f27f4c369dfe68897a1c0bd3886a82ca8460916526cf15c28d00e",
+    "apps/api/tests/sql.d.ts": "7111a273b1a49c7492d20ffd66a884e641c6faf992dea0a94075089ea9ff69f0",
+    "apps/api/vitest.config.ts": "b14b4fa945bf79bee67d2c760060314178d01c7cde27f0e8b543672c4b576ff1",
+    "apps/api/wrangler.t06-proof.jsonc": "8da58550b6fa9b592df0ec90df4d60d53b181960bb35d203e10f0aa97bdb3a7b",
+    "pnpm-lock.yaml": "2689ba493eb2e7c5a6013ed63391a58f1259d57a54537c063123068cb951a441"
+  },
+  "bundleSha256": "2f2f02058bce9cb567b70e50bac92bec6e80e5007c654372be99b728027fc7d9",
+  "limits": [
+    "Local D1/R2 are workerd bindings; actual provider Time Travel is in t06-remote.json",
+    "Injected faults and supplied test clocks are not provider guarantees",
+    "No physical iOS/Android evidence; T03 remains blocked"
+  ]
+}

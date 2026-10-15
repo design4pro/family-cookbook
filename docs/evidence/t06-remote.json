@@ -1,0 +1,1038 @@
+{
+  "task": "T06",
+  "date": "2026-10-15",
+  "accountId": "6cfdf3b5143cddc631383a4c14736c3a",
+  "restoreDatabaseId": "2f2238b6-1d77-4b63-8667-7486e05c725c",
+  "journalDatabaseId": "5deb5202-3e65-4dec-9139-4ef91f158584",
+  "restorePoint": {
+    "bookmark": "00000001-0000000a-00005105-18ae138c039bba1f5a75094a1e914f96"
+  },
+  "providerRestore": {
+    "at": "2026-10-15T14:57:59.564Z",
+    "restore": {
+      "result": {
+        "bookmark": "00000001-0000000a-00005105-18ae138c039bba1f5a75094a1e914f96",
+        "previous_bookmark": "00000004-ffffffff-00005105-14b925ce3fef0b0bea336a52814c3465",
+        "message": "Resetting Durable Object to restore database to bookmark: 00000001-0000000a-00005105-18ae138c039bba1f5a75094a1e914f96"
+      },
+      "success": true,
+      "errors": [],
+      "messages": [],
+      "status": 200
+    },
+    "postRestoreFault": "Retained job A is running at attempt limit with an abandoned lease",
+    "fixture": {
+      "result": [
+        {
+          "results": [],
+          "success": true,
+          "meta": {
+            "served_by": "v3-prod",
+            "served_by_region": "EEUR",
+            "served_by_colo": "WAW",
+            "served_by_primary": true,
+            "timings": {
+              "sql_duration_ms": 0.6185
+            },
+            "duration": 0.6185,
+            "changes": 1,
+            "last_row_id": 0,
+            "changed_db": true,
+            "size_after": 126976,
+            "rows_read": 2,
+            "rows_written": 3,
+            "total_attempts": 1
+          }
+        }
+      ],
+      "errors": [],
+      "messages": [],
+      "success": true,
+      "status": 200
+    }
+  },
+  "initialDeployment": {
+    "created_on": "2026-10-15T14:45:28.706153Z",
+    "modified_on": "2026-10-15T14:45:28.706153Z",
+    "id": "family-cookbook-t06-proof",
+    "tag": "be8182642ca745fdacf9f512734230ab",
+    "entry_point": "worker.js",
+    "tags": null,
+    "deployment_id": "45de069febc74189b08b059b048c270c",
+    "tail_consumers": null,
+    "logpush": false,
+    "has_assets": false,
+    "has_modules": true,
+    "etag": "5b25dfb9be868b6e044a3a812aeb0baf32cbeab046cedbdca4c9c54b60e65b94",
+    "handlers": [
+      "queue"
+    ],
+    "last_deployed_from": "api",
+    "compatibility_date": "2026-10-15",
+    "usage_model": "standard",
+    "startup_time_ms": 3
+  },
+  "finalDeployment": {
+    "created_on": "2026-10-15T14:45:28.706153Z",
+    "modified_on": "2026-10-15T14:57:12.499868Z",
+    "id": "family-cookbook-t06-proof",
+    "tag": "be8182642ca745fdacf9f512734230ab",
+    "entry_point": "worker.js",
+    "tags": null,
+    "deployment_id": "e13f7278fe8047999c139bfcf0743de2",
+    "tail_consumers": null,
+    "logpush": false,
+    "has_assets": false,
+    "has_modules": true,
+    "etag": "8b6894bea87ce7fd298d74cd411b96d1cc8f7f250e615910123152bf1dedeaf4",
+    "handlers": [
+      "queue"
+    ],
+    "last_deployed_from": "api",
+    "compatibility_date": "2026-10-15",
+    "usage_model": "standard",
+    "startup_time_ms": 2
+  },
+  "verification": {
+    "pass": true,
+    "audits": {
+      "delete": {
+        "ok": true,
+        "at": "2026-10-15T14:46:30.490Z",
+        "recovery": {
+          "epoch": 2,
+          "journalSequence": 1,
+          "replayedAccounts": 1,
+          "recoveredSources": 0,
+          "activeKeys": [
+            "t06/cache/a",
+            "t06/export/a",
+            "t06/source/a"
+          ],
+          "recoveryKeys": [
+            "t06/recovery/a"
+          ]
+        },
+        "snapshot": {
+          "readsAllowed": true,
+          "outboundEffectsEnabled": false,
+          "journal": [
+            {
+              "sequence": 1,
+              "account_id": "B",
+              "requested_at": 1792075588499,
+              "active_purged_at": 1792075588606
+            }
+          ],
+          "control": {
+            "id": 1,
+            "phase": "verified",
+            "epoch": 2,
+            "replayed_sequence": 1
+          },
+          "contributions": [
+            "a-text",
+            "a-source"
+          ],
+          "revisions": 0,
+          "containsDeletedText": false,
+          "activeKeys": [
+            "t06/cache/a",
+            "t06/export/a",
+            "t06/source/a"
+          ],
+          "recoveryKeys": [
+            "t06/recovery/a"
+          ],
+          "retainedSourceHash": "8c675cdb5fd3e5429597ba6a27131159bc7e513a577cedce4ac2f7e49fd61b6f",
+          "sessions": [
+            {
+              "id": "session-a",
+              "account_id": "A",
+              "revoked": 1
+            },
+            {
+              "id": "session-b",
+              "account_id": "B",
+              "revoked": 1
+            }
+          ],
+          "members": [
+            {
+              "household_id": "home",
+              "member_id": "A"
+            }
+          ],
+          "jobs": [
+            {
+              "id": "job-a",
+              "state": "pending",
+              "generation": 1,
+              "attempts": 0
+            },
+            {
+              "id": "job-b",
+              "state": "canceled",
+              "generation": 1,
+              "attempts": 0
+            }
+          ],
+          "reservations": [
+            {
+              "job_id": "job-a",
+              "state": "reserved"
+            },
+            {
+              "job_id": "job-b",
+              "state": "released"
+            }
+          ],
+          "results": 0
+        }
+      },
+      "disaster": {
+        "ok": true,
+        "at": "2026-10-15T14:57:15.157Z",
+        "snapshot": {
+          "readsAllowed": false,
+          "outboundEffectsEnabled": false,
+          "journal": [
+            {
+              "sequence": 1,
+              "account_id": "B",
+              "requested_at": 1792075588499,
+              "active_purged_at": 1792075590490
+            }
+          ],
+          "control": {
+            "id": 1,
+            "phase": "closed",
+            "epoch": 5,
+            "replayed_sequence": 1
+          },
+          "contributions": [
+            "a-text",
+            "a-source"
+          ],
+          "revisions": 0,
+          "containsDeletedText": false,
+          "activeKeys": [
+            "t06/cache/a",
+            "t06/export/a"
+          ],
+          "recoveryKeys": [
+            "t06/recovery/a"
+          ],
+          "retainedSourceHash": null,
+          "sessions": [
+            {
+              "id": "session-a",
+              "account_id": "A",
+              "revoked": 1
+            },
+            {
+              "id": "session-b",
+              "account_id": "B",
+              "revoked": 1
+            }
+          ],
+          "members": [
+            {
+              "household_id": "home",
+              "member_id": "A"
+            }
+          ],
+          "jobs": [
+            {
+              "id": "job-a",
+              "state": "pending",
+              "generation": 1,
+              "attempts": 0
+            },
+            {
+              "id": "job-b",
+              "state": "canceled",
+              "generation": 1,
+              "attempts": 0
+            }
+          ],
+          "reservations": [
+            {
+              "job_id": "job-a",
+              "state": "reserved"
+            },
+            {
+              "job_id": "job-b",
+              "state": "released"
+            }
+          ],
+          "results": 0
+        }
+      },
+      "disaster-first": {
+        "ok": true,
+        "at": "2026-10-15T14:47:09.401Z",
+        "snapshot": {
+          "readsAllowed": false,
+          "outboundEffectsEnabled": false,
+          "journal": [
+            {
+              "sequence": 1,
+              "account_id": "B",
+              "requested_at": 1792075588499,
+              "active_purged_at": 1792075588606
+            }
+          ],
+          "control": {
+            "id": 1,
+            "phase": "closed",
+            "epoch": 3,
+            "replayed_sequence": 1
+          },
+          "contributions": [
+            "a-text",
+            "a-source"
+          ],
+          "revisions": 0,
+          "containsDeletedText": false,
+          "activeKeys": [
+            "t06/cache/a",
+            "t06/export/a"
+          ],
+          "recoveryKeys": [
+            "t06/recovery/a"
+          ],
+          "retainedSourceHash": null,
+          "sessions": [
+            {
+              "id": "session-a",
+              "account_id": "A",
+              "revoked": 1
+            },
+            {
+              "id": "session-b",
+              "account_id": "B",
+              "revoked": 1
+            }
+          ],
+          "members": [
+            {
+              "household_id": "home",
+              "member_id": "A"
+            }
+          ],
+          "jobs": [
+            {
+              "id": "job-a",
+              "state": "pending",
+              "generation": 1,
+              "attempts": 0
+            },
+            {
+              "id": "job-b",
+              "state": "canceled",
+              "generation": 1,
+              "attempts": 0
+            }
+          ],
+          "reservations": [
+            {
+              "job_id": "job-a",
+              "state": "reserved"
+            },
+            {
+              "job_id": "job-b",
+              "state": "released"
+            }
+          ],
+          "results": 0
+        }
+      },
+      "inspect-restored": {
+        "ok": true,
+        "at": "2026-10-15T14:58:00.404Z",
+        "snapshot": {
+          "readsAllowed": false,
+          "outboundEffectsEnabled": false,
+          "journal": [
+            {
+              "sequence": 1,
+              "account_id": "B",
+              "requested_at": 1792075588499,
+              "active_purged_at": 1792075590490
+            }
+          ],
+          "control": {
+            "id": 1,
+            "phase": "closed",
+            "epoch": 5,
+            "replayed_sequence": 1
+          },
+          "contributions": [
+            "a-text",
+            "a-source",
+            "b-source",
+            "derived"
+          ],
+          "revisions": 1,
+          "containsDeletedText": true,
+          "activeKeys": [
+            "t06/cache/a",
+            "t06/export/a"
+          ],
+          "recoveryKeys": [
+            "t06/recovery/a"
+          ],
+          "retainedSourceHash": null,
+          "sessions": [
+            {
+              "id": "session-a",
+              "account_id": "A",
+              "revoked": 0
+            },
+            {
+              "id": "session-b",
+              "account_id": "B",
+              "revoked": 0
+            }
+          ],
+          "members": [
+            {
+              "household_id": "home",
+              "member_id": "A"
+            },
+            {
+              "household_id": "home",
+              "member_id": "B"
+            }
+          ],
+          "jobs": [
+            {
+              "id": "job-a",
+              "state": "running",
+              "generation": 0,
+              "attempts": 3
+            },
+            {
+              "id": "job-b",
+              "state": "pending",
+              "generation": 0,
+              "attempts": 0
+            }
+          ],
+          "reservations": [
+            {
+              "job_id": "job-a",
+              "state": "reserved"
+            },
+            {
+              "job_id": "job-b",
+              "state": "reserved"
+            }
+          ],
+          "results": 0
+        }
+      },
+      "inspect-restored-first": {
+        "ok": true,
+        "at": "2026-10-15T14:49:29.601Z",
+        "snapshot": {
+          "readsAllowed": false,
+          "outboundEffectsEnabled": false,
+          "journal": [
+            {
+              "sequence": 1,
+              "account_id": "B",
+              "requested_at": 1792075588499,
+              "active_purged_at": 1792075590490
+            }
+          ],
+          "control": {
+            "id": 1,
+            "phase": "closed",
+            "epoch": 3,
+            "replayed_sequence": 1
+          },
+          "contributions": [
+            "a-text",
+            "a-source",
+            "b-source",
+            "derived"
+          ],
+          "revisions": 1,
+          "containsDeletedText": true,
+          "activeKeys": [
+            "t06/cache/a",
+            "t06/export/a"
+          ],
+          "recoveryKeys": [
+            "t06/recovery/a"
+          ],
+          "retainedSourceHash": null,
+          "sessions": [
+            {
+              "id": "session-a",
+              "account_id": "A",
+              "revoked": 0
+            },
+            {
+              "id": "session-b",
+              "account_id": "B",
+              "revoked": 0
+            }
+          ],
+          "members": [
+            {
+              "household_id": "home",
+              "member_id": "A"
+            },
+            {
+              "household_id": "home",
+              "member_id": "B"
+            }
+          ],
+          "jobs": [
+            {
+              "id": "job-a",
+              "state": "pending",
+              "generation": 0,
+              "attempts": 0
+            },
+            {
+              "id": "job-b",
+              "state": "pending",
+              "generation": 0,
+              "attempts": 0
+            }
+          ],
+          "reservations": [
+            {
+              "job_id": "job-a",
+              "state": "reserved"
+            },
+            {
+              "job_id": "job-b",
+              "state": "reserved"
+            }
+          ],
+          "results": 0
+        }
+      },
+      "replay": {
+        "ok": true,
+        "at": "2026-10-15T14:58:32.888Z",
+        "recovery": {
+          "epoch": 6,
+          "journalSequence": 1,
+          "replayedAccounts": 1,
+          "recoveredSources": 1,
+          "activeKeys": [
+            "t06/cache/a",
+            "t06/export/a",
+            "t06/source/a"
+          ],
+          "recoveryKeys": [
+            "t06/recovery/a"
+          ]
+        },
+        "snapshot": {
+          "readsAllowed": true,
+          "outboundEffectsEnabled": false,
+          "journal": [
+            {
+              "sequence": 1,
+              "account_id": "B",
+              "requested_at": 1792075588499,
+              "active_purged_at": 1792075590490
+            }
+          ],
+          "control": {
+            "id": 1,
+            "phase": "verified",
+            "epoch": 6,
+            "replayed_sequence": 1
+          },
+          "contributions": [
+            "a-text",
+            "a-source"
+          ],
+          "revisions": 0,
+          "containsDeletedText": false,
+          "activeKeys": [
+            "t06/cache/a",
+            "t06/export/a",
+            "t06/source/a"
+          ],
+          "recoveryKeys": [
+            "t06/recovery/a"
+          ],
+          "retainedSourceHash": "8c675cdb5fd3e5429597ba6a27131159bc7e513a577cedce4ac2f7e49fd61b6f",
+          "sessions": [
+            {
+              "id": "session-a",
+              "account_id": "A",
+              "revoked": 1
+            },
+            {
+              "id": "session-b",
+              "account_id": "B",
+              "revoked": 1
+            }
+          ],
+          "members": [
+            {
+              "household_id": "home",
+              "member_id": "A"
+            }
+          ],
+          "jobs": [
+            {
+              "id": "job-a",
+              "state": "pending",
+              "generation": 1,
+              "attempts": 0
+            },
+            {
+              "id": "job-b",
+              "state": "canceled",
+              "generation": 1,
+              "attempts": 0
+            }
+          ],
+          "reservations": [
+            {
+              "job_id": "job-a",
+              "state": "reserved"
+            },
+            {
+              "job_id": "job-b",
+              "state": "released"
+            }
+          ],
+          "results": 0
+        }
+      },
+      "replay-first": {
+        "ok": true,
+        "at": "2026-10-15T14:49:52.459Z",
+        "recovery": {
+          "epoch": 4,
+          "journalSequence": 1,
+          "replayedAccounts": 1,
+          "recoveredSources": 1,
+          "activeKeys": [
+            "t06/cache/a",
+            "t06/export/a",
+            "t06/source/a"
+          ],
+          "recoveryKeys": [
+            "t06/recovery/a"
+          ]
+        },
+        "snapshot": {
+          "readsAllowed": true,
+          "outboundEffectsEnabled": false,
+          "journal": [
+            {
+              "sequence": 1,
+              "account_id": "B",
+              "requested_at": 1792075588499,
+              "active_purged_at": 1792075590490
+            }
+          ],
+          "control": {
+            "id": 1,
+            "phase": "verified",
+            "epoch": 4,
+            "replayed_sequence": 1
+          },
+          "contributions": [
+            "a-text",
+            "a-source"
+          ],
+          "revisions": 0,
+          "containsDeletedText": false,
+          "activeKeys": [
+            "t06/cache/a",
+            "t06/export/a",
+            "t06/source/a"
+          ],
+          "recoveryKeys": [
+            "t06/recovery/a"
+          ],
+          "retainedSourceHash": "8c675cdb5fd3e5429597ba6a27131159bc7e513a577cedce4ac2f7e49fd61b6f",
+          "sessions": [
+            {
+              "id": "session-a",
+              "account_id": "A",
+              "revoked": 1
+            },
+            {
+              "id": "session-b",
+              "account_id": "B",
+              "revoked": 1
+            }
+          ],
+          "members": [
+            {
+              "household_id": "home",
+              "member_id": "A"
+            }
+          ],
+          "jobs": [
+            {
+              "id": "job-a",
+              "state": "pending",
+              "generation": 1,
+              "attempts": 0
+            },
+            {
+              "id": "job-b",
+              "state": "canceled",
+              "generation": 1,
+              "attempts": 0
+            }
+          ],
+          "reservations": [
+            {
+              "job_id": "job-a",
+              "state": "reserved"
+            },
+            {
+              "job_id": "job-b",
+              "state": "released"
+            }
+          ],
+          "results": 0
+        }
+      },
+      "seed": {
+        "ok": true,
+        "at": "2026-10-15T14:45:56.021Z",
+        "snapshot": {
+          "readsAllowed": false,
+          "outboundEffectsEnabled": false,
+          "journal": [],
+          "control": {
+            "id": 1,
+            "phase": "closed",
+            "epoch": 0,
+            "replayed_sequence": 0
+          },
+          "contributions": [
+            "a-text",
+            "a-source",
+            "b-source",
+            "derived"
+          ],
+          "revisions": 1,
+          "containsDeletedText": true,
+          "activeKeys": [
+            "t06/cache/a",
+            "t06/cache/b",
+            "t06/export/a",
+            "t06/export/mixed",
+            "t06/processor/b",
+            "t06/source/a",
+            "t06/source/b"
+          ],
+          "recoveryKeys": [
+            "t06/recovery/a",
+            "t06/recovery/b"
+          ],
+          "retainedSourceHash": "8c675cdb5fd3e5429597ba6a27131159bc7e513a577cedce4ac2f7e49fd61b6f",
+          "sessions": [
+            {
+              "id": "session-a",
+              "account_id": "A",
+              "revoked": 0
+            },
+            {
+              "id": "session-b",
+              "account_id": "B",
+              "revoked": 0
+            }
+          ],
+          "members": [
+            {
+              "household_id": "home",
+              "member_id": "A"
+            },
+            {
+              "household_id": "home",
+              "member_id": "B"
+            }
+          ],
+          "jobs": [
+            {
+              "id": "job-a",
+              "state": "pending",
+              "generation": 0,
+              "attempts": 0
+            },
+            {
+              "id": "job-b",
+              "state": "pending",
+              "generation": 0,
+              "attempts": 0
+            }
+          ],
+          "reservations": [
+            {
+              "job_id": "job-a",
+              "state": "reserved"
+            },
+            {
+              "job_id": "job-b",
+              "state": "reserved"
+            }
+          ],
+          "results": 0
+        }
+      },
+      "timing-correction": {
+        "reason": "Use the observed completed deletion audit time, not the initial procedure-entry timestamp",
+        "previous": 1792075588606,
+        "confirmed": 1792075590490
+      }
+    }
+  },
+  "providerInventory": {
+    "at": "2026-10-15T14:50:55.753Z",
+    "buckets": [
+      {
+        "name": "family-cookbook-t06-active",
+        "metadata": {
+          "name": "family-cookbook-t06-active",
+          "creation_date": "2026-10-15T14:30:37.959Z",
+          "location": "EEUR",
+          "storage_class": "Standard",
+          "jurisdiction": "default"
+        },
+        "managed": {
+          "enabled": false,
+          "bucketId": "275721b9aebe405ab79bcbc734b2c125",
+          "domain": "pub-275721b9aebe405ab79bcbc734b2c125.r2.dev"
+        },
+        "custom": {
+          "domains": []
+        },
+        "locks": {
+          "rules": []
+        },
+        "lifecycle": {
+          "rules": [
+            {
+              "id": "Abort incomplete synthetic uploads after one day",
+              "enabled": true,
+              "conditions": {
+                "prefix": ""
+              },
+              "abortMultipartUploadsTransition": {
+                "condition": {
+                  "type": "Age",
+                  "maxAge": 86400
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "name": "family-cookbook-t06-recovery",
+        "metadata": {
+          "name": "family-cookbook-t06-recovery",
+          "creation_date": "2026-10-15T14:30:39.489Z",
+          "location": "EEUR",
+          "storage_class": "Standard",
+          "jurisdiction": "default"
+        },
+        "managed": {
+          "enabled": false,
+          "bucketId": "18fbfebfa95c490386e295b603b86d4a",
+          "domain": "pub-18fbfebfa95c490386e295b603b86d4a.r2.dev"
+        },
+        "custom": {
+          "domains": []
+        },
+        "locks": {
+          "rules": []
+        },
+        "lifecycle": {
+          "rules": [
+            {
+              "id": "Abort incomplete synthetic uploads after one day",
+              "enabled": true,
+              "conditions": {
+                "prefix": ""
+              },
+              "abortMultipartUploadsTransition": {
+                "condition": {
+                  "type": "Age",
+                  "maxAge": 86400
+                }
+              }
+            },
+            {
+              "id": "Expire synthetic recovery copies after 29 days",
+              "enabled": true,
+              "conditions": {
+                "prefix": "t06/"
+              },
+              "deleteObjectsTransition": {
+                "condition": {
+                  "type": "Age",
+                  "maxAge": 2505600
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "databases": [
+      {
+        "uuid": "2f2238b6-1d77-4b63-8667-7486e05c725c",
+        "name": "family-cookbook-t06-restore",
+        "created_at": "2026-10-15T14:30:35.701Z",
+        "version": "production",
+        "num_tables": 11,
+        "file_size": 126976,
+        "running_in_region": "EEUR",
+        "read_replication": {
+          "mode": "disabled"
+        },
+        "jurisdiction": "eu"
+      },
+      {
+        "uuid": "5deb5202-3e65-4dec-9139-4ef91f158584",
+        "name": "family-cookbook-t06-journal",
+        "created_at": "2026-10-15T14:30:36.504Z",
+        "version": "production",
+        "num_tables": 3,
+        "file_size": 45056,
+        "running_in_region": "EEUR",
+        "read_replication": {
+          "mode": "disabled"
+        },
+        "jurisdiction": "eu"
+      }
+    ],
+    "worker": {
+      "subdomain": {
+        "enabled": false,
+        "previews_enabled": false
+      },
+      "schedules": {
+        "schedules": []
+      },
+      "settings": {
+        "placement": {},
+        "compatibility_date": "2026-10-15",
+        "compatibility_flags": [],
+        "usage_model": "standard",
+        "tags": [],
+        "tail_consumers": [],
+        "logpush": false,
+        "annotations": {
+          "workers/triggered_by": "upload"
+        },
+        "bindings": [
+          {
+            "bucket_name": "family-cookbook-t06-active",
+            "name": "ACTIVE",
+            "type": "r2_bucket"
+          },
+          {
+            "database_id": "2f2238b6-1d77-4b63-8667-7486e05c725c",
+            "id": "2f2238b6-1d77-4b63-8667-7486e05c725c",
+            "name": "DB",
+            "type": "d1"
+          },
+          {
+            "database_id": "5deb5202-3e65-4dec-9139-4ef91f158584",
+            "id": "5deb5202-3e65-4dec-9139-4ef91f158584",
+            "name": "JOURNAL",
+            "type": "d1"
+          },
+          {
+            "bucket_name": "family-cookbook-t06-recovery",
+            "name": "RECOVERY",
+            "type": "r2_bucket"
+          }
+        ]
+      }
+    },
+    "queue": {
+      "queue_id": "cfb93f90f3d84abf93b5ad16ad59f06a",
+      "queue_name": "family-cookbook-t06-proof",
+      "jurisdiction": "eu",
+      "settings": {
+        "delivery_delay": 0,
+        "message_retention_period": 345600
+      },
+      "created_on": "2026-10-15T14:43:52.017098Z",
+      "modified_on": "2026-10-15T14:43:52.017098Z",
+      "producers_total_count": 0,
+      "producers": [],
+      "consumers_total_count": 1,
+      "consumers": [
+        {
+          "script": "family-cookbook-t06-proof",
+          "settings": {
+            "batch_size": 1,
+            "max_retries": 0,
+            "max_wait_time_ms": 1000,
+            "max_concurrency": 1,
+            "retry_delay": 0
+          },
+          "consumer_id": "dfbfadb4dbfb42f0be678912bb34400d",
+          "type": "worker"
+        }
+      ]
+    }
+  },
+  "limits": [
+    "Synthetic single-household proof, no production or pilot",
+    "D1 billing plan lookup denied (10000 Authentication error); documented Time Travel windows are 7 days free / 30 days paid, exact account tier unverified",
+    "R2 EEUR placement uses default jurisdiction, not an EU residency guarantee",
+    "R2 lifecycle age is 29 days; asynchronous expiry is not a hard deletion SLA",
+    "Historical restoration suppression is not physical erasure and can create a new history segment; T38 must verify retention deadlines",
+    "No physical iOS/Android evidence; T03 remains blocked"
+  ],
+  "firstProviderRestore": {
+    "at": "2026-10-15T14:49:06.754Z",
+    "restore": {
+      "result": {
+        "bookmark": "00000001-0000000a-00005105-18ae138c039bba1f5a75094a1e914f96",
+        "previous_bookmark": "00000002-ffffffff-00005105-45f96f7e047d5ffb16bcdfeeea5f6552",
+        "message": "Resetting Durable Object to restore database to bookmark: 00000001-0000000a-00005105-18ae138c039bba1f5a75094a1e914f96"
+      },
+      "success": true,
+      "errors": [],
+      "messages": [],
+      "status": 200
+    }
+  },
+  "intermediateDeployment": {
+    "created_on": "2026-10-15T14:45:28.706153Z",
+    "modified_on": "2026-10-15T14:49:01.933498Z",
+    "id": "family-cookbook-t06-proof",
+    "tag": "be8182642ca745fdacf9f512734230ab",
+    "entry_point": "worker.js",
+    "tags": null,
+    "deployment_id": "02b62751b2af4c4cb37ea5c987d1e49d",
+    "tail_consumers": null,
+    "logpush": false,
+    "has_assets": false,
+    "has_modules": true,
+    "etag": "334d2d2fee791e3618832ccc552c3f3cd454b8e0f5beb3f26fe731c8f83f1681",
+    "handlers": [
+      "queue"
+    ],
+    "last_deployed_from": "api",
+    "compatibility_date": "2026-10-15",
+    "usage_model": "standard",
+    "startup_time_ms": 2
+  }
+}

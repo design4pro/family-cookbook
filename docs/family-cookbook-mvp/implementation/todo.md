@@ -1,16 +1,16 @@
 # Implementation task register
 
-Status: 0 of 51 tasks complete. Both readiness gates are closed.
+Status: 9 of 51 tasks complete (T01, T02, T04, T05, T06, T07, T08, T10, T11). Both readiness gates are closed. O01's D1/Worker/Queue/R2 recovery prerequisites pass for T01/T05/T06; T07 test email access is verified; the remaining operator access is still open.
 
-Read [the plan](plan.md) first. The IDs are stable references, not strict execution order. Complete dependencies before starting a card. In particular, T28 must run before T15/T25 even though it is listed under Billing. Checkboxes report implementation evidence, not planning completion.
+Read [the plan](plan.md) first. The IDs are stable references, not strict execution order. Complete dependencies before starting a card unless the plan records a specific developer-authorized sequencing exception. In particular, T28 must run before T15/T25 even though it is listed under Billing. Checkboxes report implementation evidence, not planning completion.
 
 Every card has an outcome, direct dependencies, scope, acceptance criteria and verification. When execution starts, assign an owner and record blockers/evidence on the card. Update this register only after the card passes. Perform a contract/test review after every two or three completed engineering tasks in a workstream; the proof checkpoints below are explicit.
 
 ## Initial execution checkpoints
 
 - [ ] C1: Review passing T01-T03 - mutation, provenance and native pending-state contracts.
-- [ ] C2: Review passing T04-T06 - web persistence, queue settlement and restore suppression.
-- [ ] C3: Review passing T07-T09 - sessions, purchase identity and capture feasibility. T10 stays blocked until all proofs pass.
+- [x] C2: Reviewed passing T04-T06 - web persistence, queue settlement and restore suppression; [contract review](../../evidence/t06.md#c2-contract-review-and-handoff).
+- [ ] C3: Review passing T07-T09 - sessions, purchase identity and capture feasibility. T10 may proceed under the narrow 2026-10-15 developer-authorized exception in the plan; T03/T09 and C1/C3 remain open.
 
 These checkpoints review existing evidence and are not additional product decisions. Dependency-ready proofs can proceed while an unrelated proof awaits a device/provider result.
 
@@ -21,20 +21,20 @@ These checkpoints review existing evidence and are not additional product decisi
 
 ## Architecture proofs
 
-- [ ] [T01: Prove atomic shopping mutations in D1](tasks/t01-prove-atomic-shopping-mutations-in-d1.md) - depends on: O01.
-- [ ] [T02: Prove contribution-aware recipe deletion](tasks/t02-prove-contribution-aware-recipe-deletion.md) - depends on: T01.
-- [ ] [T03: Prove native pending-check persistence](tasks/t03-prove-native-pending-check-persistence.md) - depends on: T01.
-- [ ] [T04: Prove web pending-check persistence](tasks/t04-prove-web-pending-check-persistence.md) - depends on: T03.
-- [ ] [T05: Prove queued-job allowance settlement](tasks/t05-prove-queued-job-allowance-settlement.md) - depends on: T01.
-- [ ] [T06: Prove restore without deleted-data resurrection](tasks/t06-prove-restore-without-deleted-data-resurrection.md) - depends on: T02, T05.
-- [ ] [T07: Prove authenticated sessions across platforms](tasks/t07-prove-authenticated-sessions-across-platforms.md) - depends on: T03, O01.
-- [ ] [T08: Prove purchase identity cannot cross households](tasks/t08-prove-purchase-identity-cannot-cross-households.md) - depends on: T07, O01.
-- [ ] [T09: Verify capture models on representative fixtures](tasks/t09-verify-capture-models-on-representative-fixtures.md) - depends on: T05, O01.
+- [x] [T01: Prove atomic shopping mutations in D1](tasks/t01-prove-atomic-shopping-mutations-in-d1.md) - depends on: O01 (T01-relevant access verified); [execution evidence](../../evidence/t01.md).
+- [x] [T02: Prove contribution-aware recipe deletion](tasks/t02-prove-contribution-aware-recipe-deletion.md) - depends on: T01; [execution evidence](../../evidence/t02.md).
+- [ ] [T03: Prove native pending-check persistence](tasks/t03-prove-native-pending-check-persistence.md) - depends on: T01; implementation/local checks pass, physical-device acceptance blocked; [evidence](../../evidence/t03.md).
+- [x] [T04: Prove web pending-check persistence](tasks/t04-prove-web-pending-check-persistence.md) - depends on: T03; developer-authorized sequencing exception, T03 physical-device blocker retained; [evidence](../../evidence/t04.md).
+- [x] [T05: Prove queued-job allowance settlement](tasks/t05-prove-queued-job-allowance-settlement.md) - depends on: T01; [local and remote evidence](../../evidence/t05.md).
+- [x] [T06: Prove restore without deleted-data resurrection](tasks/t06-prove-restore-without-deleted-data-resurrection.md) - depends on: T02, T05; [historical restore and retention inventory](../../evidence/t06.md).
+- [x] [T07: Prove authenticated sessions across platforms](tasks/t07-prove-authenticated-sessions-across-platforms.md) - depends on: T03, O01; developer-authorized sequencing exception, native Release simulator/emulator evidence and restricted test mail pass; T03 physical-device blocker retained; [evidence](../../evidence/t07.md).
+- [x] [T08: Prove purchase identity cannot cross households](tasks/t08-prove-purchase-identity-cannot-cross-households.md) - depends on: T07, O01; local isolation and actual Polar sandbox identity proof pass; [evidence](../../evidence/t08.md).
+- [ ] [T09: Verify capture models on representative fixtures](tasks/t09-verify-capture-models-on-representative-fixtures.md) - depends on: T05, O01; model access verified; no faithful photo variant after direct/two-stage/crop comparisons; two short human recordings evaluated with correction/unit/step failures; third short take, five-minute narration and human references pending; [evidence](../../evidence/capture-feasibility.md).
 
 ## Core identity
 
-- [ ] [T10: Create and join a private household](tasks/t10-create-and-join-a-private-household.md) - depends on: T07, T02, T04, T06, T08, T09.
-- [ ] [T11: Transfer cookbook administration](tasks/t11-transfer-cookbook-administration.md) - depends on: T10.
+- [x] [T10: Create and join a private household](tasks/t10-create-and-join-a-private-household.md) - depends on: T07, T02, T04, T06, T08; T09 sequencing dependency deferred by the explicit T10-only exception; [implementation evidence](../../evidence/t10.md).
+- [x] [T11: Transfer cookbook administration](tasks/t11-transfer-cookbook-administration.md) - depends on: T10; [evidence and T10-T11 contract review](../../evidence/t11.md).
 
 ## Recipes
 
@@ -72,7 +72,7 @@ These checkpoints review existing evidence and are not additional product decisi
 - [ ] [T28: Enforce sample and paid usage windows](tasks/t28-enforce-sample-and-paid-usage-windows.md) - depends on: T05, T10, T12.
 - [ ] [T29: Reconcile provider entitlements](tasks/t29-reconcile-provider-entitlements.md) - depends on: T08, T28.
 - [ ] [T30: Purchase and manage the plan on web](tasks/t30-purchase-and-manage-the-plan-on-web.md) - depends on: T29, T07.
-- [ ] [T31: Purchase and restore on native](tasks/t31-purchase-and-restore-on-native.md) - depends on: T29, T07.
+- [ ] [T31: Consume and refresh paid access on native](tasks/t31-purchase-and-restore-on-native.md) - depends on: T29, T07.
 - [ ] [T32: Apply Archive without losing shopping checks](tasks/t32-apply-archive-without-losing-shopping-checks.md) - depends on: T24, T28, T29, T20, T26.
 - [ ] [T33: Replace the household payer after expiry](tasks/t33-replace-the-household-payer-after-expiry.md) - depends on: T11, T29, T30, T31, T32.
 
@@ -97,7 +97,7 @@ These checkpoints review existing evidence and are not additional product decisi
 - [ ] [T44: Evaluate fifty capture examples with human correction](tasks/t44-evaluate-fifty-capture-examples-with-human-correction.md) - depends on: T17, T19, T13.
 - [ ] [T45: Evaluate thirty assistant questions](tasks/t45-evaluate-thirty-assistant-questions.md) - depends on: T25, T26, T27.
 - [ ] [T46: Measure response and import latency](tasks/t46-measure-response-and-import-latency.md) - depends on: T16, T19, T25, T39.
-- [ ] [T48: Run the cross-channel billing acceptance matrix](tasks/t48-run-the-cross-channel-billing-acceptance-matrix.md) - depends on: T30, T31, T32, T33, T34, T35.
+- [ ] [T48: Run the billing and cross-platform access acceptance matrix](tasks/t48-run-the-cross-channel-billing-acceptance-matrix.md) - depends on: T30, T31, T32, T33, T34, T35.
 
 ## Milestones
 
@@ -110,4 +110,4 @@ These checkpoints review existing evidence and are not additional product decisi
 - [ ] No unresolved architecture, data-loss, isolation or core-flow defect is hidden by a checked item.
 - [ ] Gate 1 and Gate 2 have separate recorded decisions and the pilot owner understands their boundaries.
 
-No implementation or provider/device validation has been performed by creating this register.
+The initial register was planning-only. T01 has local and remote D1 evidence; T02 has local contribution-deletion fixture evidence. No device validation or readiness gate is claimed.

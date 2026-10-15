@@ -1,4 +1,4 @@
-# T48: Run the cross-channel billing acceptance matrix
+# T48: Run the billing and cross-platform access acceptance matrix
 
 Status: not started
 Type: engineering
@@ -12,7 +12,7 @@ Exercise real provider sandbox transitions and identity recovery across all acce
 
 ## Dependencies
 
-[T30: Purchase and manage the plan on web](t30-purchase-and-manage-the-plan-on-web.md), [T31: Purchase and restore on native](t31-purchase-and-restore-on-native.md), [T32: Apply Archive without losing shopping checks](t32-apply-archive-without-losing-shopping-checks.md), [T33: Replace the household payer after expiry](t33-replace-the-household-payer-after-expiry.md), [T34: Request account deletion with a precise preview](t34-request-account-deletion-with-a-precise-preview.md), [T35: Purge contributions and all owned copies](t35-purge-contributions-and-all-owned-copies.md)
+[T30: Purchase and manage the plan on web](t30-purchase-and-manage-the-plan-on-web.md), [T31: Consume and refresh paid access on native](t31-purchase-and-restore-on-native.md), [T32: Apply Archive without losing shopping checks](t32-apply-archive-without-losing-shopping-checks.md), [T33: Replace the household payer after expiry](t33-replace-the-household-payer-after-expiry.md), [T34: Request account deletion with a precise preview](t34-request-account-deletion-with-a-precise-preview.md), [T35: Purge contributions and all owned copies](t35-purge-contributions-and-all-owned-copies.md)
 
 ## Scope and files
 
@@ -26,13 +26,13 @@ Estimated scope: M (one focused implementation or verification slice; normally 2
 
 ## Acceptance criteria
 
-- [ ] Purchase/restore/cancel/expiry/grace/refund/revocation and delayed/duplicate events produce correct household state on web and both mobile platforms.
-- [ ] Payer deletion and replacement preserve only permitted verified access; old receipts cannot move to a new family or grant sandbox access in live data.
+- [ ] Polar purchase/access-refresh/cancel/expiry/grace/refund/revocation and delayed/duplicate events produce correct household state on web and both mobile platforms.
+- [ ] Payer deletion and replacement preserve only permitted verified access; old subscriptions cannot move to a new family or grant sandbox access in live data.
 - [ ] Limits, one-time welcome allowance, Archive/offline check behavior and late-renewal overlap are verified with two payer identities and documented remediation.
 
 ## Verification
 
-- [ ] Run lifecycle tests, Stripe sandbox events and actual Apple/Google sandbox checklists.
+- [ ] Run lifecycle tests and Polar sandbox purchase/events plus actual iOS/Android entitlement-consumption checklists. No native purchases are in scope.
 - [ ] Record sandbox provider evidence plus isolated verification of the production-configured web entitlement path and household mapping, with credentials and charging disabled. Do not count a fixture as an actual live purchase; the first real charge remains after Gate 2.
 
 ## Execution checklist

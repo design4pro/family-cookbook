@@ -1,0 +1,1859 @@
+{
+  "date": "2026-10-15",
+  "scope": "Alternative models only; excludes earlier Scout and synthetic/audio runs",
+  "referenceStatus": "Only three fraction values and absent chilling duration have developer confirmation; all remaining visual references are provisional",
+  "semanticFindings": "See t09-model-comparison.md; exact spelling/order failures are not a semantic quality score",
+  "runs": [
+    {
+      "variant": "gemma-screen",
+      "recordedAt": "2026-10-15T17:41:57.083Z",
+      "imageDetail": "auto",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/google/gemma-4-26b-a4b-it",
+          "returnedModel": "@cf/google/gemma-4-26b-a4b-it-external",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096
+          },
+          "latencyMs": 78587,
+          "usage": {
+            "prompt_tokens": 514,
+            "completion_tokens": 4096,
+            "total_tokens": 4610,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 116.38182067871094
+          },
+          "metrics": null,
+          "finishReason": "length",
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/google/gemma-4-26b-a4b-it",
+          "returnedModel": "@cf/google/gemma-4-26b-a4b-it-external",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096
+          },
+          "latencyMs": 61544,
+          "usage": {
+            "prompt_tokens": 514,
+            "completion_tokens": 3422,
+            "total_tokens": 3936,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 98
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2732",
+          "sha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "model": "@cf/google/gemma-4-26b-a4b-it",
+          "returnedModel": "@cf/google/gemma-4-26b-a4b-it-external",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096
+          },
+          "latencyMs": 99288,
+          "usage": {
+            "prompt_tokens": 514,
+            "completion_tokens": 4096,
+            "total_tokens": 4610,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 116.38182067871094
+          },
+          "metrics": null,
+          "finishReason": "length",
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "gemma-direct-screen",
+      "recordedAt": "2026-10-15T17:41:12.323Z",
+      "imageDetail": "auto",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/google/gemma-4-26b-a4b-it",
+          "returnedModel": "@cf/google/gemma-4-26b-a4b-it-external",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            }
+          },
+          "latencyMs": 13701,
+          "usage": {
+            "prompt_tokens": 516,
+            "completion_tokens": 726,
+            "total_tokens": 1242,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 24.490907669067383
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/google/gemma-4-26b-a4b-it",
+          "returnedModel": "@cf/google/gemma-4-26b-a4b-it-external",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            }
+          },
+          "latencyMs": 7799,
+          "usage": {
+            "prompt_tokens": 516,
+            "completion_tokens": 394,
+            "total_tokens": 910,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 15.436363220214844
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2732",
+          "sha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "model": "@cf/google/gemma-4-26b-a4b-it",
+          "returnedModel": "@cf/google/gemma-4-26b-a4b-it-external",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "chat_template_kwargs": {
+              "enable_thinking": false
+            }
+          },
+          "latencyMs": 7958,
+          "usage": {
+            "prompt_tokens": 516,
+            "completion_tokens": 384,
+            "total_tokens": 900,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 15.16363525390625
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "qwen-screen",
+      "recordedAt": "2026-10-15T17:44:47.246Z",
+      "imageDetail": "auto",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/qwen/qwen3.8-27b",
+          "returnedModel": "@cf/qwen/qwen3.8-27b",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 85883,
+          "usage": {
+            "prompt_tokens": 12119,
+            "completion_tokens": 1316,
+            "total_tokens": 13435,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 878.6136474609375
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/qwen/qwen3.8-27b",
+          "returnedModel": "@cf/qwen/qwen3.8-27b",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 24134,
+          "usage": {
+            "prompt_tokens": 12119,
+            "completion_tokens": 1008,
+            "total_tokens": 13127,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 789.0136108398438
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2732",
+          "sha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "model": "@cf/qwen/qwen3.8-27b",
+          "returnedModel": "@cf/qwen/qwen3.8-27b",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 54705,
+          "usage": {
+            "prompt_tokens": 12119,
+            "completion_tokens": 1089,
+            "total_tokens": 13208,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 812.5772705078125
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "mistral-screen",
+      "recordedAt": "2026-10-15T17:45:34.891Z",
+      "imageDetail": "auto",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+          "returnedModel": "@cf/mistralai/mistral-small-3.1-24b-v2",
+          "parameters": {
+            "max_tokens": 1800,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 13354,
+          "usage": {
+            "prompt_tokens": 2607,
+            "completion_tokens": 537,
+            "total_tokens": 3144,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 110.2127914428711
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+          "returnedModel": "@cf/mistralai/mistral-small-3.1-24b-v2",
+          "parameters": {
+            "max_tokens": 1800,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 18951,
+          "usage": {
+            "prompt_tokens": 2607,
+            "completion_tokens": 555,
+            "total_tokens": 3162,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 111.12158203125
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "minutes"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2732",
+          "sha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "model": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+          "returnedModel": "@cf/mistralai/mistral-small-3.1-24b-v2",
+          "parameters": {
+            "max_tokens": 1800,
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            }
+          },
+          "latencyMs": 9894,
+          "usage": {
+            "prompt_tokens": 2607,
+            "completion_tokens": 291,
+            "total_tokens": 2898,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 97.7927474975586
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "moondream-screen",
+      "recordedAt": "2026-10-15T17:45:41.734Z",
+      "imageDetail": "auto",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/moondream/moondream3.1-9B-A2B",
+          "returnedModel": null,
+          "parameters": {
+            "task": "query",
+            "max_tokens": 4096,
+            "reasoning": true,
+            "temperature": 0
+          },
+          "latencyMs": 421,
+          "usage": null,
+          "metrics": null,
+          "finishReason": null,
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/moondream/moondream3.1-9B-A2B",
+          "returnedModel": null,
+          "parameters": {
+            "task": "query",
+            "max_tokens": 4096,
+            "reasoning": true,
+            "temperature": 0
+          },
+          "latencyMs": 358,
+          "usage": null,
+          "metrics": null,
+          "finishReason": null,
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2732",
+          "sha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "model": "@cf/moondream/moondream3.1-9B-A2B",
+          "returnedModel": null,
+          "parameters": {
+            "task": "query",
+            "max_tokens": 4096,
+            "reasoning": true,
+            "temperature": 0
+          },
+          "latencyMs": 591,
+          "usage": null,
+          "metrics": null,
+          "finishReason": null,
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "moondream-decoded",
+      "recordedAt": "2026-10-15T17:47:26.761Z",
+      "imageDetail": "auto",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/moondream/moondream3.1-9B-A2B",
+          "returnedModel": null,
+          "parameters": {
+            "task": "query",
+            "max_tokens": 4096,
+            "reasoning": true,
+            "temperature": 0,
+            "stream": false
+          },
+          "latencyMs": 3723,
+          "usage": {
+            "prompt_tokens": 935,
+            "completion_tokens": 299,
+            "total_tokens": 1234,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 52.681819915771484
+          },
+          "metrics": {
+            "decode_time_ms": 3308.42841102276,
+            "input_tokens": 935,
+            "output_tokens": 299,
+            "prefill_time_ms": 17.075020004995167,
+            "ttft_ms": 20.223893108777705
+          },
+          "finishReason": "stop",
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/moondream/moondream3.1-9B-A2B",
+          "returnedModel": null,
+          "parameters": {
+            "task": "query",
+            "max_tokens": 4096,
+            "reasoning": true,
+            "temperature": 0,
+            "stream": false
+          },
+          "latencyMs": 51150,
+          "usage": {
+            "prompt_tokens": 935,
+            "completion_tokens": 4096,
+            "total_tokens": 5031,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 397.8636474609375
+          },
+          "metrics": {
+            "decode_time_ms": 50856.45024001133,
+            "input_tokens": 935,
+            "output_tokens": 4096,
+            "prefill_time_ms": 10.702631087042391,
+            "ttft_ms": 13.994296081364157
+          },
+          "finishReason": "length",
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2732",
+          "sha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "model": "@cf/moondream/moondream3.1-9B-A2B",
+          "returnedModel": null,
+          "parameters": {
+            "task": "query",
+            "max_tokens": 4096,
+            "reasoning": true,
+            "temperature": 0,
+            "stream": false
+          },
+          "latencyMs": 4156,
+          "usage": {
+            "prompt_tokens": 935,
+            "completion_tokens": 298,
+            "total_tokens": 1233,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 52.590911865234375
+          },
+          "metrics": {
+            "decode_time_ms": 3359.3310969881713,
+            "input_tokens": 935,
+            "output_tokens": 298,
+            "prefill_time_ms": 172.1515329554677,
+            "ttft_ms": 467.7624859614298
+          },
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "moondream-diagnostic",
+      "recordedAt": "2026-10-15T17:47:19.949Z",
+      "imageDetail": "auto",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/moondream/moondream3.1-9B-A2B",
+          "returnedModel": null,
+          "parameters": {
+            "task": "query",
+            "max_tokens": 4096,
+            "reasoning": true,
+            "temperature": 0,
+            "stream": false
+          },
+          "latencyMs": 6576,
+          "usage": {
+            "prompt_tokens": 935,
+            "completion_tokens": 356,
+            "total_tokens": 1291,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 57.8636360168457
+          },
+          "metrics": {
+            "decode_time_ms": 6084.192657028325,
+            "input_tokens": 935,
+            "output_tokens": 356,
+            "prefill_time_ms": 10.46622998546809,
+            "ttft_ms": 36.89422307070345
+          },
+          "finishReason": "stop",
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "kimi-screen",
+      "recordedAt": "2026-10-15T17:42:05.606Z",
+      "imageDetail": "auto",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none"
+          },
+          "latencyMs": 14504,
+          "usage": {
+            "prompt_tokens": 4394,
+            "completion_tokens": 602,
+            "total_tokens": 4996,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 598.3909301757812
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none"
+          },
+          "latencyMs": 12338,
+          "usage": {
+            "prompt_tokens": 4394,
+            "completion_tokens": 486,
+            "total_tokens": 4880,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 556.2091064453125
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2732",
+          "sha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "none"
+          },
+          "latencyMs": 9625,
+          "usage": {
+            "prompt_tokens": 4394,
+            "completion_tokens": 364,
+            "total_tokens": 4758,
+            "prompt_tokens_details": {
+              "cached_tokens": 192
+            },
+            "neurons": 498.0563659667969
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "glm-screen",
+      "recordedAt": "2026-10-15T17:42:50.250Z",
+      "imageDetail": "auto",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 14332,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 597,
+            "total_tokens": 5928,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 99.83181762695312
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 11348,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 518,
+            "total_tokens": 5849,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 96.24090576171875
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2732",
+          "sha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 13328,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 576,
+            "total_tokens": 5907,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 98.87727355957031
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "glm-high",
+      "recordedAt": "2026-10-15T17:47:13.795Z",
+      "imageDetail": "high",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2729",
+          "sha256": "0c5d9b0671cf3b8cd6fc8ca0e9d9161a3990312b4671b95e95e9fdca25fb0e6a",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 16330,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 358,
+            "total_tokens": 5689,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 88.96817779541016
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 15752,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 594,
+            "total_tokens": 5925,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 99.69544982910156
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 10934,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 533,
+            "total_tokens": 5864,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 96.9227294921875
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2732",
+          "sha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 10983,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 575,
+            "total_tokens": 5906,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 98.83181762695312
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2733",
+          "sha256": "859d1e0342c3d1ce89621123f3fb51a3d81985bb2c1f3127f907080d821a6480",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 11141,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 293,
+            "total_tokens": 5624,
+            "prompt_tokens_details": {
+              "cached_tokens": 192
+            },
+            "neurons": 83.9190902709961
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2734",
+          "sha256": "931db70caf6b58cdeda309e9b298d82ee040f2ed51cbe505b4d6469869b784e3",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 20436,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 581,
+            "total_tokens": 5912,
+            "prompt_tokens_details": {
+              "cached_tokens": 192
+            },
+            "neurons": 97.01000213623047
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2735",
+          "sha256": "0d9be2ef705333ad9473a431d3578f16adf2399e34aa5c644dbf2a993c943b7d",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 15321,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 746,
+            "total_tokens": 6077,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 106.60454559326172
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "gemma-high",
+      "recordedAt": "2026-10-15T17:51:37.962Z",
+      "imageDetail": "high",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/google/gemma-4-26b-a4b-it",
+          "returnedModel": "@cf/google/gemma-4-26b-a4b-it-external",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 8192,
+            "chat_template_kwargs": {
+              "enable_thinking": true
+            }
+          },
+          "latencyMs": 150853,
+          "usage": {
+            "prompt_tokens": 514,
+            "completion_tokens": 8192,
+            "total_tokens": 8706,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 228.09091186523438
+          },
+          "metrics": null,
+          "finishReason": "length",
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/google/gemma-4-26b-a4b-it",
+          "returnedModel": "@cf/google/gemma-4-26b-a4b-it-external",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 8192,
+            "chat_template_kwargs": {
+              "enable_thinking": true
+            }
+          },
+          "latencyMs": 100105,
+          "usage": {
+            "prompt_tokens": 514,
+            "completion_tokens": 5120,
+            "total_tokens": 5634,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 144.30909729003906
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": true,
+            "errors": [],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2732",
+          "sha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "model": "@cf/google/gemma-4-26b-a4b-it",
+          "returnedModel": "@cf/google/gemma-4-26b-a4b-it",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 8192,
+            "chat_template_kwargs": {
+              "enable_thinking": true
+            }
+          },
+          "latencyMs": 118836,
+          "usage": {
+            "prompt_tokens": 515,
+            "completion_tokens": 8192,
+            "total_tokens": 8707,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 228.10000610351562
+          },
+          "metrics": null,
+          "finishReason": "length",
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "kimi-high",
+      "recordedAt": "2026-10-15T17:56:49.199Z",
+      "imageDetail": "high",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2730",
+          "sha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 8192,
+            "reasoning_effort": "high"
+          },
+          "latencyMs": 206263,
+          "usage": {
+            "prompt_tokens": 4393,
+            "completion_tokens": 7406,
+            "total_tokens": 11799,
+            "prompt_tokens_details": {
+              "cached_tokens": 4352
+            },
+            "neurons": 2759.933837890625
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 8192,
+            "reasoning_effort": "high"
+          },
+          "latencyMs": 185036,
+          "usage": {
+            "prompt_tokens": 4393,
+            "completion_tokens": 8192,
+            "total_tokens": 12585,
+            "prompt_tokens_details": {
+              "cached_tokens": 4352
+            },
+            "neurons": 3045.751953125
+          },
+          "metrics": null,
+          "finishReason": "length",
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2732",
+          "sha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 8192,
+            "reasoning_effort": "high"
+          },
+          "latencyMs": 165796,
+          "usage": {
+            "prompt_tokens": 4393,
+            "completion_tokens": 7130,
+            "total_tokens": 11523,
+            "prompt_tokens_details": {
+              "cached_tokens": 4352
+            },
+            "neurons": 2659.570068359375
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "kimi-layout-0",
+      "recordedAt": "2026-10-15T17:53:10.178Z",
+      "imageDetail": "high",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2729",
+          "sha256": "0c5d9b0671cf3b8cd6fc8ca0e9d9161a3990312b4671b95e95e9fdca25fb0e6a",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 8192,
+            "reasoning_effort": "high"
+          },
+          "latencyMs": 26596,
+          "usage": {
+            "prompt_tokens": 4393,
+            "completion_tokens": 1228,
+            "total_tokens": 5621,
+            "prompt_tokens_details": {
+              "cached_tokens": 192
+            },
+            "neurons": 812.15185546875
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": true,
+            "errors": [],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2733",
+          "sha256": "859d1e0342c3d1ce89621123f3fb51a3d81985bb2c1f3127f907080d821a6480",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 8192,
+            "reasoning_effort": "high"
+          },
+          "latencyMs": 33725,
+          "usage": {
+            "prompt_tokens": 4393,
+            "completion_tokens": 1967,
+            "total_tokens": 6360,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 1094.668212890625
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": true,
+            "errors": [],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "kimi-layout-1",
+      "recordedAt": "2026-10-15T17:55:33.495Z",
+      "imageDetail": "high",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2734",
+          "sha256": "931db70caf6b58cdeda309e9b298d82ee040f2ed51cbe505b4d6469869b784e3",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 8192,
+            "reasoning_effort": "high"
+          },
+          "latencyMs": 21615,
+          "usage": {
+            "prompt_tokens": 4393,
+            "completion_tokens": 923,
+            "total_tokens": 5316,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 715.0318603515625
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": true,
+            "errors": [],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2735",
+          "sha256": "0d9be2ef705333ad9473a431d3578f16adf2399e34aa5c644dbf2a993c943b7d",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 8192,
+            "reasoning_effort": "high"
+          },
+          "latencyMs": 182001,
+          "usage": {
+            "prompt_tokens": 4393,
+            "completion_tokens": 8192,
+            "total_tokens": 12585,
+            "prompt_tokens_details": {
+              "cached_tokens": 192
+            },
+            "neurons": 3344.515625
+          },
+          "metrics": null,
+          "finishReason": "length",
+          "hasDraftFields": false,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "schema"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "kimi-extended",
+      "recordedAt": "2026-10-15T17:58:08.526Z",
+      "imageDetail": "high",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2731",
+          "sha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 16384,
+            "reasoning_effort": "high"
+          },
+          "latencyMs": 189586,
+          "usage": {
+            "prompt_tokens": 4393,
+            "completion_tokens": 9221,
+            "total_tokens": 13614,
+            "prompt_tokens_details": {
+              "cached_tokens": 4352
+            },
+            "neurons": 3419.933837890625
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "kimi-extended-2735",
+      "recordedAt": "2026-10-15T17:59:54.159Z",
+      "imageDetail": "high",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2735",
+          "sha256": "0d9be2ef705333ad9473a431d3578f16adf2399e34aa5c644dbf2a993c943b7d",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "returnedModel": "@cf/moonshotai/kimi-k2.6",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 16384,
+            "reasoning_effort": "high"
+          },
+          "latencyMs": 217770,
+          "usage": {
+            "prompt_tokens": 4393,
+            "completion_tokens": 11332,
+            "total_tokens": 15725,
+            "prompt_tokens_details": {
+              "cached_tokens": 4352
+            },
+            "neurons": 4187.5703125
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    },
+    {
+      "variant": "glm-layout-auto",
+      "recordedAt": "2026-10-15T18:01:40.097Z",
+      "imageDetail": "auto",
+      "promptSha256": "f3adb5bf882e0f9ac9aa0867bd62e1f1a78b24cf59388527ce2f50138ccb2467",
+      "calls": [
+        {
+          "photoId": "photo-2729",
+          "sha256": "0c5d9b0671cf3b8cd6fc8ca0e9d9161a3990312b4671b95e95e9fdca25fb0e6a",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 15629,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 433,
+            "total_tokens": 5764,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 92.37727355957031
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2733",
+          "sha256": "859d1e0342c3d1ce89621123f3fb51a3d81985bb2c1f3127f907080d821a6480",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 53399,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 289,
+            "total_tokens": 5620,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 85.83181762695312
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2734",
+          "sha256": "931db70caf6b58cdeda309e9b298d82ee040f2ed51cbe505b4d6469869b784e3",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 43671,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 741,
+            "total_tokens": 6072,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 106.37727355957031
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients",
+              "invented steps",
+              "missing review reason: multiple_recipes"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        },
+        {
+          "photoId": "photo-2735",
+          "sha256": "0d9be2ef705333ad9473a431d3578f16adf2399e34aa5c644dbf2a993c943b7d",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "returnedModel": "@cf/zai-org/glm-5.3-flash",
+          "parameters": {
+            "temperature": 0,
+            "response_format": {
+              "type": "json_object"
+            },
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "latencyMs": 21258,
+          "usage": {
+            "prompt_tokens": 5331,
+            "completion_tokens": 829,
+            "total_tokens": 6160,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 110.37727355957031
+          },
+          "metrics": null,
+          "finishReason": "stop",
+          "hasDraftFields": true,
+          "automaticExactAssessment": {
+            "pass": false,
+            "errors": [
+              "ingredients"
+            ],
+            "manualReviewRequired": true
+          },
+          "error": null
+        }
+      ]
+    }
+  ],
+  "textDiagnostic": {
+    "purpose": "Text-only endpoint diagnostic, not a photo-quality result",
+    "model": "@cf/google/gemma-4-26b-a4b-it",
+    "latencyMs": 905,
+    "usage": {
+      "prompt_tokens": 20,
+      "completion_tokens": 32,
+      "total_tokens": 52,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "neurons": 1.0545454025268555
+    },
+    "finishReason": "length"
+  },
+  "totals": {
+    "imageAttempts": 48,
+    "textDiagnosticAttempts": 1,
+    "attemptsWithUsage": 46,
+    "attemptsWithoutUsage": 3,
+    "reportedNeurons": 29401.39018726349,
+    "neuronListPriceEquivalentUSD": 0.3234152920598984,
+    "invoiceCharge": "unverified; excludes unknown usage, shared allocation and adjustments"
+  },
+  "blockers": {
+    "T09": [
+      "faithful photo extraction not established",
+      "natural recordings absent",
+      "remaining human reference review"
+    ],
+    "T03": [
+      "physical iOS and Android device evidence absent"
+    ]
+  }
+}

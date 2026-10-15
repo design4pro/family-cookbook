@@ -1,0 +1,899 @@
+{
+  "date": "2026-10-15",
+  "decision": "Mixed local improvements and factual regressions; no faithful GLM crop variant established.",
+  "scope": "Literal transcription only; one model, seven source photographs, ten manually selected complete recipe crops, paired PNG controls and three targeted paired repeats. No whole-corpus human acceptance.",
+  "blockers": {
+    "T09": [
+      "Photo fidelity unresolved",
+      "Natural recordings absent",
+      "Full human reference review pending"
+    ],
+    "T03": [
+      "Physical iOS and Android evidence absent"
+    ]
+  },
+  "integrity": {
+    "originalHeicHashesVerified": 7,
+    "normalizedJpegHashesVerified": 7,
+    "pixelEqualityChecksPassed": 17,
+    "inferenceInputHashesVerified": 23,
+    "method": "Decode existing normalized JPEG to RGB24 once; copy exact rectangular pixel rows; lossless PNG; no resampling, enhancements, masking, rotation or content repair. Full-page PNG controls use the same decoded pixels."
+  },
+  "humanConfirmedChecks": {
+    "scope": "2730 flour 2.5 cups; 2732 butter 0.5 packet and topping margarine 0.25 packet; 2731 no chilling duration.",
+    "initialFull": "All four retained",
+    "initialCrops": "All four retained",
+    "limitation": "These checks do not establish full source fidelity; remaining visual reference facts are provisional."
+  },
+  "fixtures": [
+    {
+      "id": "photo-2729-full",
+      "path": "photo-2729-full.png",
+      "parent": "IMG_2729.HEIC",
+      "originalSha256": "2177d6b637eaa8b0fe96474f82739862e7c99eef96d7fcd956a378cc768d6888",
+      "jpegSha256": "0c5d9b0671cf3b8cd6fc8ca0e9d9161a3990312b4671b95e95e9fdca25fb0e6a",
+      "sha256": "32f79d5cb5b85a4153eca90b9b311e09fc0d30e4fd23fd81e7f46c6b4ca65659",
+      "rgbSha256": "2ea13e50023bc3d504eb788f44f32dc860ca8155d9eb63ef69a2eb2030d96b8e",
+      "roi": {
+        "x": 0,
+        "y": 0,
+        "width": 3024,
+        "height": 4032
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2729-crop-1",
+      "path": "photo-2729-crop-1.png",
+      "parent": "IMG_2729.HEIC",
+      "originalSha256": "2177d6b637eaa8b0fe96474f82739862e7c99eef96d7fcd956a378cc768d6888",
+      "jpegSha256": "0c5d9b0671cf3b8cd6fc8ca0e9d9161a3990312b4671b95e95e9fdca25fb0e6a",
+      "sha256": "03834031852b0d36dc05cb49fd0ba9a459b847f65da2514dc85a84f48589f4b3",
+      "rgbSha256": "2df626c41a6778fe67de7ff9b2457bc1176a3c439c9ba65d96f49f43a91780cd",
+      "roi": {
+        "x": 480,
+        "y": 160,
+        "width": 2280,
+        "height": 2400
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2729-crop-2",
+      "path": "photo-2729-crop-2.png",
+      "parent": "IMG_2729.HEIC",
+      "originalSha256": "2177d6b637eaa8b0fe96474f82739862e7c99eef96d7fcd956a378cc768d6888",
+      "jpegSha256": "0c5d9b0671cf3b8cd6fc8ca0e9d9161a3990312b4671b95e95e9fdca25fb0e6a",
+      "sha256": "d62c099cf7fe8179e5be33606c475e7cab5365cb2b2e059ff8094a965a459469",
+      "rgbSha256": "be95053f2e2e5d1e642024c67d112cfcbb8811caa39f1d49803b22311113f695",
+      "roi": {
+        "x": 480,
+        "y": 2630,
+        "width": 2300,
+        "height": 1280
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2730-full",
+      "path": "photo-2730-full.png",
+      "parent": "IMG_2730.HEIC",
+      "originalSha256": "94de26b62e5affddba51a909e9066be3061e471a18dec8687e56745da8085749",
+      "jpegSha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+      "sha256": "45a81d903de054004430a38601f72b9ef86cb23f0511df878796a25f5c9265f9",
+      "rgbSha256": "15b891f1f20bde09f1513918e081477df01abb93050fdad930583d7e6184d868",
+      "roi": {
+        "x": 0,
+        "y": 0,
+        "width": 3024,
+        "height": 4032
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2730-crop-1",
+      "path": "photo-2730-crop-1.png",
+      "parent": "IMG_2730.HEIC",
+      "originalSha256": "94de26b62e5affddba51a909e9066be3061e471a18dec8687e56745da8085749",
+      "jpegSha256": "1b568fbe84b340dad576895fc7e3ed87bc66a13a3fa0598c77069faeca9cb65a",
+      "sha256": "284abbba7908a5677f14f8fca0bf02d3b56405cc75b1647bc52c47439ea78d9c",
+      "rgbSha256": "2297c129ce0776172586a6b81c42e046d9e7cfc8e3533d3d59426a3a26261f16",
+      "roi": {
+        "x": 430,
+        "y": 250,
+        "width": 2240,
+        "height": 3750
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2731-full",
+      "path": "photo-2731-full.png",
+      "parent": "IMG_2731.HEIC",
+      "originalSha256": "b21430e433bfe823ce9bb69045ab79f1c561cbbc3e427ebab0b25bedfa2b3042",
+      "jpegSha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+      "sha256": "346640ede56f379622c335ee93a29a3afa86ad0011c405abd500e014283b8fd6",
+      "rgbSha256": "57739cfcb5b17c5a653636c2113200afbd0e8ee670b848e50f3f97eab3652f28",
+      "roi": {
+        "x": 0,
+        "y": 0,
+        "width": 3024,
+        "height": 4032
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2731-crop-1",
+      "path": "photo-2731-crop-1.png",
+      "parent": "IMG_2731.HEIC",
+      "originalSha256": "b21430e433bfe823ce9bb69045ab79f1c561cbbc3e427ebab0b25bedfa2b3042",
+      "jpegSha256": "f805a19062f64b48d0ae4969823acfbd110ccc98b065b07c9e1d7e7161f071a5",
+      "sha256": "7d2918a0455aa42e0c3d9ef7daa70af2df9ab49afe954ee284023214ff3d045c",
+      "rgbSha256": "80f8741a9fdab2071309bffb63896ae104e835925ee861575bbe4f1082c92767",
+      "roi": {
+        "x": 450,
+        "y": 180,
+        "width": 2574,
+        "height": 3300
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2732-full",
+      "path": "photo-2732-full.png",
+      "parent": "IMG_2732.HEIC",
+      "originalSha256": "efb7429d1327165382fa16157a9c218ee6dbd13bd53687819d529c7b8ace4e71",
+      "jpegSha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+      "sha256": "dce0781b266ff7c4a96cd2a46dca9a4fb9c5eac94e785065b96239737215b6b2",
+      "rgbSha256": "133209e453614a6120ecb8e67fcfe444e467a996fc3f4bfc33d610ca69701ca8",
+      "roi": {
+        "x": 0,
+        "y": 0,
+        "width": 3024,
+        "height": 4032
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2732-crop-1",
+      "path": "photo-2732-crop-1.png",
+      "parent": "IMG_2732.HEIC",
+      "originalSha256": "efb7429d1327165382fa16157a9c218ee6dbd13bd53687819d529c7b8ace4e71",
+      "jpegSha256": "49d8070f8117551abed2f3ef655806f61570c6c638cc7449e1db6de4f6c052c2",
+      "sha256": "dfd2e522060c41229776714b252fefa0d4b04f74f6c5ba5299d90844f57d1677",
+      "rgbSha256": "50347147e76c48b87f4ae240b2a9dae39078e036364c2e4be85154c9c1ac2f68",
+      "roi": {
+        "x": 480,
+        "y": 340,
+        "width": 2070,
+        "height": 3150
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2733-full",
+      "path": "photo-2733-full.png",
+      "parent": "IMG_2733.HEIC",
+      "originalSha256": "8ea048f34233c20749ad013ba3f0f9845dc4bddeacf70caec18e330206fd2aed",
+      "jpegSha256": "859d1e0342c3d1ce89621123f3fb51a3d81985bb2c1f3127f907080d821a6480",
+      "sha256": "116c1f4c8f8423b311373f4c9ad51164defa178cff9e440c4cdfcd63fb11eb4f",
+      "rgbSha256": "3887c353f63c83699cb8353f1d8a5db5e96018da68875c199d213b47389a6f5d",
+      "roi": {
+        "x": 0,
+        "y": 0,
+        "width": 3024,
+        "height": 4032
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2733-crop-1",
+      "path": "photo-2733-crop-1.png",
+      "parent": "IMG_2733.HEIC",
+      "originalSha256": "8ea048f34233c20749ad013ba3f0f9845dc4bddeacf70caec18e330206fd2aed",
+      "jpegSha256": "859d1e0342c3d1ce89621123f3fb51a3d81985bb2c1f3127f907080d821a6480",
+      "sha256": "4279f6e01a8e6d32cda2f8add78e265d50a8a6a5fbd205ba7fba8f3bafb34d8c",
+      "rgbSha256": "794810bb8a9b4d3a45aa43c1893e3ebf766ce5f9a381824c3b649132b7ecbd71",
+      "roi": {
+        "x": 430,
+        "y": 210,
+        "width": 2200,
+        "height": 1600
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2733-crop-2",
+      "path": "photo-2733-crop-2.png",
+      "parent": "IMG_2733.HEIC",
+      "originalSha256": "8ea048f34233c20749ad013ba3f0f9845dc4bddeacf70caec18e330206fd2aed",
+      "jpegSha256": "859d1e0342c3d1ce89621123f3fb51a3d81985bb2c1f3127f907080d821a6480",
+      "sha256": "47efdcd2b5f465cd3d497985f242f368e245dea3c6671205882c47c6661cb256",
+      "rgbSha256": "8d24560da8539ca9e6583f009bffceda7dc44029478f313d65dcd2e46d754766",
+      "roi": {
+        "x": 430,
+        "y": 2080,
+        "width": 2200,
+        "height": 1540
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2734-full",
+      "path": "photo-2734-full.png",
+      "parent": "IMG_2734.HEIC",
+      "originalSha256": "6f318099cd7e48e27901a58491f3bde48de1fb2625112448257ecdbb14c02651",
+      "jpegSha256": "931db70caf6b58cdeda309e9b298d82ee040f2ed51cbe505b4d6469869b784e3",
+      "sha256": "37689d5b03b4f413fd56a79a3dc33c76e932ab2966d7f71077aec6183f2dae31",
+      "rgbSha256": "86b484bbbc28ffcbf6b9a566d30325a4ede813c317a4a8defc0f5a74762d71b0",
+      "roi": {
+        "x": 0,
+        "y": 0,
+        "width": 3024,
+        "height": 4032
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2734-crop-1",
+      "path": "photo-2734-crop-1.png",
+      "parent": "IMG_2734.HEIC",
+      "originalSha256": "6f318099cd7e48e27901a58491f3bde48de1fb2625112448257ecdbb14c02651",
+      "jpegSha256": "931db70caf6b58cdeda309e9b298d82ee040f2ed51cbe505b4d6469869b784e3",
+      "sha256": "c0483e87668e5c7d56f67e902c7aff723bb2596e7d95a764aa0f1324b58f6e1a",
+      "rgbSha256": "e35a6a1de0a1e397b3e9fc5d6df6b51365989dc9f833357ae9b2e29896ba460b",
+      "roi": {
+        "x": 420,
+        "y": 100,
+        "width": 2110,
+        "height": 2330
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2734-crop-2",
+      "path": "photo-2734-crop-2.png",
+      "parent": "IMG_2734.HEIC",
+      "originalSha256": "6f318099cd7e48e27901a58491f3bde48de1fb2625112448257ecdbb14c02651",
+      "jpegSha256": "931db70caf6b58cdeda309e9b298d82ee040f2ed51cbe505b4d6469869b784e3",
+      "sha256": "8d4233595543ca070cfaa8f07ad8447a86a86d83e0b5ceac3651606f654db958",
+      "rgbSha256": "ee4bbfaf1f927c0936e5684e1caa88b85b3fb333bbc0add93c45f9f948e69de7",
+      "roi": {
+        "x": 420,
+        "y": 2530,
+        "width": 2110,
+        "height": 1330
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2735-full",
+      "path": "photo-2735-full.png",
+      "parent": "IMG_2735.HEIC",
+      "originalSha256": "2e409fe0999e22014d580a980145c07bb2198d44662e650bff67646d4ed44294",
+      "jpegSha256": "0d9be2ef705333ad9473a431d3578f16adf2399e34aa5c644dbf2a993c943b7d",
+      "sha256": "d512b717c3ac23b651f1a717463c4509b6fe51f264786965e9b3f2444636e35e",
+      "rgbSha256": "eb5816ecd23af01720a52b8089a2c36151750f8f1e97e458c34796ed63fd9276",
+      "roi": {
+        "x": 0,
+        "y": 0,
+        "width": 3024,
+        "height": 4032
+      },
+      "pixelEqualityVerified": true
+    },
+    {
+      "id": "photo-2735-crop-1",
+      "path": "photo-2735-crop-1.png",
+      "parent": "IMG_2735.HEIC",
+      "originalSha256": "2e409fe0999e22014d580a980145c07bb2198d44662e650bff67646d4ed44294",
+      "jpegSha256": "0d9be2ef705333ad9473a431d3578f16adf2399e34aa5c644dbf2a993c943b7d",
+      "sha256": "b33c43fe39607c4bbe22662cbe4ce2c7f2b550293f97e40deaac2cd0c687c466",
+      "rgbSha256": "8938be0ad443000c30a0965754c7b738c1df1090b543ea1064c4af3f7a205975",
+      "roi": {
+        "x": 450,
+        "y": 450,
+        "width": 2080,
+        "height": 3120
+      },
+      "pixelEqualityVerified": true
+    }
+  ],
+  "groups": {
+    "initialFull": {
+      "calls": 7,
+      "neurons": 581.160888671875,
+      "promptTokens": 36869,
+      "completionTokens": 1817,
+      "latencyMs": {
+        "min": 7908,
+        "median": 11164,
+        "max": 54040,
+        "sum": 118679
+      }
+    },
+    "initialCrops": {
+      "calls": 10,
+      "neurons": 732.0172500610352,
+      "promptTokens": 48859,
+      "completionTokens": 1631,
+      "latencyMs": {
+        "min": 4317,
+        "median": 11054.5,
+        "max": 46885,
+        "sum": 140299
+      }
+    },
+    "repeat": {
+      "calls": 6,
+      "neurons": 474.38634872436523,
+      "promptTokens": 30387,
+      "completionTokens": 1474,
+      "latencyMs": {
+        "min": 7529,
+        "median": 11149.5,
+        "max": 65694,
+        "sum": 147812
+      }
+    },
+    "total": {
+      "calls": 23,
+      "neurons": 1787.5644874572754,
+      "promptTokens": 116115,
+      "completionTokens": 4922,
+      "latencyMs": {
+        "min": 4317,
+        "median": 11164,
+        "max": 65694,
+        "sum": 406790
+      }
+    }
+  },
+  "runs": [
+    {
+      "name": "glm-results.json",
+      "recordedAt": "2026-10-15T18:31:20.819Z",
+      "promptSha256": "58ca386ecb74bc160dd4527d504661f29ac7afb1350d89c6fa92ded92b23d59d",
+      "calls": [
+        {
+          "stage": "photo-2729-full:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 10478,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 221,
+            "total_tokens": 5488,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 81.86817932128906
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "32f79d5cb5b85a4153eca90b9b311e09fc0d30e4fd23fd81e7f46c6b4ca65659",
+          "transcriptionSha256": "cb62ca9b3607791217670f1358f508808103bd5d7dc41d4ebc1467ebb6cd76c5"
+        },
+        {
+          "stage": "photo-2729-crop-1:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 11399,
+          "usage": {
+            "prompt_tokens": 5293,
+            "completion_tokens": 154,
+            "total_tokens": 5447,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 79.1772689819336
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "03834031852b0d36dc05cb49fd0ba9a459b847f65da2514dc85a84f48589f4b3",
+          "transcriptionSha256": "f535da70d764e5f8eb805a1fbbde7424f721525b138e897492e9cb89c3c8440b"
+        },
+        {
+          "stage": "photo-2729-crop-2:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 10710,
+          "usage": {
+            "prompt_tokens": 4001,
+            "completion_tokens": 73,
+            "total_tokens": 4074,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 57.87726974487305
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "d62c099cf7fe8179e5be33606c475e7cab5365cb2b2e059ff8094a965a459469",
+          "transcriptionSha256": "bee124cfdc301c14673d7543e76afeeb666a0a269ec48bbfe153cef4bc4440a3"
+        },
+        {
+          "stage": "photo-2730-full:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 11236,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 281,
+            "total_tokens": 5548,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 84.59545135498047
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "45a81d903de054004430a38601f72b9ef86cb23f0511df878796a25f5c9265f9",
+          "transcriptionSha256": "a0ef8d8ae313c520ffd43ec811c86b75ec3e6d54f1c396e224aa1efbee5e7aa0"
+        },
+        {
+          "stage": "photo-2730-crop-1:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 46885,
+          "usage": {
+            "prompt_tokens": 5298,
+            "completion_tokens": 264,
+            "total_tokens": 5562,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 84.24545288085938
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "284abbba7908a5677f14f8fca0bf02d3b56405cc75b1647bc52c47439ea78d9c",
+          "transcriptionSha256": "a4eef79c50be275ff96e1dd0c2a42a32cfd2ae5ad9ddef95bb1037959063f76f"
+        },
+        {
+          "stage": "photo-2731-full:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 54040,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 208,
+            "total_tokens": 5475,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 81.27726745605469
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "346640ede56f379622c335ee93a29a3afa86ad0011c405abd500e014283b8fd6",
+          "transcriptionSha256": "20c99139fd6ce031a1539efea47d8a19ef83720fe56864bd8663e1c17c4ffaf3"
+        },
+        {
+          "stage": "photo-2731-crop-1:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 8371,
+          "usage": {
+            "prompt_tokens": 5286,
+            "completion_tokens": 200,
+            "total_tokens": 5486,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 79.77635955810547
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "7d2918a0455aa42e0c3d9ef7daa70af2df9ab49afe954ee284023214ff3d045c",
+          "transcriptionSha256": "1aa7d000e1ac7c14161f903f77f4f331e67bde54a11564e0c6c64964560b3623"
+        },
+        {
+          "stage": "photo-2732-full:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 7908,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 232,
+            "total_tokens": 5499,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 80.97181701660156
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "dce0781b266ff7c4a96cd2a46dca9a4fb9c5eac94e785065b96239737215b6b2",
+          "transcriptionSha256": "732ef7a1d43cd98bad7fb97044995efbd6f820510e9a812920dfc61388a195dc"
+        },
+        {
+          "stage": "photo-2732-crop-1:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 12342,
+          "usage": {
+            "prompt_tokens": 5287,
+            "completion_tokens": 181,
+            "total_tokens": 5468,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 78.92636108398438
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "dfd2e522060c41229776714b252fefa0d4b04f74f6c5ba5299d90844f57d1677",
+          "transcriptionSha256": "b8c11b1417b91d1ac1359d5abe0b0ab01fb9df44170dbe37625142ba0c9eccd0"
+        },
+        {
+          "stage": "photo-2733-full:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 11164,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 164,
+            "total_tokens": 5431,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 79.27726745605469
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "116c1f4c8f8423b311373f4c9ad51164defa178cff9e440c4cdfcd63fb11eb4f",
+          "transcriptionSha256": "5eaa652476a7faec0776bf663edd5795400935cd6561f5fa656dfb3dcb40398f"
+        },
+        {
+          "stage": "photo-2733-crop-1:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 9079,
+          "usage": {
+            "prompt_tokens": 4765,
+            "completion_tokens": 89,
+            "total_tokens": 4854,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 69.0227279663086
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "4279f6e01a8e6d32cda2f8add78e265d50a8a6a5fbd205ba7fba8f3bafb34d8c",
+          "transcriptionSha256": "1447060f65538e5efbfcd148e8f719d56ed7bcb688860deea953ef28858f921c"
+        },
+        {
+          "stage": "photo-2733-crop-2:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 5715,
+          "usage": {
+            "prompt_tokens": 4528,
+            "completion_tokens": 74,
+            "total_tokens": 4602,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 63.71272277832031
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "47efdcd2b5f465cd3d497985f242f368e245dea3c6671205882c47c6661cb256",
+          "transcriptionSha256": "fcbf1ebe77602dd1c83f621068d4b2a827ef7cbb8cd6db9e766055e8f2b574f9"
+        },
+        {
+          "stage": "photo-2734-full:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 10039,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 362,
+            "total_tokens": 5629,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 86.88090515136719
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "37689d5b03b4f413fd56a79a3dc33c76e932ab2966d7f71077aec6183f2dae31",
+          "transcriptionSha256": "336287137421c001b132c04af035adf5f72d602fa4a3a37ac344e282dbf71f51"
+        },
+        {
+          "stage": "photo-2734-crop-1:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 18455,
+          "usage": {
+            "prompt_tokens": 5283,
+            "completion_tokens": 207,
+            "total_tokens": 5490,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 80.05363464355469
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "c0483e87668e5c7d56f67e902c7aff723bb2596e7d95a764aa0f1324b58f6e1a",
+          "transcriptionSha256": "4ae0db86c9ecb4c8c7d026a8285ce11d8ace4e38d99f63470c80100c9058e4cc"
+        },
+        {
+          "stage": "photo-2734-crop-2:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 4317,
+          "usage": {
+            "prompt_tokens": 3831,
+            "completion_tokens": 107,
+            "total_tokens": 3938,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 55.70817947387695
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "8d4233595543ca070cfaa8f07ad8447a86a86d83e0b5ceac3651606f654db958",
+          "transcriptionSha256": "40702eebe155b12b73fb2448c83bdf230c14ca7a24e4b81203ed6277a3b49ec9"
+        },
+        {
+          "stage": "photo-2735-full:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 13814,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 349,
+            "total_tokens": 5616,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 86.29000091552734
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "d512b717c3ac23b651f1a717463c4509b6fe51f264786965e9b3f2444636e35e",
+          "transcriptionSha256": "070e87b0564d42cd1e736be14ea6a3cdf41166438552ffd8f00cefc956ede9e2"
+        },
+        {
+          "stage": "photo-2735-crop-1:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 13026,
+          "usage": {
+            "prompt_tokens": 5287,
+            "completion_tokens": 282,
+            "total_tokens": 5569,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 83.51727294921875
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "b33c43fe39607c4bbe22662cbe4ce2c7f2b550293f97e40deaac2cd0c687c466",
+          "transcriptionSha256": "cdb5c33b2080fecefc470e139502f02799d60c506377cd1e5e3c8739bed44d07"
+        }
+      ]
+    },
+    {
+      "name": "glm-repeat-results.json",
+      "recordedAt": "2026-10-15T18:34:30.335Z",
+      "promptSha256": "58ca386ecb74bc160dd4527d504661f29ac7afb1350d89c6fa92ded92b23d59d",
+      "calls": [
+        {
+          "stage": "photo-2729-crop-2:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 9862,
+          "usage": {
+            "prompt_tokens": 4001,
+            "completion_tokens": 72,
+            "total_tokens": 4073,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 56.43545150756836
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "d62c099cf7fe8179e5be33606c475e7cab5365cb2b2e059ff8094a965a459469",
+          "transcriptionSha256": "170a5d7425fd27a2435cd56f5bec25d79551f7bc6b7a2665c7e5776124c793c7"
+        },
+        {
+          "stage": "photo-2729-full:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 43425,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 221,
+            "total_tokens": 5488,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "neurons": 81.86817932128906
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "32f79d5cb5b85a4153eca90b9b311e09fc0d30e4fd23fd81e7f46c6b4ca65659",
+          "transcriptionSha256": "3e364dff0c1c12294ce738ec5b869d91ac338c3b4ed87006b75ae9f71cc63804"
+        },
+        {
+          "stage": "photo-2730-crop-1:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 7529,
+          "usage": {
+            "prompt_tokens": 5298,
+            "completion_tokens": 263,
+            "total_tokens": 5561,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 82.80362701416016
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "284abbba7908a5677f14f8fca0bf02d3b56405cc75b1647bc52c47439ea78d9c",
+          "transcriptionSha256": "25c36f299ad247f97580b89f61c63dd46cb388c21f7151871680fa1835d0f194"
+        },
+        {
+          "stage": "photo-2730-full:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 12437,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 282,
+            "total_tokens": 5549,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 83.24454498291016
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "45a81d903de054004430a38601f72b9ef86cb23f0511df878796a25f5c9265f9",
+          "transcriptionSha256": "c819e8d81d771819ea9282a246d090781de5c3fca08d7e84fa5fedaa4d330103"
+        },
+        {
+          "stage": "photo-2735-crop-1:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 65694,
+          "usage": {
+            "prompt_tokens": 5287,
+            "completion_tokens": 283,
+            "total_tokens": 5570,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 83.56272888183594
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "b33c43fe39607c4bbe22662cbe4ce2c7f2b550293f97e40deaac2cd0c687c466",
+          "transcriptionSha256": "38f654d7a48dbd9cb929478d95907b0a7c23471b29efc30e2b819112fd22b525"
+        },
+        {
+          "stage": "photo-2735-full:transcribe",
+          "model": "@cf/zai-org/glm-5.3-flash",
+          "latencyMs": 8865,
+          "usage": {
+            "prompt_tokens": 5267,
+            "completion_tokens": 353,
+            "total_tokens": 5620,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "neurons": 86.47181701660156
+          },
+          "parameters": {
+            "temperature": 0,
+            "max_completion_tokens": 4096,
+            "reasoning_effort": "low"
+          },
+          "finishReason": "stop",
+          "imageSha256": "d512b717c3ac23b651f1a717463c4509b6fe51f264786965e9b3f2444636e35e",
+          "transcriptionSha256": "67341a2ebba236daf44ac28f418dbd5808144559146294bdf523cbe532926740"
+        }
+      ]
+    }
+  ],
+  "invoiceCharge": "Unverified; returned provider metering only",
+  "repeatFindings": [
+    {
+      "source": 2729,
+      "recipe": 2,
+      "finding": "Quarter-to-half regression repeats in both crop attempts; both full-page attempts retain quarter."
+    },
+    {
+      "source": 2730,
+      "recipe": 1,
+      "finding": "Bag-word improvement fails to repeat; crop becomes a different object. Confirmed flour fraction remains correct. Full-page repeat additionally corrupts unknown flavoring into a pinch-like phrase."
+    },
+    {
+      "source": 2735,
+      "recipe": 1,
+      "finding": "Crop repeat recovers flour but introduces a broth unit corruption and retains false numeric chicken wording. Both full-page attempts retain false ginger. No faithful transcript."
+    }
+  ],
+  "tests": {
+    "focusedNodeTests": 17,
+    "typecheck": "passed",
+    "cropScriptSyntax": "passed",
+    "gitDiffCheck": "passed"
+  },
+  "privateEvidenceDirectory": "test-results/t09-photos/crops/"
+}

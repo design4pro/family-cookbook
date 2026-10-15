@@ -16,6 +16,8 @@ Rerun the early recovery proof against the full data graph and selected provider
 
 ## Scope and files
 
+Extend the [passing T06 architecture proof](../../../evidence/t06.md) and [runbook](../../../runbooks/recovery.md). Resolve exact provider tier/retention, R2 lifecycle timing, real processor copies and history created by restoring old data. Replay suppression is not physical erasure; the original 30/37-day deadline must remain valid. Reconcile billing and the full production graph before enabling access. These are Gate 1 obligations, not closed by T06.
+
 Proposed paths relative to the future application repository, not files that already exist in this planning workspace. Create the minimal harness/config required by the first owning task; later tasks modify its proven code rather than rebuild it.
 
 - `scripts/recovery/rehearse.ts`

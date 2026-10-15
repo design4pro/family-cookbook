@@ -1,0 +1,273 @@
+{
+  "task": "T04",
+  "date": "2026-10-15",
+  "host": "macOS-27.2-arm64-arm-64bit-Mach-O",
+  "node": "v26.9.0",
+  "playwright": "1.64.1",
+  "browserBuilds": [
+    {
+      "name": "chromium",
+      "revision": "1248",
+      "installByDefault": true,
+      "browserVersion": "156.0.8078.4",
+      "title": "Chrome for Testing"
+    },
+    {
+      "name": "webkit",
+      "revision": "2370",
+      "installByDefault": true,
+      "revisionOverrides": {
+        "mac14": "2251",
+        "mac14-arm64": "2251"
+      },
+      "browserVersion": "27.2",
+      "title": "WebKit"
+    }
+  ],
+  "hosting": "Local Wrangler 4.151.0 Worker assets at 127.0.0.1:8788; no deployment",
+  "fixtures": "Synthetic accounts Alice/Bob; transport outcomes controlled by Playwright routes",
+  "webStats": {
+    "startTime": "2026-10-15T13:59:18.527Z",
+    "duration": 9618.563999999998,
+    "expected": 18,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "webCases": [
+    {
+      "case": "offline intent survives reload when the exported shell is available",
+      "project": "chromium",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 560
+        }
+      ]
+    },
+    {
+      "case": "browser process restart restores immutable unknown delivery and newer intent",
+      "project": "chromium",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 1162
+        }
+      ]
+    },
+    {
+      "case": "snapshots and old acknowledgments preserve newer taps without rebasing",
+      "project": "chromium",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 617
+        }
+      ]
+    },
+    {
+      "case": "switching account fences delivery and logout clears only its owner's queue",
+      "project": "chromium",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 520
+        }
+      ]
+    },
+    {
+      "case": "switching identity during delivery cannot settle or send the previous account's next intent",
+      "project": "chromium",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 515
+        }
+      ]
+    },
+    {
+      "case": "denied storage disables saving without an in-memory success",
+      "project": "chromium",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 156
+        }
+      ]
+    },
+    {
+      "case": "quota rejects saving and retains the last committed intent",
+      "project": "chromium",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 369
+        }
+      ]
+    },
+    {
+      "case": "abort-after-request-success rejects saving and retains the last committed intent",
+      "project": "chromium",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 349
+        }
+      ]
+    },
+    {
+      "case": "terminal unavailable and forbidden results prevent further replay",
+      "project": "chromium",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 597
+        }
+      ]
+    },
+    {
+      "case": "offline intent survives reload when the exported shell is available",
+      "project": "webkit",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 806
+        }
+      ]
+    },
+    {
+      "case": "browser process restart restores immutable unknown delivery and newer intent",
+      "project": "webkit",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 1726
+        }
+      ]
+    },
+    {
+      "case": "snapshots and old acknowledgments preserve newer taps without rebasing",
+      "project": "webkit",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 623
+        }
+      ]
+    },
+    {
+      "case": "switching account fences delivery and logout clears only its owner's queue",
+      "project": "webkit",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 555
+        }
+      ]
+    },
+    {
+      "case": "switching identity during delivery cannot settle or send the previous account's next intent",
+      "project": "webkit",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 517
+        }
+      ]
+    },
+    {
+      "case": "denied storage disables saving without an in-memory success",
+      "project": "webkit",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 319
+        }
+      ]
+    },
+    {
+      "case": "quota rejects saving and retains the last committed intent",
+      "project": "webkit",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 407
+        }
+      ]
+    },
+    {
+      "case": "abort-after-request-success rejects saving and retains the last committed intent",
+      "project": "webkit",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 425
+        }
+      ]
+    },
+    {
+      "case": "terminal unavailable and forbidden results prevent further replay",
+      "project": "webkit",
+      "status": "expected",
+      "runs": [
+        {
+          "status": "passed",
+          "durationMs": 608
+        }
+      ]
+    }
+  ],
+  "otherChecks": {
+    "apiTests": 32,
+    "appTests": 13,
+    "typechecks": [
+      "api",
+      "app",
+      "web tests"
+    ],
+    "exports": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "workerBuild": "dry-run passed"
+  },
+  "limitations": [
+    "Offline reload supplies previously fetched shell bytes from the test harness, not a product offline shell.",
+    "Quota and permission errors are injected at the IndexedDB API boundary; the host disk is not filled.",
+    "Browser restart closes and relaunches a real persistent context; it is not a power-loss test.",
+    "T03 remains blocked on physical iOS/Android device evidence."
+  ],
+  "sha256": {
+    "pnpm-lock.yaml": "2689ba493eb2e7c5a6013ed63391a58f1259d57a54537c063123068cb951a441",
+    "package.json": "c927d43e5935a95e2672318833c336953bb685900d8381a5a8728c0311dbf0f2",
+    "playwright.config.ts": "8a995f5331d3034ace807e284600d036132d4dc60628f2c69cb7343df8e2806f",
+    "tsconfig.web-tests.json": "764aebdccd1ddca35bed81f112e7d2520f2b1583306c1c2f4ea3a537f2da3e5d",
+    "apps/app/app.json": "fbb12fa9b1ede7caa644c035ca1f2d6acf833291d7175f8eddfef3cdae11bea1",
+    "apps/api/wrangler.web-proof.jsonc": "5792bb9cae70fbfe11264e9cd069238fa4e8e7466c1778b472acbf437d5b8af2",
+    "apps/app/src/shopping/pending-state.ts": "03dcbee3ce6abbbe48c5d4dfb9de2edebf1df5071efeb5561220a23e45bcb21c",
+    "apps/app/src/shopping/pending-store.ts": "7c4545b5a3c8c593655555ad7eadcf6459698a68c8b0f4a881755873b5fd1b6e",
+    "apps/app/src/shopping/pending.web.ts": "3e5f3ccb3d2ddb704b01dddfd21b627158deacac0478774b7e5b95b67e272474",
+    "apps/app/src/shopping/sync-state.ts": "4906d01d0e5b2b60d9d6f23cf57325dd0a631dc90fd1de6cbd44ab8e3087eba7",
+    "apps/app/src/proof/shopping-screen.web.tsx": "0d51be8133883554abf439e5e5820dcca51c5814e937f07610b18e0094b5697c",
+    "apps/app/tests/shopping/pending.web.test.ts": "762b7ec9359c2aced7c5bd7bedb83a99a6c9f2a2376007e16571fe905bdcc555",
+    "tests/web/offline-proof.spec.ts": "611b73bc689fe74a5fedd65a01327fd83330ddf118c96b14a01a6bbf13ddb0d2"
+  }
+}
