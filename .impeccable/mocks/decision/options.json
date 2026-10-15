@@ -1,0 +1,231 @@
+{
+  "title": "Family Cookbook \u00b7 First design direction",
+  "question": "Compare the same mobile review task. Choose a world to carry through Cookbook, Add photo, Review and Recipe on mobile and desktop. These are synthetic design proposals, not working product screens.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Woven work surface",
+      "kicker": "EXPLORE",
+      "lineage": "Woven table settings and contrasting edge bands",
+      "thesis": "A stable shared work surface gives original and draft their own places.",
+      "palette": [
+        "#f7f9fa",
+        "#163d4a",
+        "#246b73",
+        "#dae8ec"
+      ],
+      "materials": [
+        "clean light surface",
+        "restrained woven border",
+        "square-ended edge bands"
+      ],
+      "viewport": "A portrait review screen with a deep petrol title band, Source / Draft switch and aligned ingredient rows.",
+      "risk": "The textile cue must stay at the margins so the screen never feels ornamental.",
+      "raised": [
+        {
+          "from": "Vertical recipe viewer",
+          "raise": "Keep one dominant task and remove competing primary actions."
+        },
+        {
+          "from": "Graphite comparison desk",
+          "raise": "Separate destructive controls and keep source and draft roles stable."
+        },
+        {
+          "from": "Recipe garden map",
+          "raise": "Use a consistent spatial group for each task without decorating every field."
+        },
+        {
+          "from": "Import departure board",
+          "raise": "Keep processing state visible across navigation and never remove an unfinished draft silently."
+        },
+        {
+          "from": "Source and review course",
+          "raise": "Keep the original immutable and make review changes a visibly separate layer."
+        },
+        {
+          "from": "Exposure review sheets",
+          "raise": "Pair uncertainty color with explicit text and iconography."
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/assigned.png"
+    },
+    {
+      "id": "model-pick",
+      "label": "Archive register",
+      "kicker": "IMPECCABLE\u2019S PICK",
+      "lineage": "Library accession records and family document archives",
+      "thesis": "The original and its reviewed transcription read as two linked records.",
+      "palette": [
+        "#ffffff",
+        "#172a44",
+        "#3154a5",
+        "#e7edf6"
+      ],
+      "materials": [
+        "crisp document fields",
+        "aligned record labels",
+        "blue registration markers"
+      ],
+      "viewport": "A portrait review register with source index, named sections and legible quantities aligned against their units.",
+      "risk": "Familiar document organization is effective but may feel administrative unless family attribution remains visible.",
+      "comp": ".impeccable/mocks/decision/model-pick.png"
+    },
+    {
+      "id": "challenger-video",
+      "label": "Vertical recipe viewer",
+      "verdict": "declined",
+      "lineage": "pop-culture-shelf-vertical-video-feed-surface",
+      "thesis": "One recipe source fills each viewport, with review actions on a side rail.",
+      "palette": [
+        "#121212",
+        "#ffffff"
+      ],
+      "materials": [
+        "translated source system"
+      ],
+      "viewport": "Full-bleed source with a low caption and four rail controls.",
+      "risk": "Snap navigation hides adjacent ingredients and makes comparison harder.",
+      "case": "Family identification and review clarity both trail the shared work-surface direction.",
+      "kept": "Keep one dominant task and remove competing primary actions.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-vertical-video-feed-surface-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/pop-culture-shelf-vertical-video-feed-surface.webp"
+    },
+    {
+      "id": "challenger-console",
+      "label": "Graphite comparison desk",
+      "verdict": "declined",
+      "lineage": "digital-design-canon-dark-first-developer-console",
+      "thesis": "Persistent source and draft panels form a compact verification desk.",
+      "palette": [
+        "#202428",
+        "#e9ecef",
+        "#a6d6c1"
+      ],
+      "materials": [
+        "translated source system"
+      ],
+      "viewport": "Graphite panels with small headers and a single approval accent.",
+      "risk": "Dense technical panel language adds reading effort for occasional family users.",
+      "case": "A technical console is less familiar to this audience; compact panel density weakens mobile review clarity.",
+      "kept": "Separate destructive controls and keep source and draft roles stable.",
+      "hero": "https://impeccable.style/worlds/cards/digital-design-canon-dark-first-developer-console-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/digital-design-canon-dark-first-developer-console.webp"
+    },
+    {
+      "id": "challenger-map",
+      "label": "Recipe garden map",
+      "verdict": "declined",
+      "lineage": "aww2-zoo-gardens-guide-map",
+      "thesis": "A large flat-color region groups each recipe and its review actions.",
+      "palette": [
+        "#8ed462",
+        "#f5f1e4",
+        "#2c2e2a",
+        "#f5e211"
+      ],
+      "materials": [
+        "translated source system"
+      ],
+      "viewport": "A dominant green lobe contains the current recipe, with capsule actions.",
+      "risk": "Organic boundaries consume space needed for long ingredients and fields.",
+      "case": "A visitor-map metaphor is less relevant to family preservation and less clear for textual correction.",
+      "kept": "Use a consistent spatial group for each task without decorating every field.",
+      "hero": "https://impeccable.style/worlds/cards/aww2-zoo-gardens-guide-map-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/aww2-zoo-gardens-guide-map.webp"
+    },
+    {
+      "id": "challenger-board",
+      "label": "Import departure board",
+      "verdict": "declined",
+      "lineage": "vernacular-ephemera-boarding-pass-and-gate-board",
+      "thesis": "A fixed status board tracks drafts and keeps changed jobs visible.",
+      "palette": [
+        "#f4f5f2",
+        "#17212b",
+        "#b45210"
+      ],
+      "materials": [
+        "translated source system"
+      ],
+      "viewport": "Segmented recipe header with fixed columns and a persistent changed-state label.",
+      "risk": "Travel ranking implies urgency and throughput that family review does not require.",
+      "case": "Departure ranking is less recognizable as family preservation and obscures source comparison.",
+      "kept": "Keep processing state visible across navigation and never remove an unfinished draft silently.",
+      "hero": "https://impeccable.style/worlds/cards/vernacular-ephemera-boarding-pass-and-gate-board-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/vernacular-ephemera-boarding-pass-and-gate-board.webp"
+    },
+    {
+      "id": "challenger-course",
+      "label": "Source and review course",
+      "verdict": "declined",
+      "lineage": "notation-diagram-systems-orienteering-map",
+      "thesis": "An immutable source sits below a numbered course through review sections.",
+      "palette": [
+        "#ffffff",
+        "#a8b76a",
+        "#8b5da0",
+        "#2d6d95"
+      ],
+      "materials": [
+        "translated source system"
+      ],
+      "viewport": "Numbered review controls and a fixed source with a separate active layer.",
+      "risk": "Map-like navigation and encoded symbols add interpretation work.",
+      "case": "The outdoor course is a weaker family context and numbered symbols are less direct than named review sections.",
+      "kept": "Keep the original immutable and make review changes a visibly separate layer.",
+      "hero": "https://impeccable.style/worlds/cards/notation-diagram-systems-orienteering-map-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/notation-diagram-systems-orienteering-map.webp"
+    },
+    {
+      "id": "challenger-darkroom",
+      "label": "Exposure review sheets",
+      "verdict": "declined",
+      "lineage": "operate-b-exposure-record-zone-sheets",
+      "thesis": "Overlapping source and draft sheets use non-color marks for unresolved areas.",
+      "palette": [
+        "#ececec",
+        "#777777",
+        "#181818",
+        "#a0256d"
+      ],
+      "materials": [
+        "translated source system"
+      ],
+      "viewport": "Neutral sheets overlap above a zone scale; hatching marks conflicts.",
+      "risk": "Overlaps hide text and fractional exposure notation competes with recipe quantities.",
+      "case": "Darkroom notation is unfamiliar to most families and overlapping sheets weaken field legibility.",
+      "kept": "Pair uncertainty color with explicit text and iconography.",
+      "hero": "https://impeccable.style/worlds/cards/operate-b-exposure-record-zone-sheets-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/operate-b-exposure-record-zone-sheets.webp"
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "steer": true,
+  "canon": true,
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canonCard": {
+    "label": "Familiar recipe app",
+    "thesis": "A conventional light recipe interface with straightforward forms and standard navigation.",
+    "palette": [
+      "#ffffff",
+      "#202b25",
+      "#39734f",
+      "#edf4ee"
+    ],
+    "materials": [
+      "plain white forms",
+      "simple ingredient rows"
+    ],
+    "viewport": "A standard review title, Source / Draft control, stacked fields and bottom Save recipe action.",
+    "risk": "Familiar and easy to recognize, with little distinctive visual identity.",
+    "comp": ".impeccable/mocks/decision/canon.png"
+  }
+}

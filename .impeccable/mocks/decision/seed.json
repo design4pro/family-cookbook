@@ -1,0 +1,9 @@
+{
+  "key": "1be86054",
+  "scope": "direction",
+  "mode": "operate",
+  "assignedIndex": 7,
+  "candidateList": "docs/design/capture-flow-discovery.md",
+  "status": "awaiting-user-choice",
+  "allChallengers": "options.json"
+}

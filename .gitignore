@@ -17,3 +17,7 @@ tests/fixtures/capture/generated/
 
 # Private capture sources supplied for local evaluation.
 tests/assets/
+
+# Machine-local design question server state and logs.
+.impeccable/questions/
+.impeccable/config.local.json
