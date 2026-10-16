@@ -1,0 +1,367 @@
+{
+  "date": "2026-10-15",
+  "updated": "2026-10-16",
+  "status": "Smakopas-style continuation requested; new capture studies awaiting developer review",
+  "type": "Eight main static web design artboards plus mobile Review Source state",
+  "implementation": false,
+  "renderer": "Authored SVG exported with Sharp/librsvg; no generative model",
+  "reference": "/Users/rafalwolak/dev/cloudflare/smakopas.pl-old/apps/review/",
+  "source": [
+    "source/render-artboards.cjs",
+    "source/capture-artboards.cjs"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3448,
+      "sha256": "a10e15467de1887e54456b79acd231f7b15de7853b6b0a306dc537c3e27c2748"
+    },
+    {
+      "path": "assets/archivo-latin.woff2",
+      "bytes": 90104,
+      "sha256": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    {
+      "path": "assets/archivo-license.txt",
+      "bytes": 4503,
+      "sha256": "c3c8402eec0e31dc9a76851235b1c02a0bb821488b2db8e35bcc2ab60ca8fc2b"
+    },
+    {
+      "path": "assets/greek-salad.jpg",
+      "bytes": 193621,
+      "sha256": "8a4613204af9f7189773c85c5d530b98e53b2f8714021dbc1cfccf3599292224"
+    },
+    {
+      "path": "assets/sample-page-01.png",
+      "bytes": 23647,
+      "sha256": "2f1fd4832287599a1be0d59fa4a12ac79362532c7f6368e5637152505974d0e5",
+      "width": 600,
+      "height": 760,
+      "scale": 1,
+      "origin": "source/sample-pages-origin.txt"
+    },
+    {
+      "path": "assets/sample-page-01.svg",
+      "bytes": 121042,
+      "sha256": "bc84ce836cc89946198453e4650a9bb7c451484877309ba037f24326bf869d78",
+      "logicalWidth": 600,
+      "logicalHeight": 760
+    },
+    {
+      "path": "assets/sample-page-02.png",
+      "bytes": 22255,
+      "sha256": "50b4be8b1f8e8906d691d4746c1cf96f1c13320534a7ce26532263f25e4c0c77",
+      "width": 600,
+      "height": 760,
+      "scale": 1,
+      "origin": "source/sample-pages-origin.txt"
+    },
+    {
+      "path": "assets/sample-page-02.svg",
+      "bytes": 120920,
+      "sha256": "64728752704a2fadfc35f17f1e26a663165a17f0d0a8eed89cc14f6fb4a07e60",
+      "logicalWidth": 600,
+      "logicalHeight": 760
+    },
+    {
+      "path": "assets/shakshuka.jpg",
+      "bytes": 257643,
+      "sha256": "fa4811d1c3d29d86651fbb58f0ca31f89caa40d78deed143c880dfdf4b02d07a"
+    },
+    {
+      "path": "assets/tomato-soup.jpg",
+      "bytes": 293240,
+      "sha256": "169b7483db9db0e126797d289c74787d54b54e4341fc1a59325311ea6671ebbe"
+    },
+    {
+      "path": "capture-brief.md",
+      "bytes": 6928,
+      "sha256": "db97ec382fe9cf1b4755d748b991bd0ed45956263edda7bcd78868d269870e1e"
+    },
+    {
+      "path": "capture-gallery.md",
+      "bytes": 2031,
+      "sha256": "6c793f2e3eb6abb4de24aa524c9966d6bfe83afa656b067b41103dbd8dfa2619"
+    },
+    {
+      "path": "credits.md",
+      "bytes": 3329,
+      "sha256": "5290b5ac850cbbc800a69c2dcd317da8fc759b5676d4b88e83c234a61efd88bf"
+    },
+    {
+      "path": "design-brief.md",
+      "bytes": 3864,
+      "sha256": "7bcf570099bbd82e410fb6577267295599164da7a9e2c32a5de59d510d8006be"
+    },
+    {
+      "path": "desktop-add-photos-fold.png",
+      "bytes": 91520,
+      "sha256": "2d9a2ba4eb63dfb8779b322823f856914b5fe6de6f3db1102ba601a13517fd19",
+      "width": 1440,
+      "height": 900,
+      "scale": 1,
+      "origin": "source/capture-origin.txt"
+    },
+    {
+      "path": "desktop-add-photos.png",
+      "bytes": 102977,
+      "sha256": "08b159745474cb518b588bf4775455ed8c8633b6e09a5df719be8f7a22181f73",
+      "width": 1440,
+      "height": 1070,
+      "scale": 1,
+      "origin": "source/capture-origin.txt"
+    },
+    {
+      "path": "desktop-add-photos.svg",
+      "bytes": 217864,
+      "sha256": "905b98dcd006c6be5541edf7bc7388e12ace8d4b2c37b58937508d0429845b1d",
+      "logicalWidth": 1440,
+      "logicalHeight": 1070
+    },
+    {
+      "path": "desktop-cookbook-fold.png",
+      "bytes": 1073295,
+      "sha256": "6f5ac72c1d3bc5abdf0e50c8544d5b4615a3d43751db4d76eac45393b13f9202",
+      "width": 1440,
+      "height": 900,
+      "scale": 1,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "desktop-cookbook.png",
+      "bytes": 1232661,
+      "sha256": "9906dfe031c03eb61982f3d37221c15e079aaafd938cfa5a16440961e04b4d65",
+      "width": 1440,
+      "height": 1510,
+      "scale": 1,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "desktop-cookbook.svg",
+      "bytes": 1464805,
+      "sha256": "ebb226db5cc3330d8b18138ec5cd9f6c11b7a32a496edc614db204d7e9a2fd15",
+      "logicalWidth": 1440,
+      "logicalHeight": 1510
+    },
+    {
+      "path": "desktop-recipe-fold.png",
+      "bytes": 1037904,
+      "sha256": "970a6aa5ab0a5ca44c54f07663628f8948d62efc729a296400307e6e685290f3",
+      "width": 1440,
+      "height": 900,
+      "scale": 1,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "desktop-recipe.png",
+      "bytes": 1109708,
+      "sha256": "89c8c7d43ca11355fb3733adc30d9df7df8fd9088e92c39f0b47c7384b63bf0b",
+      "width": 1440,
+      "height": 1640,
+      "scale": 1,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "desktop-recipe.svg",
+      "bytes": 474387,
+      "sha256": "f611585606918ca2b2fedc8959a1c8898515e234b8bdebfb8782951a7edd17f7",
+      "logicalWidth": 1440,
+      "logicalHeight": 1640
+    },
+    {
+      "path": "desktop-review-fold.png",
+      "bytes": 87585,
+      "sha256": "b043be8204bbf3f0f0097bb0931ac95bb4d81a0be1c72886b9a3694f081531df",
+      "width": 1440,
+      "height": 900,
+      "scale": 1,
+      "origin": "source/capture-origin.txt"
+    },
+    {
+      "path": "desktop-review.png",
+      "bytes": 146112,
+      "sha256": "96356900b3590ce1c8f9cc3121ce538f7074e227063f74202f257184afc4740a",
+      "width": 1440,
+      "height": 1610,
+      "scale": 1,
+      "origin": "source/capture-origin.txt"
+    },
+    {
+      "path": "desktop-review.svg",
+      "bytes": 161016,
+      "sha256": "8145442b051479eca736c352d640b26151b47f2d0d41fcd05040b0a6f375462e",
+      "logicalWidth": 1440,
+      "logicalHeight": 1610
+    },
+    {
+      "path": "mobile-add-photos-fold.png",
+      "bytes": 109213,
+      "sha256": "726c40482a5e70a9a056d875a87fb8d9a3bc25bbcfa69d042d8fc7d319436ea7",
+      "width": 780,
+      "height": 1688,
+      "scale": 2,
+      "origin": "source/capture-origin.txt"
+    },
+    {
+      "path": "mobile-add-photos.png",
+      "bytes": 169669,
+      "sha256": "d9ac9d3acf5920e92b1578f1883c73a08be008507bb46b7a3cd92a65ca3d6523",
+      "width": 780,
+      "height": 2930,
+      "scale": 2,
+      "origin": "source/capture-origin.txt"
+    },
+    {
+      "path": "mobile-add-photos.svg",
+      "bytes": 217740,
+      "sha256": "3104b12d64831a2a0bf7c47fad722dfa15473b481ed70db3ec24510cc853d048",
+      "logicalWidth": 390,
+      "logicalHeight": 1465
+    },
+    {
+      "path": "mobile-cookbook-fold.png",
+      "bytes": 1131965,
+      "sha256": "c58dc6c9638590fbceaf44561bd7ce0f333407b4818b6013c02da6e18e487412",
+      "width": 780,
+      "height": 1688,
+      "scale": 2,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "mobile-cookbook.png",
+      "bytes": 1373995,
+      "sha256": "be89495f22a3edd031a7bde57bbea3aefb039dfd657f521708b873e58db99f10",
+      "width": 780,
+      "height": 2832,
+      "scale": 2,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "mobile-cookbook.svg",
+      "bytes": 1462432,
+      "sha256": "db463dcddb32680dc54040829ac0875b6ba7c91de031f948e45b0ac389297702",
+      "logicalWidth": 390,
+      "logicalHeight": 1416
+    },
+    {
+      "path": "mobile-recipe-fold.png",
+      "bytes": 1112912,
+      "sha256": "53baf2874ef4a6ee55fd35c12b8a1fb7f6be32468a9ba70a001e57eef08a1141",
+      "width": 780,
+      "height": 1688,
+      "scale": 2,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "mobile-recipe.png",
+      "bytes": 1282745,
+      "sha256": "b4e1aac7e90eb14fcca929efe9feefa042d31973a4eaf6cdb5511224428a1170",
+      "width": 780,
+      "height": 4820,
+      "scale": 2,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "mobile-recipe.svg",
+      "bytes": 474618,
+      "sha256": "05cf80efcedf607b4d2661d8f36df8cedf10c0c96c32bc32d30b8bc8e979f9c8",
+      "logicalWidth": 390,
+      "logicalHeight": 2410
+    },
+    {
+      "path": "mobile-review-fold.png",
+      "bytes": 90253,
+      "sha256": "0c885f8775b2ba741a41b295b6486b0ce0b8d025ffdc3b582ce514b465aa1d47",
+      "width": 780,
+      "height": 1688,
+      "scale": 2,
+      "origin": "source/capture-origin.txt"
+    },
+    {
+      "path": "mobile-review-source-fold.png",
+      "bytes": 96969,
+      "sha256": "4d54a3f4f67a60cae9d0e0014ab170459f19cfb844cdbffea8197c3637aa0caf",
+      "width": 780,
+      "height": 1688,
+      "scale": 2,
+      "origin": "source/capture-origin.txt"
+    },
+    {
+      "path": "mobile-review-source.png",
+      "bytes": 131735,
+      "sha256": "1bfcd186cc3bb11106ee7becf17524165fd94c6557b5773216e25e26e70db175",
+      "width": 780,
+      "height": 2380,
+      "scale": 2,
+      "origin": "source/capture-origin.txt"
+    },
+    {
+      "path": "mobile-review-source.svg",
+      "bytes": 155067,
+      "sha256": "73f26a9f6acbf2c03c6b8d0ca9fdc3d9938a21005d14ad37ba3ce8a1194afc04",
+      "logicalWidth": 390,
+      "logicalHeight": 1190
+    },
+    {
+      "path": "mobile-review.png",
+      "bytes": 195191,
+      "sha256": "062b2a652a71ba32a469bf1daa97bbcb2ba60c872238cb9f91245684698b4e4c",
+      "width": 780,
+      "height": 3800,
+      "scale": 2,
+      "origin": "source/capture-origin.txt"
+    },
+    {
+      "path": "mobile-review.svg",
+      "bytes": 128788,
+      "sha256": "d0b951cb540ab4c585c0486f2fc1cd50ce144deb8bf7e2e0ac28aaa72a43a8fc",
+      "logicalWidth": 390,
+      "logicalHeight": 1900
+    },
+    {
+      "path": "source/artboard-origin.txt",
+      "bytes": 828,
+      "sha256": "a300b27a7a4ec1fdf873415645666a91a0d36560eb2493f31aaf9098593208af"
+    },
+    {
+      "path": "source/capture-artboards.cjs",
+      "bytes": 9725,
+      "sha256": "27f182c5e70711d2b573f4d8013b4564ea3407fd0243f234c74a3abf44960fef"
+    },
+    {
+      "path": "source/capture-origin.txt",
+      "bytes": 913,
+      "sha256": "8a42d8d72dc20dd39546050d3c4309c1f384bb149205e107e40f8ffcae7913a7"
+    },
+    {
+      "path": "source/greek-salad-origin.txt",
+      "bytes": 544,
+      "sha256": "11665b8495533c8f84b3a90675aa2f8e3d67b9297251c60d83fd216a45344fd8"
+    },
+    {
+      "path": "source/render-artboards.cjs",
+      "bytes": 15543,
+      "sha256": "691f842d0b55dcbbc5d0a862f282f39b84dc8a649473d94acb9744dbab4f3112"
+    },
+    {
+      "path": "source/sample-pages-origin.txt",
+      "bytes": 680,
+      "sha256": "35b6555e63bcfcec65d51b4ecf7d42a8d53dad09c8bf51d116bb9108192a51c2"
+    },
+    {
+      "path": "source/shakshuka-origin.txt",
+      "bytes": 467,
+      "sha256": "e8205899aff749fc9010e6666770605bc5a5403f5325c1224963b4d90653a4e1"
+    },
+    {
+      "path": "source/tomato-soup-origin.txt",
+      "bytes": 537,
+      "sha256": "accc312c19d631979498e70d66479a109a1ca6e97706974d2086f9b9108d91ab"
+    },
+    {
+      "path": "visual-review.md",
+      "bytes": 2993,
+      "sha256": "58578d0997f380f2984ed1fe5d6b0a59318f0d762e5d3bf8873d045bc48f420b"
+    }
+  ]
+}

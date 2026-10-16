@@ -1,0 +1,14 @@
+{
+  "sf": [
+    "symbols/battery.100-ink.png",
+    "symbols/cellularbars-ink.png",
+    "symbols/chevron.left-ink.png",
+    "symbols/wifi-ink.png"
+  ],
+  "material": [
+    "arrow_back",
+    "battery_full",
+    "signal_cellular_4_bar",
+    "wifi"
+  ]
+}

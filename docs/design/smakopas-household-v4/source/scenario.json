@@ -1,0 +1,235 @@
+{
+  "label": "Synthetic household demo",
+  "scope": "Static household and account proposals; no live operation or implementation",
+  "surfaces": [
+    "Web desktop",
+    "Web mobile",
+    "iPhone",
+    "iPad",
+    "Android phone"
+  ],
+  "mainStates": [
+    "household",
+    "invite",
+    "account",
+    "join"
+  ],
+  "supplementalStates": [
+    "web-mobile-create",
+    "web-mobile-expired",
+    "ipad-handover",
+    "android-remove"
+  ],
+  "artboardCount": 24,
+  "overviewSheets": {
+    "household": 2,
+    "account": 2,
+    "total": 4
+  },
+  "identities": {
+    "alex": {
+      "alias": "Alex",
+      "email": "alex@example.com",
+      "emailVerified": true
+    },
+    "anna": {
+      "alias": "Anna",
+      "email": "anna@example.com",
+      "emailVerified": true
+    },
+    "sam": {
+      "alias": "Sam",
+      "email": "sam@example.com",
+      "emailVerified": true
+    },
+    "jordan": {
+      "alias": "Jordan",
+      "email": "jordan@example.com",
+      "emailVerified": true
+    }
+  },
+  "identityNote": "Aliases label synthetic addresses; they do not introduce editable profiles, family relationships or recipe authorship.",
+  "household": {
+    "viewer": "alex",
+    "memberIds": [
+      "alex",
+      "anna",
+      "sam"
+    ],
+    "administratorId": "alex",
+    "payerId": "anna",
+    "memberCount": 3,
+    "memberLimit": 5,
+    "roles": {
+      "alex": [
+        "Administrator"
+      ],
+      "anna": [
+        "Member",
+        "Payer"
+      ],
+      "sam": [
+        "Member"
+      ]
+    },
+    "pendingInvitation": {
+      "recipientId": "jordan",
+      "expiresAfterDays": 7,
+      "reservesSeat": false
+    },
+    "invitationVisibility": "Administrator only",
+    "invitationActions": [
+      "Create invitation",
+      "Revoke invitation"
+    ],
+    "roleNote": "Administration and payment are separate responsibilities. All members retain recipe-editing permissions."
+  },
+  "invite": {
+    "viewer": "alex",
+    "recipientId": "jordan",
+    "state": "New invitation created; link available in this immediate result",
+    "expiresAfterDays": 7,
+    "singleUse": true,
+    "emailBound": true,
+    "verifiedMatchingEmailRequired": true,
+    "linkPlaceholder": "Private invitation link",
+    "realTokenOrDomainIncluded": false,
+    "action": "Copy link",
+    "delivery": "No email has been sent. Share the link with the named recipient.",
+    "capacity": "Pending invitations do not reserve places.",
+    "pendingListLinkRecovery": false,
+    "copyBeforeLeaving": "Copy the link before leaving; it cannot be retrieved later."
+  },
+  "join": {
+    "viewer": "jordan",
+    "existingHouseholdMembership": false,
+    "verifiedEmailMatchesInvitation": true,
+    "fixtureNote": "Email match and target-household facts are internal scenario preconditions, not a preview response or a verified invitation before acceptance.",
+    "visibleData": [
+      "Jordan's own signed-in email",
+      "Jordan's verified account status",
+      "Masked pasted invitation link or code",
+      "Join action and its validation explanation"
+    ],
+    "inputLabel": "Invitation link or code",
+    "preAcceptanceHouseholdPreview": false,
+    "hiddenBeforeAcceptance": [
+      "Other member names and emails",
+      "Invitation issuer",
+      "Invitation expiry",
+      "Household capacity and member count"
+    ],
+    "membersBeforeAcceptance": 3,
+    "memberLimit": 5,
+    "resultingRole": "Member",
+    "action": "Join household",
+    "explicitAcceptanceRequired": true,
+    "capacityRecheckedAtAcceptance": true,
+    "membershipBeforeConfirmation": false,
+    "note": "This is the recipient view before acceptance. Join checks the invitation, matching verified email, existing membership and capacity; the screen does not claim these checks have already succeeded."
+  },
+  "account": {
+    "viewer": "alex",
+    "emailEditable": false,
+    "plan": {
+      "label": "Family",
+      "state": "Active",
+      "verifiedFixture": true,
+      "payerId": "anna",
+      "priceShown": false
+    },
+    "destinations": [
+      "Household",
+      "Allowances",
+      "Export cookbook",
+      "Leave household",
+      "Delete account"
+    ],
+    "sessionAction": "Sign out",
+    "nativeExternalCheckoutPromotion": false,
+    "canManageAnotherPayersPurchase": false,
+    "leave": "Alex must complete an accepted administration handover before leaving while other members remain.",
+    "deleteAccount": "Opens a separate reauthentication and precise impact-preview flow; it does not immediately delete the account and must not require handover acceptance or subscription expiry."
+  },
+  "create": {
+    "viewer": "alex",
+    "stateRelationship": "The same three-member household before Jordan's invitation is created",
+    "memberIds": [
+      "alex",
+      "anna",
+      "sam"
+    ],
+    "memberCount": 3,
+    "administratorId": "alex",
+    "payerId": "anna",
+    "pendingInvitationExists": false,
+    "emailField": "jordan@example.com",
+    "action": "Create invitation",
+    "expiresAfterDays": 7,
+    "emailBound": true,
+    "emailDelivery": false,
+    "note": "Creates a single-use invitation for the named email, then exposes its fresh link for manual sharing. It does not create a household or send an email."
+  },
+  "unavailable": {
+    "fileName": "web-mobile-expired",
+    "title": "Invitation unavailable",
+    "viewer": "jordan",
+    "preciseFailureReasonExposed": false,
+    "possibleCauses": [
+      "Email mismatch",
+      "Expired, revoked or used invitation",
+      "Full or closed household",
+      "Existing membership",
+      "Issuer no longer authorized"
+    ],
+    "note": "The filename identifies a design alternative; the UI does not claim the API diagnosed expiry. No membership change is shown.",
+    "recovery": [
+      "Check your own signed-in email and existing membership",
+      "Review the pasted invitation link and retry",
+      "Ask the sender to check capacity or create a new link if expired or revoked"
+    ]
+  },
+  "handover": {
+    "viewer": "alex",
+    "senderId": "alex",
+    "recipientId": "sam",
+    "reauthenticationCompleted": true,
+    "state": "Awaiting acceptance",
+    "expiresAfterDays": 7,
+    "administratorWhilePending": "alex",
+    "payerId": "anna",
+    "pendingRequestCount": 1,
+    "action": "Cancel handover",
+    "noAcceptanceMeansNoChange": true,
+    "note": "Acceptance changes administration only. Authorship, payer, purchases and allowances remain unchanged; obsolete issuer invitations are revoked when the role actually changes."
+  },
+  "remove": {
+    "viewer": "alex",
+    "targetId": "sam",
+    "state": "Confirmation before removal",
+    "action": "Remove member",
+    "cancelAction": "Keep member",
+    "effectsAfterConfirmation": [
+      "End household access immediately",
+      "Preserve Sam's account and contributions",
+      "Do not cancel or transfer a purchase"
+    ],
+    "exportLimit": "Previously downloaded exports cannot be recalled.",
+    "memberCountBeforeConfirmation": 3,
+    "memberCountAfterConfirmation": 2
+  },
+  "constraints": [
+    "Household and account are profile subflows, not a fourth main destination.",
+    "One active household membership per user; no household switcher.",
+    "Only the administrator creates or revokes invitations and removes other members.",
+    "Pending invitations grant no access, reserve no place and are not counted as members.",
+    "Never move member-only household data onto a pre-membership screen; verify each visible field against the available authenticated API response.",
+    "No invitation email delivery, resend status, read receipt or recoverable old link is implied.",
+    "Leaving, removing membership, deleting an account, administrator handover and payer replacement remain distinct.",
+    "Account deletion requires a future detailed preview design; handover is optional for deletion.",
+    "Native clients contain no external-checkout promotion.",
+    "No profile editing, household rename, final branding, new role or bulk household deletion is introduced.",
+    "No real invitation, purchase, account mutation or native test is performed by this packet.",
+    "T03, T09 and both readiness gates retain their existing status."
+  ]
+}

@@ -1,0 +1,11 @@
+Static Family Cookbook web design study, 2026-10-15.
+Drawn as SVG by source/render-artboards.cjs and rasterized with Sharp/librsvg.
+No generative image model was used for these artboards.
+Reference: /Users/rafalwolak/dev/cloudflare/smakopas.pl-old/apps/review/.
+The reference supplied Archivo, restrained white surfaces, 4:3 photography,
+desktop split layouts, compact recipe rows and a corresponding mobile reading flow.
+Typeface: Archivo, copied from the supplied reference build, SIL Open Font License.
+Photographs: public Unsplash demonstration assets, individually attributed in credits.md.
+All content and controls are static design examples. This is not application UI,
+an implemented prototype, an approved visual system or evidence of functional behavior.
+Full and first-viewport exports share the same vector drawing.

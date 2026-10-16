@@ -1,0 +1,5 @@
+Static Family Cookbook Android phone design study, 2026-10-16.
+Authored SVG artboards rendered with Sharp/librsvg through source/render.cjs and source/artboards.cjs. No image-generation model was used and no application UI was implemented.
+Continues the developer-supplied Smakopas visual reference using actual Archivo content typography, Google Roboto control typography and official Material Symbols Outlined SVG assets. Fonts, symbols and their licenses are recorded in this packet.
+The two complete synthetic source PNGs are embedded unchanged from web v4. Family pancakes retains 2½ cups flour, 2 eggs, 250 ml milk, unknown salt quantity and unknown servings, with two original steps. No private photo or audio was used or sent to an external service.
+Material controls, navigation and system regions are static drawings of the intended design. They do not prove native behavior, accessibility, font scaling or device durability. T03 and T09 remain unchanged. Visual approval remains pending.

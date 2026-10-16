@@ -1,0 +1,1 @@
+Apple SF Symbol reused from the preceding onboarding study, originally exported locally through AppKit NSImage(systemSymbolName:) by source/export-symbols.swift. Used here only in static Apple-platform plan, allowance and subscription proposals. Filename identifies symbol and color variant. No image-generation model was used. SF Pro font files are not bundled.

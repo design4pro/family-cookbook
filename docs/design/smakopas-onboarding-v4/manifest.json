@@ -1,0 +1,600 @@
+{
+  "date": "2026-10-16",
+  "status": "Static proposal inspected and awaiting user review",
+  "type": "Four email-sign-in/household-creation states on five surfaces, five supplemental states and four overview sheets",
+  "implementation": false,
+  "renderer": "Authored SVG rendered with Sharp/librsvg; local SF Symbols and reused font/Material assets; no generative model or real account activity",
+  "source": [
+    "source/render.cjs",
+    "source/web.cjs",
+    "source/apple.cjs",
+    "source/android.cjs",
+    "source/scenario.json"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5271,
+      "sha256": "313e57e472ff0e3da6d3dc36db71e808acb233c29b3d1922ad9de9f54b231746"
+    },
+    {
+      "path": "android-code.png",
+      "bytes": 87407,
+      "sha256": "60951ffa3739f589586f687084eaf95b65153993858937b146e202426587929d",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-code.svg",
+      "bytes": 776172,
+      "sha256": "8bbc49174e99af50d2de6e734f32ab61e9b7177f9b71595bc26fdb4dcc9a9f37",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-create.png",
+      "bytes": 118048,
+      "sha256": "4c56ff13945111c46933c03d49d79f46ced240c0d50c0a3ef85c0455901f2c7b",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-create.svg",
+      "bytes": 776587,
+      "sha256": "ee1c09122f600b50f8d1f877a59a51196b792a540364cddb29ada502eb38fedc",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-email.png",
+      "bytes": 83177,
+      "sha256": "387e6d8d9e2e0eafba421956e44a08b6798080d8a22b3a0e1647824c9c957163",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-email.svg",
+      "bytes": 775858,
+      "sha256": "72adcfd4af6b47bb2549feafac5fe28a5790de0957d9bf0a6ea2aef9121daa4c",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-existing-household.png",
+      "bytes": 95721,
+      "sha256": "ea0ec00430ef35b77ee825287e3c946072cfa2e11b39e2cbd9fb699bb0c21db3",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-existing-household.svg",
+      "bytes": 775949,
+      "sha256": "f2c42434c4fbf65aa8e6c2195e76415a8f02b92e30fa17fd65555415a450d8c9",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-ready.png",
+      "bytes": 107784,
+      "sha256": "86043d3fb07e4d77ebc2a8b3020a2fd47ff565e7f24ba5d8edd2207ab1a9ce06",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-ready.svg",
+      "bytes": 776395,
+      "sha256": "ce5adc49c212a235c099c146b91d5493965320ebb8b89e4b430aa887e8c0d2ba",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-request-error.png",
+      "bytes": 96263,
+      "sha256": "75e08a9ff9ef840df91d981118b84826fa58e17d35c2753a229b68903898a76b",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-request-error.svg",
+      "bytes": 776343,
+      "sha256": "040b1cecd88c3247860865f99ff213583cc9d6e2ccce880a25f385666699766a",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "assets/archivo-latin.woff2",
+      "bytes": 90104,
+      "sha256": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    {
+      "path": "assets/archivo-license.txt",
+      "bytes": 4503,
+      "sha256": "c3c8402eec0e31dc9a76851235b1c02a0bb821488b2db8e35bcc2ab60ca8fc2b"
+    },
+    {
+      "path": "assets/material-symbols/arrow_back.svg",
+      "bytes": 170,
+      "sha256": "bf55d4c9579f814d48fc03045f1098b1eb4d2f86f479dcc82c18ef521b957e62"
+    },
+    {
+      "path": "assets/material-symbols/battery_full.svg",
+      "bytes": 236,
+      "sha256": "c53eed32ca27aca45c11e0d23249c8c9044399f8f4346cd2a693e5ed0980784d"
+    },
+    {
+      "path": "assets/material-symbols/signal_cellular_4_bar.svg",
+      "bytes": 128,
+      "sha256": "f6c3b191ea3fde4aa39963973b640c895a81009b40557f030bb15f743d8c69ee"
+    },
+    {
+      "path": "assets/material-symbols/wifi.svg",
+      "bytes": 414,
+      "sha256": "dc8d418b687726a857da5e718046d410d378c829d96231149cdf358c1851396b"
+    },
+    {
+      "path": "assets/material-symbols-license.txt",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "assets/roboto-license.txt",
+      "bytes": 4394,
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "assets/roboto-variable.ttf",
+      "bytes": 488584,
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+    },
+    {
+      "path": "assets/symbols/battery.100-ink.png",
+      "bytes": 1734,
+      "sha256": "cdea1afe12b8a5208d135ce9f4f8480bb2e56b1fa8510c6958f43ec46ce672c0",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/cellularbars-ink.png",
+      "bytes": 2223,
+      "sha256": "2af956c1d089e804de51f1504ec97f47d27dfb91f9a8bcbadcdac36412abfb98",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/chevron.left-ink.png",
+      "bytes": 2886,
+      "sha256": "f0cfc9c710b42405daecfe635d053b877e6ffd9b063a61549cb78e940749d58b",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/wifi-ink.png",
+      "bytes": 3722,
+      "sha256": "78f30eb395ccd838e286be8b2fb626b354babde5350ead2de3c94222897caec7",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "create-phone-overview.png",
+      "bytes": 213757,
+      "sha256": "73464b34f5d5b94e56535a33d9bf89d8447ebbb542f225312f4c4299cf4c2557",
+      "width": 1291,
+      "height": 1298,
+      "origin": "source/overview-origin.txt"
+    },
+    {
+      "path": "create-wide-overview.png",
+      "bytes": 139381,
+      "sha256": "eb4f784a45748f2e6ae8b525850b0eed92f2dd73ecaca4265892f161e9935b1a",
+      "width": 1930,
+      "height": 748,
+      "origin": "source/overview-origin.txt"
+    },
+    {
+      "path": "credits.md",
+      "bytes": 5086,
+      "sha256": "e19bb932ae530500e5aeec86ce7edefffbf93a33c0b60e67c1d09144bf6c63f9"
+    },
+    {
+      "path": "design-brief.md",
+      "bytes": 8603,
+      "sha256": "de6ebc50ecee594c54c2ebc3dc9127136a6ff7b841904c9f13ed25c2f72b2797"
+    },
+    {
+      "path": "ipad-code.png",
+      "bytes": 139495,
+      "sha256": "fec23c2e4fff234a4e29374123ae477a88ae39de928c8ebc714ac095a4895884",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-code.svg",
+      "bytes": 787624,
+      "sha256": "8fbbed1838903692efd8c813b437c1cb054c115051c80c7fd3b010fc821d8e42",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-create.png",
+      "bytes": 178510,
+      "sha256": "7269f4b8803cc9cc0e38f5ef9499612507e0b338ba2c0aa9071dd819ad9092c9",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-create.svg",
+      "bytes": 784080,
+      "sha256": "67394aad2d808fc33692d9585ff046f611226d373206587dab498627d6148818",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-email.png",
+      "bytes": 156203,
+      "sha256": "653279b6e712bb73ee11cfe50ec512229c639d8595fc8a40b108cd41d12815f3",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-email.svg",
+      "bytes": 783559,
+      "sha256": "7f4f4cee0dc7596e0af7914d4699a1cbdd540e398137fe8db530cd766ffd4790",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-ready.png",
+      "bytes": 157765,
+      "sha256": "71cae27e223749889ed1d51d146b0051de9deffaa8edb674e087137142063e9a",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-ready.svg",
+      "bytes": 784065,
+      "sha256": "06861344507978ce80cbe2672c553aac737725400424cf804e97c2d4cf403a40",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "iphone-code-expired.png",
+      "bytes": 92454,
+      "sha256": "a805f77f595fe3b9ea42b92ef292415f7fd9138eeecc7ab958c926637dab311d",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-code-expired.svg",
+      "bytes": 790339,
+      "sha256": "33195754ebecf271b71a4b3e6cf5f0f5e979c454f261677c1a85d3572bcc1bbf",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-code.png",
+      "bytes": 77392,
+      "sha256": "7c6fd44aa5e5f1d6cc4cf2737536d68a817b698e8991f06c0b1fab681236977e",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-code.svg",
+      "bytes": 789771,
+      "sha256": "ae350cbf027e1b10732d4f37738aeafd5f2763f5d756eb70248d3caa89e34ef1",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-create.png",
+      "bytes": 122977,
+      "sha256": "6d90a6cb9b82a3da41ae0f8b827e00822c9e251fb6da2a3a0608f2a6dc4b04a9",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-create.svg",
+      "bytes": 786707,
+      "sha256": "c210ee78d18ae50ba805995ce016d78e64fdf97c393f6a18f11d7c5ead3350c9",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-email.png",
+      "bytes": 92082,
+      "sha256": "36d46c3452dce2cc584ffa0470928439efe2731bcad4d55467b57eea771802d1",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-email.svg",
+      "bytes": 785919,
+      "sha256": "f6ec49708efd45f5ac3558764222ea89d90daad221ff606b2fa7083bb1d2d9ef",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-ready.png",
+      "bytes": 106616,
+      "sha256": "521557ad9270e1a88a6ec7bc1cbc786aa6f5b8f7fd1bf3418b5d172dc06f86f5",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-ready.svg",
+      "bytes": 786766,
+      "sha256": "507c61d6a12b888fb18498d84de0ec657face62b77efecbc8d77979182a9f614",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "phone-overview.png",
+      "bytes": 138525,
+      "sha256": "c0565cca3c76d4e05d65be8e1f1349394e40950e5cf159fa7847647749454b26",
+      "width": 1291,
+      "height": 1013,
+      "origin": "source/overview-origin.txt"
+    },
+    {
+      "path": "source/android.cjs",
+      "bytes": 6680,
+      "sha256": "38fbd6be17f4d92d56fd41f74f367bcd20942ea20ef20ea3fb49ce048580426f"
+    },
+    {
+      "path": "source/apple.cjs",
+      "bytes": 10319,
+      "sha256": "3baf24af4b2aa3382aae2e3f4d6b275caad0525251a90296b044804521a78f88"
+    },
+    {
+      "path": "source/artboard-origin.txt",
+      "bytes": 912,
+      "sha256": "b191cddf3058c8769ac9c16470882cb5321db4d07c19ce2868b38e2233c692fc"
+    },
+    {
+      "path": "source/export-symbols.swift",
+      "bytes": 2297,
+      "sha256": "3c6264cfb4de811aa11f2ff3027d5c8613ba6ed2444ba19a35b1ceb52e3832ec"
+    },
+    {
+      "path": "source/overview-origin.txt",
+      "bytes": 371,
+      "sha256": "30d613394285fe32d00a07f388f29e8ef1ea4afc40b781fdb34ad03471b5155f"
+    },
+    {
+      "path": "source/render.cjs",
+      "bytes": 12126,
+      "sha256": "9cdfc62c896efee599821c2f97ba661d1fd94c0d51f85a0b44f61fe72ea3d016"
+    },
+    {
+      "path": "source/scenario.json",
+      "bytes": 7643,
+      "sha256": "76d3a79fdb50a3ff0c76bbf0dc83aeb7f7c6261f106a35436fc6f2bdc79aca81"
+    },
+    {
+      "path": "source/symbol-origin.txt",
+      "bytes": 319,
+      "sha256": "c318120cb4bd1a0b780fa348ac9b57b872ded074e042a163aadaacf2a9fc5b8b"
+    },
+    {
+      "path": "source/target-regions.json",
+      "bytes": 19090,
+      "sha256": "57d963b12e26acd9ab0031e1f47994b127d4e45b0c4c543be6d81d23cc543fd4"
+    },
+    {
+      "path": "source/used-assets.json",
+      "bytes": 251,
+      "sha256": "23664210bdc85931fd934acc4a51916e8f12ff1e72b8d66b8c4cf2947cb86e52"
+    },
+    {
+      "path": "source/web.cjs",
+      "bytes": 13063,
+      "sha256": "dd791f3abe3ed17a81af7d6009e16ee0b4f94e16b98eb207d6574cb375871446"
+    },
+    {
+      "path": "visual-review.md",
+      "bytes": 6251,
+      "sha256": "601605b7fd02c121bf4d4b812aada94fed35f04f6f6ffed85644284e3589d1ee"
+    },
+    {
+      "path": "web-desktop-code.png",
+      "bytes": 127092,
+      "sha256": "751cfd116b0f3d3cff7a3444df7424134e4d28969fcb4623fe36e741cf68e5dd",
+      "width": 2880,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-desktop-code.svg",
+      "bytes": 775047,
+      "sha256": "647008f127f8b7dfdd32e02a9fcda1a25f908a1f2576c7eb5c8c6360f8f01676",
+      "logicalWidth": 1440,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-desktop-create.png",
+      "bytes": 204971,
+      "sha256": "21d52f38eae88a8b6586eff4133df33071c5dc0f28c65576654cc6f4b34234b0",
+      "width": 2880,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-desktop-create.svg",
+      "bytes": 777000,
+      "sha256": "6479fdcd91b8a4cdf5bdbddad6c38933a976ab92293de8aae7de45e6341fe894",
+      "logicalWidth": 1440,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-desktop-email.png",
+      "bytes": 146556,
+      "sha256": "c794d038c44d86baa750ca90a9b41fda5a6bd230ac836786e7269063758ccd6b",
+      "width": 2880,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-desktop-email.svg",
+      "bytes": 775333,
+      "sha256": "a864110743b132c1ecc3bfe825b309a098202cdc8d7f1e7455f2f115d8c0e853",
+      "logicalWidth": 1440,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-desktop-ready.png",
+      "bytes": 182491,
+      "sha256": "7a7d3b71e44a46ca18d8c9f4dce469d46368b322d8077f8564b62d625a6c318e",
+      "width": 2880,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-desktop-ready.svg",
+      "bytes": 776684,
+      "sha256": "e59acb6fdf7ae952599034fe4016d94be666632ac8b086c4e57784f47ea8a9fe",
+      "logicalWidth": 1440,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-mobile-code-error.png",
+      "bytes": 89308,
+      "sha256": "a6b827a576ea2cb45e81bb18d701092c58e80d266043691754d65f5476b00c29",
+      "width": 780,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-code-error.svg",
+      "bytes": 775004,
+      "sha256": "6732886d3e98a8e32654d67124da2ba4b61588b67f9d3ff410e464ad3a0bfc8a",
+      "logicalWidth": 390,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-mobile-code.png",
+      "bytes": 78195,
+      "sha256": "be483b41d3d18a08b6e9938ce67354c2be08357c5c2ef11b2a0c75f007f41f44",
+      "width": 780,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-code.svg",
+      "bytes": 774836,
+      "sha256": "29376fce5dd1346ca389a0c38d4c0c28f3e11ca5bfe732ccf1ebafc5fe69d796",
+      "logicalWidth": 390,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-mobile-create.png",
+      "bytes": 142305,
+      "sha256": "cd42fdb41e4dfc0eaf94cceb62238011aa66a482cccff61d6357d3e421417c3e",
+      "width": 780,
+      "height": 2400,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-create.svg",
+      "bytes": 776586,
+      "sha256": "9bc4f891bff3af428213adb450ee5102d5c4bbaa9bb11f90335fe628da0bcf9a",
+      "logicalWidth": 390,
+      "logicalHeight": 1200
+    },
+    {
+      "path": "web-mobile-email.png",
+      "bytes": 84718,
+      "sha256": "29122c1f9c0552c5f109712e2bfc50b840d74bd791fc13982400bdc08984a19d",
+      "width": 780,
+      "height": 1800,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-email.svg",
+      "bytes": 774863,
+      "sha256": "49e5f44178a2707bfe75f8b224722d9a2027b8554643bc51868c9de9d8a14821",
+      "logicalWidth": 390,
+      "logicalHeight": 900
+    },
+    {
+      "path": "web-mobile-invited.png",
+      "bytes": 99678,
+      "sha256": "49bbd9abd025bf835dd56124955e2609e9f52ca313f09ff8bf84ed72f9e51263",
+      "width": 780,
+      "height": 2200,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-invited.svg",
+      "bytes": 775267,
+      "sha256": "16daccd3863363efa2ea846cd30ea65b2553ec86a8129fa5bb48067ec2e03389",
+      "logicalWidth": 390,
+      "logicalHeight": 1100
+    },
+    {
+      "path": "web-mobile-ready.png",
+      "bytes": 140240,
+      "sha256": "1daa7224af967f6673bcbcf563a8a37270d45440a8ab92bae19627ef5e43c863",
+      "width": 780,
+      "height": 2400,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-ready.svg",
+      "bytes": 776766,
+      "sha256": "ed50b7e97e5a5d186dc3d1e060c96c9ae4a1c7534ed69c854b07d53ffb94eabd",
+      "logicalWidth": 390,
+      "logicalHeight": 1200
+    },
+    {
+      "path": "wide-overview.png",
+      "bytes": 111818,
+      "sha256": "a7f9b95db5f5e2d73aa9423d39c8a98cf8a13d2b4e9e3151d87f09ee210c1f81",
+      "width": 1930,
+      "height": 748,
+      "origin": "source/overview-origin.txt"
+    }
+  ]
+}

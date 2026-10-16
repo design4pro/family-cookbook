@@ -1,0 +1,3 @@
+Static contact sheet of four Family Cookbook Apple-platform design artboards, 2026-10-16.
+source/render.cjs places the exported Cookbook, Add photos, Review and Recipe PNGs on a neutral gallery canvas with labels outside the screens. It scales the complete artboards proportionally without changing their content. Source artboard origin notes and individual files are included in this packet.
+This is a presentation of static design artifacts, not an application screenshot, interactive prototype, generated image or native runtime test.

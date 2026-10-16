@@ -1,0 +1,1644 @@
+{
+  "web-desktop-list": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 536,
+        "y": 214,
+        "width": 168,
+        "height": 44,
+        "label": "From recipes",
+        "disabled": false
+      },
+      {
+        "x": 728,
+        "y": 214,
+        "width": 152,
+        "height": 44,
+        "label": "Add item",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 302,
+        "width": 44,
+        "height": 44,
+        "label": "Check Eggs 6",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 297,
+        "width": 700,
+        "height": 66,
+        "label": "View Eggs 6 details",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 392,
+        "width": 44,
+        "height": 44,
+        "label": "Check Milk 750 ml",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 387,
+        "width": 700,
+        "height": 66,
+        "label": "View Milk 750 ml details",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 482,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour 2½ cups",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 477,
+        "width": 700,
+        "height": 66,
+        "label": "View Flour 2½ cups details",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 572,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour 250 g",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 567,
+        "width": 700,
+        "height": 66,
+        "label": "View Flour 250 g details",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 662,
+        "width": 44,
+        "height": 44,
+        "label": "Check Bread 1 loaf",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 657,
+        "width": 700,
+        "height": 66,
+        "label": "View Bread 1 loaf details",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 752,
+        "width": 44,
+        "height": 44,
+        "label": "Uncheck Chopped tomatoes 400 g",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 747,
+        "width": 700,
+        "height": 66,
+        "label": "View Chopped tomatoes 400 g details",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 850,
+        "width": 196,
+        "height": 44,
+        "label": "Clear checked items",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 472,
+        "width": 150,
+        "height": 44,
+        "label": "Edit manual item",
+        "disabled": false
+      },
+      {
+        "x": 1208,
+        "y": 645,
+        "width": 120,
+        "height": 44,
+        "label": "Remove addition",
+        "disabled": false
+      },
+      {
+        "x": 1208,
+        "y": 725,
+        "width": 120,
+        "height": 44,
+        "label": "Remove addition",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 800,
+        "width": 352,
+        "height": 44,
+        "label": "View recipe additions",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 86,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-list": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 260,
+        "y": 191,
+        "width": 114,
+        "height": 44,
+        "label": "Add item",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 228,
+        "width": 140,
+        "height": 44,
+        "label": "From recipes",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 280,
+        "width": 44,
+        "height": 44,
+        "label": "Check Eggs 6",
+        "disabled": false
+      },
+      {
+        "x": 60,
+        "y": 275,
+        "width": 314,
+        "height": 66,
+        "label": "View Eggs 6 details",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 368,
+        "width": 44,
+        "height": 44,
+        "label": "Check Milk 750 ml",
+        "disabled": false
+      },
+      {
+        "x": 60,
+        "y": 363,
+        "width": 314,
+        "height": 66,
+        "label": "View Milk 750 ml details",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 456,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour 2½ cups",
+        "disabled": false
+      },
+      {
+        "x": 60,
+        "y": 451,
+        "width": 314,
+        "height": 66,
+        "label": "View Flour 2½ cups details",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 544,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour 250 g",
+        "disabled": false
+      },
+      {
+        "x": 60,
+        "y": 539,
+        "width": 314,
+        "height": 66,
+        "label": "View Flour 250 g details",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 632,
+        "width": 44,
+        "height": 44,
+        "label": "Check Bread 1 loaf",
+        "disabled": false
+      },
+      {
+        "x": 60,
+        "y": 627,
+        "width": 314,
+        "height": 66,
+        "label": "View Bread 1 loaf details",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 720,
+        "width": 44,
+        "height": 44,
+        "label": "Uncheck Chopped tomatoes 400 g",
+        "disabled": false
+      },
+      {
+        "x": 60,
+        "y": 715,
+        "width": 314,
+        "height": 66,
+        "label": "View Chopped tomatoes 400 g details",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 810,
+        "width": 358,
+        "height": 44,
+        "label": "View recipe additions",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 865,
+        "width": 190,
+        "height": 44,
+        "label": "Clear checked items",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-confirm": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 106,
+        "y": 74,
+        "width": 150,
+        "height": 44,
+        "label": "Return to Shopping list",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 342,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Flour",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 442,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Eggs",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 542,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Milk",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 642,
+        "width": 44,
+        "height": 44,
+        "label": "Include Salt",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 624,
+        "width": 352,
+        "height": 48,
+        "label": "Confirm additions",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 731,
+        "width": 100,
+        "height": 44,
+        "label": "Cancel",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 86,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-confirm": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 10,
+        "y": 74,
+        "width": 150,
+        "height": 44,
+        "label": "Return to Shopping list",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 423,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Flour",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 531,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Eggs",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 639,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Milk",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 747,
+        "width": 44,
+        "height": 44,
+        "label": "Include Salt",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 929,
+        "width": 358,
+        "height": 48,
+        "label": "Confirm additions",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-offline": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 260,
+        "y": 309,
+        "width": 114,
+        "height": 44,
+        "label": "Add item",
+        "disabled": true
+      },
+      {
+        "x": 12,
+        "y": 390,
+        "width": 44,
+        "height": 44,
+        "label": "Uncheck Eggs 6",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 478,
+        "width": 44,
+        "height": 44,
+        "label": "Check Milk 750 ml",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 566,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour 2½ cups",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 654,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour 250 g",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 742,
+        "width": 44,
+        "height": 44,
+        "label": "Uncheck Bread 1 loaf",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 830,
+        "width": 44,
+        "height": 44,
+        "label": "Uncheck Chopped tomatoes 400 g",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-updated": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 536,
+        "y": 214,
+        "width": 168,
+        "height": 44,
+        "label": "From recipes",
+        "disabled": false
+      },
+      {
+        "x": 728,
+        "y": 214,
+        "width": 152,
+        "height": 44,
+        "label": "Add item",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 390,
+        "width": 44,
+        "height": 44,
+        "label": "Check Eggs 6",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 385,
+        "width": 700,
+        "height": 66,
+        "label": "View Eggs 6 details",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 470,
+        "width": 44,
+        "height": 44,
+        "label": "Check Milk 500 ml",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 465,
+        "width": 700,
+        "height": 66,
+        "label": "View Milk 500 ml details",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 550,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour 2½ cups",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 545,
+        "width": 700,
+        "height": 66,
+        "label": "View Flour 2½ cups details",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 630,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour 250 g",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 625,
+        "width": 700,
+        "height": 66,
+        "label": "View Flour 250 g details",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 710,
+        "width": 44,
+        "height": 44,
+        "label": "Check Bread 1 loaf",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 705,
+        "width": 700,
+        "height": 66,
+        "label": "View Bread 1 loaf details",
+        "disabled": false
+      },
+      {
+        "x": 116,
+        "y": 790,
+        "width": 44,
+        "height": 44,
+        "label": "Uncheck Chopped tomatoes 400 g",
+        "disabled": false
+      },
+      {
+        "x": 172,
+        "y": 785,
+        "width": 700,
+        "height": 66,
+        "label": "View Chopped tomatoes 400 g details",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 886,
+        "width": 196,
+        "height": 44,
+        "label": "Clear checked items",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 385,
+        "width": 150,
+        "height": 44,
+        "label": "Edit manual item",
+        "disabled": false
+      },
+      {
+        "x": 1208,
+        "y": 559,
+        "width": 120,
+        "height": 44,
+        "label": "Remove addition",
+        "disabled": false
+      },
+      {
+        "x": 1208,
+        "y": 639,
+        "width": 120,
+        "height": 44,
+        "label": "Remove addition",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 714,
+        "width": 352,
+        "height": 44,
+        "label": "View recipe additions",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 86,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-list": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 249,
+        "y": 197,
+        "width": 124,
+        "height": 44,
+        "label": "From recipes",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 252,
+        "width": 44,
+        "height": 44,
+        "label": "Check Eggs, 6",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 324,
+        "width": 44,
+        "height": 44,
+        "label": "Check Milk, 750 ml",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 396,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour, 2½ cups",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 468,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour, 250 g",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 540,
+        "width": 44,
+        "height": 44,
+        "label": "Check Bread, 1 loaf",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 612,
+        "width": 44,
+        "height": 44,
+        "label": "Uncheck Chopped tomatoes, 400 g",
+        "disabled": false
+      },
+      {
+        "x": 252,
+        "y": 703,
+        "width": 121,
+        "height": 44,
+        "label": "Clear checked",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      },
+      {
+        "x": 211,
+        "y": 64,
+        "width": 110,
+        "height": 44,
+        "label": "Add item",
+        "disabled": false
+      },
+      {
+        "x": 329,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "ellipsis",
+        "disabled": false
+      },
+      {
+        "x": 30,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 144,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 259,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-confirm": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 309,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Flour, 2½ cups",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 387,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Eggs, 2",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 465,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Milk, 250 ml",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 543,
+        "width": 44,
+        "height": 44,
+        "label": "Include Salt, Not specified",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "xmark",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 766,
+        "width": 353,
+        "height": 48,
+        "label": "Confirm additions",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-offline": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 296,
+        "width": 44,
+        "height": 44,
+        "label": "Uncheck Eggs, 6",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 362,
+        "width": 44,
+        "height": 44,
+        "label": "Check Milk, 750 ml",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 428,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour, 2½ cups",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 494,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour, 250 g",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 560,
+        "width": 44,
+        "height": 44,
+        "label": "Uncheck Bread, 1 loaf",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 626,
+        "width": 44,
+        "height": 44,
+        "label": "Uncheck Chopped tomatoes, 400 g",
+        "disabled": false
+      },
+      {
+        "x": 263,
+        "y": 691,
+        "width": 110,
+        "height": 44,
+        "label": "Clear checked unavailable offline",
+        "disabled": true
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      },
+      {
+        "x": 255,
+        "y": 64,
+        "width": 118,
+        "height": 44,
+        "label": "Add item",
+        "disabled": true
+      },
+      {
+        "x": 30,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 144,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 259,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-list": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 530,
+        "y": 219,
+        "width": 152,
+        "height": 44,
+        "label": "From recipes",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 272,
+        "width": 44,
+        "height": 44,
+        "label": "Check Eggs, 6",
+        "disabled": false
+      },
+      {
+        "x": 102,
+        "y": 270,
+        "width": 580,
+        "height": 70,
+        "label": "Show contributions to Eggs, 6",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 345,
+        "width": 44,
+        "height": 44,
+        "label": "Check Milk, 750 ml",
+        "disabled": false
+      },
+      {
+        "x": 102,
+        "y": 343,
+        "width": 580,
+        "height": 70,
+        "label": "Show contributions to Milk, 750 ml",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 418,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour, 2½ cups",
+        "disabled": false
+      },
+      {
+        "x": 102,
+        "y": 416,
+        "width": 580,
+        "height": 70,
+        "label": "Show contributions to Flour, 2½ cups",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 491,
+        "width": 44,
+        "height": 44,
+        "label": "Check Flour, 250 g",
+        "disabled": false
+      },
+      {
+        "x": 102,
+        "y": 489,
+        "width": 580,
+        "height": 70,
+        "label": "Show contributions to Flour, 250 g",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 564,
+        "width": 44,
+        "height": 44,
+        "label": "Check Bread, 1 loaf",
+        "disabled": false
+      },
+      {
+        "x": 102,
+        "y": 562,
+        "width": 580,
+        "height": 70,
+        "label": "Show contributions to Bread, 1 loaf",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 637,
+        "width": 44,
+        "height": 44,
+        "label": "Uncheck Chopped tomatoes, 400 g",
+        "disabled": false
+      },
+      {
+        "x": 102,
+        "y": 635,
+        "width": 580,
+        "height": 70,
+        "label": "Show contributions to Chopped tomatoes, 400 g",
+        "disabled": false
+      },
+      {
+        "x": 548,
+        "y": 726,
+        "width": 134,
+        "height": 44,
+        "label": "Clear checked",
+        "disabled": false
+      },
+      {
+        "x": 766,
+        "y": 456,
+        "width": 150,
+        "height": 44,
+        "label": "Edit manual item",
+        "disabled": false
+      },
+      {
+        "x": 1098,
+        "y": 558,
+        "width": 44,
+        "height": 44,
+        "label": "Remove Family pancakes addition",
+        "disabled": false
+      },
+      {
+        "x": 1098,
+        "y": 634,
+        "width": 44,
+        "height": 44,
+        "label": "Remove Shakshuka addition",
+        "disabled": false
+      },
+      {
+        "x": 406,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 554,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 701,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Shopping",
+        "disabled": false
+      },
+      {
+        "x": 957,
+        "y": 42,
+        "width": 143,
+        "height": 44,
+        "label": "Add item",
+        "disabled": false
+      },
+      {
+        "x": 1118,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-confirm": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 534,
+        "y": 229,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Flour, 2½ cups",
+        "disabled": false
+      },
+      {
+        "x": 534,
+        "y": 323,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Eggs, 2",
+        "disabled": false
+      },
+      {
+        "x": 534,
+        "y": 417,
+        "width": 44,
+        "height": 44,
+        "label": "Exclude Milk, 250 ml",
+        "disabled": false
+      },
+      {
+        "x": 534,
+        "y": 511,
+        "width": 44,
+        "height": 44,
+        "label": "Include Salt, Not specified",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "xmark",
+        "disabled": false
+      },
+      {
+        "x": 970,
+        "y": 42,
+        "width": 192,
+        "height": 44,
+        "label": "Confirm additions",
+        "disabled": false
+      }
+    ]
+  },
+  "android-list": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 160,
+        "width": 178,
+        "height": 48,
+        "label": "From recipes",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 229,
+        "width": 48,
+        "height": 48,
+        "label": "Check Eggs",
+        "disabled": false
+      },
+      {
+        "x": 348,
+        "y": 230,
+        "width": 48,
+        "height": 48,
+        "label": "Details for Eggs",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 301,
+        "width": 48,
+        "height": 48,
+        "label": "Check Milk",
+        "disabled": false
+      },
+      {
+        "x": 348,
+        "y": 302,
+        "width": 48,
+        "height": 48,
+        "label": "Details for Milk",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 373,
+        "width": 48,
+        "height": 48,
+        "label": "Check Flour",
+        "disabled": false
+      },
+      {
+        "x": 348,
+        "y": 374,
+        "width": 48,
+        "height": 48,
+        "label": "Details for Flour",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 445,
+        "width": 48,
+        "height": 48,
+        "label": "Check Flour",
+        "disabled": false
+      },
+      {
+        "x": 348,
+        "y": 446,
+        "width": 48,
+        "height": 48,
+        "label": "Details for Flour",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 517,
+        "width": 48,
+        "height": 48,
+        "label": "Check Bread",
+        "disabled": false
+      },
+      {
+        "x": 348,
+        "y": 518,
+        "width": 48,
+        "height": 48,
+        "label": "Details for Bread",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 589,
+        "width": 48,
+        "height": 48,
+        "label": "Uncheck Chopped tomatoes",
+        "disabled": false
+      },
+      {
+        "x": 348,
+        "y": 590,
+        "width": 48,
+        "height": 48,
+        "label": "Details for Chopped tomatoes",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 739,
+        "width": 176,
+        "height": 48,
+        "label": "Clear checked",
+        "disabled": false
+      },
+      {
+        "x": 348,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Account",
+        "disabled": false
+      },
+      {
+        "x": 220,
+        "y": 739,
+        "width": 172,
+        "height": 56,
+        "label": "Add item",
+        "disabled": false
+      },
+      {
+        "x": 5,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 142,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 279,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "android-confirm": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 12,
+        "y": 262,
+        "width": 48,
+        "height": 48,
+        "label": "Exclude Flour",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 362,
+        "width": 48,
+        "height": 48,
+        "label": "Exclude Eggs",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 462,
+        "width": 48,
+        "height": 48,
+        "label": "Exclude Milk",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 562,
+        "width": 48,
+        "height": 48,
+        "label": "Include Salt",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Back",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 827,
+        "width": 372,
+        "height": 48,
+        "label": "Confirm additions",
+        "disabled": false
+      }
+    ]
+  },
+  "android-offline": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 228,
+        "width": 178,
+        "height": 48,
+        "label": "From recipes",
+        "disabled": true
+      },
+      {
+        "x": 214,
+        "y": 228,
+        "width": 178,
+        "height": 48,
+        "label": "Add item",
+        "disabled": true
+      },
+      {
+        "x": 12,
+        "y": 295,
+        "width": 48,
+        "height": 48,
+        "label": "Uncheck Eggs",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 367,
+        "width": 48,
+        "height": 48,
+        "label": "Check Milk",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 439,
+        "width": 48,
+        "height": 48,
+        "label": "Check Flour",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 511,
+        "width": 48,
+        "height": 48,
+        "label": "Check Flour",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 583,
+        "width": 48,
+        "height": 48,
+        "label": "Uncheck Bread",
+        "disabled": false
+      },
+      {
+        "x": 12,
+        "y": 655,
+        "width": 48,
+        "height": 48,
+        "label": "Uncheck Chopped tomatoes",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 752,
+        "width": 160,
+        "height": 48,
+        "label": "Clear checked",
+        "disabled": true
+      },
+      {
+        "x": 348,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Account",
+        "disabled": false
+      },
+      {
+        "x": 5,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 142,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 279,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  }
+}

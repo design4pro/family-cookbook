@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-15",
+  "direction": "Developer-selected green Familiar recipe app",
+  "scope": "Four primary screens on mobile and desktop; design only",
+  "images": [
+    {
+      "file": "desktop-01-cookbook.png",
+      "width": 1505,
+      "height": 1045,
+      "sha256": "cbb5add55d88806ab8ff0eb80cbfcf0b9745bfe9306495c8306ba6f717413d14",
+      "prompt": "prompts/desktop-01-cookbook.txt",
+      "finalPrompt": "prompts/desktop-01-cookbook.txt",
+      "reference": "../../../.impeccable/mocks/decision/canon.png",
+      "status": "proposed-flow-mockup",
+      "approved": false,
+      "content": "synthetic",
+      "implementation": false
+    },
+    {
+      "file": "desktop-02-add-photo.png",
+      "width": 1505,
+      "height": 1045,
+      "sha256": "2fc5b660fbf304b135e0b86fa67ec76673235a6961d2f4210bf5555453bb81a6",
+      "prompt": "prompts/desktop-02-add-photo.txt",
+      "finalPrompt": "prompts/desktop-02-add-photo.revision.txt",
+      "reference": "../../../.impeccable/mocks/decision/canon.png",
+      "status": "proposed-flow-mockup",
+      "approved": false,
+      "content": "synthetic",
+      "implementation": false
+    },
+    {
+      "file": "desktop-03-review.png",
+      "width": 1506,
+      "height": 1045,
+      "sha256": "e0937a873b3517e3089f246fd04a13a7f2347775e343c666fbc692a004ad808a",
+      "prompt": "prompts/desktop-03-review.txt",
+      "finalPrompt": "prompts/desktop-03-review.revision.txt",
+      "reference": "../../../.impeccable/mocks/decision/canon.png",
+      "status": "proposed-flow-mockup",
+      "approved": false,
+      "content": "synthetic",
+      "implementation": false
+    },
+    {
+      "file": "desktop-04-recipe.png",
+      "width": 1505,
+      "height": 1045,
+      "sha256": "74e581be9e139efc24b273b3fe1e25fc2c6f7dfb590dc81abf70e965b727102a",
+      "prompt": "prompts/desktop-04-recipe.txt",
+      "finalPrompt": "prompts/desktop-04-recipe.txt",
+      "reference": "../../../.impeccable/mocks/decision/canon.png",
+      "status": "proposed-flow-mockup",
+      "approved": false,
+      "content": "synthetic",
+      "implementation": false
+    },
+    {
+      "file": "mobile-01-cookbook.png",
+      "width": 853,
+      "height": 1844,
+      "sha256": "a3663054f27a8b6b0e29c17dc94576eec735ac2e1d1135b2fb9e5d16c38bda95",
+      "prompt": "prompts/mobile-01-cookbook.txt",
+      "finalPrompt": "prompts/mobile-01-cookbook.revision.txt",
+      "reference": "../../../.impeccable/mocks/decision/canon.png",
+      "status": "proposed-flow-mockup",
+      "approved": false,
+      "content": "synthetic",
+      "implementation": false
+    },
+    {
+      "file": "mobile-02-add-photo.png",
+      "width": 853,
+      "height": 1844,
+      "sha256": "8bc909e2e04c8e39f2b9a76a8f2b74de5e80cf89079780b85e36839d9b2d8975",
+      "prompt": "prompts/mobile-02-add-photo.txt",
+      "finalPrompt": "prompts/mobile-02-add-photo.revision.txt",
+      "reference": "../../../.impeccable/mocks/decision/canon.png",
+      "status": "proposed-flow-mockup",
+      "approved": false,
+      "content": "synthetic",
+      "implementation": false
+    },
+    {
+      "file": "mobile-03-review.png",
+      "width": 941,
+      "height": 1672,
+      "sha256": "d28e7a08a30f2bab7506dc5530ac0b5102626a0f0e3504ea8a70a8396f25c863",
+      "prompt": "prompts/mobile-03-review.txt",
+      "finalPrompt": "prompts/mobile-03-review.revision.txt",
+      "reference": "../../../.impeccable/mocks/decision/canon.png",
+      "status": "proposed-flow-mockup",
+      "approved": false,
+      "content": "synthetic",
+      "implementation": false
+    },
+    {
+      "file": "mobile-04-recipe.png",
+      "width": 853,
+      "height": 1844,
+      "sha256": "caf23daf3260493ac5b6859ac7c67277f002df08193473b78036886df1cf569e",
+      "prompt": "prompts/mobile-04-recipe.txt",
+      "finalPrompt": "prompts/mobile-04-recipe.revision.txt",
+      "reference": "../../../.impeccable/mocks/decision/canon.png",
+      "status": "proposed-flow-mockup",
+      "approved": false,
+      "content": "synthetic",
+      "implementation": false
+    }
+  ]
+}

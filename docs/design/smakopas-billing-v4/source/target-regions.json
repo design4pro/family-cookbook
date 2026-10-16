@@ -1,0 +1,1590 @@
+{
+  "web-desktop-plan": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 108,
+        "y": 212,
+        "width": 64,
+        "height": 44,
+        "label": "Open Plan",
+        "disabled": false
+      },
+      {
+        "x": 202,
+        "y": 212,
+        "width": 72,
+        "height": 44,
+        "label": "Open Usage",
+        "disabled": false
+      },
+      {
+        "x": 302,
+        "y": 212,
+        "width": 118,
+        "height": 44,
+        "label": "Open Subscription",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 385,
+        "width": 352,
+        "height": 80,
+        "label": "Choose monthly billing",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 465,
+        "width": 352,
+        "height": 80,
+        "label": "Choose yearly billing",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 748,
+        "width": 352,
+        "height": 48,
+        "label": "Review purchase",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-plan": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1600,
+    "targets": [
+      {
+        "x": 12,
+        "y": 224,
+        "width": 64,
+        "height": 44,
+        "label": "Open Plan",
+        "disabled": false
+      },
+      {
+        "x": 106,
+        "y": 224,
+        "width": 72,
+        "height": 44,
+        "label": "Open Usage",
+        "disabled": false
+      },
+      {
+        "x": 206,
+        "y": 224,
+        "width": 118,
+        "height": 44,
+        "label": "Open Subscription",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 1007,
+        "width": 358,
+        "height": 80,
+        "label": "Choose monthly billing",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 1087,
+        "width": 358,
+        "height": 80,
+        "label": "Choose yearly billing",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 1354,
+        "width": 358,
+        "height": 48,
+        "label": "Review purchase",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 278,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-usage": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 108,
+        "y": 212,
+        "width": 64,
+        "height": 44,
+        "label": "Open Plan",
+        "disabled": false
+      },
+      {
+        "x": 202,
+        "y": 212,
+        "width": 72,
+        "height": 44,
+        "label": "Open Usage",
+        "disabled": false
+      },
+      {
+        "x": 302,
+        "y": 212,
+        "width": 118,
+        "height": 44,
+        "label": "Open Subscription",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-usage": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1500,
+    "targets": [
+      {
+        "x": 12,
+        "y": 224,
+        "width": 64,
+        "height": 44,
+        "label": "Open Plan",
+        "disabled": false
+      },
+      {
+        "x": 106,
+        "y": 224,
+        "width": 72,
+        "height": 44,
+        "label": "Open Usage",
+        "disabled": false
+      },
+      {
+        "x": 206,
+        "y": 224,
+        "width": 118,
+        "height": 44,
+        "label": "Open Subscription",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 278,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-subscription": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 108,
+        "y": 212,
+        "width": 64,
+        "height": 44,
+        "label": "Open Plan",
+        "disabled": false
+      },
+      {
+        "x": 202,
+        "y": 212,
+        "width": 72,
+        "height": 44,
+        "label": "Open Usage",
+        "disabled": false
+      },
+      {
+        "x": 302,
+        "y": 212,
+        "width": 118,
+        "height": 44,
+        "label": "Open Subscription",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 656,
+        "width": 248,
+        "height": 48,
+        "label": "Manage in Polar",
+        "disabled": false
+      },
+      {
+        "x": 400,
+        "y": 658,
+        "width": 170,
+        "height": 44,
+        "label": "Stop renewal",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 738,
+        "width": 180,
+        "height": 44,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-subscription": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1200,
+    "targets": [
+      {
+        "x": 12,
+        "y": 224,
+        "width": 64,
+        "height": 44,
+        "label": "Open Plan",
+        "disabled": false
+      },
+      {
+        "x": 106,
+        "y": 224,
+        "width": 72,
+        "height": 44,
+        "label": "Open Usage",
+        "disabled": false
+      },
+      {
+        "x": 206,
+        "y": 224,
+        "width": 118,
+        "height": 44,
+        "label": "Open Subscription",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 666,
+        "width": 358,
+        "height": 48,
+        "label": "Manage in Polar",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 739,
+        "width": 160,
+        "height": 44,
+        "label": "Stop renewal",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 801,
+        "width": 180,
+        "height": 44,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 278,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-archive": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 108,
+        "y": 212,
+        "width": 64,
+        "height": 44,
+        "label": "Open Plan",
+        "disabled": false
+      },
+      {
+        "x": 202,
+        "y": 212,
+        "width": 72,
+        "height": 44,
+        "label": "Open Usage",
+        "disabled": false
+      },
+      {
+        "x": 302,
+        "y": 212,
+        "width": 118,
+        "height": 44,
+        "label": "Open Subscription",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 754,
+        "width": 224,
+        "height": 48,
+        "label": "Export archive",
+        "disabled": false
+      },
+      {
+        "x": 374,
+        "y": 756,
+        "width": 200,
+        "height": 44,
+        "label": "Open cookbook",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 520,
+        "width": 352,
+        "height": 48,
+        "label": "Renew with Polar",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-archive": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1400,
+    "targets": [
+      {
+        "x": 12,
+        "y": 224,
+        "width": 64,
+        "height": 44,
+        "label": "Open Plan",
+        "disabled": false
+      },
+      {
+        "x": 106,
+        "y": 224,
+        "width": 72,
+        "height": 44,
+        "label": "Open Usage",
+        "disabled": false
+      },
+      {
+        "x": 206,
+        "y": 224,
+        "width": 118,
+        "height": 44,
+        "label": "Open Subscription",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 966,
+        "width": 358,
+        "height": 48,
+        "label": "Renew with Polar",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 1038,
+        "width": 358,
+        "height": 48,
+        "label": "Export archive",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 1106,
+        "width": 358,
+        "height": 44,
+        "label": "Open cookbook",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 278,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-checkout": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 106,
+        "y": 72,
+        "width": 174,
+        "height": 44,
+        "label": "Return to Plan",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 748,
+        "width": 180,
+        "height": 44,
+        "label": "Back to plan",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 630,
+        "width": 352,
+        "height": 48,
+        "label": "Continue to Polar",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-pending": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 10,
+        "y": 72,
+        "width": 174,
+        "height": 44,
+        "label": "Return to Plan",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 554,
+        "width": 358,
+        "height": 48,
+        "label": "Refresh status",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 630,
+        "width": 358,
+        "height": 44,
+        "label": "Open cookbook",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 278,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-cancel": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 10,
+        "y": 72,
+        "width": 174,
+        "height": 44,
+        "label": "Return to Subscription",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 669,
+        "width": 358,
+        "height": 48,
+        "label": "Stop renewal",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 741,
+        "width": 358,
+        "height": 48,
+        "label": "Keep plan",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 278,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-cancelled": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 10,
+        "y": 72,
+        "width": 174,
+        "height": 44,
+        "label": "Return to Subscription",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 681,
+        "width": 358,
+        "height": 48,
+        "label": "Open cookbook",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 757,
+        "width": 180,
+        "height": 44,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 821,
+        "width": 358,
+        "height": 44,
+        "label": "Manage in Polar",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 278,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-payer-change": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 106,
+        "y": 72,
+        "width": 174,
+        "height": 44,
+        "label": "Return to Subscription",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 842,
+        "width": 230,
+        "height": 48,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 382,
+        "y": 844,
+        "width": 200,
+        "height": 44,
+        "label": "Open cookbook",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open Anna’s account",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 96,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-plan": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 753,
+        "width": 353,
+        "height": 44,
+        "label": "Usage rules",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-usage": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 749,
+        "width": 353,
+        "height": 44,
+        "label": "Usage rules",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-subscription": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 686,
+        "width": 353,
+        "height": 48,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 759,
+        "width": 353,
+        "height": 44,
+        "label": "View usage",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-archive": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 587,
+        "width": 353,
+        "height": 48,
+        "label": "Open cookbook",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 656,
+        "width": 353,
+        "height": 44,
+        "label": "Export cookbook",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 711,
+        "width": 166,
+        "height": 44,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 766,
+        "width": 353,
+        "height": 44,
+        "label": "Inactivity details",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-limit": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 638,
+        "width": 353,
+        "height": 48,
+        "label": "Add a recipe manually",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 711,
+        "width": 353,
+        "height": 44,
+        "label": "Open cookbook",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 771,
+        "width": 353,
+        "height": 44,
+        "label": "View usage",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-plan": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 20,
+        "y": 217,
+        "width": 240,
+        "height": 52,
+        "label": "Your plan",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 282,
+        "width": 240,
+        "height": 52,
+        "label": "Usage",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 347,
+        "width": 240,
+        "height": 52,
+        "label": "Subscription",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 744,
+        "width": 228,
+        "height": 44,
+        "label": "Back to account",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 704,
+        "width": 240,
+        "height": 48,
+        "label": "Usage rules",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-usage": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 20,
+        "y": 217,
+        "width": 240,
+        "height": 52,
+        "label": "Your plan",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 282,
+        "width": 240,
+        "height": 52,
+        "label": "Usage",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 347,
+        "width": 240,
+        "height": 52,
+        "label": "Subscription",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 744,
+        "width": 228,
+        "height": 44,
+        "label": "Back to account",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 704,
+        "width": 240,
+        "height": 48,
+        "label": "Usage rules",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-subscription": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 20,
+        "y": 217,
+        "width": 240,
+        "height": 52,
+        "label": "Your plan",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 282,
+        "width": 240,
+        "height": 52,
+        "label": "Usage",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 347,
+        "width": 240,
+        "height": 52,
+        "label": "Subscription",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 744,
+        "width": 228,
+        "height": 44,
+        "label": "Back to account",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 660,
+        "width": 280,
+        "height": 48,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 866,
+        "y": 660,
+        "width": 276,
+        "height": 44,
+        "label": "View usage",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-archive": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 20,
+        "y": 217,
+        "width": 240,
+        "height": 52,
+        "label": "Your plan",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 282,
+        "width": 240,
+        "height": 52,
+        "label": "Usage",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 347,
+        "width": 240,
+        "height": 52,
+        "label": "Subscription",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 744,
+        "width": 228,
+        "height": 44,
+        "label": "Back to account",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 579,
+        "width": 240,
+        "height": 48,
+        "label": "Open cookbook",
+        "disabled": false
+      },
+      {
+        "x": 598,
+        "y": 579,
+        "width": 240,
+        "height": 48,
+        "label": "Export cookbook",
+        "disabled": false
+      },
+      {
+        "x": 866,
+        "y": 579,
+        "width": 276,
+        "height": 48,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 695,
+        "width": 816,
+        "height": 44,
+        "label": "Inactivity details",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-grace": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 20,
+        "y": 217,
+        "width": 240,
+        "height": 52,
+        "label": "Your plan",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 282,
+        "width": 240,
+        "height": 52,
+        "label": "Usage",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 347,
+        "width": 240,
+        "height": 52,
+        "label": "Subscription",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 744,
+        "width": 228,
+        "height": 44,
+        "label": "Back to account",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 609,
+        "width": 280,
+        "height": 48,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 866,
+        "y": 609,
+        "width": 276,
+        "height": 48,
+        "label": "Open cookbook",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      }
+    ]
+  },
+  "android-plan": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 789,
+        "width": 372,
+        "height": 48,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Back to account",
+        "disabled": false
+      }
+    ]
+  },
+  "android-usage": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 789,
+        "width": 372,
+        "height": 48,
+        "label": "Refresh usage",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Back to account",
+        "disabled": false
+      }
+    ]
+  },
+  "android-subscription": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 692,
+        "width": 372,
+        "height": 48,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 758,
+        "width": 372,
+        "height": 48,
+        "label": "View usage",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Back to account",
+        "disabled": false
+      }
+    ]
+  },
+  "android-archive": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 584,
+        "width": 372,
+        "height": 48,
+        "label": "Open cookbook",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 650,
+        "width": 372,
+        "height": 48,
+        "label": "Export cookbook",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 712,
+        "width": 372,
+        "height": 48,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Back to account",
+        "disabled": false
+      }
+    ]
+  },
+  "android-refresh-error": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 632,
+        "width": 372,
+        "height": 48,
+        "label": "Try again",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 698,
+        "width": 372,
+        "height": 48,
+        "label": "Open cookbook",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Back to account",
+        "disabled": false
+      }
+    ]
+  }
+}

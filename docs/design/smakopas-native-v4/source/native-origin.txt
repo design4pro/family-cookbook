@@ -1,0 +1,5 @@
+Static Family Cookbook iPhone and iPad design study, 2026-10-16.
+Authored SVG artboards rendered with Sharp/librsvg using render.cjs, iphone.cjs and ipad.cjs. No image-generation model was used and no application was implemented.
+Continues the supplied Smakopas reference with actual Archivo content typography, locally installed SF Pro Text for native controls and AppKit-exported SF Symbols. SF Pro font files are not bundled. Liquid Glass is a static illustration of navigation/control material, not an operating-system rendering or native validation result.
+Two synthetic original pages are embedded unchanged from the web v4 capture study. Family pancakes retains 2½ cups flour, 2 eggs, 250 ml milk and salt with no specified quantity. Servings, time and temperature remain unknown. Public cookbook demo photos do not become a cover for the imported recipe. No private sources were used.
+Every control is static artwork. User visual approval, accessibility validation and native runtime evidence remain separate. T03 and T09 are unchanged.

@@ -1,0 +1,1 @@
+Edit this exact UI screenshot and keep everything unchanged except the source image caption. Replace 'Demo source · 1 of 5 photos' with 'Demo source · 1 photo selected'. Keep 'One recipe, up to five photos.' as the separate maximum limit. Preserve exact handwritten source, other typography and complete layout.

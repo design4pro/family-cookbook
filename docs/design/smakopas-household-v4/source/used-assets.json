@@ -1,0 +1,24 @@
+{
+  "sf": [
+    "symbols/battery.100-ink.png",
+    "symbols/book.closed-accent.png",
+    "symbols/book.closed-muted.png",
+    "symbols/cellularbars-ink.png",
+    "symbols/checkmark-accent.png",
+    "symbols/chevron.left-ink.png",
+    "symbols/chevron.right-muted.png",
+    "symbols/ellipsis-muted.png",
+    "symbols/person.crop.circle-accent.png",
+    "symbols/person.crop.circle-ink.png",
+    "symbols/person.crop.circle-muted.png",
+    "symbols/wifi-ink.png",
+    "symbols/xmark-ink.png"
+  ],
+  "material": [
+    "arrow_back",
+    "battery_full",
+    "chevron_right",
+    "signal_cellular_4_bar",
+    "wifi"
+  ]
+}

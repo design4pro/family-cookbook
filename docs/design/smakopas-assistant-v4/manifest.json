@@ -1,0 +1,571 @@
+{
+  "date": "2026-10-16",
+  "status": "Static proposal awaiting user review",
+  "type": "Three main assistant states on five surfaces, three supplemental states and two overview sheets",
+  "implementation": false,
+  "renderer": "Authored SVG rendered with Sharp/librsvg; local SF Symbols and reused Google font/Material assets; no generative model or live assistant output",
+  "source": [
+    "source/render.cjs",
+    "source/web.cjs",
+    "source/apple.cjs",
+    "source/android.cjs",
+    "source/scenario.json"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4136,
+      "sha256": "7acd9475f32fd84f71398aaeb6af42434dfa7b2680abe6debb2b49ed7b408de7"
+    },
+    {
+      "path": "android-answer.png",
+      "bytes": 121398,
+      "sha256": "aca5e5b8f98c2f9670dcafb1a67ab8117b4c5456e33ca470aee615004f3a2245",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-answer.svg",
+      "bytes": 779771,
+      "sha256": "61ac0bd730abcae02f3b9ae3555c5ca0fc1fbfae850550eb648f8fb6ef476b08",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-error.png",
+      "bytes": 96568,
+      "sha256": "cbc3efc791102e6b355c433cce6abea60b33f8eb205cd4ed9a7fa8931886b70d",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-error.svg",
+      "bytes": 779005,
+      "sha256": "019684044fb6760563d2d8e6d2251e67fff52c09bd673411dd165545a1a2a3c1",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-meals.png",
+      "bytes": 130356,
+      "sha256": "b3d1208d178f610cc806eaaca4f280f5e908262e89160624ff73bea51cc6ba5e",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-meals.svg",
+      "bytes": 780412,
+      "sha256": "0144a51d71452d77dcb61a1b2046d15b712acb5a06eece552342aa62a968c48e",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-start.png",
+      "bytes": 115508,
+      "sha256": "481c45182a3d46d394542a0c8bdb0294c0df5e056a01c8da9d119e757bb11f6e",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-start.svg",
+      "bytes": 779611,
+      "sha256": "8c20e9159510bdab8b64f0f13a5e7fde7f8f1a0f0ee78537f493688aaef95d2e",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "assets/archivo-latin.woff2",
+      "bytes": 90104,
+      "sha256": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    {
+      "path": "assets/archivo-license.txt",
+      "bytes": 4503,
+      "sha256": "c3c8402eec0e31dc9a76851235b1c02a0bb821488b2db8e35bcc2ab60ca8fc2b"
+    },
+    {
+      "path": "assets/material-symbols/account_circle.svg",
+      "bytes": 732,
+      "sha256": "a00a7e524203f2196358884c04eda55fe5cfa461351b6401b92f4e0ecedb7595"
+    },
+    {
+      "path": "assets/material-symbols/add.svg",
+      "bytes": 163,
+      "sha256": "e9532de2b9be01ce951e899e98ee673bb97acd574f0db118feb72fe074a1c376"
+    },
+    {
+      "path": "assets/material-symbols/arrow_forward.svg",
+      "bytes": 171,
+      "sha256": "717c65e2e704a07b7b73e194b202858f52befbaa6dd363565a1d75d117c3a2aa"
+    },
+    {
+      "path": "assets/material-symbols/arrow_upward.svg",
+      "bytes": 173,
+      "sha256": "a902b4447496b87a48b3fe7be338a2e2b68ecf63341e0b90545f133b87207e87"
+    },
+    {
+      "path": "assets/material-symbols/battery_full.svg",
+      "bytes": 236,
+      "sha256": "c53eed32ca27aca45c11e0d23249c8c9044399f8f4346cd2a693e5ed0980784d"
+    },
+    {
+      "path": "assets/material-symbols/chat_bubble.svg",
+      "bytes": 253,
+      "sha256": "b00b6523bc09b56a40ff255fb5e7cc49dfa2262d1e2e567531831eb5382f44ce"
+    },
+    {
+      "path": "assets/material-symbols/checklist.svg",
+      "bytes": 250,
+      "sha256": "3147e6fadca3d64ee60ea176223a6fcb1942a51f246a4a0db805a2813521127a"
+    },
+    {
+      "path": "assets/material-symbols/chevron_right.svg",
+      "bytes": 159,
+      "sha256": "f6b777ee0ce9059b5f8eea987d813ab12c4f309ba431063153841c742e668ac0"
+    },
+    {
+      "path": "assets/material-symbols/menu_book.svg",
+      "bytes": 877,
+      "sha256": "622ba05277e45154430cbc23d75b71b3b8210c249d9e2205cd21c563db028f4e"
+    },
+    {
+      "path": "assets/material-symbols/signal_cellular_4_bar.svg",
+      "bytes": 128,
+      "sha256": "f6c3b191ea3fde4aa39963973b640c895a81009b40557f030bb15f743d8c69ee"
+    },
+    {
+      "path": "assets/material-symbols/wifi.svg",
+      "bytes": 414,
+      "sha256": "dc8d418b687726a857da5e718046d410d378c829d96231149cdf358c1851396b"
+    },
+    {
+      "path": "assets/material-symbols-license.txt",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "assets/roboto-license.txt",
+      "bytes": 4394,
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "assets/roboto-variable.ttf",
+      "bytes": 488584,
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+    },
+    {
+      "path": "assets/symbols/arrow.up-muted.png",
+      "bytes": 2265,
+      "sha256": "67837458132b2786d1717b4193f879b85223db30f68b5c1e0325378dbe33a9ae",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/battery.100-ink.png",
+      "bytes": 1771,
+      "sha256": "8430c9b536eeb91b62cdef7525990f9c9cb405673f4e313265a53594adbaf984",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/book.closed-ink.png",
+      "bytes": 2474,
+      "sha256": "5ca7c043a31edb48567a28bd102daada7b5c0f7a6e86305c1f25782bacadbc04",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/book.closed-muted.png",
+      "bytes": 2567,
+      "sha256": "9e842e09d681ba6c9be167f4ec8d75e2d386c47219dcd45511950c48c871d170",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/bubble.left.and.bubble.right-accent.png",
+      "bytes": 3097,
+      "sha256": "e9c6aaedd972a0bae817fd8ebc9491a9c7ff9e49f08f280a8258735bfbd395dd",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/cellularbars-ink.png",
+      "bytes": 2260,
+      "sha256": "87c42b6cbc209f90ccc530fd556caedd465093c3af6027ac94f61332015bcfc1",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/checklist-ink.png",
+      "bytes": 3540,
+      "sha256": "5429ba301491c652dd83a1a4c62f2f2bd516dde862e3223a215772198f84ada0",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/chevron.right-muted.png",
+      "bytes": 3159,
+      "sha256": "73b57d632fed77362116c70c15378e1919aa5d08996b37bad73b2521ac377be8",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/doc.text-muted.png",
+      "bytes": 3175,
+      "sha256": "93bbe039424a99ce6a8eb9b4e1f40174fea1f805f8c5a021708064bc348b7a8e",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/person.crop.circle-ink.png",
+      "bytes": 3991,
+      "sha256": "74a79374b65a728568445d26388fe346c6816b0344804777df8fd7cfcf9eb781",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/square.and.pencil-ink.png",
+      "bytes": 3253,
+      "sha256": "ef163a838ba551e5c56c99d0b07acf733f4d4c22f9c48c9bd5bb6a7f7a4f5dac",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/wifi-ink.png",
+      "bytes": 3759,
+      "sha256": "48dfa3d12aaed672f0d39b1eba2797cf9d9e9c1dc0ca1dc5926ac6414ed607f2",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "credits.md",
+      "bytes": 6040,
+      "sha256": "524d671c351ee0d513ce7c626bd51aa156d0a699d1508e0b0946f5e1f5c0c6a0"
+    },
+    {
+      "path": "design-brief.md",
+      "bytes": 9470,
+      "sha256": "6e1955e72287547143edd71f6c9c2b5fd465c49bcb4263d1b45a54886f8267d4"
+    },
+    {
+      "path": "ipad-answer.png",
+      "bytes": 239129,
+      "sha256": "c6d55452cd6b658af922c50ae95eb9ae66278f67da8f21693bd38ff52c83cf5a",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-answer.svg",
+      "bytes": 825996,
+      "sha256": "ae063c29a6a63cad2a892634a5fb12d2dfcbf3c881ea6d56db41c519ab1f9dd2",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-meals.png",
+      "bytes": 267168,
+      "sha256": "c549cd7726f9a1cd4cfb4120bad5a81a091389c5b549bf4ee90eed1967b91d47",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-meals.svg",
+      "bytes": 822777,
+      "sha256": "c61916cd80b0fdc4d666a6d82f5b7f2d31c5287f5da7a0b780106b3617961c4f",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-start.png",
+      "bytes": 201911,
+      "sha256": "26d8f8a342010cb8844a4943dc5d553f1a68f4edb5268cf1674a82cc408d97f0",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-start.svg",
+      "bytes": 828243,
+      "sha256": "d69e7281f23c3953dc8b9662b723c21fcf95bde10be5dc0781d7e8b6f2c4224b",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "iphone-answer.png",
+      "bytes": 123732,
+      "sha256": "590de9f029bb8ca5ab2bbc61007d51ca5e3a4309743db38654d276212f33b635",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-answer.svg",
+      "bytes": 826103,
+      "sha256": "d1c2dc16a5b982e593d4a7fd98580169dd02a9b6a7cdaa575e984475ad82a4ef",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-limit.png",
+      "bytes": 113031,
+      "sha256": "38919764be54550a5800ab5df6733c034f7a36846f32afd99b7c5c532cb989ec",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-limit.svg",
+      "bytes": 818423,
+      "sha256": "d988bb7d09b91d8f981e9bc27bf92a52f450675713c2543ae97632fdd7036fe4",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-meals.png",
+      "bytes": 154142,
+      "sha256": "422430b5328c3d3d77eff661a5494e7f26fabe6dfdf3e8f9456a4678db05bb2a",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-meals.svg",
+      "bytes": 827082,
+      "sha256": "e38f890a18c62fe1301afccf2fe8dd256e51332bc7ab6c328ab8f13143f70d16",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-start.png",
+      "bytes": 120836,
+      "sha256": "15b9d1343749635a0875b801f5e721ce7f6a7c1f2c99a8012f8c0616329dd460",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-start.svg",
+      "bytes": 830063,
+      "sha256": "69eccdf748b3a41ed230d68f8d0d540d6ac767edab689e9e76ecee1ccfee6d8c",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "phone-overview.png",
+      "bytes": 199802,
+      "sha256": "4f4c88fb80d560290e5dcf0ba3ffb5e492daed83aea170006f15cdef0ea02c69",
+      "width": 1291,
+      "height": 1306,
+      "origin": "source/overview-origin.txt"
+    },
+    {
+      "path": "source/android.cjs",
+      "bytes": 5088,
+      "sha256": "c17ff43120bdbe8241d3ea30dd613790971d3a1ed2b6ea9dd705ce8cc82c50c7"
+    },
+    {
+      "path": "source/apple.cjs",
+      "bytes": 10687,
+      "sha256": "22bba7386496c79357ea3737ff238df5bb26dfc283ff7cec291e83346616d522"
+    },
+    {
+      "path": "source/artboard-origin.txt",
+      "bytes": 1016,
+      "sha256": "a343f17230ddc1b1ab7289e78bbba704f4e1c050446292d9d652cc95ddb2b857"
+    },
+    {
+      "path": "source/export-symbols.swift",
+      "bytes": 2297,
+      "sha256": "3c6264cfb4de811aa11f2ff3027d5c8613ba6ed2444ba19a35b1ceb52e3832ec"
+    },
+    {
+      "path": "source/overview-origin.txt",
+      "bytes": 377,
+      "sha256": "2a8999895b9d2f10233c0d2917d5ee485029fc129a36e67d51207d0129a95857"
+    },
+    {
+      "path": "source/render.cjs",
+      "bytes": 11399,
+      "sha256": "036b073aabe158bfcf4ef1c87bc719c52ad086f51baa8f6d4f89f3d893f622e0"
+    },
+    {
+      "path": "source/scenario.json",
+      "bytes": 3130,
+      "sha256": "d62a91e9271b40d631f5d597ddfc260c8925243b929960ab03b31ff503461c96"
+    },
+    {
+      "path": "source/symbol-origin.txt",
+      "bytes": 356,
+      "sha256": "af4193d5bd450756d8af86f8b8301e440ad0f7b661f47e1445a982748a03b7c2"
+    },
+    {
+      "path": "source/target-regions.json",
+      "bytes": 31116,
+      "sha256": "b8f57d5e03be58346ae27def58fdc76fff4e4fab7770e16071401bdf1e31a131"
+    },
+    {
+      "path": "source/used-assets.json",
+      "bytes": 695,
+      "sha256": "c394b37f3ae5b8223c19aaedff1f72f43660dbb756d40a65af576bb8fc3a4776"
+    },
+    {
+      "path": "source/web.cjs",
+      "bytes": 11689,
+      "sha256": "02d2c0e205f3ea6bc53634be111c00aeecf480863ec384b6d54bd6c6c50949a6"
+    },
+    {
+      "path": "visual-review.md",
+      "bytes": 5551,
+      "sha256": "74d0cd8688b1acb9f2bd37cb020c94c1344e4596753230642d22ceb5097756ca"
+    },
+    {
+      "path": "web-desktop-answer.png",
+      "bytes": 224469,
+      "sha256": "6756c73ebbb8c2cb6e29af54770973835c36392791001d97b64ee0cb9b216d64",
+      "width": 2880,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-desktop-answer.svg",
+      "bytes": 778646,
+      "sha256": "bd66f9171ba0debe7ee70f1a075a1d8696ea7efaf9c44fd55c6b982c1619a61d",
+      "logicalWidth": 1440,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-desktop-meals.png",
+      "bytes": 264532,
+      "sha256": "9de9e03d9589a8e2c5c1d5175ba1ee16281dc166424f2ad123d594ba230476ad",
+      "width": 2880,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-desktop-meals.svg",
+      "bytes": 779326,
+      "sha256": "92a0cbc1500720e762f2ecc45731cc5a2f7addbbe7ea3feb4fb0ec997c110466",
+      "logicalWidth": 1440,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-desktop-start.png",
+      "bytes": 152611,
+      "sha256": "7bae15014911bd844ac0c3b4b0ab72059ed07b1e6d439e0e64aa24ccdcfbb5ea",
+      "width": 2880,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-desktop-start.svg",
+      "bytes": 776479,
+      "sha256": "6cbeb09cc1cb1daeb475578e8bd5635ff7dbf072baa32efd2da57f53a8536844",
+      "logicalWidth": 1440,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-mobile-answer.png",
+      "bytes": 121704,
+      "sha256": "153e091570757d8527b242591731b68d0c6e97d7604021312a1811b31809955d",
+      "width": 780,
+      "height": 2200,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-answer.svg",
+      "bytes": 776809,
+      "sha256": "f318c4b19db3f648048fcde9d446c3cd44c909848175e692f147ee57542a9a68",
+      "logicalWidth": 390,
+      "logicalHeight": 1100
+    },
+    {
+      "path": "web-mobile-meals.png",
+      "bytes": 149632,
+      "sha256": "abee7de5af86c802922f88d4e1965ac41a2bd7f1ab019b60ed5ab66370c21c91",
+      "width": 780,
+      "height": 2400,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-meals.svg",
+      "bytes": 777333,
+      "sha256": "69bb62497f5e1280c0b6e283067f15c9ed0d58c6831382cf7dc7d4ef742af3c8",
+      "logicalWidth": 390,
+      "logicalHeight": 1200
+    },
+    {
+      "path": "web-mobile-no-match.png",
+      "bytes": 125360,
+      "sha256": "57d110f989d76e5c442a8d01a4cd72b43f1c583c164743388c7b9bc3d3ba95a0",
+      "width": 780,
+      "height": 2200,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-no-match.svg",
+      "bytes": 776549,
+      "sha256": "d66b0036cba063721749bc1df471cd8ad9156dcd2e5ab7e801265d33d5aafec0",
+      "logicalWidth": 390,
+      "logicalHeight": 1100
+    },
+    {
+      "path": "web-mobile-start.png",
+      "bytes": 105111,
+      "sha256": "f5b6bd90cb54b634aa0bbd98c5abb6ec7cf9b5c9f0f1649589f4f5b80c94740d",
+      "width": 780,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-start.svg",
+      "bytes": 776386,
+      "sha256": "ad77b128c0d9a43d088860ecf52eceb569e976ce0fdef36bf68034becf4015de",
+      "logicalWidth": 390,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "wide-overview.png",
+      "bytes": 162310,
+      "sha256": "96de673970b595fcb62f1d79f4ac06fc2457722ac4660614081463c35cff74dd",
+      "width": 1930,
+      "height": 790,
+      "origin": "source/overview-origin.txt"
+    }
+  ]
+}

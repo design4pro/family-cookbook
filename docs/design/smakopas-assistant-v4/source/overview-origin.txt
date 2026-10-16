@@ -1,0 +1,1 @@
+Contact sheet composed by source/render.cjs from the corresponding authored assistant-artboard PNG files, without changing their content. Platform labels and a neutral surrounding surface are presentation aids. No image-generation model or private material was used. The individual artboards are the full-resolution reference; this sheet is not application UI or model output.

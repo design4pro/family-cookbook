@@ -1,0 +1,658 @@
+{
+  "android-01-cookbook": [
+    {
+      "x": 20,
+      "y": 132,
+      "width": 372,
+      "height": 56,
+      "label": "Search recipes"
+    },
+    {
+      "x": 20,
+      "y": 204,
+      "width": 124,
+      "height": 48,
+      "label": "All recipes"
+    },
+    {
+      "x": 144,
+      "y": 204,
+      "width": 124,
+      "height": 48,
+      "label": "Favorites"
+    },
+    {
+      "x": 268,
+      "y": 204,
+      "width": 124,
+      "height": 48,
+      "label": "Drafts"
+    },
+    {
+      "x": 20,
+      "y": 272,
+      "width": 372,
+      "height": 360,
+      "label": "Read Shakshuka"
+    },
+    {
+      "x": 20,
+      "y": 652,
+      "width": 372,
+      "height": 72,
+      "label": "Read Greek salad"
+    },
+    {
+      "x": 348,
+      "y": 32,
+      "width": 48,
+      "height": 48,
+      "label": "Account"
+    },
+    {
+      "x": 220,
+      "y": 739,
+      "width": 172,
+      "height": 56,
+      "label": "Add recipe"
+    },
+    {
+      "x": 5,
+      "y": 811,
+      "width": 128,
+      "height": 80,
+      "label": "Cookbook"
+    },
+    {
+      "x": 142,
+      "y": 811,
+      "width": 128,
+      "height": 80,
+      "label": "Assistant"
+    },
+    {
+      "x": 279,
+      "y": 811,
+      "width": 128,
+      "height": 80,
+      "label": "Shopping"
+    }
+  ],
+  "android-02-add-photos": [
+    {
+      "x": 20,
+      "y": 172,
+      "width": 178,
+      "height": 48,
+      "label": "Photo library"
+    },
+    {
+      "x": 214,
+      "y": 172,
+      "width": 178,
+      "height": 48,
+      "label": "Camera"
+    },
+    {
+      "x": 20,
+      "y": 244,
+      "width": 180,
+      "height": 226,
+      "label": "Preview photo 1"
+    },
+    {
+      "x": 152,
+      "y": 476,
+      "width": 48,
+      "height": 48,
+      "label": "Open photo 1"
+    },
+    {
+      "x": 20,
+      "y": 532,
+      "width": 124,
+      "height": 48,
+      "label": "Move photo down"
+    },
+    {
+      "x": 152,
+      "y": 532,
+      "width": 48,
+      "height": 48,
+      "label": "Remove photo 1"
+    },
+    {
+      "x": 212,
+      "y": 244,
+      "width": 180,
+      "height": 226,
+      "label": "Preview photo 2"
+    },
+    {
+      "x": 344,
+      "y": 476,
+      "width": 48,
+      "height": 48,
+      "label": "Open photo 2"
+    },
+    {
+      "x": 212,
+      "y": 532,
+      "width": 124,
+      "height": 48,
+      "label": "Move photo up"
+    },
+    {
+      "x": 344,
+      "y": 532,
+      "width": 48,
+      "height": 48,
+      "label": "Remove photo 2"
+    },
+    {
+      "x": 8,
+      "y": 748,
+      "width": 160,
+      "height": 48,
+      "label": "Enter manually"
+    },
+    {
+      "x": 8,
+      "y": 32,
+      "width": 48,
+      "height": 48,
+      "label": "Back"
+    },
+    {
+      "x": 20,
+      "y": 827,
+      "width": 372,
+      "height": 48,
+      "label": "Upload & transcribe"
+    }
+  ],
+  "android-03-review": [
+    {
+      "x": 20,
+      "y": 250,
+      "width": 372,
+      "height": 56,
+      "label": "Recipe title"
+    },
+    {
+      "x": 20,
+      "y": 330,
+      "width": 178,
+      "height": 56,
+      "label": "Recipe by"
+    },
+    {
+      "x": 214,
+      "y": 330,
+      "width": 178,
+      "height": 56,
+      "label": "Servings"
+    },
+    {
+      "x": 20,
+      "y": 438,
+      "width": 372,
+      "height": 56,
+      "label": "Family note (optional)"
+    },
+    {
+      "x": 20,
+      "y": 582,
+      "width": 142,
+      "height": 56,
+      "label": "2½ cups"
+    },
+    {
+      "x": 174,
+      "y": 582,
+      "width": 158,
+      "height": 56,
+      "label": "flour"
+    },
+    {
+      "x": 344,
+      "y": 586,
+      "width": 48,
+      "height": 48,
+      "label": "Remove flour"
+    },
+    {
+      "x": 20,
+      "y": 654,
+      "width": 142,
+      "height": 56,
+      "label": "2"
+    },
+    {
+      "x": 174,
+      "y": 654,
+      "width": 158,
+      "height": 56,
+      "label": "eggs"
+    },
+    {
+      "x": 344,
+      "y": 658,
+      "width": 48,
+      "height": 48,
+      "label": "Remove eggs"
+    },
+    {
+      "x": 20,
+      "y": 726,
+      "width": 142,
+      "height": 56,
+      "label": "250 ml"
+    },
+    {
+      "x": 174,
+      "y": 726,
+      "width": 158,
+      "height": 56,
+      "label": "milk"
+    },
+    {
+      "x": 344,
+      "y": 730,
+      "width": 48,
+      "height": 48,
+      "label": "Remove milk"
+    },
+    {
+      "x": 20,
+      "y": 798,
+      "width": 142,
+      "height": 56,
+      "label": "Not specified"
+    },
+    {
+      "x": 174,
+      "y": 798,
+      "width": 158,
+      "height": 56,
+      "label": "salt"
+    },
+    {
+      "x": 344,
+      "y": 802,
+      "width": 48,
+      "height": 48,
+      "label": "Remove salt"
+    },
+    {
+      "x": 8,
+      "y": 896,
+      "width": 174,
+      "height": 48,
+      "label": "Add ingredient"
+    },
+    {
+      "x": 52,
+      "y": 1024,
+      "width": 280,
+      "height": 56,
+      "label": "Mix the ingredients."
+    },
+    {
+      "x": 344,
+      "y": 1028,
+      "width": 48,
+      "height": 48,
+      "label": "Remove step 1"
+    },
+    {
+      "x": 52,
+      "y": 1096,
+      "width": 280,
+      "height": 56,
+      "label": "Cook in a pan."
+    },
+    {
+      "x": 344,
+      "y": 1100,
+      "width": 48,
+      "height": 48,
+      "label": "Remove step 2"
+    },
+    {
+      "x": 40,
+      "y": 1160,
+      "width": 146,
+      "height": 48,
+      "label": "Add step"
+    },
+    {
+      "x": 8,
+      "y": 32,
+      "width": 48,
+      "height": 48,
+      "label": "Back"
+    },
+    {
+      "x": 324,
+      "y": 32,
+      "width": 72,
+      "height": 48,
+      "label": "Save"
+    },
+    {
+      "x": 0,
+      "y": 88,
+      "width": 206,
+      "height": 48,
+      "label": "Source"
+    },
+    {
+      "x": 206,
+      "y": 88,
+      "width": 206,
+      "height": 48,
+      "label": "Draft"
+    }
+  ],
+  "android-04-recipe": [
+    {
+      "x": 8,
+      "y": 182,
+      "width": 210,
+      "height": 48,
+      "label": "2 original photos"
+    },
+    {
+      "x": 20,
+      "y": 675,
+      "width": 372,
+      "height": 48,
+      "label": "Ask about this recipe"
+    },
+    {
+      "x": 20,
+      "y": 747,
+      "width": 178,
+      "height": 48,
+      "label": "Start cooking"
+    },
+    {
+      "x": 214,
+      "y": 747,
+      "width": 178,
+      "height": 48,
+      "label": "Add ingredients"
+    },
+    {
+      "x": 8,
+      "y": 32,
+      "width": 48,
+      "height": 48,
+      "label": "Back"
+    },
+    {
+      "x": 292,
+      "y": 32,
+      "width": 48,
+      "height": 48,
+      "label": "Save to favorites"
+    },
+    {
+      "x": 348,
+      "y": 32,
+      "width": 48,
+      "height": 48,
+      "label": "More recipe actions"
+    },
+    {
+      "x": 5,
+      "y": 811,
+      "width": 128,
+      "height": 80,
+      "label": "Cookbook"
+    },
+    {
+      "x": 142,
+      "y": 811,
+      "width": 128,
+      "height": 80,
+      "label": "Assistant"
+    },
+    {
+      "x": 279,
+      "y": 811,
+      "width": 128,
+      "height": 80,
+      "label": "Shopping"
+    }
+  ],
+  "android-review-source": [
+    {
+      "x": 280,
+      "y": 180,
+      "width": 112,
+      "height": 48,
+      "label": "Next"
+    },
+    {
+      "x": 8,
+      "y": 800,
+      "width": 188,
+      "height": 48,
+      "label": "Open original"
+    },
+    {
+      "x": 8,
+      "y": 32,
+      "width": 48,
+      "height": 48,
+      "label": "Back"
+    },
+    {
+      "x": 324,
+      "y": 32,
+      "width": 72,
+      "height": 48,
+      "label": "Save"
+    },
+    {
+      "x": 0,
+      "y": 88,
+      "width": 206,
+      "height": 48,
+      "label": "Source"
+    },
+    {
+      "x": 206,
+      "y": 88,
+      "width": 206,
+      "height": 48,
+      "label": "Draft"
+    }
+  ],
+  "android-review-lower": [
+    {
+      "x": 20,
+      "y": 250,
+      "width": 372,
+      "height": 56,
+      "label": "Recipe title"
+    },
+    {
+      "x": 20,
+      "y": 330,
+      "width": 178,
+      "height": 56,
+      "label": "Recipe by"
+    },
+    {
+      "x": 214,
+      "y": 330,
+      "width": 178,
+      "height": 56,
+      "label": "Servings"
+    },
+    {
+      "x": 20,
+      "y": 438,
+      "width": 372,
+      "height": 56,
+      "label": "Family note (optional)"
+    },
+    {
+      "x": 20,
+      "y": 582,
+      "width": 142,
+      "height": 56,
+      "label": "2½ cups"
+    },
+    {
+      "x": 174,
+      "y": 582,
+      "width": 158,
+      "height": 56,
+      "label": "flour"
+    },
+    {
+      "x": 344,
+      "y": 586,
+      "width": 48,
+      "height": 48,
+      "label": "Remove flour"
+    },
+    {
+      "x": 20,
+      "y": 654,
+      "width": 142,
+      "height": 56,
+      "label": "2"
+    },
+    {
+      "x": 174,
+      "y": 654,
+      "width": 158,
+      "height": 56,
+      "label": "eggs"
+    },
+    {
+      "x": 344,
+      "y": 658,
+      "width": 48,
+      "height": 48,
+      "label": "Remove eggs"
+    },
+    {
+      "x": 20,
+      "y": 726,
+      "width": 142,
+      "height": 56,
+      "label": "250 ml"
+    },
+    {
+      "x": 174,
+      "y": 726,
+      "width": 158,
+      "height": 56,
+      "label": "milk"
+    },
+    {
+      "x": 344,
+      "y": 730,
+      "width": 48,
+      "height": 48,
+      "label": "Remove milk"
+    },
+    {
+      "x": 20,
+      "y": 798,
+      "width": 142,
+      "height": 56,
+      "label": "Not specified"
+    },
+    {
+      "x": 174,
+      "y": 798,
+      "width": 158,
+      "height": 56,
+      "label": "salt"
+    },
+    {
+      "x": 344,
+      "y": 802,
+      "width": 48,
+      "height": 48,
+      "label": "Remove salt"
+    },
+    {
+      "x": 8,
+      "y": 896,
+      "width": 174,
+      "height": 48,
+      "label": "Add ingredient"
+    },
+    {
+      "x": 52,
+      "y": 1024,
+      "width": 280,
+      "height": 56,
+      "label": "Mix the ingredients."
+    },
+    {
+      "x": 344,
+      "y": 1028,
+      "width": 48,
+      "height": 48,
+      "label": "Remove step 1"
+    },
+    {
+      "x": 52,
+      "y": 1096,
+      "width": 280,
+      "height": 56,
+      "label": "Cook in a pan."
+    },
+    {
+      "x": 344,
+      "y": 1100,
+      "width": 48,
+      "height": 48,
+      "label": "Remove step 2"
+    },
+    {
+      "x": 40,
+      "y": 1160,
+      "width": 146,
+      "height": 48,
+      "label": "Add step"
+    },
+    {
+      "x": 8,
+      "y": 32,
+      "width": 48,
+      "height": 48,
+      "label": "Back"
+    },
+    {
+      "x": 324,
+      "y": 32,
+      "width": 72,
+      "height": 48,
+      "label": "Save"
+    },
+    {
+      "x": 0,
+      "y": 88,
+      "width": 206,
+      "height": 48,
+      "label": "Source"
+    },
+    {
+      "x": 206,
+      "y": 88,
+      "width": 206,
+      "height": 48,
+      "label": "Draft"
+    }
+  ]
+}

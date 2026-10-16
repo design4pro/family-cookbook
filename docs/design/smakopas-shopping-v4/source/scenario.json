@@ -1,0 +1,40 @@
+{
+  "label": "Synthetic shopping demo",
+  "main": {
+    "stage": "After explicit confirmation of the Family pancakes addition",
+    "toBuy": 5,
+    "checked": 1,
+    "items": [
+      {"name":"Eggs","amount":"6","checked":false,"contributions":[{"kind":"recipe","name":"Shakshuka","servings":2,"amount":"4"},{"kind":"recipe","name":"Family pancakes","servings":null,"amount":"2"}]},
+      {"name":"Milk","amount":"750 ml","checked":false,"contributions":[{"kind":"recipe","name":"Family pancakes","servings":null,"amount":"250 ml"},{"kind":"manual","name":"Manual item","amount":"500 ml"}]},
+      {"name":"Flour","amount":"2½ cups","checked":false,"contributions":[{"kind":"recipe","name":"Family pancakes","servings":null,"amount":"2½ cups"}]},
+      {"name":"Flour","amount":"250 g","checked":false,"contributions":[{"kind":"manual","name":"Manual item","amount":"250 g"}]},
+      {"name":"Bread","amount":"1 loaf","checked":false,"contributions":[{"kind":"manual","name":"Manual item","amount":"1 loaf"}]},
+      {"name":"Chopped tomatoes","amount":"400 g","checked":true,"contributions":[{"kind":"recipe","name":"Shakshuka","servings":2,"amount":"400 g"}]}
+    ]
+  },
+  "confirmation": {
+    "stage":"Before the main list; current list already contains Shakshuka eggs/tomatoes and the three manual entries",
+    "recipe":"Family pancakes",
+    "servings":null,
+    "selected":3,
+    "excluded":1,
+    "newRows":1,
+    "updatedRows":2,
+    "ingredients":[
+      {"name":"Flour","amount":"2½ cups","selected":true,"effect":"New separate row; cups and grams are not converted"},
+      {"name":"Eggs","amount":"2","selected":true,"before":"4","after":"6"},
+      {"name":"Milk","amount":"250 ml","selected":true,"before":"500 ml","after":"750 ml"},
+      {"name":"Salt","amount":"Not specified","selected":false,"reason":"Already at home; a synthetic user choice, not pantry inference"}
+    ]
+  },
+  "offline": {"stage":"Alternative state after the main list","locallyCheckedPending":["Eggs","Bread"],"previouslyChecked":["Chopped tomatoes"],"toBuy":3,"checked":3,"pending":2,"allowed":"Check and uncheck existing cached items only"},
+  "updated": {"stage":"Alternative online state, not a continuation of the depicted offline example","item":"Milk","serverAmount":"500 ml","serverChecked":false,"remainingContribution":"Manual item 500 ml","removedContribution":"Family pancakes 250 ml","rejectedIntent":"Pending local check based on the previous 750 ml item","notice":"Milk changed to 500 ml. Your pending check was not applied. Review the updated item."},
+  "notes":[
+    "Existing Shakshuka demo: 2 servings, 4 eggs and 400 g chopped tomatoes selected; its other 8 ingredients were excluded in an earlier synthetic confirmation.",
+    "Manual entries are authored scenario data, not facts from recipe sources.",
+    "Pancakes has unknown servings; original quantities are used without scaling.",
+    "Flour in cups and grams remains in separate rows without density conversion.",
+    "Confirmed recipe contributions snapshot the recipe and selected serving count; later recipe edits do not mutate them."
+  ]
+}

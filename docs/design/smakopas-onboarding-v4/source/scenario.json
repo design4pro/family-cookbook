@@ -1,0 +1,221 @@
+{
+  "label": "Synthetic onboarding demo",
+  "scope": "Static email-code sign-in and household-creation proposals; no live operation or implementation",
+  "surfaces": [
+    "Web desktop",
+    "Web mobile",
+    "iPhone",
+    "iPad",
+    "Android phone"
+  ],
+  "mainStates": [
+    "email",
+    "code",
+    "create",
+    "ready"
+  ],
+  "supplementalStates": [
+    "web-mobile-code-error",
+    "web-mobile-invited",
+    "iphone-code-expired",
+    "android-request-error",
+    "android-existing-household"
+  ],
+  "artboardCount": 25,
+  "overviewSheets": {
+    "signIn": 2,
+    "create": 2,
+    "total": 4
+  },
+  "identities": {
+    "alex": {
+      "alias": "Alex",
+      "email": "alex@example.com"
+    },
+    "jordan": {
+      "alias": "Jordan",
+      "email": "jordan@example.com"
+    }
+  },
+  "identityNote": "Aliases label synthetic addresses, not real accounts or editable profiles. Verification is state-dependent.",
+  "email": {
+    "viewer": "alex",
+    "authenticated": false,
+    "emailVerified": false,
+    "emailField": "alex@example.com",
+    "action": "Send code",
+    "accountExistenceDisclosed": false,
+    "nextStateRequires": "A code-request response; no claim of inbox delivery"
+  },
+  "code": {
+    "viewer": "alex",
+    "authenticated": false,
+    "emailVerified": false,
+    "email": "alex@example.com",
+    "requestStatus": "Code requested",
+    "deliveryConfirmed": false,
+    "instruction": "Check your inbox. Use the latest code.",
+    "inputLabel": "Six-digit code",
+    "inputType": "One empty field; not six separate inputs",
+    "inputValue": "",
+    "requiredDigits": 6,
+    "action": "Verify and continue",
+    "verifyEnabled": false,
+    "verifyEnabledWhen": "Exactly six digits are entered and no verification request is running",
+    "expiresAfterMinutes": 5,
+    "newCodeAction": "Send a new code",
+    "changeAddressAction": "Change email",
+    "cooldownCountdown": null
+  },
+  "create": {
+    "viewer": "alex",
+    "authenticated": true,
+    "emailVerified": true,
+    "membershipCheckedOnline": true,
+    "existingHouseholdMembership": false,
+    "action": "Create household",
+    "alternativeAction": "Use an invitation",
+    "explicitConfirmationRequired": true,
+    "householdAlreadyCreated": false,
+    "afterConfirmation": {
+      "memberCount": 1,
+      "memberLimit": 5,
+      "administratorId": "alex",
+      "payerId": "alex"
+    },
+    "fieldsNotIntroduced": [
+      "Household name",
+      "Avatar",
+      "Role selector",
+      "Card or checkout",
+      "Editable profile name"
+    ],
+    "note": "This create state explicitly means household creation, after authentication and a no-membership result.",
+    "accountRecoveryAction": "Sign out",
+    "sampleDetailsAction": "View sample limits"
+  },
+  "ready": {
+    "viewer": "alex",
+    "authenticated": true,
+    "emailVerified": true,
+    "state": "Household created",
+    "memberCount": 1,
+    "memberLimit": 5,
+    "recipeCount": 0,
+    "administratorId": "alex",
+    "payerId": "alex",
+    "sampleLabel": "Card-free sample",
+    "subscriptionStatus": "No subscription started",
+    "automaticPurchase": false,
+    "note": "Synthetic successful creation with the accepted sample policy; not evidence that T28 allowance enforcement is implemented.",
+    "optionalExit": "Open cookbook"
+  },
+  "sample": {
+    "cardRequired": false,
+    "countdown": false,
+    "autoRenewal": false,
+    "providerSubscriptionTrial": false,
+    "pricesShown": false,
+    "lifetimeHostingPromised": false,
+    "nativeExternalCheckoutPromotion": false,
+    "limits": {
+      "members": 5,
+      "savedRecipes": 10,
+      "originalStorageMegabytes": 100,
+      "imagePagesTotal": 5,
+      "audioMinutesTotal": 10,
+      "assistantAnswersTotal": 20
+    },
+    "disclosure": "Creation discloses limited sample access, including 10 recipes; the full limits entry needs its separate future detail view."
+  },
+  "codeError": {
+    "fileName": "web-mobile-code-error",
+    "viewer": "alex",
+    "inputValue": "104928",
+    "inputProvenance": "Fictional sample entry shown only in this error alternative; never a real OTP. All main Code screens remain empty.",
+    "message": "Invalid or expired code. Request a new code.",
+    "remainingAttemptsShown": false,
+    "action": "Send a new code",
+    "authenticated": false
+  },
+  "codeExpired": {
+    "fileName": "iphone-code-expired",
+    "viewer": "alex",
+    "message": "Invalid or expired code. Request a new code.",
+    "preciseFailureReasonClaimed": false,
+    "remainingAttemptsShown": false,
+    "action": "Send a new code",
+    "authenticated": false,
+    "note": "The artifact name describes the alternative; its UI uses the generic supported error."
+  },
+  "invited": {
+    "fileName": "web-mobile-invited",
+    "viewer": "jordan",
+    "authenticated": false,
+    "emailVerified": false,
+    "emailField": "jordan@example.com",
+    "privateInvitationContextRetained": true,
+    "linkPlaceholder": "Private invitation link",
+    "realTokenOrDomainIncluded": false,
+    "preMembershipPreview": false,
+    "hiddenData": [
+      "Invitation issuer",
+      "Other members and their emails",
+      "Invitation expiry",
+      "Household capacity"
+    ],
+    "afterOtp": "Check membership, preserve the private invitation context and open a separate explicit join review",
+    "automaticJoin": false,
+    "automaticHouseholdCreation": false
+  },
+  "requestError": {
+    "fileName": "android-request-error",
+    "viewer": "alex",
+    "emailField": "alex@example.com",
+    "emailPreserved": true,
+    "state": "Code request not confirmed",
+    "failureBoundary": "Transport or request outcome; not a diagnosed inbox-delivery failure",
+    "deliveryStatusKnown": false,
+    "action": "Try again",
+    "authenticated": false
+  },
+  "existingHousehold": {
+    "fileName": "android-existing-household",
+    "viewer": "alex",
+    "authenticated": true,
+    "emailVerified": true,
+    "membershipRefreshedOnline": true,
+    "existingHouseholdMembership": true,
+    "stateRelationship": "Independent returning-user or competing-creation alternative, not a second household created by the main sequence",
+    "action": "Open cookbook",
+    "createAnotherHousehold": false,
+    "otherMemberDetailsShown": false
+  },
+  "otpContract": {
+    "digits": 6,
+    "lifetimeSeconds": 300,
+    "wrongAttemptLimit": 3,
+    "configuredSendRateLimit": {
+      "requests": 10,
+      "windowSeconds": 60
+    },
+    "resendStrategy": "Generate a new code; use the latest code",
+    "fixedResendCooldownSeconds": null,
+    "sendResponseRevealsAccountExistence": false,
+    "sendResponseProvesDelivery": false,
+    "newProfileCreatedOnlyAfterValidOtp": true,
+    "nativeAutofillProven": false
+  },
+  "constraints": [
+    "One sign-in flow serves both new and existing users without account enumeration.",
+    "Authentication and household creation are separate explicit operations.",
+    "One active household membership per user; recheck before creation or invitation acceptance.",
+    "No household data is exposed through a pre-membership invitation preview.",
+    "A payer designation is not a subscription, charge or automatic renewal consent.",
+    "No real OTP, invitation token, sender address, key or private account data appears in the artwork.",
+    "The proof allowlist and test sender are not the final product onboarding policy.",
+    "No delivery guarantee, invented resend timer, remaining-attempt counter or system-autofill success is claimed.",
+    "No feature implementation, new DESIGN.md approval, email send, account creation or purchase is performed.",
+    "T03, T09 and both readiness gates retain their existing status."
+  ]
+}

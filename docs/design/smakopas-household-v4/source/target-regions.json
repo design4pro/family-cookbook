@@ -1,0 +1,1482 @@
+{
+  "web-desktop-household": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 112,
+        "y": 212,
+        "width": 104,
+        "height": 44,
+        "label": "Open household settings",
+        "disabled": false
+      },
+      {
+        "x": 240,
+        "y": 212,
+        "width": 94,
+        "height": 44,
+        "label": "Open account settings",
+        "disabled": false
+      },
+      {
+        "x": 704,
+        "y": 285,
+        "width": 176,
+        "height": 48,
+        "label": "Invite someone",
+        "disabled": false
+      },
+      {
+        "x": 802,
+        "y": 459,
+        "width": 78,
+        "height": 44,
+        "label": "Remove",
+        "disabled": false
+      },
+      {
+        "x": 802,
+        "y": 563,
+        "width": 78,
+        "height": 44,
+        "label": "Remove",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 677,
+        "width": 260,
+        "height": 44,
+        "label": "Transfer administration",
+        "disabled": false
+      },
+      {
+        "x": 802,
+        "y": 799,
+        "width": 78,
+        "height": 44,
+        "label": "Revoke",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 723,
+        "width": 352,
+        "height": 44,
+        "label": "Plan and allowance details",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 86,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-household": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1400,
+    "targets": [
+      {
+        "x": 16,
+        "y": 212,
+        "width": 104,
+        "height": 44,
+        "label": "Open household settings",
+        "disabled": false
+      },
+      {
+        "x": 144,
+        "y": 212,
+        "width": 94,
+        "height": 44,
+        "label": "Open account settings",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 347,
+        "width": 358,
+        "height": 48,
+        "label": "Invite someone",
+        "disabled": false
+      },
+      {
+        "x": 296,
+        "y": 541,
+        "width": 78,
+        "height": 44,
+        "label": "Remove",
+        "disabled": false
+      },
+      {
+        "x": 296,
+        "y": 675,
+        "width": 78,
+        "height": 44,
+        "label": "Remove",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 795,
+        "width": 358,
+        "height": 44,
+        "label": "Transfer administration",
+        "disabled": false
+      },
+      {
+        "x": 296,
+        "y": 919,
+        "width": 78,
+        "height": 44,
+        "label": "Revoke",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 1239,
+        "width": 358,
+        "height": 44,
+        "label": "Plan and allowance details",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 278,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-invite": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 106,
+        "y": 72,
+        "width": 148,
+        "height": 44,
+        "label": "Return to household",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 600,
+        "width": 254,
+        "height": 48,
+        "label": "Copy invitation link",
+        "disabled": false
+      },
+      {
+        "x": 402,
+        "y": 602,
+        "width": 150,
+        "height": 44,
+        "label": "Revoke invitation",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 86,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-invite": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 10,
+        "y": 72,
+        "width": 148,
+        "height": 44,
+        "label": "Return to household",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 587,
+        "width": 358,
+        "height": 48,
+        "label": "Copy invitation link",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 653,
+        "width": 180,
+        "height": 44,
+        "label": "Revoke invitation",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 278,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-account": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 112,
+        "y": 212,
+        "width": 104,
+        "height": 44,
+        "label": "Open household settings",
+        "disabled": false
+      },
+      {
+        "x": 240,
+        "y": 212,
+        "width": 94,
+        "height": 44,
+        "label": "Open account settings",
+        "disabled": false
+      },
+      {
+        "x": 688,
+        "y": 476,
+        "width": 192,
+        "height": 44,
+        "label": "Open household",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 638,
+        "width": 768,
+        "height": 84,
+        "label": "Export cookbook",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 724,
+        "width": 768,
+        "height": 84,
+        "label": "Leave household",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 810,
+        "width": 768,
+        "height": 84,
+        "label": "Delete account",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 437,
+        "width": 352,
+        "height": 44,
+        "label": "Plan and allowance details",
+        "disabled": false
+      },
+      {
+        "x": 976,
+        "y": 572,
+        "width": 352,
+        "height": 44,
+        "label": "Sign out",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 86,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-account": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1400,
+    "targets": [
+      {
+        "x": 16,
+        "y": 212,
+        "width": 104,
+        "height": 44,
+        "label": "Open household settings",
+        "disabled": false
+      },
+      {
+        "x": 144,
+        "y": 212,
+        "width": 94,
+        "height": 44,
+        "label": "Open account settings",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 551,
+        "width": 358,
+        "height": 44,
+        "label": "Open household",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 808,
+        "width": 358,
+        "height": 44,
+        "label": "Plan and allowance details",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 951,
+        "width": 358,
+        "height": 84,
+        "label": "Export cookbook",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 1037,
+        "width": 358,
+        "height": 84,
+        "label": "Leave household",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 1123,
+        "width": 358,
+        "height": 84,
+        "label": "Delete account",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 1240,
+        "width": 358,
+        "height": 44,
+        "label": "Sign out",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 278,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-join": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 112,
+        "y": 413,
+        "width": 768,
+        "height": 58,
+        "label": "Enter invitation link or code",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 726,
+        "width": 216,
+        "height": 48,
+        "label": "Join household",
+        "disabled": false
+      },
+      {
+        "x": 364,
+        "y": 728,
+        "width": 100,
+        "height": 44,
+        "label": "Not now",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-join": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 16,
+        "y": 400,
+        "width": 358,
+        "height": 58,
+        "label": "Enter invitation link or code",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 831,
+        "width": 358,
+        "height": 48,
+        "label": "Join household",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 899,
+        "width": 100,
+        "height": 44,
+        "label": "Not now",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 330,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-create": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 10,
+        "y": 72,
+        "width": 148,
+        "height": 44,
+        "label": "Return to household",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 296,
+        "width": 358,
+        "height": 58,
+        "label": "Enter invited email address",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 431,
+        "width": 358,
+        "height": 48,
+        "label": "Create invitation",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 278,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-expired": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 16,
+        "y": 700,
+        "width": 358,
+        "height": 48,
+        "label": "Review link and try again",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 770,
+        "width": 358,
+        "height": 44,
+        "label": "Back to account",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 330,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-household": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 329,
+        "y": 344,
+        "width": 44,
+        "height": 44,
+        "label": "Manage anna@example.com",
+        "disabled": false
+      },
+      {
+        "x": 329,
+        "y": 424,
+        "width": 44,
+        "height": 44,
+        "label": "Manage sam@example.com",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 591,
+        "width": 180,
+        "height": 44,
+        "label": "Revoke invitation",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 671,
+        "width": 353,
+        "height": 48,
+        "label": "Invite a member",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 739,
+        "width": 353,
+        "height": 44,
+        "label": "Transfer administration",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      },
+      {
+        "x": 329,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-invite": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 477,
+        "width": 353,
+        "height": 48,
+        "label": "Copy invitation link",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 730,
+        "width": 353,
+        "height": 44,
+        "label": "Revoke invitation",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      },
+      {
+        "x": 329,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-account": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 367,
+        "width": 167,
+        "height": 44,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 207,
+        "y": 367,
+        "width": 166,
+        "height": 44,
+        "label": "View allowance",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 447,
+        "width": 353,
+        "height": 52,
+        "label": "Export cookbook",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 510,
+        "width": 353,
+        "height": 64,
+        "label": "Leave household",
+        "disabled": true
+      },
+      {
+        "x": 20,
+        "y": 586,
+        "width": 353,
+        "height": 64,
+        "label": "Delete account",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 678,
+        "width": 353,
+        "height": 44,
+        "label": "Sign out",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "chevron.left",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-join": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 424,
+        "width": 353,
+        "height": 56,
+        "label": "Invitation link or code",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 714,
+        "width": 353,
+        "height": 48,
+        "label": "Join household",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "xmark",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-household": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 20,
+        "y": 217,
+        "width": 240,
+        "height": 52,
+        "label": "Household",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 282,
+        "width": 240,
+        "height": 52,
+        "label": "Your account",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 738,
+        "width": 228,
+        "height": 44,
+        "label": "Back to Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 754,
+        "y": 401,
+        "width": 44,
+        "height": 44,
+        "label": "Manage anna@example.com",
+        "disabled": false
+      },
+      {
+        "x": 754,
+        "y": 489,
+        "width": 44,
+        "height": 44,
+        "label": "Manage sam@example.com",
+        "disabled": false
+      },
+      {
+        "x": 850,
+        "y": 373,
+        "width": 292,
+        "height": 44,
+        "label": "Revoke invitation",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 617,
+        "width": 268,
+        "height": 48,
+        "label": "Invite a member",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 703,
+        "width": 330,
+        "height": 44,
+        "label": "Transfer administration",
+        "disabled": false
+      },
+      {
+        "x": 1118,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "xmark",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-invite": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 20,
+        "y": 217,
+        "width": 240,
+        "height": 52,
+        "label": "Household",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 282,
+        "width": 240,
+        "height": 52,
+        "label": "Your account",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 738,
+        "width": 228,
+        "height": 44,
+        "label": "Back to Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 517,
+        "width": 286,
+        "height": 48,
+        "label": "Copy invitation link",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 699,
+        "width": 280,
+        "height": 44,
+        "label": "Revoke invitation",
+        "disabled": false
+      },
+      {
+        "x": 1118,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "xmark",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-account": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 20,
+        "y": 217,
+        "width": 240,
+        "height": 52,
+        "label": "Household",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 282,
+        "width": 240,
+        "height": 52,
+        "label": "Your account",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 738,
+        "width": 228,
+        "height": 44,
+        "label": "Back to Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 370,
+        "width": 490,
+        "height": 52,
+        "label": "Export cookbook",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 439,
+        "width": 490,
+        "height": 64,
+        "label": "Leave household",
+        "disabled": true
+      },
+      {
+        "x": 326,
+        "y": 521,
+        "width": 490,
+        "height": 64,
+        "label": "Delete account",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 626,
+        "width": 490,
+        "height": 44,
+        "label": "Sign out",
+        "disabled": false
+      },
+      {
+        "x": 866,
+        "y": 464,
+        "width": 276,
+        "height": 48,
+        "label": "Refresh access",
+        "disabled": false
+      },
+      {
+        "x": 866,
+        "y": 535,
+        "width": 276,
+        "height": 44,
+        "label": "View allowance",
+        "disabled": false
+      },
+      {
+        "x": 1118,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "xmark",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-join": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 52,
+        "y": 476,
+        "width": 620,
+        "height": 56,
+        "label": "Invitation link or code",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 688,
+        "width": 330,
+        "height": 52,
+        "label": "Join household",
+        "disabled": false
+      },
+      {
+        "x": 1118,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "xmark",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-handover": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 20,
+        "y": 217,
+        "width": 240,
+        "height": 52,
+        "label": "Household",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 282,
+        "width": 240,
+        "height": 52,
+        "label": "Your account",
+        "disabled": false
+      },
+      {
+        "x": 32,
+        "y": 738,
+        "width": 228,
+        "height": 44,
+        "label": "Back to Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 326,
+        "y": 641,
+        "width": 280,
+        "height": 48,
+        "label": "Cancel transfer request",
+        "disabled": false
+      },
+      {
+        "x": 1118,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "xmark",
+        "disabled": false
+      }
+    ]
+  },
+  "android-household": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 244,
+        "width": 180,
+        "height": 48,
+        "label": "Invite a member",
+        "disabled": false
+      },
+      {
+        "x": 310,
+        "y": 421,
+        "width": 82,
+        "height": 48,
+        "label": "Review removal of Anna",
+        "disabled": false
+      },
+      {
+        "x": 310,
+        "y": 501,
+        "width": 82,
+        "height": 48,
+        "label": "Review removal of Sam",
+        "disabled": false
+      },
+      {
+        "x": 310,
+        "y": 628,
+        "width": 82,
+        "height": 48,
+        "label": "Review revocation of invitation",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 749,
+        "width": 372,
+        "height": 66,
+        "label": "Transfer administration",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Back",
+        "disabled": false
+      },
+      {
+        "x": 0,
+        "y": 88,
+        "width": 206,
+        "height": 48,
+        "label": "Open household settings",
+        "disabled": false
+      },
+      {
+        "x": 206,
+        "y": 88,
+        "width": 206,
+        "height": 48,
+        "label": "Open account settings",
+        "disabled": false
+      }
+    ]
+  },
+  "android-invite": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 570,
+        "width": 372,
+        "height": 48,
+        "label": "Copy invitation link",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 730,
+        "width": 372,
+        "height": 48,
+        "label": "Done",
+        "disabled": false
+      },
+      {
+        "x": 106,
+        "y": 794,
+        "width": 200,
+        "height": 48,
+        "label": "Review revocation of invitation",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Back",
+        "disabled": false
+      }
+    ]
+  },
+  "android-account": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 397,
+        "width": 140,
+        "height": 48,
+        "label": "Refresh verified household access",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 459,
+        "width": 372,
+        "height": 66,
+        "label": "View allowances",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 525,
+        "width": 372,
+        "height": 66,
+        "label": "Export cookbook",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 591,
+        "width": 372,
+        "height": 66,
+        "label": "Leave household",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 657,
+        "width": 372,
+        "height": 66,
+        "label": "Delete account",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 755,
+        "width": 372,
+        "height": 48,
+        "label": "Sign out",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Back",
+        "disabled": false
+      },
+      {
+        "x": 0,
+        "y": 88,
+        "width": 206,
+        "height": 48,
+        "label": "Open household settings",
+        "disabled": false
+      },
+      {
+        "x": 206,
+        "y": 88,
+        "width": 206,
+        "height": 48,
+        "label": "Open account settings",
+        "disabled": false
+      }
+    ]
+  },
+  "android-join": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 367,
+        "width": 372,
+        "height": 58,
+        "label": "Edit pasted invitation link or code",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 747,
+        "width": 372,
+        "height": 48,
+        "label": "Join household",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 810,
+        "width": 372,
+        "height": 48,
+        "label": "Not now",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Back",
+        "disabled": false
+      }
+    ]
+  },
+  "android-remove": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 747,
+        "width": 372,
+        "height": 48,
+        "label": "Keep Sam",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 810,
+        "width": 372,
+        "height": 48,
+        "label": "Confirm removal of Sam from household",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Back",
+        "disabled": false
+      }
+    ]
+  }
+}

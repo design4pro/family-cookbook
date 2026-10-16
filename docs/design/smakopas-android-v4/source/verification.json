@@ -1,0 +1,24 @@
+{
+  "scope": "Static design artifact checks only; no runtime or accessibility certification",
+  "date": "2026-10-16",
+  "svgXml": "pass",
+  "drawingModuleSyntax": "pass",
+  "mainArtboards": 4,
+  "supplementaryArtboards": 2,
+  "contactSheets": 1,
+  "declaredMinimumTarget": [
+    48,
+    48
+  ],
+  "checkedTextContrast": {
+    "muted/white": 6.1,
+    "muted/surface": 5.37,
+    "primary/white": 5.08,
+    "onContainer/container": 8.21,
+    "warning/white": 6.59
+  },
+  "sourceAssetByteEquality": "pass",
+  "downloadChecksums": "pass",
+  "previousWebAndAppleManifestHashes": "unchanged",
+  "rasterOriginMetadata": "11 rasters, 0 missing"
+}

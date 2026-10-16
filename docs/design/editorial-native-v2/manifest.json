@@ -1,0 +1,87 @@
+{
+  "status": "proposal-not-approved",
+  "date": "2026-10-15",
+  "generator": "built-in image_gen",
+  "images": [
+    {
+      "file": "web-01-cookbook.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c3acea88c9b9a0722a8d9fdc5fe0d16b68777d3ca38b5e2b3956c8ae8228b5e9",
+      "prompt": "prompts/web-01-cookbook.txt",
+      "initialPrompt": "prompts/web-01-cookbook.txt"
+    },
+    {
+      "file": "web-02-add-photos.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "31b2a8d515b7699f9290a414b6e3565fd6f1c7abe673b47b42f22f8f7f916693",
+      "prompt": "prompts/web-02-add-photos-revision.txt",
+      "initialPrompt": "prompts/web-02-add-photos.txt"
+    },
+    {
+      "file": "web-03-review.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "237ec71b722b1a2107823f4ede2a2182d86e1f98fa24b1e97bf5d818776732a4",
+      "prompt": "prompts/web-03-review.txt",
+      "initialPrompt": "prompts/web-03-review.txt"
+    },
+    {
+      "file": "web-04-recipe.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4d8543d8e03488e3e08aeee310072025a4cb17fb2cfed97ebee67ed8106faa5f",
+      "prompt": "prompts/web-04-recipe.txt",
+      "initialPrompt": "prompts/web-04-recipe.txt"
+    },
+    {
+      "file": "iphone-01-cookbook.png",
+      "width": 909,
+      "height": 1731,
+      "sha256": "b7b68ed3443c33a073c30442068f5ba100ec9336013ac4eda8f4aac2ac7fd17a",
+      "prompt": "prompts/iphone-01-cookbook.txt",
+      "initialPrompt": "prompts/iphone-01-cookbook.txt"
+    },
+    {
+      "file": "iphone-02-add-photos.png",
+      "width": 909,
+      "height": 1730,
+      "sha256": "88dea19851b8acb0de1afe547a844f0e152484613c69410dff636f079f67af23",
+      "prompt": "prompts/iphone-02-add-photos-revision.txt",
+      "initialPrompt": "prompts/iphone-02-add-photos.txt"
+    },
+    {
+      "file": "iphone-03-review.png",
+      "width": 909,
+      "height": 1731,
+      "sha256": "48f88c5843c2472a7abcd77bc24dde38b9b850daab4d3ff7b14d6b0665e09593",
+      "prompt": "prompts/iphone-03-review.txt",
+      "initialPrompt": "prompts/iphone-03-review.txt"
+    },
+    {
+      "file": "iphone-04-recipe.png",
+      "width": 909,
+      "height": 1730,
+      "sha256": "ae3245eb71f62dd9514f8828b0dc873bac6fe86bff99caade2e7e680c245b994",
+      "prompt": "prompts/iphone-04-recipe-revision.txt",
+      "initialPrompt": "prompts/iphone-04-recipe.txt"
+    },
+    {
+      "file": "ipad-01-recipe.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e74a877976e20fc04b75e2b381853d8eda03d876f910e21578587064b51513d3",
+      "prompt": "prompts/ipad-01-recipe-revision.txt",
+      "initialPrompt": "prompts/ipad-01-recipe.txt"
+    },
+    {
+      "file": "ipad-02-review.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fdea3ba7d74f2fa28f0b66eafb0f542896024ea964a2b69acd23ec81c1bd770b",
+      "prompt": "prompts/ipad-02-review.txt",
+      "initialPrompt": "prompts/ipad-02-review.txt"
+    }
+  ]
+}

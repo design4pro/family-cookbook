@@ -1,0 +1,26 @@
+{
+  "sf": [
+    "symbols/battery.100-ink.png",
+    "symbols/book.closed-ink.png",
+    "symbols/bubble.left.and.bubble.right-ink.png",
+    "symbols/cellularbars-ink.png",
+    "symbols/checklist-accent.png",
+    "symbols/ellipsis-ink.png",
+    "symbols/person.crop.circle-ink.png",
+    "symbols/trash-muted.png",
+    "symbols/wifi-ink.png",
+    "symbols/xmark-ink.png"
+  ],
+  "material": [
+    "account_circle",
+    "add",
+    "arrow_back",
+    "battery_full",
+    "chat_bubble",
+    "checklist",
+    "menu_book",
+    "more_vert",
+    "signal_cellular_4_bar",
+    "wifi"
+  ]
+}

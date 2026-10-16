@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-15",
+  "approved": false,
+  "scope": "Static editorial web design studies; no implementation",
+  "images": [
+    {
+      "file": "web-01-cookbook.png",
+      "initialPrompt": "prompts/web-01-cookbook.txt",
+      "finalPrompt": "prompts/index-revision.txt",
+      "initialGenerationPath": "/Users/rafalwolak/.codex/generated_images/01a13f49-059d-74f2-8b04-601b495761a8/exec-811bc73b-9a0f-48c6-9e53-208742d2737e.png",
+      "finalGenerationPath": "/Users/rafalwolak/.codex/generated_images/01a13f49-059d-74f2-8b04-601b495761a8/exec-946a80b1-b862-4c39-abe2-2071bd9499a6.png",
+      "referenceImages": [
+        "/Users/rafalwolak/.codex/generated_images/01a13f49-059d-74f2-8b04-601b495761a8/exec-811bc73b-9a0f-48c6-9e53-208742d2737e.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "sha256": "de4b863ac119409cec838251888cf9fcc1b97ce48c712146263ab4827b515647"
+    },
+    {
+      "file": "web-02-recipe.png",
+      "initialPrompt": "prompts/web-02-recipe.txt",
+      "finalPrompt": "prompts/recipe-revision.txt",
+      "initialGenerationPath": "/Users/rafalwolak/.codex/generated_images/01a13f49-059d-74f2-8b04-601b495761a8/exec-1b43f9b7-2b54-46c1-a7e0-7aa01c42f5dc.png",
+      "finalGenerationPath": "/Users/rafalwolak/.codex/generated_images/01a13f49-059d-74f2-8b04-601b495761a8/exec-826aadb1-b3e8-4ac4-9ca9-1e0693cb70f9.png",
+      "referenceImages": [
+        "/Users/rafalwolak/.codex/generated_images/01a13f49-059d-74f2-8b04-601b495761a8/exec-1b43f9b7-2b54-46c1-a7e0-7aa01c42f5dc.png",
+        "/Users/rafalwolak/.codex/generated_images/01a13f49-059d-74f2-8b04-601b495761a8/exec-811bc73b-9a0f-48c6-9e53-208742d2737e.png"
+      ],
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8cd011050d51ce5d70e91fa581026886502c6724ce592153d0b5efae0d4c6a66"
+    },
+    {
+      "file": "web-03-recipe-narrow.png",
+      "initialPrompt": "prompts/web-03-recipe-narrow.txt",
+      "finalPrompt": "prompts/mobile-revision.txt",
+      "initialGenerationPath": "/Users/rafalwolak/.codex/generated_images/01a13f49-059d-74f2-8b04-601b495761a8/exec-e575fe07-fafd-41e7-8d8b-b7ee5dc4982c.png",
+      "finalGenerationPath": "/Users/rafalwolak/.codex/generated_images/01a13f49-059d-74f2-8b04-601b495761a8/exec-2b893845-28e4-4a4f-abcb-9b954e888f2f.png",
+      "referenceImages": [
+        "/Users/rafalwolak/.codex/generated_images/01a13f49-059d-74f2-8b04-601b495761a8/exec-e575fe07-fafd-41e7-8d8b-b7ee5dc4982c.png",
+        "/Users/rafalwolak/.codex/generated_images/01a13f49-059d-74f2-8b04-601b495761a8/exec-811bc73b-9a0f-48c6-9e53-208742d2737e.png"
+      ],
+      "width": 783,
+      "height": 2007,
+      "sha256": "8fc88e259e63a44bcb6d0a7b01b2f7a5065376ae503e808de204b941b7d4256a"
+    }
+  ]
+}

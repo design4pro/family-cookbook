@@ -1,0 +1,661 @@
+{
+  "date": "2026-10-16",
+  "status": "Static proposal awaiting user review",
+  "type": "Four main household/account states on five surfaces, four supplemental states and four overview sheets",
+  "implementation": false,
+  "renderer": "Authored SVG rendered with Sharp/librsvg; local SF Symbols and reused font/Material assets; no generative model or real account activity",
+  "source": [
+    "source/render.cjs",
+    "source/web.cjs",
+    "source/apple.cjs",
+    "source/android.cjs",
+    "source/scenario.json"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 5354,
+      "sha256": "789606d489c80ad143ba0a06bde91161191f36a68bbf6bf2d662ef518cbc249c"
+    },
+    {
+      "path": "account-phone-overview.png",
+      "bytes": 192326,
+      "sha256": "7c7bb4003dc97c45a6df35e4db06e9272e3bb4e4a901e8dd3738625bda7e7f40",
+      "width": 1291,
+      "height": 1498,
+      "origin": "source/overview-origin.txt"
+    },
+    {
+      "path": "account-wide-overview.png",
+      "bytes": 135001,
+      "sha256": "a9a9c091026400820d2c1b8c6f52eb4e130327a407876e3c85c3259759420344",
+      "width": 1930,
+      "height": 748,
+      "origin": "source/overview-origin.txt"
+    },
+    {
+      "path": "android-account.png",
+      "bytes": 101426,
+      "sha256": "b3aaabd549165dbb9208e1afd45ac010a981964a6f1ab479449f4f1ed65bda07",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-account.svg",
+      "bytes": 777896,
+      "sha256": "e7723351954be2c2d370bff236fc3408678aadd1486fc6cf9215ddb5c3db1a27",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-household.png",
+      "bytes": 105968,
+      "sha256": "3059d052a807491c98e664f19af16b0315afa244cc11b7d5a49b1cde4e71175e",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-household.svg",
+      "bytes": 777919,
+      "sha256": "1ee226190740520029e84a0c5e2f8df920ef9baca5cebedc865a0e1ddc0248ea",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-invite.png",
+      "bytes": 97698,
+      "sha256": "60f89d788f46050cf020d5941397d5db6fec406e6acaedc8ea8c4df849a01267",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-invite.svg",
+      "bytes": 776469,
+      "sha256": "df6916f267c0cf8a24069e348d32d1509bdcc6ecc8be4a4fe04d138e0d1481df",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-join.png",
+      "bytes": 105994,
+      "sha256": "51b48650a5bcae55696b7677326db1755c5abfd2c8757b4ee74061bfc308875f",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-join.svg",
+      "bytes": 776618,
+      "sha256": "2f8241026f8a20e9dd511394c2e59f299b7ad727a58c03ec538cb78e7a13a988",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-remove.png",
+      "bytes": 103322,
+      "sha256": "3d82df85436905cb004c61fcb0573f46e2562375affea2223a1fd04037b59bf1",
+      "width": 824,
+      "height": 1830,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "android-remove.svg",
+      "bytes": 776436,
+      "sha256": "ab07aa8575bccaeca22089591af606e3d053f8cd4553444ffeaef6f2f6d44662",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "assets/archivo-latin.woff2",
+      "bytes": 90104,
+      "sha256": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    {
+      "path": "assets/archivo-license.txt",
+      "bytes": 4503,
+      "sha256": "c3c8402eec0e31dc9a76851235b1c02a0bb821488b2db8e35bcc2ab60ca8fc2b"
+    },
+    {
+      "path": "assets/material-symbols/arrow_back.svg",
+      "bytes": 170,
+      "sha256": "bf55d4c9579f814d48fc03045f1098b1eb4d2f86f479dcc82c18ef521b957e62"
+    },
+    {
+      "path": "assets/material-symbols/battery_full.svg",
+      "bytes": 236,
+      "sha256": "c53eed32ca27aca45c11e0d23249c8c9044399f8f4346cd2a693e5ed0980784d"
+    },
+    {
+      "path": "assets/material-symbols/chevron_right.svg",
+      "bytes": 159,
+      "sha256": "f6b777ee0ce9059b5f8eea987d813ab12c4f309ba431063153841c742e668ac0"
+    },
+    {
+      "path": "assets/material-symbols/signal_cellular_4_bar.svg",
+      "bytes": 128,
+      "sha256": "f6c3b191ea3fde4aa39963973b640c895a81009b40557f030bb15f743d8c69ee"
+    },
+    {
+      "path": "assets/material-symbols/wifi.svg",
+      "bytes": 414,
+      "sha256": "dc8d418b687726a857da5e718046d410d378c829d96231149cdf358c1851396b"
+    },
+    {
+      "path": "assets/material-symbols-license.txt",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "assets/roboto-license.txt",
+      "bytes": 4394,
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "assets/roboto-variable.ttf",
+      "bytes": 488584,
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+    },
+    {
+      "path": "assets/symbols/battery.100-ink.png",
+      "bytes": 1733,
+      "sha256": "b5b207972c92d64f21cbe681462b153c0b18fd7576028a0c82aee09363a87aa0",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/book.closed-accent.png",
+      "bytes": 2471,
+      "sha256": "2187eca448b833a1c94e8d0ec6c0e6c4328a13d2aa8ff35df0f7b4aca455de79",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/book.closed-muted.png",
+      "bytes": 2529,
+      "sha256": "514d39a76c3b456c1add5afb74eb0588886a2afe5649d92771b599a32b8314e2",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/cellularbars-ink.png",
+      "bytes": 2222,
+      "sha256": "695acd0d3129044d900163cd20e5eb8d315f8b870aef25c1047b8db7ab6565af",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/checkmark-accent.png",
+      "bytes": 2841,
+      "sha256": "21a8eeb398871523a13c5bc8681e0b40190556f5664152f89e1c8c2981cdacb6",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/chevron.left-ink.png",
+      "bytes": 2885,
+      "sha256": "79e1387bd6b874986f6a040676b1281badceb73e7e80856fc54342cd668b1218",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/chevron.right-muted.png",
+      "bytes": 3121,
+      "sha256": "afd75f07b6356211c27acd60ce2566bd02a05fb0ade72fe122d0f7f1cd911960",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/ellipsis-muted.png",
+      "bytes": 1733,
+      "sha256": "bb8a34c9d7fb9fd7e679808dd35339ee3b5156494593bbc2ef708a38b7684d1a",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/person.crop.circle-accent.png",
+      "bytes": 4005,
+      "sha256": "df6c186a4a95ef0908573661f42a666750067db11c85ba3dcc9a46fc1280895d",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/person.crop.circle-ink.png",
+      "bytes": 3953,
+      "sha256": "6888e199ac64ec991773e90c65e954e8fd95317b7e92bd3acdc24215ec7ab613",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/person.crop.circle-muted.png",
+      "bytes": 4006,
+      "sha256": "ac92c5597f94d978e7f36632cff6f9d074cbb9f0b1d9837bdfdb1f4b9a30993c",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/wifi-ink.png",
+      "bytes": 3721,
+      "sha256": "596dba35e9fc2f3c8b57231dd2ae7d06db9d7d2bc76a1eaf79b470d67aef0f84",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "assets/symbols/xmark-ink.png",
+      "bytes": 4253,
+      "sha256": "b01adf9124d4fd9bd77689a768cce8f965732550c508bd7158111c5669a5f539",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbol-origin.txt"
+    },
+    {
+      "path": "credits.md",
+      "bytes": 5398,
+      "sha256": "cb73a84316d95f636f2de9edd96dbd20ca39a00375f4a6a5b0eb05254c050b77"
+    },
+    {
+      "path": "design-brief.md",
+      "bytes": 10794,
+      "sha256": "3728830baa7b620af400c911efcfdca023f7196f8328c967db8dcff470ac555f"
+    },
+    {
+      "path": "ipad-account.png",
+      "bytes": 181366,
+      "sha256": "a812ae402590b93a7f17e18c05589c5a4e9a136607cf5603d8c3d68cb509ebb5",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-account.svg",
+      "bytes": 809102,
+      "sha256": "92276b48a2644c51a0b4c4c816fc437fe551bd629cf6abb642752a7334b43771",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-handover.png",
+      "bytes": 239906,
+      "sha256": "b7b66a019a685bc0f26f4fab8e4652ee8bacd1efb97c3083f641caa05b482a90",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-handover.svg",
+      "bytes": 801132,
+      "sha256": "b7d6dd32cc2d20376c369c93bcbd990f434753af828b0d47963c8ea54ab654d0",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-household.png",
+      "bytes": 207543,
+      "sha256": "aecbab17bd27a8a2f994386d1cf5532477198f9674454150e6b13d618b0c8e23",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-household.svg",
+      "bytes": 805693,
+      "sha256": "ab830964923c690ac647e5fafadbf3f9c7e9ecc28f24888a44419c11951205c5",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-invite.png",
+      "bytes": 200751,
+      "sha256": "300a163fabf8d785c555aa4e75d870e5794a5da0bd1dad2f91b622f496387275",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-invite.svg",
+      "bytes": 804258,
+      "sha256": "9fd46f52dbb81e9b2ff19ff71a07c01785ca16a5fdbf79f537d408ffb7a0481e",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-join.png",
+      "bytes": 191383,
+      "sha256": "939ddbda9f98df0d17b2ad6ffe010332b040a8277a9a573debc4eaa233becbd8",
+      "width": 2388,
+      "height": 1668,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "ipad-join.svg",
+      "bytes": 790700,
+      "sha256": "aad45cfbac0a75abaf477fe490c8b9590d1dc4c791f5af5b30998735ecab6f19",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "iphone-account.png",
+      "bytes": 83163,
+      "sha256": "852e51fb74526f6b6bc0c86f6da17972c1d9ff5cab66a02776c36c49c1231b20",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-account.svg",
+      "bytes": 798854,
+      "sha256": "eef6d4aad6d3f36096ec857a4d0eefebf012062f14361cc5f1f12821a9fbe819",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-household.png",
+      "bytes": 105843,
+      "sha256": "0eb89eb5a14a4879033e104dfcb03e455ecbe58adc20b4dfa4253aacbc436ab5",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-household.svg",
+      "bytes": 801691,
+      "sha256": "e9ba2e34cec7e8e8ee10661b44162c17a73b6265cab1ec438b1915f633ee2dca",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-invite.png",
+      "bytes": 108168,
+      "sha256": "4c0c80438f0390f01422e42e834351c1f1031bbb1fa1a94f7cd7be2121195c6c",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-invite.svg",
+      "bytes": 800460,
+      "sha256": "ae2959feea153370591e7788b68703c2dcef0a1b7235157a14fd33ab00fb9ecb",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-join.png",
+      "bytes": 101289,
+      "sha256": "9c155cc29809ad130f6712ca83ac6b2d9e8784b42ac841e971d00f8051558f7d",
+      "width": 786,
+      "height": 1704,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "iphone-join.svg",
+      "bytes": 792314,
+      "sha256": "295b5cca72e24f76ff9c13b70037406b7b4a6f28adf7c281b4ce2a94c41ce644",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "phone-overview.png",
+      "bytes": 212859,
+      "sha256": "961a0e888677c2a0ef4d6964d67863b53de8ac9287ec3fe1429f13f27a2a3cda",
+      "width": 1291,
+      "height": 1498,
+      "origin": "source/overview-origin.txt"
+    },
+    {
+      "path": "source/android.cjs",
+      "bytes": 7403,
+      "sha256": "95113f9a70edd95f387ec01619f9f6b18e730191fb5a3f136210d1a56ee4e53a"
+    },
+    {
+      "path": "source/apple.cjs",
+      "bytes": 13512,
+      "sha256": "15cb464f54df6a5182ff58ba2092e556bd0d48fb2018a56641ece2f7c4faceaa"
+    },
+    {
+      "path": "source/artboard-origin.txt",
+      "bytes": 937,
+      "sha256": "192182bd1a581a1d6b0e1e09bbbb762dd846843efba8361d151e1282da5df2ac"
+    },
+    {
+      "path": "source/export-symbols.swift",
+      "bytes": 2297,
+      "sha256": "3c6264cfb4de811aa11f2ff3027d5c8613ba6ed2444ba19a35b1ceb52e3832ec"
+    },
+    {
+      "path": "source/overview-origin.txt",
+      "bytes": 374,
+      "sha256": "81be3641bebbfef8c7fda97a5b4ec2a06e966dce90731a51e3896e1eaf789892"
+    },
+    {
+      "path": "source/render.cjs",
+      "bytes": 12047,
+      "sha256": "07cf9d8c2b623e67f75d6230ff60022fae4cd60d712a056b572fc4d58618f6b6"
+    },
+    {
+      "path": "source/scenario.json",
+      "bytes": 8163,
+      "sha256": "7b0578c07a4d65a53a7ca542f885196c24754adee9e54ec3540e73873721a482"
+    },
+    {
+      "path": "source/symbol-origin.txt",
+      "bytes": 318,
+      "sha256": "9dfb4b386d11d9096483720e06549beafdb069c8b98416c6c6d8b7df3ab43a80"
+    },
+    {
+      "path": "source/target-regions.json",
+      "bytes": 28998,
+      "sha256": "b1bc6266f9feafd94943d341a5f6122eff635d444919dfdf595d13bcde339020"
+    },
+    {
+      "path": "source/used-assets.json",
+      "bytes": 616,
+      "sha256": "a4915cb7dd21a0e27c41068d47eff6d0da2f26b7a1910cb6d95e25ddcf2967c8"
+    },
+    {
+      "path": "source/web.cjs",
+      "bytes": 17453,
+      "sha256": "cf65af0e561c26aa7024f5e7aeb94f0ec9076a90ac50be80276e225be141642b"
+    },
+    {
+      "path": "visual-review.md",
+      "bytes": 6029,
+      "sha256": "3419a1c9d32d4ac7b848585e49321364ae29fef675e8aba17bbbf62fa3e6033f"
+    },
+    {
+      "path": "web-desktop-account.png",
+      "bytes": 201831,
+      "sha256": "0e6719475c8c68ab1103fa6e9712fa1f64e2a3c75da68d7815af68006716794d",
+      "width": 2880,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-desktop-account.svg",
+      "bytes": 778275,
+      "sha256": "713440d51a33fa90c3a2ebdbeee7b6da9d51095e2c22641d737e24f8635a85b6",
+      "logicalWidth": 1440,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-desktop-household.png",
+      "bytes": 239364,
+      "sha256": "22ea5aa72df9bec09b1abbe5ec32b45df5043aacaad8eab1a511035819fa387f",
+      "width": 2880,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-desktop-household.svg",
+      "bytes": 779042,
+      "sha256": "bb163e5a0081b3b140c1d0cd420b5877a1583022a5f4310b5a02af90c623b2d2",
+      "logicalWidth": 1440,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-desktop-invite.png",
+      "bytes": 199524,
+      "sha256": "4d8be0a8404351dac915061e0dce3004a0eae9263267cd3cd5a1cce1498659d7",
+      "width": 2880,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-desktop-invite.svg",
+      "bytes": 776836,
+      "sha256": "fc9bc4930c254a036b7a3c962d1851c00a608ca3bb9b9ff92af0e69af180ba9b",
+      "logicalWidth": 1440,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-desktop-join.png",
+      "bytes": 178040,
+      "sha256": "dee3eab0acc1e65a9060e9674e1d1c9cd57463b19969cb0f24565b07cdbbef72",
+      "width": 2880,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-desktop-join.svg",
+      "bytes": 775983,
+      "sha256": "7ccc5e50abed0b5ccac85b4384690e0363e8899cc102d14e05a5741e8529dfd0",
+      "logicalWidth": 1440,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-mobile-account.png",
+      "bytes": 148138,
+      "sha256": "3f7d87d19efb3d8ca353b9be23888c9db56f3260f6caf775e14441b7b4fc5fe8",
+      "width": 780,
+      "height": 2800,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-account.svg",
+      "bytes": 778241,
+      "sha256": "5dfa4c5630c39c98d1eb0cdfce6f2f0d06dc982601cb304bc310659daf32489e",
+      "logicalWidth": 390,
+      "logicalHeight": 1400
+    },
+    {
+      "path": "web-mobile-create.png",
+      "bytes": 119096,
+      "sha256": "6ba9b8ab5d6a3291a68b1a24f74c67107a96c3a0c819f7a0957c56250563677c",
+      "width": 780,
+      "height": 2200,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-create.svg",
+      "bytes": 776178,
+      "sha256": "b6e1a1d251faaaa98d34a8f84c25db2e5d0bd029dfd5f7d242693c5aaac77728",
+      "logicalWidth": 390,
+      "logicalHeight": 1100
+    },
+    {
+      "path": "web-mobile-expired.png",
+      "bytes": 111039,
+      "sha256": "5e8a96138216217591aea56cc5ed5136655addf5631815a69d0a7a7a35ce95a4",
+      "width": 780,
+      "height": 2000,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-expired.svg",
+      "bytes": 775690,
+      "sha256": "2ad706f4fea6cd3d2efeb52c32dc25df8f1fa82127846d7cb87094fd3db11d39",
+      "logicalWidth": 390,
+      "logicalHeight": 1000
+    },
+    {
+      "path": "web-mobile-household.png",
+      "bytes": 161806,
+      "sha256": "d1c3d41dad5b5277ac51789369b56036a5f09ff49aff1bf50eafd3499261ced2",
+      "width": 780,
+      "height": 2800,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-household.svg",
+      "bytes": 778411,
+      "sha256": "355907d088adf58b989a374c1c3222396d480fe3f21ddba31237386ec47275ba",
+      "logicalWidth": 390,
+      "logicalHeight": 1400
+    },
+    {
+      "path": "web-mobile-invite.png",
+      "bytes": 123787,
+      "sha256": "262b967e85d7ea01e46082ff6c798717a2954260c35749d6b7944947ff8d1824",
+      "width": 780,
+      "height": 2200,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-invite.svg",
+      "bytes": 776409,
+      "sha256": "d18b1216657c3b8575c7e940a0e0fdaaf8bc3f126104673d849ead27f54372b6",
+      "logicalWidth": 390,
+      "logicalHeight": 1100
+    },
+    {
+      "path": "web-mobile-join.png",
+      "bytes": 119113,
+      "sha256": "22046698f1de5b3f246558b758f71e5a70df962bfc5ad47275179fa64e16e8aa",
+      "width": 780,
+      "height": 2200,
+      "origin": "source/artboard-origin.txt",
+      "scale": 2
+    },
+    {
+      "path": "web-mobile-join.svg",
+      "bytes": 775954,
+      "sha256": "19799aeb110a466625dab6d2ba31ddb45b09be3e70b2ac3c12bab72eb4dc5674",
+      "logicalWidth": 390,
+      "logicalHeight": 1100
+    },
+    {
+      "path": "wide-overview.png",
+      "bytes": 155796,
+      "sha256": "403f276f93e4cb6a22abe31ce90b5b596f5d3663a1a92b3feba3a4b8b8f0cd10",
+      "width": 1930,
+      "height": 748,
+      "origin": "source/overview-origin.txt"
+    }
+  ]
+}

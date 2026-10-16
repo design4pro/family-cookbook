@@ -1,0 +1,3 @@
+Apple SF Symbols exported through AppKit NSImage(systemSymbolName:) for a static Apple-platform interface design study, 2026-10-16.
+The source/export-symbols.swift asset exporter creates 96 x 96 transparent monochrome PNGs from the installed system symbols. Each filename identifies the symbol and palette variant. source/used-symbols.json lists the variants used by the final artboards.
+These are system symbol assets, not generative images, a third-party icon pack or implemented native controls. They are retained for the iPhone/iPad design proposal only.

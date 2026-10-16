@@ -1,0 +1,498 @@
+{
+  "date": "2026-10-16",
+  "status": "Static proposal awaiting user review",
+  "type": "Eight main iPhone/iPad artboards, two iPhone review states and two contact sheets",
+  "implementation": false,
+  "renderer": "Authored SVG rendered with Sharp/librsvg; actual SF Symbols exported with AppKit; no generative model",
+  "reference": "../smakopas-web-v4/README.md",
+  "source": [
+    "source/render.cjs",
+    "source/iphone.cjs",
+    "source/ipad.cjs",
+    "source/export-symbols.swift"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3032,
+      "sha256": "ddf397e0222703d1b37147f06db70d48733ccd60e0b052ed5f4f3f0055e38bf0"
+    },
+    {
+      "path": "apple-reference.md",
+      "bytes": 3206,
+      "sha256": "fda1759d12f089ffaa23b014684cc8b021a32a749f20a05e53c9c9318b9f4489"
+    },
+    {
+      "path": "assets/archivo-latin.woff2",
+      "bytes": 90104,
+      "sha256": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    {
+      "path": "assets/archivo-license.txt",
+      "bytes": 4503,
+      "sha256": "c3c8402eec0e31dc9a76851235b1c02a0bb821488b2db8e35bcc2ab60ca8fc2b"
+    },
+    {
+      "path": "assets/greek-salad.jpg",
+      "bytes": 193621,
+      "sha256": "8a4613204af9f7189773c85c5d530b98e53b2f8714021dbc1cfccf3599292224"
+    },
+    {
+      "path": "assets/sample-page-01.png",
+      "bytes": 23647,
+      "sha256": "2f1fd4832287599a1be0d59fa4a12ac79362532c7f6368e5637152505974d0e5",
+      "width": 600,
+      "height": 760
+    },
+    {
+      "path": "assets/sample-page-02.png",
+      "bytes": 22255,
+      "sha256": "50b4be8b1f8e8906d691d4746c1cf96f1c13320534a7ce26532263f25e4c0c77",
+      "width": 600,
+      "height": 760
+    },
+    {
+      "path": "assets/shakshuka.jpg",
+      "bytes": 257643,
+      "sha256": "fa4811d1c3d29d86651fbb58f0ca31f89caa40d78deed143c880dfdf4b02d07a"
+    },
+    {
+      "path": "assets/symbols/arrow.down-muted.png",
+      "bytes": 2594,
+      "sha256": "bf6bd784e8d8b7f4c4f8c5a9ac494bd310a8a5fe0e72370de969d62698a4dc7b",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/arrow.right-accent.png",
+      "bytes": 2705,
+      "sha256": "94f08dcb6aa5d26391485cb62b937d6beb6147cd8eb3ddf4274756e2555275d9",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/arrow.up-muted.png",
+      "bytes": 2468,
+      "sha256": "16f83d06742133f62e6a6c4b09f8183269de988c378d83ec6d5780420a121f36",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/arrow.up.left.and.arrow.down.right-accent.png",
+      "bytes": 2722,
+      "sha256": "5d1c1e7d5cf73dbd915dbd66799bd9b157f0e4c13f64639c45afa166ca2a793b",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/arrow.up.left.and.arrow.down.right-muted.png",
+      "bytes": 2728,
+      "sha256": "24edcba150c4a7d1cd390684a6785bd3f6cf0cdb3e5af0e819afbfd95e63d7b7",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/battery.100-ink.png",
+      "bytes": 1974,
+      "sha256": "7dd7d21b173a90412150c63c11324cac452d2f35801369762bc1b403a3c6870b",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/book.closed.fill-accent.png",
+      "bytes": 2461,
+      "sha256": "1b6adf96300a9421852a3c56dec0d29dbdec629b9711a919b7c30dae6e01e0c6",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/bookmark-accent.png",
+      "bytes": 2795,
+      "sha256": "7c02f33d68aa3727b43cd64eb80717657546bd1ee8b0de483dc379ae0a390298",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/bookmark-ink.png",
+      "bytes": 2756,
+      "sha256": "20f392a6886ddac7f4b9dd688764537d7509c1bc142ea70121d1d28a7342760a",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/bubble.left.and.bubble.right-ink.png",
+      "bytes": 3275,
+      "sha256": "b7feb1440d444e057826371de944a3e80ec10cc17b213ec1ee48247e0d7a6f61",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/cellularbars-ink.png",
+      "bytes": 2463,
+      "sha256": "640d34757d3825c8f2fb2267d654587757ecb138b487c4d5e1ea1e3d2e8148af",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/checklist-ink.png",
+      "bytes": 3743,
+      "sha256": "dff96fd188e5d09a0afdf957cdc687a5afcad6086c60c474c22ceb17a76e220a",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/chevron.left-ink.png",
+      "bytes": 3126,
+      "sha256": "b8e7c3fa9c39dd5d1a2d51cd27d4c11661a15ff9658d84e4b3c1751be8f66e41",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/chevron.right-accent.png",
+      "bytes": 3300,
+      "sha256": "4951d8b06825046b9b72f9a5fc162b96a7b49eb240db7eba0dc27cb50a84d194",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/chevron.right-muted.png",
+      "bytes": 3362,
+      "sha256": "11e62e09155e77042eecfa26aa5f7c0df537e8689ec39fcee93426ddaced512c",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/doc.text-accent.png",
+      "bytes": 3270,
+      "sha256": "b8658d07312d882649a849278737436814e9a55e3ce3e53b05cd182b89f21c9e",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/ellipsis-ink.png",
+      "bytes": 1992,
+      "sha256": "2491f595a6cae17ce3bf3394a8a7a22e416aa4686a2c2c231c5d0df3155b5c58",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/magnifyingglass-muted.png",
+      "bytes": 3324,
+      "sha256": "75ea9679d431e4f7930ff05af7856d83ca8cd865d4d87f778ac9e6dbde1984eb",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/person.crop.circle-ink.png",
+      "bytes": 4194,
+      "sha256": "ebae9a49dd47de6c0e0f788b8cd0b12c4dc366b7edf15094e2abd24e5251afcf",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/plus-accent.png",
+      "bytes": 1521,
+      "sha256": "054740d10fb269f6f68fa1d01a9f7cf20950b9af31e8ca69fc64d7fbbc6e1e50",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/square.and.arrow.down-accent.png",
+      "bytes": 3369,
+      "sha256": "49047f5a51d66ed90b009f7bccea382d7e896a37232abfe4b4c07abd889bb236",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/square.and.pencil-accent.png",
+      "bytes": 3509,
+      "sha256": "f87e674e5d3a37616138c345ba523c40e7ba77958cf1945b98bf7f2e87e71d87",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/trash-muted.png",
+      "bytes": 5385,
+      "sha256": "a83549912d87c6eea829beee22d3aca0740943b3373f10195346c16ccf67e53f",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/wifi-ink.png",
+      "bytes": 3962,
+      "sha256": "f0a6e660e9a26102e593b2803af367ef252d79b11f755592ba8b07620ad688d8",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/symbols/xmark-ink.png",
+      "bytes": 4494,
+      "sha256": "bd44603155236ac3c07e8924e453d3fd30ae0be1349a9559d50d0070ffadb6f3",
+      "width": 96,
+      "height": 96,
+      "origin": "source/symbols-origin.txt"
+    },
+    {
+      "path": "assets/tomato-soup.jpg",
+      "bytes": 293240,
+      "sha256": "169b7483db9db0e126797d289c74787d54b54e4341fc1a59325311ea6671ebbe"
+    },
+    {
+      "path": "credits.md",
+      "bytes": 2541,
+      "sha256": "b0c0f5d8a824c1f34e10986af2ba968273cc3ca449b0facfb86f7f23de6d46b1"
+    },
+    {
+      "path": "design-brief.md",
+      "bytes": 9246,
+      "sha256": "d4eac5deb0d753107e19bd23e70c0f25d0ae4fadd843abaee8aecc4f77dde9dc"
+    },
+    {
+      "path": "ipad-01-cookbook.png",
+      "bytes": 3258244,
+      "sha256": "5c0b72dc01bdf9fa581b2b702812af2994c4a4f970af9522ead04f1048d64cd1",
+      "width": 2388,
+      "height": 1668,
+      "scale": 2,
+      "origin": "source/native-origin.txt"
+    },
+    {
+      "path": "ipad-01-cookbook.svg",
+      "bytes": 1163391,
+      "sha256": "3b65e5af0ce2fb3e31cb5c9cde52e5e70f792176abcfbd035dc090ab33fd389e",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-02-add-photos.png",
+      "bytes": 240389,
+      "sha256": "86df1d7551bfdf296ca6403a1fa2f8ac3600ded40e2496d4c971f2e02d726b39",
+      "width": 2388,
+      "height": 1668,
+      "scale": 2,
+      "origin": "source/native-origin.txt"
+    },
+    {
+      "path": "ipad-02-add-photos.svg",
+      "bytes": 259192,
+      "sha256": "6d33c9791eaf37075aea40b32273a8fbd4d4e261f646c6133788c8173e5abcb0",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-03-review.png",
+      "bytes": 289974,
+      "sha256": "3003971b08188167da5c810a5240deac0d5371c5e1d5bab060511651dee4780e",
+      "width": 2388,
+      "height": 1668,
+      "scale": 2,
+      "origin": "source/native-origin.txt"
+    },
+    {
+      "path": "ipad-03-review.svg",
+      "bytes": 228451,
+      "sha256": "5cb100b791ad04ce5d5df621f03a4fe8536694f152da0a5fbac0a36f7697364a",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-04-recipe.png",
+      "bytes": 204794,
+      "sha256": "a5c3d964640350c97cc64bc0e009ad13d78f838baa38d10107cb858c2a9f9aad",
+      "width": 2388,
+      "height": 1668,
+      "scale": 2,
+      "origin": "source/native-origin.txt"
+    },
+    {
+      "path": "ipad-04-recipe.svg",
+      "bytes": 238113,
+      "sha256": "ed73e6756ec9c398eeadcef2c09467d800627422a5072f0c5e13d33b00686747",
+      "logicalWidth": 1194,
+      "logicalHeight": 834
+    },
+    {
+      "path": "ipad-flow.png",
+      "bytes": 1280189,
+      "sha256": "75b70a2c3ac5109ca09ada5fcb9a7df0ee385cba12ba9e0acf03fe604b7130f3",
+      "width": 2484,
+      "height": 1848,
+      "scale": 1,
+      "origin": "source/overview-origin.txt"
+    },
+    {
+      "path": "iphone-01-cookbook.png",
+      "bytes": 1130959,
+      "sha256": "53cfcdce33cd641a89e4b24834cf001afb5ea0e3f665c44a383407306f2fac48",
+      "width": 786,
+      "height": 1704,
+      "scale": 2,
+      "origin": "source/native-origin.txt"
+    },
+    {
+      "path": "iphone-01-cookbook.svg",
+      "bytes": 766426,
+      "sha256": "e54489a446351edf189e9d397a90169e3f8e829001034638b42a66370ca1977c",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-02-add-photos.png",
+      "bytes": 117283,
+      "sha256": "a2d27eee1cdbf7daffc399c60a4c115b7f4c69f42f03fcc509396615bec6cffa",
+      "width": 786,
+      "height": 1704,
+      "scale": 2,
+      "origin": "source/native-origin.txt"
+    },
+    {
+      "path": "iphone-02-add-photos.svg",
+      "bytes": 232433,
+      "sha256": "18b58b9a7d252624409d091479b8b75dc0fd623f1c3a60c90a1db28bd8c4a442",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-03-review.png",
+      "bytes": 125949,
+      "sha256": "5cd6aae0e5c0c07955151865c2be99dd878a9216758293fd87c34d99558d00d7",
+      "width": 786,
+      "height": 1704,
+      "scale": 2,
+      "origin": "source/native-origin.txt"
+    },
+    {
+      "path": "iphone-03-review.svg",
+      "bytes": 190199,
+      "sha256": "216a0147d2149ac3ed071242d3120f08621176ac2746d7c4a372263716fa719d",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-04-recipe.png",
+      "bytes": 114459,
+      "sha256": "17f54c79bb6a2a493fa7f5cf868de3c9f13c4b17faff1e10fb721e35c4fd3bba",
+      "width": 786,
+      "height": 1704,
+      "scale": 2,
+      "origin": "source/native-origin.txt"
+    },
+    {
+      "path": "iphone-04-recipe.svg",
+      "bytes": 170212,
+      "sha256": "5b9495de9f9c17ecaa48db5e1d245442561898e441c035da8403f906a562f460",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-flow.png",
+      "bytes": 499347,
+      "sha256": "aa367671ef4e5f34c757247bb9fa2094ab3396780f380102c7dc11b65181e800",
+      "width": 1732,
+      "height": 958,
+      "scale": 1,
+      "origin": "source/overview-origin.txt"
+    },
+    {
+      "path": "iphone-review-lower.png",
+      "bytes": 124762,
+      "sha256": "df7a5a0387d8a2d6d7205cfd490d7a2d9d7266d7fcff58c518664ac9f0bfbf4a",
+      "width": 786,
+      "height": 1704,
+      "scale": 2,
+      "origin": "source/native-origin.txt"
+    },
+    {
+      "path": "iphone-review-lower.svg",
+      "bytes": 190205,
+      "sha256": "68b2ddd075819cd212bb1bcd8f491c028121d03c59c7c3ccea1ec356052386d4",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "iphone-review-source.png",
+      "bytes": 105639,
+      "sha256": "9e0edfa67779729a3ae1bcc99e009d93c30e07ac8e7b7bfac1eed7c5961c015f",
+      "width": 786,
+      "height": 1704,
+      "scale": 2,
+      "origin": "source/native-origin.txt"
+    },
+    {
+      "path": "iphone-review-source.svg",
+      "bytes": 181726,
+      "sha256": "1b0ad7279ee1221108ff3a13d57522fa8baaa19db29ee2943453c6ef6f34c465",
+      "logicalWidth": 393,
+      "logicalHeight": 852
+    },
+    {
+      "path": "source/export-symbols.swift",
+      "bytes": 2297,
+      "sha256": "3c6264cfb4de811aa11f2ff3027d5c8613ba6ed2444ba19a35b1ceb52e3832ec"
+    },
+    {
+      "path": "source/ipad.cjs",
+      "bytes": 9843,
+      "sha256": "d59d9e73bc058102218d4f470ebf94dc6dbf7e7973fd5d1cbff2492eecfb026b"
+    },
+    {
+      "path": "source/iphone.cjs",
+      "bytes": 7071,
+      "sha256": "57cb8330a55cf7d1b62b64a56e1df40a27195dfb642c76d158b8d7875b35b006"
+    },
+    {
+      "path": "source/native-origin.txt",
+      "bytes": 1046,
+      "sha256": "d99149f7645daed41c5c3d3f505d9a9e383dacd74582331173441d3fb5a35625"
+    },
+    {
+      "path": "source/overview-origin.txt",
+      "bytes": 538,
+      "sha256": "0e29f13e318d0aa71d12c1f383a017a3bf02d3ff3761c73619102c2a295403ad"
+    },
+    {
+      "path": "source/render.cjs",
+      "bytes": 9461,
+      "sha256": "c35f07c6ef3f3dcf527ae65a954ba05fca94373817c09fb3422f2595942a0db7"
+    },
+    {
+      "path": "source/symbols-origin.txt",
+      "bytes": 559,
+      "sha256": "9217bc9a004dcee8c8750e2beab2e620a1d54d43893a79edc9c84763d62e43c6"
+    },
+    {
+      "path": "source/used-symbols.json",
+      "bytes": 924,
+      "sha256": "17c192ad2605992b36dc578aee82b3ab12e718cf89ceb93f585c7d85c1bc3f8e"
+    },
+    {
+      "path": "visual-review.md",
+      "bytes": 3301,
+      "sha256": "366c378ad7aa750857c0beafeb4e52a3fe4c98e35dda5f9fa6cb94d3b9e12e41"
+    }
+  ]
+}

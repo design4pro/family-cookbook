@@ -1,0 +1,337 @@
+{
+  "date": "2026-10-16",
+  "status": "Static proposal awaiting user review",
+  "type": "Four main Android phone artboards, two review states and one contact sheet",
+  "implementation": false,
+  "renderer": "Authored SVG rendered with Sharp/librsvg; Google font and Material Symbols assets; no generative model",
+  "source": [
+    "source/render.cjs",
+    "source/artboards.cjs"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2600,
+      "sha256": "4d7941a416a2bfd0cece9537a03ba63ccf6e8bbd083050b20cea8e820d597b06"
+    },
+    {
+      "path": "android-01-cookbook.png",
+      "bytes": 1239898,
+      "sha256": "9c58d1dfa4dc965a331df692feae78fce7bd13136af744194127ef8e78fb09e8",
+      "width": 824,
+      "height": 1830,
+      "scale": 2,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "android-01-cookbook.svg",
+      "bytes": 1380624,
+      "sha256": "92d6f51192b01d06972d4b500b96fc6566aa92256134cec6216dd2a9ccbd2841",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-02-add-photos.png",
+      "bytes": 105478,
+      "sha256": "90fb119e912b83fbeaf7b947eb70b45e689c8a7deb170ec2ec8d882e4878a719",
+      "width": 824,
+      "height": 1830,
+      "scale": 2,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "android-02-add-photos.svg",
+      "bytes": 839472,
+      "sha256": "ee9c39c50959ad16b30dbc053bee11f60c3eaf9263e45183d29e5f5e12a28bef",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-03-review.png",
+      "bytes": 103363,
+      "sha256": "42cfd269c26ba63c2d57a21bc6914d1acce34f4af728d708b6ec0e5284095fa8",
+      "width": 824,
+      "height": 1830,
+      "scale": 2,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "android-03-review.svg",
+      "bytes": 782313,
+      "sha256": "7bd598139a31bd54e376f2bcd8753abc7fb14b101eef2246c4c04603a136885e",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-04-recipe.png",
+      "bytes": 100156,
+      "sha256": "e7d37108849cadf7b6a9ee26e75b0580cfd4ec56043cce8c1b30ab51c8794010",
+      "width": 824,
+      "height": 1830,
+      "scale": 2,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "android-04-recipe.svg",
+      "bytes": 779776,
+      "sha256": "e1c2a64c62c19cf8c1f39f142dcd90923c2e784ddc6c658930b3dafc2726b09e",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-flow.png",
+      "bytes": 519000,
+      "sha256": "e4c2717a872274d4c05ee56a7ac7cd7c58b40cef17b8d3a5e218cddf09871ce2",
+      "width": 1808,
+      "height": 1021,
+      "scale": 1,
+      "origin": "source/overview-origin.txt"
+    },
+    {
+      "path": "android-review-lower.png",
+      "bytes": 94136,
+      "sha256": "f9d1a13e1b3f75dc05f11862b4e5158a6ab51e143f68cef50ca4fc7d34dae778",
+      "width": 824,
+      "height": 1830,
+      "scale": 2,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "android-review-lower.svg",
+      "bytes": 782319,
+      "sha256": "bcf437934dfa4b1c32a80dcfd37cfe8b50322ba5c07c82b2b0ac83b241b21b1d",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "android-review-source.png",
+      "bytes": 92604,
+      "sha256": "0566c24d78e6cb64d560c1490589bcec08b863aa90aea6040d672f39b60fb75c",
+      "width": 824,
+      "height": 1830,
+      "scale": 2,
+      "origin": "source/artboard-origin.txt"
+    },
+    {
+      "path": "android-review-source.svg",
+      "bytes": 807104,
+      "sha256": "dab1981c1ad28e19003a6f01ac42d8212e9b1529ef1c306639956544fbb3de75",
+      "logicalWidth": 412,
+      "logicalHeight": 915
+    },
+    {
+      "path": "assets/archivo-latin.woff2",
+      "bytes": 90104,
+      "sha256": "e3a28eade21a900c7155a247757f4b2834c07bb7ef07ad7efa55cebaac1e8f5e"
+    },
+    {
+      "path": "assets/archivo-license.txt",
+      "bytes": 4503,
+      "sha256": "c3c8402eec0e31dc9a76851235b1c02a0bb821488b2db8e35bcc2ab60ca8fc2b"
+    },
+    {
+      "path": "assets/greek-salad.jpg",
+      "bytes": 193621,
+      "sha256": "8a4613204af9f7189773c85c5d530b98e53b2f8714021dbc1cfccf3599292224"
+    },
+    {
+      "path": "assets/material-symbols/account_circle.svg",
+      "bytes": 732,
+      "sha256": "a00a7e524203f2196358884c04eda55fe5cfa461351b6401b92f4e0ecedb7595"
+    },
+    {
+      "path": "assets/material-symbols/add.svg",
+      "bytes": 163,
+      "sha256": "e9532de2b9be01ce951e899e98ee673bb97acd574f0db118feb72fe074a1c376"
+    },
+    {
+      "path": "assets/material-symbols/arrow_back.svg",
+      "bytes": 170,
+      "sha256": "bf55d4c9579f814d48fc03045f1098b1eb4d2f86f479dcc82c18ef521b957e62"
+    },
+    {
+      "path": "assets/material-symbols/arrow_downward.svg",
+      "bytes": 173,
+      "sha256": "480a48a9a11fcfe380851816636315f1e3b3ffc391fcd3f5f5135f6d46a62ee8"
+    },
+    {
+      "path": "assets/material-symbols/arrow_forward.svg",
+      "bytes": 171,
+      "sha256": "717c65e2e704a07b7b73e194b202858f52befbaa6dd363565a1d75d117c3a2aa"
+    },
+    {
+      "path": "assets/material-symbols/arrow_upward.svg",
+      "bytes": 173,
+      "sha256": "a902b4447496b87a48b3fe7be338a2e2b68ecf63341e0b90545f133b87207e87"
+    },
+    {
+      "path": "assets/material-symbols/article.svg",
+      "bytes": 331,
+      "sha256": "08c75a3ecb09acab2b5e34744c66d2a11fd648664f239e6b761641510d15a3d5"
+    },
+    {
+      "path": "assets/material-symbols/battery_full.svg",
+      "bytes": 236,
+      "sha256": "c53eed32ca27aca45c11e0d23249c8c9044399f8f4346cd2a693e5ed0980784d"
+    },
+    {
+      "path": "assets/material-symbols/bookmark.svg",
+      "bytes": 240,
+      "sha256": "5a3089ec31268db8da66ce9e5d7cbb8bdfb9b25c5ac53f3200b5147caf746e29"
+    },
+    {
+      "path": "assets/material-symbols/chat_bubble.svg",
+      "bytes": 253,
+      "sha256": "b00b6523bc09b56a40ff255fb5e7cc49dfa2262d1e2e567531831eb5382f44ce"
+    },
+    {
+      "path": "assets/material-symbols/checklist.svg",
+      "bytes": 250,
+      "sha256": "3147e6fadca3d64ee60ea176223a6fcb1942a51f246a4a0db805a2813521127a"
+    },
+    {
+      "path": "assets/material-symbols/chevron_right.svg",
+      "bytes": 159,
+      "sha256": "f6b777ee0ce9059b5f8eea987d813ab12c4f309ba431063153841c742e668ac0"
+    },
+    {
+      "path": "assets/material-symbols/delete.svg",
+      "bytes": 300,
+      "sha256": "ec75e756af4e37a926a2f64ef8f59eac85276a658fc8a7aef0cc12c5e871e971"
+    },
+    {
+      "path": "assets/material-symbols/menu_book.svg",
+      "bytes": 877,
+      "sha256": "622ba05277e45154430cbc23d75b71b3b8210c249d9e2205cd21c563db028f4e"
+    },
+    {
+      "path": "assets/material-symbols/more_vert.svg",
+      "bytes": 408,
+      "sha256": "f3959916d17e6ec783267c2753bdddfe4b3f4b12b835c875231dbbba792f070b"
+    },
+    {
+      "path": "assets/material-symbols/open_in_full.svg",
+      "bytes": 179,
+      "sha256": "38014bfc3d143d8db55363466f9af9edb2cc7eb2ce6eca0ce45bc6a56ff739da"
+    },
+    {
+      "path": "assets/material-symbols/photo_camera.svg",
+      "bytes": 481,
+      "sha256": "2f0c1c7f53a7110db7efb824db4b9413253a242f1d87846f0069fc281bdedf27"
+    },
+    {
+      "path": "assets/material-symbols/photo_library.svg",
+      "bytes": 362,
+      "sha256": "cca5621f38ddfb515e48918135a08026e8430bbbcd1ccddca139022a3b0192e2"
+    },
+    {
+      "path": "assets/material-symbols/search.svg",
+      "bytes": 357,
+      "sha256": "46d4ab85eba6eb4fe7c9a9a4c4db2fdf8fa9cc74c1f398ac72e7d872d490dd4c"
+    },
+    {
+      "path": "assets/material-symbols/signal_cellular_4_bar.svg",
+      "bytes": 128,
+      "sha256": "f6c3b191ea3fde4aa39963973b640c895a81009b40557f030bb15f743d8c69ee"
+    },
+    {
+      "path": "assets/material-symbols/wifi.svg",
+      "bytes": 414,
+      "sha256": "dc8d418b687726a857da5e718046d410d378c829d96231149cdf358c1851396b"
+    },
+    {
+      "path": "assets/material-symbols-license.txt",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "assets/roboto-license.txt",
+      "bytes": 4394,
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "assets/roboto-variable.ttf",
+      "bytes": 488584,
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+    },
+    {
+      "path": "assets/sample-page-01.png",
+      "bytes": 23647,
+      "sha256": "2f1fd4832287599a1be0d59fa4a12ac79362532c7f6368e5637152505974d0e5",
+      "width": 600,
+      "height": 760
+    },
+    {
+      "path": "assets/sample-page-02.png",
+      "bytes": 22255,
+      "sha256": "50b4be8b1f8e8906d691d4746c1cf96f1c13320534a7ce26532263f25e4c0c77",
+      "width": 600,
+      "height": 760
+    },
+    {
+      "path": "assets/shakshuka.jpg",
+      "bytes": 257643,
+      "sha256": "fa4811d1c3d29d86651fbb58f0ca31f89caa40d78deed143c880dfdf4b02d07a"
+    },
+    {
+      "path": "credits.md",
+      "bytes": 4808,
+      "sha256": "a6176fb5877fff6d691b042a967750b0c037db834a7abbb5f0059b9ccb446005"
+    },
+    {
+      "path": "design-brief.md",
+      "bytes": 7627,
+      "sha256": "9cb625da5c0e39e5b41eb1b7f24f13aa01772a04f7fc2d1c3fa0e5c5f4780b03"
+    },
+    {
+      "path": "material-reference.md",
+      "bytes": 9035,
+      "sha256": "a6a3240da9966c144102559ded6fad185fec9fb99d3f60483ccd04d45439ac48"
+    },
+    {
+      "path": "source/artboard-origin.txt",
+      "bytes": 1000,
+      "sha256": "eca17fc8c221aaff58d08b1e177d82da9d6c84da56009c8225580d5695b35aa0"
+    },
+    {
+      "path": "source/artboards.cjs",
+      "bytes": 6686,
+      "sha256": "1a0f117ba75538b0c040e1dc8bdbdee0903ff4a84cf205175a0b1d25523ffb54"
+    },
+    {
+      "path": "source/downloads.json",
+      "bytes": 6906,
+      "sha256": "01b4779e9db6884701aa27e1d332c510c142302a6300e0247a917d5c3656c016"
+    },
+    {
+      "path": "source/overview-origin.txt",
+      "bytes": 525,
+      "sha256": "cd7871dc9065d720fbb8bed35bbf7a03f5c1b955b4a69e37c88db4d3098b38d2"
+    },
+    {
+      "path": "source/render.cjs",
+      "bytes": 8116,
+      "sha256": "7cab21b65ec9ffdfe077676e8c6a1d3d8e1eb807fbedc9095a40a3417cb96583"
+    },
+    {
+      "path": "source/target-regions.json",
+      "bytes": 10504,
+      "sha256": "ae9b6ce114be9a73cfdb34f06129e27afdeb498672a574762b34ab2192948420"
+    },
+    {
+      "path": "source/used-icons.json",
+      "bytes": 347,
+      "sha256": "7589fec985a5abd3ead12ef9b81f99b8b3200d7cafd9c7772ccf6d2cdef88c28"
+    },
+    {
+      "path": "source/verification.json",
+      "bytes": 638,
+      "sha256": "6f47f8397209943721883d7863e07eee16e2068a902a149189b162443b84d815"
+    },
+    {
+      "path": "visual-review.md",
+      "bytes": 3660,
+      "sha256": "04a854a09685a648dd7804fef3a570ae81ba0cc3e7a9794b141e6e106542a577"
+    }
+  ]
+}

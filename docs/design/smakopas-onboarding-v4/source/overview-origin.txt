@@ -1,0 +1,1 @@
+Contact sheet composed by source/render.cjs from corresponding authored onboarding PNG artboards without changing their content. Platform labels and neutral surroundings are presentation aids. No image-generation model or private content was used. Individual artboards remain the full-resolution reference; this sheet is not a running sign-in flow or a delivery receipt.

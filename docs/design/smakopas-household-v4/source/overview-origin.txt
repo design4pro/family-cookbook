@@ -1,0 +1,1 @@
+Contact sheet composed by source/render.cjs from authored household/account PNG artboards without changing their content. Platform labels and the neutral surrounding surface are presentation aids. No image-generation model or private material was used. Individual artboards are the full-resolution reference. This is not application UI or evidence of real account activity.

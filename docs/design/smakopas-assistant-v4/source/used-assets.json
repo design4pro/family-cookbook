@@ -1,0 +1,29 @@
+{
+  "sf": [
+    "symbols/arrow.up-muted.png",
+    "symbols/battery.100-ink.png",
+    "symbols/book.closed-ink.png",
+    "symbols/book.closed-muted.png",
+    "symbols/bubble.left.and.bubble.right-accent.png",
+    "symbols/cellularbars-ink.png",
+    "symbols/checklist-ink.png",
+    "symbols/chevron.right-muted.png",
+    "symbols/doc.text-muted.png",
+    "symbols/person.crop.circle-ink.png",
+    "symbols/square.and.pencil-ink.png",
+    "symbols/wifi-ink.png"
+  ],
+  "material": [
+    "account_circle",
+    "add",
+    "arrow_forward",
+    "arrow_upward",
+    "battery_full",
+    "chat_bubble",
+    "checklist",
+    "chevron_right",
+    "menu_book",
+    "signal_cellular_4_bar",
+    "wifi"
+  ]
+}

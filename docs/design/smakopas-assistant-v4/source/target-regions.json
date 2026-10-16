@@ -1,0 +1,1568 @@
+{
+  "web-desktop-start": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 140,
+        "y": 212,
+        "width": 202,
+        "height": 44,
+        "label": "Change conversation scope",
+        "disabled": false
+      },
+      {
+        "x": 710,
+        "y": 212,
+        "width": 170,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 338,
+        "width": 768,
+        "height": 96,
+        "label": "Ask about a recipe",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 462,
+        "width": 768,
+        "height": 96,
+        "label": "Cook with what you have",
+        "disabled": false
+      },
+      {
+        "x": 120,
+        "y": 672,
+        "width": 752,
+        "height": 48,
+        "label": "Type a question",
+        "disabled": false
+      },
+      {
+        "x": 780,
+        "y": 722,
+        "width": 84,
+        "height": 44,
+        "label": "Send",
+        "disabled": true
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 86,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-start": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 44,
+        "y": 210,
+        "width": 202,
+        "height": 44,
+        "label": "Change conversation scope",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 332,
+        "width": 358,
+        "height": 118,
+        "label": "Ask about a recipe",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 466,
+        "width": 358,
+        "height": 118,
+        "label": "Cook with what you have",
+        "disabled": false
+      },
+      {
+        "x": 24,
+        "y": 698,
+        "width": 342,
+        "height": 48,
+        "label": "Type a question",
+        "disabled": false
+      },
+      {
+        "x": 274,
+        "y": 760,
+        "width": 84,
+        "height": 44,
+        "label": "Send",
+        "disabled": true
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-answer": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 140,
+        "y": 212,
+        "width": 206,
+        "height": 44,
+        "label": "Change conversation scope",
+        "disabled": false
+      },
+      {
+        "x": 710,
+        "y": 212,
+        "width": 170,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 375,
+        "y": 415,
+        "width": 44,
+        "height": 44,
+        "label": "Source 1: Family pancakes ingredients",
+        "disabled": false
+      },
+      {
+        "x": 292,
+        "y": 548,
+        "width": 44,
+        "height": 44,
+        "label": "Source 1: Family pancakes method",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 621,
+        "width": 248,
+        "height": 44,
+        "label": "Ask for general guidance",
+        "disabled": false
+      },
+      {
+        "x": 120,
+        "y": 744,
+        "width": 752,
+        "height": 48,
+        "label": "Type a question",
+        "disabled": false
+      },
+      {
+        "x": 780,
+        "y": 794,
+        "width": 84,
+        "height": 44,
+        "label": "Send",
+        "disabled": true
+      },
+      {
+        "x": 976,
+        "y": 709,
+        "width": 352,
+        "height": 44,
+        "label": "[1] Open saved recipe",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 86,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-answer": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 44,
+        "y": 148,
+        "width": 206,
+        "height": 44,
+        "label": "Change conversation scope",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 194,
+        "width": 170,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 240,
+        "y": 364,
+        "width": 44,
+        "height": 44,
+        "label": "Source 1: Family pancakes ingredients",
+        "disabled": false
+      },
+      {
+        "x": 173,
+        "y": 522,
+        "width": 44,
+        "height": 44,
+        "label": "Source 1: Family pancakes method",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 652,
+        "width": 358,
+        "height": 44,
+        "label": "[1] Open saved recipe",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 725,
+        "width": 248,
+        "height": 44,
+        "label": "Ask for general guidance",
+        "disabled": false
+      },
+      {
+        "x": 24,
+        "y": 809,
+        "width": 342,
+        "height": 48,
+        "label": "Type a question",
+        "disabled": false
+      },
+      {
+        "x": 274,
+        "y": 871,
+        "width": 84,
+        "height": 44,
+        "label": "Send",
+        "disabled": true
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-desktop-meals": {
+    "platform": "web",
+    "logicalWidth": 1440,
+    "logicalHeight": 1000,
+    "targets": [
+      {
+        "x": 140,
+        "y": 212,
+        "width": 202,
+        "height": 44,
+        "label": "Change conversation scope",
+        "disabled": false
+      },
+      {
+        "x": 710,
+        "y": 212,
+        "width": 170,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 674,
+        "width": 284,
+        "height": 48,
+        "label": "Review shopping additions",
+        "disabled": false
+      },
+      {
+        "x": 120,
+        "y": 796,
+        "width": 752,
+        "height": 48,
+        "label": "Type a question",
+        "disabled": false
+      },
+      {
+        "x": 780,
+        "y": 846,
+        "width": 84,
+        "height": 44,
+        "label": "Send",
+        "disabled": true
+      },
+      {
+        "x": 976,
+        "y": 709,
+        "width": 352,
+        "height": 44,
+        "label": "[1] Open saved recipe",
+        "disabled": false
+      },
+      {
+        "x": 112,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 906,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 1017,
+        "y": 10,
+        "width": 86,
+        "height": 44,
+        "label": "Open Assistant",
+        "disabled": false
+      },
+      {
+        "x": 1120,
+        "y": 10,
+        "width": 91,
+        "height": 44,
+        "label": "Open Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1286,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open account",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-meals": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1200,
+    "targets": [
+      {
+        "x": 44,
+        "y": 148,
+        "width": 202,
+        "height": 44,
+        "label": "Change conversation scope",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 194,
+        "width": 170,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 400,
+        "width": 358,
+        "height": 48,
+        "label": "Open saved Family pancakes recipe",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 742,
+        "width": 358,
+        "height": 48,
+        "label": "Review shopping additions",
+        "disabled": false
+      },
+      {
+        "x": 24,
+        "y": 897,
+        "width": 342,
+        "height": 48,
+        "label": "Type a question",
+        "disabled": false
+      },
+      {
+        "x": 274,
+        "y": 959,
+        "width": 84,
+        "height": 44,
+        "label": "Send",
+        "disabled": true
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "web-mobile-no-match": {
+    "platform": "web",
+    "logicalWidth": 390,
+    "logicalHeight": 1100,
+    "targets": [
+      {
+        "x": 44,
+        "y": 148,
+        "width": 202,
+        "height": 44,
+        "label": "Change conversation scope",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 194,
+        "width": 170,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 575,
+        "width": 358,
+        "height": 48,
+        "label": "Browse cookbook",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 639,
+        "width": 358,
+        "height": 48,
+        "label": "Change ingredients",
+        "disabled": false
+      },
+      {
+        "x": 16,
+        "y": 700,
+        "width": 358,
+        "height": 44,
+        "label": "Add a recipe",
+        "disabled": false
+      },
+      {
+        "x": 24,
+        "y": 805,
+        "width": 342,
+        "height": 48,
+        "label": "Type a question",
+        "disabled": false
+      },
+      {
+        "x": 274,
+        "y": 867,
+        "width": 84,
+        "height": 44,
+        "label": "Send",
+        "disabled": true
+      },
+      {
+        "x": 16,
+        "y": 10,
+        "width": 206,
+        "height": 44,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 10,
+        "width": 44,
+        "height": 44,
+        "label": "Open navigation",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-start": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 410,
+        "width": 353,
+        "height": 80,
+        "label": "Ask about a recipe",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 506,
+        "width": 353,
+        "height": 80,
+        "label": "Cook with what you have",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      },
+      {
+        "x": 329,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 174,
+        "width": 209,
+        "height": 44,
+        "label": "Change scope: Whole cookbook",
+        "disabled": false
+      },
+      {
+        "x": 30,
+        "y": 696,
+        "width": 287,
+        "height": 44,
+        "label": "Ask your cookbook…",
+        "disabled": false
+      },
+      {
+        "x": 324,
+        "y": 696,
+        "width": 44,
+        "height": 44,
+        "label": "Send unavailable until a message is entered",
+        "disabled": true
+      },
+      {
+        "x": 30,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 144,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 259,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-answer": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 56,
+        "y": 570,
+        "width": 150,
+        "height": 44,
+        "label": "View recipe",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 625,
+        "width": 304,
+        "height": 44,
+        "label": "Ask for general guidance",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      },
+      {
+        "x": 329,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 174,
+        "width": 209,
+        "height": 44,
+        "label": "Change scope: Family pancakes",
+        "disabled": false
+      },
+      {
+        "x": 30,
+        "y": 696,
+        "width": 287,
+        "height": 44,
+        "label": "Ask a follow-up…",
+        "disabled": false
+      },
+      {
+        "x": 324,
+        "y": 696,
+        "width": 44,
+        "height": 44,
+        "label": "Send unavailable until a message is entered",
+        "disabled": true
+      },
+      {
+        "x": 30,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 144,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 259,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-meals": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 414,
+        "width": 353,
+        "height": 44,
+        "label": "View Family pancakes recipe",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 621,
+        "width": 353,
+        "height": 44,
+        "label": "Review shopping additions",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      },
+      {
+        "x": 329,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 174,
+        "width": 209,
+        "height": 44,
+        "label": "Change scope: Whole cookbook",
+        "disabled": false
+      },
+      {
+        "x": 30,
+        "y": 696,
+        "width": 287,
+        "height": 44,
+        "label": "Ask your cookbook…",
+        "disabled": false
+      },
+      {
+        "x": 324,
+        "y": 696,
+        "width": 44,
+        "height": 44,
+        "label": "Send unavailable until a message is entered",
+        "disabled": true
+      },
+      {
+        "x": 30,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 144,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 259,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "iphone-limit": {
+    "platform": "apple",
+    "logicalWidth": 393,
+    "logicalHeight": 852,
+    "targets": [
+      {
+        "x": 20,
+        "y": 462,
+        "width": 353,
+        "height": 48,
+        "label": "Open Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 527,
+        "width": 353,
+        "height": 44,
+        "label": "View allowance",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      },
+      {
+        "x": 329,
+        "y": 64,
+        "width": 44,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 174,
+        "width": 209,
+        "height": 44,
+        "label": "Change scope: Whole cookbook",
+        "disabled": false
+      },
+      {
+        "x": 30,
+        "y": 696,
+        "width": 287,
+        "height": 44,
+        "label": "Assistant input unavailable",
+        "disabled": true
+      },
+      {
+        "x": 30,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 144,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 259,
+        "y": 765,
+        "width": 104,
+        "height": 52,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "ipad-start": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 52,
+        "y": 408,
+        "width": 630,
+        "height": 83,
+        "label": "Ask about a recipe",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 510,
+        "width": 630,
+        "height": 83,
+        "label": "Cook with what you have",
+        "disabled": false
+      },
+      {
+        "x": 766,
+        "y": 276,
+        "width": 170,
+        "height": 44,
+        "label": "Choose recipe",
+        "disabled": false
+      },
+      {
+        "x": 406,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 554,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 701,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1058,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 1118,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 191,
+        "width": 209,
+        "height": 44,
+        "label": "Change scope: Whole cookbook",
+        "disabled": false
+      },
+      {
+        "x": 62,
+        "y": 725,
+        "width": 564,
+        "height": 44,
+        "label": "Ask your cookbook…",
+        "disabled": false
+      },
+      {
+        "x": 633,
+        "y": 725,
+        "width": 44,
+        "height": 44,
+        "label": "Send unavailable until a message is entered",
+        "disabled": true
+      }
+    ]
+  },
+  "ipad-answer": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 518,
+        "y": 535,
+        "width": 164,
+        "height": 44,
+        "label": "View recipe",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 624,
+        "width": 314,
+        "height": 44,
+        "label": "Ask for general guidance",
+        "disabled": false
+      },
+      {
+        "x": 766,
+        "y": 715,
+        "width": 376,
+        "height": 48,
+        "label": "View recipe",
+        "disabled": false
+      },
+      {
+        "x": 406,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 554,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 701,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1058,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 1118,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 191,
+        "width": 209,
+        "height": 44,
+        "label": "Change scope: Family pancakes",
+        "disabled": false
+      },
+      {
+        "x": 62,
+        "y": 725,
+        "width": 564,
+        "height": 44,
+        "label": "Ask a follow-up…",
+        "disabled": false
+      },
+      {
+        "x": 633,
+        "y": 725,
+        "width": 44,
+        "height": 44,
+        "label": "Send unavailable until a message is entered",
+        "disabled": true
+      }
+    ]
+  },
+  "ipad-meals": {
+    "platform": "apple",
+    "logicalWidth": 1194,
+    "logicalHeight": 834,
+    "targets": [
+      {
+        "x": 52,
+        "y": 652,
+        "width": 296,
+        "height": 44,
+        "label": "Review shopping additions",
+        "disabled": false
+      },
+      {
+        "x": 766,
+        "y": 715,
+        "width": 376,
+        "height": 48,
+        "label": "View recipe",
+        "disabled": false
+      },
+      {
+        "x": 406,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 554,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 701,
+        "y": 42,
+        "width": 139,
+        "height": 46,
+        "label": "Shopping",
+        "disabled": false
+      },
+      {
+        "x": 1058,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 1118,
+        "y": 42,
+        "width": 44,
+        "height": 44,
+        "label": "person.crop.circle",
+        "disabled": false
+      },
+      {
+        "x": 52,
+        "y": 191,
+        "width": 209,
+        "height": 44,
+        "label": "Change scope: Whole cookbook",
+        "disabled": false
+      },
+      {
+        "x": 62,
+        "y": 725,
+        "width": 564,
+        "height": 44,
+        "label": "Ask your cookbook…",
+        "disabled": false
+      },
+      {
+        "x": 633,
+        "y": 725,
+        "width": 44,
+        "height": 44,
+        "label": "Send unavailable until a message is entered",
+        "disabled": true
+      }
+    ]
+  },
+  "android-start": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 110,
+        "width": 372,
+        "height": 48,
+        "label": "Change conversation scope",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 348,
+        "width": 372,
+        "height": 76,
+        "label": "Ask about a recipe",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 444,
+        "width": 372,
+        "height": 76,
+        "label": "Cook with what you have",
+        "disabled": false
+      },
+      {
+        "x": 296,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 348,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Account",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 724,
+        "width": 308,
+        "height": 64,
+        "label": "Type a question",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 732,
+        "width": 48,
+        "height": 48,
+        "label": "Send question; unavailable while empty",
+        "disabled": true
+      },
+      {
+        "x": 5,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 142,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 279,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "android-answer": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 110,
+        "width": 372,
+        "height": 48,
+        "label": "Change conversation scope",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 452,
+        "width": 372,
+        "height": 106,
+        "label": "Open source 1: Family pancakes",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 580,
+        "width": 250,
+        "height": 48,
+        "label": "Ask for general guidance",
+        "disabled": false
+      },
+      {
+        "x": 296,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 348,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Account",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 724,
+        "width": 308,
+        "height": 64,
+        "label": "Type a question",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 732,
+        "width": 48,
+        "height": 48,
+        "label": "Send question; unavailable while empty",
+        "disabled": true
+      },
+      {
+        "x": 5,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 142,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 279,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "android-meals": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 110,
+        "width": 372,
+        "height": 48,
+        "label": "Change conversation scope",
+        "disabled": false
+      },
+      {
+        "x": 8,
+        "y": 604,
+        "width": 160,
+        "height": 48,
+        "label": "[1] View recipe",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 656,
+        "width": 372,
+        "height": 48,
+        "label": "Review shopping additions",
+        "disabled": false
+      },
+      {
+        "x": 296,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 348,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Account",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 724,
+        "width": 308,
+        "height": 64,
+        "label": "Type a question",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 732,
+        "width": 48,
+        "height": 48,
+        "label": "Send question; unavailable while empty",
+        "disabled": true
+      },
+      {
+        "x": 5,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 142,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 279,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  },
+  "android-error": {
+    "platform": "android",
+    "logicalWidth": 412,
+    "logicalHeight": 915,
+    "targets": [
+      {
+        "x": 20,
+        "y": 110,
+        "width": 372,
+        "height": 48,
+        "label": "Change conversation scope",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 458,
+        "width": 150,
+        "height": 48,
+        "label": "Try again",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 526,
+        "width": 150,
+        "height": 48,
+        "label": "Open recipe",
+        "disabled": false
+      },
+      {
+        "x": 296,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "New conversation",
+        "disabled": false
+      },
+      {
+        "x": 348,
+        "y": 32,
+        "width": 48,
+        "height": 48,
+        "label": "Account",
+        "disabled": false
+      },
+      {
+        "x": 20,
+        "y": 724,
+        "width": 308,
+        "height": 64,
+        "label": "Type a question",
+        "disabled": false
+      },
+      {
+        "x": 336,
+        "y": 732,
+        "width": 48,
+        "height": 48,
+        "label": "Send question; unavailable while empty",
+        "disabled": true
+      },
+      {
+        "x": 5,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Cookbook",
+        "disabled": false
+      },
+      {
+        "x": 142,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Assistant",
+        "disabled": false
+      },
+      {
+        "x": 279,
+        "y": 811,
+        "width": 128,
+        "height": 80,
+        "label": "Shopping",
+        "disabled": false
+      }
+    ]
+  }
+}

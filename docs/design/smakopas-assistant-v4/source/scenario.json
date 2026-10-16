@@ -1,0 +1,100 @@
+{
+  "label": "Synthetic assistant demo",
+  "recipe": {
+    "title": "Family pancakes",
+    "author": "Anna",
+    "status": "Saved and approved for this study",
+    "ingredients": [
+      {
+        "name": "Flour",
+        "amount": "2½ cups"
+      },
+      {
+        "name": "Eggs",
+        "amount": "2"
+      },
+      {
+        "name": "Milk",
+        "amount": "250 ml"
+      },
+      {
+        "name": "Salt",
+        "amount": null
+      }
+    ],
+    "method": [
+      "Mix the ingredients.",
+      "Cook in a pan."
+    ],
+    "servings": null,
+    "cookingTime": null,
+    "temperature": null
+  },
+  "start": {
+    "scope": "Whole cookbook",
+    "suggestions": [
+      "Ask about a recipe",
+      "Cook with what you have"
+    ],
+    "privacy": "Not shared with your household."
+  },
+  "answer": {
+    "scope": "Family pancakes",
+    "question": "How much flour, and how long do I cook them?",
+    "answer": [
+      "Use 2½ cups of flour. [1]",
+      "The recipe does not give a cooking time.",
+      "Its method only says: “Cook in a pan.” [1]"
+    ],
+    "source": "Family pancakes · Ingredients and method",
+    "generalAdvice": "Ask for general guidance is a separate explicit request. No general advice is generated in these screens."
+  },
+  "meals": {
+    "scope": "Whole cookbook",
+    "question": "What can I make with flour, eggs and milk?",
+    "temporaryIngredients": [
+      "Flour",
+      "Eggs",
+      "Milk"
+    ],
+    "suggestedSavedRecipe": "Family pancakes",
+    "missingFromTemporaryList": [
+      {
+        "name": "Salt",
+        "amount": null
+      }
+    ],
+    "warning": "Check quantities. Your list does not say how much you have.",
+    "servings": "Original amounts · Servings not specified",
+    "shoppingAction": "Review shopping additions",
+    "shoppingEffects": "No mutation until a separate review and explicit confirmation. Do not automatically exclude ingredients from purchases based only on their presence."
+  },
+  "noMatch": {
+    "scope": "Whole cookbook",
+    "question": "What can I make with chickpeas, coconut milk and rice?",
+    "answer": "No matching saved recipe.",
+    "note": "Independent synthetic retrieval result; not an assertion that every recipe in previous artwork was exhaustively evaluated."
+  },
+  "limit": {
+    "scope": "Whole cookbook",
+    "title": "Assistant allowance reached",
+    "detail": "You can still browse recipes and use your shopping list.",
+    "purchasePromotion": false
+  },
+  "error": {
+    "scope": "Family pancakes",
+    "title": "Couldn’t get an answer",
+    "questionPreserved": true,
+    "retry": true
+  },
+  "constraints": [
+    "Typed input only; no assistant microphone.",
+    "Only approved, authorized recipe facts with sources.",
+    "No persistent pantry inventory. Ingredient presence does not imply adequate stock.",
+    "Up to three saved-recipe suggestions, one shown in this study.",
+    "No invented missing amount, time, temperature or servings.",
+    "No offline AI or background answer promise.",
+    "No new shopping confirmation implementation.",
+    "Personal conversations are not automatically shared."
+  ]
+}

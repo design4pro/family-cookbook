@@ -1,0 +1,5 @@
+Authored synthetic recipe document, 2026-10-16. Exported from the matching SVG with Archivo using Sharp/librsvg. No image-generation model, real family source or private evaluation asset was used.
+Family pancakes, Recipe by Anna. Anna and uploader/editor Alex are fictional demonstration identities.
+Page 1: Ingredients - 2½ cups flour; 2 eggs; 250 ml milk; salt.
+Page 2: Method - 1. Mix the ingredients. 2. Cook in a pan.
+The source intentionally omits salt quantity, servings, temperature and duration. Both pages are visibly labeled Synthetic sample. The same complete PNG bytes are embedded in the Add photos and Review artboards, without cropping or rewriting the document.

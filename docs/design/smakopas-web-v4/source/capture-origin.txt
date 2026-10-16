@@ -1,0 +1,5 @@
+Static Family Cookbook web capture/review design study, 2026-10-16.
+Authored SVG artboards rendered with Sharp/librsvg through source/render-artboards.cjs and source/capture-artboards.cjs. No image-generation model was used.
+This extends the Smakopas-based Cookbook and Recipe studies with Add photos and Review on desktop/mobile, plus the mobile Source tab state.
+Uses the actual Archivo font, shared white/ink/teal palette, original header and button geometry. The source documents are authored synthetic sample-page-01.png and sample-page-02.png, embedded unchanged and fully contained. They are not private photos and were not processed by AI.
+Every control is a static drawing. The files demonstrate layout and content only, without an application implementation, working interactions, accessibility certification or approval of a final visual system. Full and first-viewport exports share the same drawing.

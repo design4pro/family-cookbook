@@ -1,0 +1,3 @@
+Static contact sheet of four Family Cookbook Android design artboards, 2026-10-16.
+source/render.cjs places the complete exported Cookbook, Add photos, Review and Recipe PNGs on a neutral gallery canvas with labels outside the screens. The composition preserves each artboard's proportions and contents.
+This is a presentation of static artwork, not a running Android application, interactive prototype, model-generated image or emulator capture. Individual source files and their provenance are included in the same packet.
