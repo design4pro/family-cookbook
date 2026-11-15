@@ -6,6 +6,22 @@
 - Write code, code comments, filenames, file contents, documentation, drafts, commit messages, branch names, pull request titles and all GitHub content in English. Preserve identifiers, technical terms and quoted output.
 - Family Cookbook is a working name. Do not introduce final branding, domains or store identifiers without a project decision.
 
+## Isolated Codex in Cezar
+
+`.ai/cezar/config.json` selects Codex and the `develop` base branch. On the
+configured host, `CEZ_CODEX_BIN=~/.local/bin/codex-project` and
+`CEZ_DESKTOP_NODE=~/.local/bin/cezar-project-node` select the installed isolation
+wrappers. Each Git repository has a separate HOME and CODEX_HOME; its worktrees
+share that profile. The main Codex profile and credentials are not imported.
+
+The local skill collection is versioned under `.agents/skills/`, with provenance
+in `skills-lock.json`, so fresh worktrees receive it. Only checkout-local skills
+are discovered; global skills, plugins, memories and escaping links are excluded.
+Run `~/.local/bin/codex-project login --device-auth` from the checkout once, then
+start a new Codex task. Old conversations keep their prior context, and old
+worktrees with external skill links are rejected. Cloning the repository does not
+install the host wrappers or enroll it in automatic skill updates.
+
 ## Scope and source of truth
 
 - The approved product contract is `docs/family-cookbook-mvp/spec.md`.
