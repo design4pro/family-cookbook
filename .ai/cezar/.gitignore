@@ -28,3 +28,9 @@ tracker-association.lock/
 automation-poll.lock.guard/
 automation-mutation.lock.guard/
 automation-mutation.lock
+webhooks/
+artifacts/
+lifecycle/
+config.lifecycle.lock/
+config.json.*.tmp
+layouts/
