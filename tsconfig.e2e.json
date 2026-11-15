@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.web-tests.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler"
+  },
+  "include": ["e2e.config.ts", "tests/smoke/**/*.ts"]
+}

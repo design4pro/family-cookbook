@@ -25,3 +25,40 @@ jobs:
           name: playwright-test-results
           path: test-results/
           retention-days: 7
+
+  e2e-smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      WRANGLER_SEND_METRICS: "false"
+      E2E_TELEMETRY_DISABLED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck:e2e
+      - run: pnpm exec e2e-web install chromium --with-deps
+      - run: pnpm test:e2e
+      - name: Publish test summary
+        if: ${{ !cancelled() }}
+        run: |
+          if [ -f .e2e/summary.md ]; then
+            cat .e2e/summary.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: e2e-smoke-results
+          include-hidden-files: true
+          path: |
+            .e2e/report.json
+            .e2e/junit.xml
+            .e2e/summary.md
+            .e2e/results/
+            .e2e/logs/
+          if-no-files-found: warn
+          retention-days: 7
