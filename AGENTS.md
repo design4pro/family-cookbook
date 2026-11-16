@@ -6,6 +6,22 @@
 - Write code, code comments, filenames, file contents, documentation, drafts, commit messages, branch names, pull request titles and all GitHub content in English. Preserve identifiers, technical terms and quoted output.
 - Family Cookbook is a working name. Do not introduce final branding, domains or store identifiers without a project decision.
 
+## Isolated Codex in Cezar
+
+`.ai/cezar/config.json` selects Codex and the `develop` base branch. On the
+configured host, `CEZ_CODEX_BIN=~/.local/bin/codex-project` and
+`CEZ_DESKTOP_NODE=~/.local/bin/cezar-project-node` select the installed isolation
+wrappers. Each Git repository has a separate HOME and CODEX_HOME; its worktrees
+share that profile. The main Codex profile and credentials are not imported.
+
+The local skill collection is versioned under `.agents/skills/`, with provenance
+in `skills-lock.json`, so fresh worktrees receive it. Only checkout-local skills
+are discovered; global skills, plugins, memories and escaping links are excluded.
+Run `~/.local/bin/codex-project login --device-auth` from the checkout once, then
+start a new Codex task. Old conversations keep their prior context, and old
+worktrees with external skill links are rejected. Cloning the repository does not
+install the host wrappers or enroll it in automatic skill updates.
+
 ## Scope and source of truth
 
 - The approved product contract is `docs/family-cookbook-mvp/spec.md`.
@@ -37,3 +53,12 @@
 - Inspect upstream tracking when creating branches/worktrees; a new branch can inherit the base branch's upstream.
 - Read the push response. If it reports bypassed branch-rule violations, stop and report the incident.
 - Creating this local repository does not authorize creating a hosted repository or pushing it.
+
+## Project skills and tools
+
+- Keep all Open Mercato skills installed for Codex in `.agents/skills`, with provenance in `skills-lock.json` and the exact upstream inventory in `scripts/agents/skills-upstream.json`.
+- Keep `open-mercato/skills` on `main` as the only Cezar team skills source in `.ai/cezar/config.json`. Local installed skills take precedence over its remote cache.
+- This checkout is enrolled in the desktop Cezar project-only updater with `.agents/skills-updates.json`. It checks at startup and every six hours while Cezar is running; local edits or active readers defer publication. Follow `docs/agents/cezar.md` for the machine-local enrollment requirement and checks.
+- Let the updater run `scripts/agents/sync-skills.mjs --ref <exact-upstream-commit>` in its staged copy. Do not replace tracked skill files or installation metadata manually: the updater preserves local edits and will defer when its recorded inventory differs.
+- Impeccable is the explicitly approved exception to the Open Mercato-only rule. It is installed for Codex in `.agents/skills/impeccable`, including its bundled engine and `.codex/hooks.json`. Update it with `npx --yes impeccable update --scope=project --yes`; Open Mercato updates preserve it.
+- Do not recreate `.claude` or `CLAUDE.md`. Global agent skills are managed separately.
