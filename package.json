@@ -8,18 +8,25 @@
   "scripts": {
     "test:api": "pnpm --filter @family-cookbook/api test",
     "test:app": "pnpm --filter @family-cookbook/app test",
-    "typecheck": "pnpm -r typecheck && tsc --project tsconfig.web-tests.json",
+    "typecheck": "pnpm -r typecheck && tsc --project tsconfig.web-tests.json && pnpm typecheck:e2e",
     "build": "pnpm -r build",
     "check": "pnpm test:api && pnpm test:app && pnpm typecheck && pnpm build && pnpm test:web && pnpm test:auth:web && pnpm test:household:web",
     "test:web": "playwright test",
     "test:household:web": "playwright test --config playwright.household.config.ts",
     "test:auth:web": "playwright test --config playwright.auth.config.ts",
     "serve:auth-proof": "pnpm --filter @family-cookbook/app build:web && pnpm --filter @family-cookbook/api exec wrangler d1 migrations apply family-cookbook-t07-local --local --config wrangler.t07-proof.jsonc && node apps/api/scripts/t07-serve.mjs",
-    "serve:web-proof": "pnpm --filter @family-cookbook/app build:web && pnpm --filter @family-cookbook/api exec wrangler dev --config wrangler.web-proof.jsonc --ip 127.0.0.1 --port 8788"
+    "serve:web-proof": "pnpm --filter @family-cookbook/app build:web && pnpm --filter @family-cookbook/api exec wrangler dev --config wrangler.web-proof.jsonc --ip 127.0.0.1 --port 8788",
+    "typecheck:e2e": "tsc --project tsconfig.e2e.json",
+    "test:e2e": "e2e run"
   },
   "devDependencies": {
+    "@ai-sdk/openai": "^4.0.0",
+    "@e2e-dev/web": "^0.16.0",
     "@playwright/test": "1.64.1",
     "@types/node": "24.19.2",
-    "typescript": "6.0.3"
+    "ai": "^7.0.0",
+    "e2e": "^0.23.1",
+    "typescript": "6.0.3",
+    "zod": "^4.1.8"
   }
 }
