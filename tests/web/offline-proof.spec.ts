@@ -3,7 +3,8 @@ import { chromium, webkit, expect, test, type Page } from "@playwright/test";
 const route = "/proof-shopping";
 async function open(page: Page) {
   const response = await page.goto(route);
-  expect(response?.status()).toBe(200);
+  // A reused browser profile revalidates the cached shell, so WebKit reports 304 instead of 200.
+  expect([200, 304]).toContain(response?.status());
   await expect(page.getByRole("status")).toHaveText("Local storage ready.");
 }
 async function toggle(page: Page) {

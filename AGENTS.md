@@ -53,3 +53,12 @@ install the host wrappers or enroll it in automatic skill updates.
 - Inspect upstream tracking when creating branches/worktrees; a new branch can inherit the base branch's upstream.
 - Read the push response. If it reports bypassed branch-rule violations, stop and report the incident.
 - Creating this local repository does not authorize creating a hosted repository or pushing it.
+
+## Project skills and tools
+
+- Keep all Open Mercato skills installed for Codex in `.agents/skills`, with provenance in `skills-lock.json` and the exact upstream inventory in `scripts/agents/skills-upstream.json`.
+- Keep `open-mercato/skills` on `main` as the only Cezar team skills source in `.ai/cezar/config.json`. Local installed skills take precedence over its remote cache.
+- This checkout is enrolled in the desktop Cezar project-only updater with `.agents/skills-updates.json`. It checks at startup and every six hours while Cezar is running; local edits or active readers defer publication. Follow `docs/agents/cezar.md` for the machine-local enrollment requirement and checks.
+- Let the updater run `scripts/agents/sync-skills.mjs --ref <exact-upstream-commit>` in its staged copy. Do not replace tracked skill files or installation metadata manually: the updater preserves local edits and will defer when its recorded inventory differs.
+- Impeccable is the explicitly approved exception to the Open Mercato-only rule. It is installed for Codex in `.agents/skills/impeccable`, including its bundled engine and `.codex/hooks.json`. Update it with `npx --yes impeccable update --scope=project --yes`; Open Mercato updates preserve it.
+- Do not recreate `.claude` or `CLAUDE.md`. Global agent skills are managed separately.

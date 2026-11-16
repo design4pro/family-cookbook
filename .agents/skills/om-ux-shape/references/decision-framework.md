@@ -97,3 +97,4 @@ Do not omit error recovery, permissions, accessibility, or measurement merely be
 | The released feature changes behavior | Instrumented pilot with guardrails |
 
 Define before testing: expected signal, failure threshold, and the decision each result triggers.
+
