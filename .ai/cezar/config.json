@@ -6,5 +6,6 @@
       "repo": "open-mercato/skills",
       "ref": "main"
     }
-  ]
+  ],
+  "baseBranch": "develop"
 }
